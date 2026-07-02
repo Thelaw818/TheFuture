@@ -1,0 +1,1 @@
+This version removes the Health Dynamics iframe/file dependency. Health Dynamics is embedded natively inside index.html. Upload all files to GitHub root and replace old files. If white page persists, hard refresh or clear site data.
