@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Peptide Dosage Tracker</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://cdn.jsdelivr.net/npm/dayjs@1/dayjs.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf-autotable/3.5.23/jspdf.plugin.autotable.min.js"></script>
+  <style>
+    .taken { background-color: #d1fae5; }
+    .has-dose { border: 2px solid #0f766e; }
+    .today { background-color: #ccfbf1; font-weight: bold; }
+  
+    .research-card { border: 1px solid #cbd5e1; box-shadow: 0 12px 30px rgba(15,23,42,.08); }
+    input:focus, select:focus { outline: 2px solid #14b8a6; outline-offset: 2px; }
+    .soft-panel { background: linear-gradient(135deg, #f0fdfa 0%, #e0f2fe 100%); }
+  </style>
+</head>
+<body class="bg-slate-100 min-h-screen p-4">
+  <!-- Welcome Message -->
+  <div class="bg-teal-50 border border-teal-200 rounded-2xl p-8 max-w-4xl mx-auto mb-10 text-center">
+    <h1 class="text-4xl font-bold text-teal-800 mb-4">Welcome to the Peptide Research Dosage Tracker</h1>
+    <p class="text-lg text-slate-700 mb-6">
+      This is a private tracker that works offline — all data stays in your browser. This app saves data locally on the specific device being used.
+    </p>
+    <div class="mt-5 text-sm text-slate-600 bg-white/70 border border-teal-100 rounded-lg p-4">
+      Research organization tool only. This tracker does not provide medical advice, treatment guidance, or product recommendations.
+    </div>
+    <div class="text-left max-w-2xl mx-auto bg-white rounded-lg p-6 shadow">
+      <h3 class="font-bold text-lg mb-3">Quick Guide:</h3>
+      <ul class="list-disc pl-6 space-y-2 text-slate-700">
+        <li>Add cycles: name, dose, AM/PM, start, on length, off weeks (0 = single), days of week</li>
+        <li>Off weeks = 0 → single cycle | > 0 → repeating</li>
+        <li>Click a day → view doses (AM first), mark taken, edit/delete cycle</li>
+        <li>Use the Reconstitution Calculator below for mixing</li>
+        <li>Export current month as clean grid PDF for printing</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- ADD / EDIT FORM -->
+  <div class="bg-white rounded-2xl research-card p-8 max-w-4xl mx-auto mb-10">
+    <h2 id="formTitle" class="text-2xl font-bold mb-6">Add New Peptide Cycle</h2>
+    <input type="hidden" id="editId">
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+      <div><label class="block font-medium mb-2">Peptide Name</label>
+        <input id="name" type="text" placeholder="e.g. BPC-157" class="w-full border rounded-lg px-4 py-3"></div>
+      <div><label class="block font-medium mb-2">Dose</label>
+        <div class="flex gap-2">
+          <input id="amount" type="number" step="0.01" placeholder="250" class="w-32 border rounded-lg px-4 py-3">
+          <select id="unit" class="border rounded-lg px-4 py-3">
+            <option>mcg</option><option>mg</option><option>units</option>
+          </select>
+        </div></div>
+      <div><label class="block font-medium mb-2">AM / PM</label>
+        <select id="ampm" class="w-full border rounded-lg px-4 py-3">
+          <option>AM</option><option>PM</option>
+        </select></div>
+      <div><label class="block font-medium mb-2">Start Date</label>
+        <input id="start" type="date" class="w-full border rounded-lg px-4 py-3" value="2026-01-01"></div>
+      <div><label class="block font-medium mb-2">On Cycle Length</label>
+        <div class="flex gap-2">
+          <input id="onLengthNum" type="number" min="1" value="8" class="w-32 border rounded-lg px-4 py-3">
+          <select id="onLengthUnit" class="border rounded-lg px-4 py-3">
+            <option value="weeks">Weeks</option>
+            <option value="days">Days</option>
+          </select>
+        </div></div>
+      <div><label class="block font-medium mb-2">Off Weeks Before Restart (0 = single cycle)</label>
+        <input id="offWeeks" type="number" min="0" value="0" placeholder="e.g. 4" class="w-full border rounded-lg px-4 py-3"></div>
+      <div class="md:col-span-2">
+        <label class="block font-medium mb-3">Days per week</label>
+        <div class="grid grid-cols-7 gap-4 text-center">
+          <label><input type="checkbox" value="0"> Sun</label>
+          <label><input type="checkbox" value="1"> Mon</label>
+          <label><input type="checkbox" value="2"> Tue</label>
+          <label><input type="checkbox" value="3"> Wed</label>
+          <label><input type="checkbox" value="4"> Thu</label>
+          <label><input type="checkbox" value="5"> Fri</label>
+          <label><input type="checkbox" value="6"> Sat</label>
+        </div>
+      </div>
+      <div class="md:col-span-2 flex gap-4">
+        <button id="saveBtn" class="flex-1 bg-teal-700 text-white py-4 rounded-lg font-bold hover:bg-teal-800">Save Cycle</button>
+        <button id="cancelBtn" class="flex-1 bg-slate-500 text-white py-4 rounded-lg font-bold hover:bg-slate-600">Cancel</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- EDIT / DELETE DROPDOWN -->
+  <div class="bg-white rounded-2xl research-card p-8 max-w-4xl mx-auto mb-10">
+    <h2 class="text-2xl font-bold mb-6">Edit or Delete Existing Cycle</h2>
+    <div class="flex gap-4 items-end">
+      <select id="editDropdown" class="flex-1 border rounded-lg px-4 py-3">
+        <option value="">Select a cycle</option>
+      </select>
+      <button id="deleteSelectedBtn" class="bg-rose-600 text-white px-8 py-3 rounded-lg font-bold hover:bg-rose-700">Delete Selected</button>
+    </div>
+  </div>
+
+  <!-- RECONSTITUTION CALCULATOR -->
+  <div class="bg-white rounded-2xl research-card p-8 max-w-4xl mx-auto mb-10">
+    <h2 class="text-2xl font-bold mb-6">Reconstitution Calculator</h2>
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+      <div><label class="block font-medium mb-2">Peptide in Vial (mg)</label>
+        <input id="vialMg" type="number" step="0.01" placeholder="5" class="w-full border rounded-lg px-4 py-3"></div>
+      <div><label class="block font-medium mb-2">BAC Water Added (ml)</label>
+        <input id="waterMl" type="number" step="0.01" placeholder="2" class="w-full border rounded-lg px-4 py-3"></div>
+      <div><label class="block font-medium mb-2">Desired Dose</label>
+        <div class="flex gap-2">
+          <input id="doseAmount" type="number" step="0.01" placeholder="250" class="w-full border rounded-lg px-4 py-3">
+          <select id="doseUnit" class="border rounded-lg px-4 py-3">
+            <option>mcg</option><option>mg</option>
+          </select>
+        </div></div>
+      <div><label class="block font-medium mb-2">Syringe Type</label>
+        <select id="syringe" class="w-full border rounded-lg px-4 py-3">
+          <option value="100">1 ml (100 units)</option>
+          <option value="50">0.5 ml (50 units)</option>
+          <option value="30">0.3 ml (30 units)</option>
+        </select></div>
+    </div>
+    <button id="calcBtn" class="mt-6 bg-teal-700 text-white py-4 rounded-lg font-bold hover:bg-teal-800 w-full">Calculate</button>
+    <div id="calcResult" class="mt-6 p-6 bg-slate-50 rounded-lg text-center text-xl font-bold"></div>
+  </div>
+
+  <!-- CALENDAR -->
+  <div class="bg-white rounded-2xl research-card p-8 max-w-6xl mx-auto">
+    <div class="flex justify-between items-center mb-6">
+      <button id="prev" class="text-3xl font-bold">←</button>
+      <h2 id="monthYear" class="text-3xl font-bold"></h2>
+      <button id="next" class="text-3xl font-bold">→</button>
+    </div>
+    <div class="text-center mb-6">
+      <button id="exportPdf" class="bg-sky-700 text-white px-8 py-3 rounded-lg font-bold hover:bg-sky-800">Export Current Month as PDF (Grid Log)</button>
+    </div>
+    <div class="grid grid-cols-7 text-center font-bold text-slate-700 mb-4">
+      <div>Sun</div><div>Mon</div><div>Tue</div><div>Wed</div><div>Thu</div><div>Fri</div><div>Sat</div>
+    </div>
+    <div id="calendar" class="grid grid-cols-7 gap-3"></div>
+  </div>
+
+  <!-- DAY MODAL -->
+  <div id="modal" class="fixed inset-0 bg-black bg-opacity-60 hidden flex items-center justify-center z-50 p-4">
+    <div class="bg-white rounded-2xl p-8 max-w-lg w-full overflow-y-auto max-h-screen">
+      <div class="flex justify-between items-center mb-6">
+        <h3 id="modalDate" class="text-2xl font-bold"></h3>
+        <button id="closeModal" class="text-3xl hover:text-slate-600">×</button>
+      </div>
+      <div id="modalBody" class="space-y-4"></div>
+    </div>
+  </div>
+
+<script>
+  const { jsPDF } = window.jspdf;
+  let current = dayjs().startOf('month');
+  let regimens = JSON.parse(localStorage.getItem('peptides_v2') || '[]');
+  let taken = JSON.parse(localStorage.getItem('taken_v2') || '[]');
+
+  const saveData = () => {
+    localStorage.setItem('peptides_v2', JSON.stringify(regimens));
+    localStorage.setItem('taken_v2', JSON.stringify(taken));
+  };
+
+  const isDateInCycle = (dateStr, reg) => {
+    const date = dayjs(dateStr);
+    if (!date.isValid()) return false;
+
+    const start = dayjs(reg.start);
+    if (!start.isValid() || date.isBefore(start)) return false;
+
+    const onLengthNum = reg.onLengthNum || 8;
+    const onLengthUnit = reg.onLengthUnit || 'weeks';
+    const offWeeks = reg.offWeeks || 0;
+
+    if (offWeeks === 0) {
+      const cycleEnd = start.add(onLengthNum, onLengthUnit).subtract(1, 'day');
+      return date.isBefore(cycleEnd) || date.isSame(cycleEnd);
+    }
+
+    const onLengthDays = onLengthUnit === 'days' ? onLengthNum : onLengthNum * 7;
+    let currentStart = start;
+    const maxCycles = 30;
+
+    for (let i = 0; i < maxCycles; i++) {
+      const currentEnd = currentStart.add(onLengthDays - 1, 'day');
+      if ((date.isAfter(currentStart) || date.isSame(currentStart)) && (date.isBefore(currentEnd) || date.isSame(currentEnd))) return true;
+      currentStart = currentEnd.add(offWeeks * 7 + 1, 'day');
+    }
+    return false;
+  };
+
+  const getDoses = (dateStr) => {
+    let doses = regimens.filter(r => isDateInCycle(dateStr, r) && r.days.includes(dayjs(dateStr).day()));
+    doses.sort((a, b) => a.ampm.localeCompare(b.ampm)); // AM before PM
+    return doses;
+  };
+
+  const render = () => {
+    document.getElementById('monthYear').textContent = current.format('MMMM YYYY');
+    const cal = document.getElementById('calendar');
+    cal.innerHTML = '';
+    const firstDay = current.date(1).day();
+
+    for (let i = 0; i < firstDay; i++) cal.innerHTML += '<div></div>';
+
+    for (let day = 1; day <= current.daysInMonth(); day++) {
+      const dateStr = current.format('YYYY-MM-') + String(day).padStart(2, '0');
+      const doses = getDoses(dateStr);
+      const today = dayjs().format('YYYY-MM-DD') === dateStr;
+      const allTaken = doses.length > 0 && doses.every(d => taken.some(t => t.id === d.id && t.date === dateStr));
+
+      cal.innerHTML += `
+        <div onclick="showDay('${dateStr}')" class="border-2 rounded-xl p-4 text-center cursor-pointer hover:bg-slate-50 ${today ? 'today' : ''} ${doses.length ? 'has-dose' : ''} ${allTaken ? 'taken' : ''}">
+          <div class="font-bold text-lg">${day}</div>
+          ${doses.length ? `<div class="text-xs mt-1">${doses.length} dose${doses.length > 1 ? 's' : ''}</div>` : ''}
+        </div>`;
+    }
+    updateEditDropdown();
+  };
+
+  function updateEditDropdown() {
+    const dropdown = document.getElementById('editDropdown');
+    const selectedValue = dropdown.value;
+    dropdown.innerHTML = '<option value="">Select a cycle</option>';
+    regimens.forEach(r => {
+      const option = document.createElement('option');
+      option.value = r.id;
+      option.textContent = `${r.name} - ${r.ampm} - ${r.amount} ${r.unit}`;
+      if (r.id == selectedValue) option.selected = true;
+      dropdown.appendChild(option);
+    });
+  }
+
+  window.showDay = (dateStr) => {
+    document.getElementById('modalDate').textContent = dayjs(dateStr).format('dddd, D MMMM YYYY');
+    const doses = getDoses(dateStr);
+    const body = document.getElementById('modalBody');
+
+    if (doses.length === 0) {
+      body.innerHTML = '<p class="text-center text-slate-500 py-8">No doses today</p>';
+    } else {
+      body.innerHTML = doses.map(r => {
+        const isTaken = taken.some(t => t.id === r.id && t.date === dateStr);
+        return `
+          <div class="bg-slate-50 rounded-lg p-5">
+            <div class="flex justify-between items-start">
+              <div>
+                <div class="font-bold text-xl">${r.name}</div>
+                <div class="text-2xl font-bold text-teal-700">${r.amount} ${r.unit} – ${r.ampm}</div>
+                ${isTaken ? '<div class="text-green-600 font-medium mt-2">✓ Taken</div>' : '<div class="text-red-600 font-medium mt-2">Not taken</div>'}
+              </div>
+              <div class="flex flex-col gap-2">
+                ${!isTaken ? `<button onclick="mark(${r.id}, '${dateStr}')" class="bg-emerald-600 text-white px-5 py-2 rounded-lg">Take</button>` : ''}
+                <button onclick="editRegimen(${r.id})" class="bg-cyan-700 text-white px-5 py-2 rounded-lg">Edit Cycle</button>
+                <button onclick="deleteRegimen(${r.id})" class="bg-rose-600 text-white px-5 py-2 rounded-lg">Delete Cycle</button>
+              </div>
+            </div>
+          </div>`;
+      }).join('');
+    }
+    document.getElementById('modal').classList.remove('hidden');
+  };
+
+  window.mark = (id, date) => {
+    taken.push({id, date});
+    saveData();
+    render();
+    showDay(date);
+  };
+
+  window.deleteRegimen = (id) => {
+    if (confirm('Delete this cycle permanently? All taken marks will also be deleted.')) {
+      regimens = regimens.filter(r => r.id !== id);
+      taken = taken.filter(t => t.id !== id);
+      saveData();
+      render();
+      document.getElementById('modal').classList.add('hidden');
+    }
+  };
+
+  window.editRegimen = (id) => {
+    const r = regimens.find(x => x.id === id);
+    if (!r) return;
+
+    document.getElementById('formTitle').textContent = 'Edit Cycle';
+    document.getElementById('editId').value = r.id;
+    document.getElementById('name').value = r.name;
+    document.getElementById('amount').value = r.amount;
+    document.getElementById('unit').value = r.unit;
+    document.getElementById('ampm').value = r.ampm;
+    document.getElementById('start').value = r.start;
+    document.getElementById('onLengthNum').value = r.onLengthNum;
+    document.getElementById('onLengthUnit').value = r.onLengthUnit;
+    document.getElementById('offWeeks').value = r.offWeeks || 0;
+    document.querySelectorAll('input[type=checkbox]').forEach(c => c.checked = r.days.includes(+c.value));
+
+    document.getElementById('modal').classList.add('hidden');
+    window.scrollTo(0, 0);
+  };
+
+  document.getElementById('saveBtn').onclick = () => {
+    const id = document.getElementById('editId').value || Date.now();
+    const days = Array.from(document.querySelectorAll('input[type=checkbox]:checked')).map(c => +c.value);
+    if (!document.getElementById('name').value.trim()) return alert('Enter a peptide name.');
+    if (!document.getElementById('amount').value || +document.getElementById('amount').value <= 0) return alert('Enter a valid dose amount.');
+    if (!document.getElementById('start').value) return alert('Select a start date.');
+    if (days.length === 0) return alert('Select at least one day per week');
+
+    const offWeeks = parseInt(document.getElementById('offWeeks').value) || 0;
+    const onLengthNum = parseInt(document.getElementById('onLengthNum').value) || 8;
+    const onLengthUnit = document.getElementById('onLengthUnit').value;
+
+    const updated = {
+      id: +id,
+      name: document.getElementById('name').value.trim(),
+      amount: +document.getElementById('amount').value,
+      unit: document.getElementById('unit').value,
+      ampm: document.getElementById('ampm').value,
+      start: document.getElementById('start').value,
+      onLengthNum,
+      onLengthUnit,
+      offWeeks,
+      days
+    };
+
+    if (document.getElementById('editId').value) {
+      regimens = regimens.map(r => r.id === +id ? updated : r);
+    } else {
+      regimens.push(updated);
+    }
+
+    saveData();
+    render();
+    alert('Cycle saved!');
+    document.getElementById('formTitle').textContent = 'Add New Peptide Cycle';
+    document.getElementById('editId').value = '';
+    document.getElementById('name').value = '';
+    document.getElementById('amount').value = '';
+    document.getElementById('start').value = '2026-01-01';
+    document.getElementById('onLengthNum').value = '8';
+    document.getElementById('offWeeks').value = '0';
+    document.querySelectorAll('input[type=checkbox]').forEach(c => c.checked = false);
+  };
+
+  document.getElementById('cancelBtn').onclick = () => {
+    document.getElementById('formTitle').textContent = 'Add New Peptide Cycle';
+    document.getElementById('editId').value = '';
+    document.getElementById('name').value = '';
+    document.getElementById('amount').value = '';
+    document.getElementById('start').value = '2026-01-01';
+    document.getElementById('onLengthNum').value = '8';
+    document.getElementById('offWeeks').value = '0';
+    document.querySelectorAll('input[type=checkbox]').forEach(c => c.checked = false);
+  };
+
+  document.getElementById('closeModal').onclick = () => {
+    document.getElementById('modal').classList.add('hidden');
+  };
+
+  document.getElementById('prev').onclick = () => { current = current.subtract(1,'month'); render(); };
+  document.getElementById('next').onclick = () => { current = current.add(1,'month'); render(); };
+
+  // Reconstitution Calculator
+  document.getElementById('calcBtn').onclick = () => {
+    const vialMg = parseFloat(document.getElementById('vialMg').value);
+    const waterMl = parseFloat(document.getElementById('waterMl').value);
+    const dose = parseFloat(document.getElementById('doseAmount').value);
+    const doseUnit = document.getElementById('doseUnit').value;
+    const syringe = parseFloat(document.getElementById('syringe').value);
+
+    if (!vialMg || !waterMl || !dose || !syringe) {
+      document.getElementById('calcResult').innerHTML = '<span class="text-red-600">Please fill all fields</span>';
+      return;
+    }
+
+    const doseMcg = doseUnit === 'mg' ? dose * 1000 : dose;
+    const concMcgMl = (vialMg * 1000) / waterMl;
+    const mlNeeded = doseMcg / concMcgMl;
+    const units = mlNeeded * syringe;
+
+    document.getElementById('calcResult').innerHTML = `
+      <div class="space-y-3">
+        <div>Draw <strong class="text-4xl text-teal-700">${units.toFixed(2)}</strong> units on your syringe</div>
+        <div class="text-lg">Concentration: ${concMcgMl.toFixed(0)} mcg/ml</div>
+        <div class="text-lg">Volume needed: ${mlNeeded.toFixed(3)} ml</div>
+      </div>
+    `;
+  };
+
+  // PDF Export - Clean Grid Table
+  document.getElementById('exportPdf').onclick = () => {
+    const { jsPDF } = window.jspdf;
+    const doc = new jsPDF('l', 'mm', 'a4'); // landscape for better table fit
+
+    doc.setFontSize(20);
+    doc.text('Peptide Dosage Log', 148, 20, { align: 'center' });
+    doc.setFontSize(16);
+    doc.text(current.format('MMMM YYYY'), 148, 30, { align: 'center' });
+
+    const tableData = [];
+    for (let day = 1; day <= current.daysInMonth(); day++) {
+      const dateStr = current.format('YYYY-MM-') + String(day).padStart(2, '0');
+      const doses = getDoses(dateStr);
+      if (doses.length > 0) {
+        doses.forEach(d => {
+          const status = taken.some(t => t.id === d.id && t.date === dateStr) ? 'Taken' : 'Pending';
+          tableData.push([
+            dayjs(dateStr).format('YYYY-MM-DD'),
+            dayjs(dateStr).format('ddd'),
+            d.name,
+            `${d.amount} ${d.unit}`,
+            d.ampm,
+            status
+          ]);
+        });
+      }
+    }
+
+    doc.autoTable({
+      head: [['Date', 'Day', 'Peptide', 'Dose', 'Time', 'Status']],
+      body: tableData,
+      startY: 40,
+      styles: { fontSize: 12, cellPadding: 4 },
+      headStyles: { fillColor: [15, 118, 110], textColor: 255 },
+      alternateRowStyles: { fillColor: [243, 244, 246] },
+      columnStyles: {
+        0: { cellWidth: 30 },
+        1: { cellWidth: 20 },
+        2: { cellWidth: 70 },
+        3: { cellWidth: 40 },
+        4: { cellWidth: 20 },
+        5: { cellWidth: 30 }
+      }
+    });
+
+    doc.save(`${current.format('MMMM_YYYY')}_Peptide_Log.pdf`);
+  };
+
+  // Edit/Delete existing cycle controls
+  document.getElementById('editDropdown').onchange = () => {
+    const selectedId = document.getElementById('editDropdown').value;
+    if (selectedId) editRegimen(+selectedId);
+  };
+
+  document.getElementById('deleteSelectedBtn').onclick = () => {
+    const selectedId = document.getElementById('editDropdown').value;
+    if (!selectedId) return alert('Select a cycle to delete first.');
+    deleteRegimen(+selectedId);
+  };
+
+  render();
+</script>
+</body>
+</html>
