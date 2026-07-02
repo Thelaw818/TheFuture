@@ -1,0 +1,23 @@
+NO-FOLDER VERSION
+
+This package is made so GitHub does NOT need to carry over a health-dynamics folder.
+
+Upload ALL files in this folder directly to the repository root.
+Do not upload the ZIP itself.
+Do not upload the outside folder.
+
+Required root files include:
+- index.html
+- health-dynamics.html
+- app.js
+- styles.css
+- health-dynamics-v2.js
+- health-dashboard-pro.js
+- health-cost-analysis.js
+- peptides.json
+- image files
+
+After upload, the live app should be at:
+https://thelaw818.github.io/TheFuture/
+
+The Health Dynamics tab will load health-dynamics.html from the root.

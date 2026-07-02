@@ -1,0 +1,100 @@
+/* Health Dynamics Pro Polish - non-destructive visual layer only */
+:root{
+  --pa-bg:#f6f8fc;
+  --pa-surface:rgba(255,255,255,.86);
+  --pa-border:rgba(15,23,42,.10);
+  --pa-text:#0f172a;
+  --pa-muted:#64748b;
+  --pa-blue:#2563eb;
+  --pa-cyan:#06b6d4;
+  --pa-green:#10b981;
+  --pa-shadow:0 22px 60px rgba(15,23,42,.10);
+  --pa-radius:22px;
+}
+html{scroll-behavior:smooth;}
+body{
+  background:
+    radial-gradient(circle at 10% 5%, rgba(37,99,235,.14), transparent 28%),
+    radial-gradient(circle at 90% 0%, rgba(6,182,212,.14), transparent 30%),
+    linear-gradient(180deg,#f8fbff 0%,#eef4fb 48%,#f8fafc 100%) !important;
+  color:var(--pa-text);
+}
+body:before{
+  content:"";
+  position:fixed; inset:0; pointer-events:none; z-index:-1;
+  background-image:
+    linear-gradient(120deg,rgba(37,99,235,.055) 1px,transparent 1px),
+    linear-gradient(60deg,rgba(6,182,212,.045) 1px,transparent 1px);
+  background-size:64px 64px,88px 88px;
+  mask-image:linear-gradient(to bottom,black,transparent 80%);
+}
+.topbar, header, nav.navbar{
+  backdrop-filter: blur(18px);
+  background:rgba(255,255,255,.82) !important;
+  border-bottom:1px solid var(--pa-border) !important;
+  box-shadow:0 10px 32px rgba(15,23,42,.06);
+}
+.brand{font-weight:900!important;letter-spacing:-.03em;}
+.brand:after{content:" Health Pro"; margin-left:.35rem; color:var(--pa-blue); font-weight:800;}
+.hero,.landing-pro,.section,.app-shell,.card,.panel,.auth-section,.locked-panel{
+  border-radius:var(--pa-radius) !important;
+}
+.card,.panel,.auth-section,.locked-panel,.stat-card,.feature-card{
+  background:var(--pa-surface) !important;
+  border:1px solid var(--pa-border) !important;
+  box-shadow:var(--pa-shadow) !important;
+}
+.app-shell{
+  background:rgba(255,255,255,.54) !important;
+  border:1px solid rgba(15,23,42,.08) !important;
+  box-shadow:0 30px 90px rgba(15,23,42,.11) !important;
+  backdrop-filter:blur(16px);
+}
+.tabs,.side-tabs,.tab-list{gap:.55rem!important;}
+.tab{
+  border:1px solid rgba(15,23,42,.08)!important;
+  border-radius:15px!important;
+  background:rgba(255,255,255,.72)!important;
+  color:#334155!important;
+  font-weight:750!important;
+  transition:transform .18s ease, box-shadow .18s ease, background .18s ease!important;
+}
+.tab:hover{transform:translateY(-1px);box-shadow:0 12px 24px rgba(37,99,235,.12)!important;background:#fff!important;}
+.tab.active{
+  color:white!important;
+  background:linear-gradient(135deg,var(--pa-blue),var(--pa-cyan))!important;
+  box-shadow:0 16px 32px rgba(37,99,235,.24)!important;
+}
+.btn,button,input,select,textarea{border-radius:14px!important;}
+.btn.primary,button.btn.primary{
+  background:linear-gradient(135deg,var(--pa-blue),var(--pa-cyan))!important;
+  border:0!important;
+  box-shadow:0 14px 28px rgba(37,99,235,.22)!important;
+}
+input,select,textarea{
+  border:1px solid rgba(15,23,42,.12)!important;
+  background:rgba(255,255,255,.88)!important;
+  box-shadow:inset 0 1px 0 rgba(255,255,255,.9);
+}
+input:focus,select:focus,textarea:focus{
+  outline:none!important;
+  border-color:rgba(37,99,235,.55)!important;
+  box-shadow:0 0 0 4px rgba(37,99,235,.12)!important;
+}
+.panel h2,.panel h3,.section h1,.section h2{letter-spacing:-.035em;}
+.table,table{border-radius:18px!important;overflow:hidden;border:1px solid rgba(15,23,42,.08)!important;}
+th{background:#f1f5f9!important;color:#334155!important;font-size:.78rem;text-transform:uppercase;letter-spacing:.06em;}
+.health-pro-ribbon{
+  margin:1rem 0 1.25rem;
+  padding:1rem 1.1rem;
+  border-radius:18px;
+  background:linear-gradient(135deg,rgba(37,99,235,.10),rgba(6,182,212,.10));
+  border:1px solid rgba(37,99,235,.14);
+  color:#1e293b;
+  display:flex;align-items:center;justify-content:space-between;gap:1rem;flex-wrap:wrap;
+}
+.health-pro-ribbon strong{font-size:1.02rem;}
+.health-pro-pill{padding:.45rem .7rem;border-radius:999px;background:#fff;border:1px solid rgba(15,23,42,.08);font-size:.82rem;color:#475569;font-weight:750;}
+/* Keep unwanted business operations hidden if present from any previous cached version */
+#operationsCenter,[data-section="operationsCenter"],.operations-center,.stock-movement,.batch-tracker,.shipment-tracker,.orders-tracker{display:none!important;}
+@media(max-width:800px){.health-pro-ribbon{align-items:flex-start}.tab{font-size:.9rem!important}}

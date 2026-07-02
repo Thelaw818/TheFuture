@@ -1,0 +1,8 @@
+
+/* Health Dynamics identity layer */
+:root{--hd-primary:#0b57d0;--hd-secondary:#06b6d4;--hd-ink:#0f172a;--hd-soft:#f8fafc;}
+.logo,.brand .logo{background:linear-gradient(135deg,var(--hd-primary),var(--hd-secondary))!important;color:white!important;box-shadow:0 12px 30px rgba(11,87,208,.25)!important;}
+.brand span:last-child{letter-spacing:-.02em;font-weight:900;}
+.health-dynamics-badge{display:inline-flex;align-items:center;gap:8px;border:1px solid rgba(11,87,208,.18);background:rgba(255,255,255,.72);backdrop-filter:blur(14px);border-radius:999px;padding:8px 12px;font-weight:800;color:#0b57d0;}
+.health-dynamics-badge:before{content:'HD';display:inline-grid;place-items:center;width:28px;height:28px;border-radius:10px;background:linear-gradient(135deg,#0b57d0,#06b6d4);color:#fff;font-size:.78rem;}
+.hero h1,.section-title h2{letter-spacing:-.045em;}

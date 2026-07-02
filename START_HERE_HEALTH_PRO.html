@@ -1,0 +1,7 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Start Health Dynamics</title>
+<style>body{font-family:Inter,Arial,sans-serif;background:#f6f8fc;color:#0f172a;display:grid;place-items:center;min-height:100vh;margin:0}.card{max-width:720px;background:#fff;border:1px solid #e2e8f0;border-radius:24px;padding:32px;box-shadow:0 24px 70px rgba(15,23,42,.12)}button,a{display:inline-block;margin-top:14px;background:linear-gradient(135deg,#2563eb,#06b6d4);color:#fff;border:0;border-radius:14px;padding:13px 18px;font-weight:800;text-decoration:none;cursor:pointer}.muted{color:#64748b;line-height:1.6}</style></head>
+<body><div class="card"><h1>Health Dynamics</h1><p class="muted">This clears old broken cached service-worker versions, then opens the Health Dynamics app. The original working app logic is preserved.</p><button id="go">Clear Cache & Open App</button><p class="muted">If nothing happens, open <b>index.html</b> directly after extracting the ZIP.</p></div>
+<script>
+document.getElementById('go').onclick=async()=>{try{if('serviceWorker' in navigator){const regs=await navigator.serviceWorker.getRegistrations(); for(const r of regs){await r.unregister();}} if(window.caches){const ks=await caches.keys(); await Promise.all(ks.map(k=>caches.delete(k)));}}catch(e){} location.href='index.html?healthpro='+Date.now();};
+</script></body></html>

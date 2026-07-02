@@ -1,0 +1,8 @@
+#costs .cost-disclaimer{border-left:4px solid rgba(59,130,246,.8);background:linear-gradient(135deg,rgba(59,130,246,.08),rgba(16,185,129,.08));}
+#costs .hd-benchmark-cards .stat span{font-size:1.35rem;}
+#costs .compact-table table td,#costs .compact-table table th{vertical-align:top;}
+#costs .legal-list p{margin:.5rem 0;padding:.65rem .8rem;border-radius:12px;background:rgba(15,23,42,.045);}
+#costs .health-cost-form textarea{min-height:72px;grid-column:span 2;}
+#costs .mini-bar-row{position:relative;display:grid;grid-template-columns:1fr auto;gap:10px;align-items:center;margin:.55rem 0;padding:.55rem .7rem;border-radius:12px;background:rgba(15,23,42,.045);overflow:hidden;}
+#costs .mini-bar-row i{position:absolute;left:0;bottom:0;height:3px;background:currentColor;opacity:.35;}
+@media(max-width:800px){#costs .health-cost-form textarea{grid-column:span 1;}}

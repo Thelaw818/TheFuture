@@ -1,0 +1,123 @@
+{
+  "sections_found": [
+    "PROFILE",
+    "PEPTIDE LOGS",
+    "HEALTH METRICS",
+    "STASH / INVENTORY"
+  ],
+  "record_counts": {
+    "inventory": 0,
+    "health": 96,
+    "measurements": 1,
+    "labs": 0,
+    "peptide": 98,
+    "dose": 0,
+    "coa": 0,
+    "costs": 0,
+    "vendors": 0,
+    "notes": 1,
+    "protocols": 0
+  },
+  "previews": {
+    "health": [
+      {
+        "date": "6/13/2026 17:36",
+        "systolic": "114",
+        "diastolic": "70",
+        "bp": "114/70",
+        "unit": "mmHg"
+      },
+      {
+        "date": "6/13/2026 17:36",
+        "heartRate": "73",
+        "unit": "bpm"
+      },
+      {
+        "date": "6/12/2026 20:22",
+        "systolic": "109",
+        "diastolic": "84",
+        "bp": "109/84",
+        "unit": "mmHg"
+      },
+      {
+        "date": "6/12/2026 20:22",
+        "heartRate": "83",
+        "unit": "bpm"
+      },
+      {
+        "date": "6/11/2026 19:23",
+        "heartRate": "75",
+        "unit": "bpm"
+      }
+    ],
+    "measurements": [
+      {
+        "date": "6/3/2026 8:42",
+        "bodyFat": "30.87",
+        "notes": "BMI done at Dr's",
+        "unit": "%"
+      }
+    ],
+    "peptide": [
+      {
+        "datetime": "6/12/2026",
+        "date": "6/12/2026",
+        "peptide": "SS-31",
+        "amount": "0.5",
+        "route": "Injection",
+        "unit": "mg",
+        "notes": "Unit: mg | Notes: 15 by 10.5",
+        "createdAt": "6/12/2026 5:11"
+      },
+      {
+        "datetime": "6/12/2026",
+        "date": "6/12/2026",
+        "peptide": "NAD+",
+        "amount": "10.5",
+        "route": "Injection",
+        "unit": "mg",
+        "notes": "Unit: mg",
+        "createdAt": "6/12/2026 5:11"
+      },
+      {
+        "datetime": "6/12/2026",
+        "date": "6/12/2026",
+        "peptide": "Retatrutide",
+        "amount": "2",
+        "route": "Injection",
+        "site": "abdomen",
+        "unit": "mg",
+        "volumeMl": "30",
+        "notes": "Unit: mg | Injection Site: abdomen | Volume (ml): 30 | Notes: 30 for 3mg",
+        "createdAt": "6/12/2026 5:10"
+      },
+      {
+        "datetime": "6/12/2026",
+        "date": "6/12/2026",
+        "peptide": "SS-31",
+        "amount": "0.5",
+        "route": "Injection",
+        "unit": "mcg",
+        "notes": "Unit: mcg",
+        "createdAt": "6/12/2026 5:09"
+      },
+      {
+        "datetime": "6/11/2026",
+        "date": "6/11/2026",
+        "peptide": "GHK-Cu",
+        "amount": "2",
+        "route": "Injection",
+        "unit": "mg",
+        "notes": "Unit: mg",
+        "createdAt": "6/11/2026 22:55"
+      }
+    ],
+    "notes": [
+      {
+        "title": "Imported Profile",
+        "category": "Profile",
+        "details": "Name: Frankie | Last Name: Rosario | Email: frankierosario818@gmail.com | Timezone: America/Los_Angeles | Member Since: 5/23/2026 17:35"
+      }
+    ]
+  }
+}

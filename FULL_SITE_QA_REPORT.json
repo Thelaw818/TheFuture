@@ -1,0 +1,188 @@
+{
+  "source_zip": "/mnt/data/peptide-anonymous-coa-tracker-attach-removed.zip",
+  "files": [
+    {
+      "path": "406225c5-f22c-4f35-8978-1fb92f60e068.png",
+      "size_bytes": 2643812,
+      "sha1": "b560100d9cdd"
+    },
+    {
+      "path": "CSV_IMPORT_REPORT.json",
+      "size_bytes": 2827,
+      "sha1": "3911e713767f"
+    },
+    {
+      "path": "QA_CHECKLIST.md",
+      "size_bytes": 9186,
+      "sha1": "12c4d8b1477d"
+    },
+    {
+      "path": "README.md",
+      "size_bytes": 565,
+      "sha1": "cb227cc668d3"
+    },
+    {
+      "path": "app.js",
+      "size_bytes": 87055,
+      "sha1": "8309ae97401e"
+    },
+    {
+      "path": "f7c165ba-8492-478a-9fa8-49f2cc4a4a9a.png",
+      "size_bytes": 2138090,
+      "sha1": "9ecb09dcb334"
+    },
+    {
+      "path": "index.html",
+      "size_bytes": 202940,
+      "sha1": "b5721deab92f"
+    },
+    {
+      "path": "lumina-before-after-results.png",
+      "size_bytes": 2600264,
+      "sha1": "fd807a14cee4"
+    },
+    {
+      "path": "manifest.json",
+      "size_bytes": 203,
+      "sha1": "c1d654e1c259"
+    },
+    {
+      "path": "patch_professional_responses.py",
+      "size_bytes": 3745,
+      "sha1": "c7deaad7d860"
+    },
+    {
+      "path": "peptides.json",
+      "size_bytes": 18132,
+      "sha1": "a1742aa36688"
+    },
+    {
+      "path": "styles.css",
+      "size_bytes": 26620,
+      "sha1": "f8b1229117c0"
+    },
+    {
+      "path": "sw.js",
+      "size_bytes": 282,
+      "sha1": "67fcfbf4d1af"
+    }
+  ],
+  "tabs": [
+    "overview",
+    "inventory",
+    "syringe",
+    "peptidelog",
+    "halflife",
+    "levels",
+    "health",
+    "log",
+    "coa",
+    "labs",
+    "protocols",
+    "costs",
+    "vendors",
+    "coa",
+    "backup",
+    "lumina",
+    "settings",
+    "reports",
+    "admin",
+    "journal",
+    "insights",
+    "audit",
+    "notes",
+    "privacyPolicy",
+    "termsOfUse",
+    "medicalDisclaimer",
+    "legalNotice",
+    "pdfcoa",
+    "executiveDashboard",
+    "pkEngine",
+    "labAnalytics",
+    "reportsCenter",
+    "adminCenterPro",
+    "health",
+    "health"
+  ],
+  "panels": [
+    "locked",
+    "overview",
+    "inventory",
+    "syringe",
+    "peptidelog",
+    "halflife",
+    "levels",
+    "health",
+    "log",
+    "coa",
+    "labs",
+    "protocols",
+    "costs",
+    "vendors",
+    "journal",
+    "pdfcoa",
+    "backup",
+    "insights",
+    "audit",
+    "lumina",
+    "settings",
+    "reports",
+    "admin",
+    "notes",
+    "executiveDashboard",
+    "pkEngine",
+    "labAnalytics",
+    "reportsCenter",
+    "adminCenterPro",
+    "privacyPolicy",
+    "termsOfUse",
+    "medicalDisclaimer",
+    "legalNotice"
+  ],
+  "duplicates_found": {
+    "duplicate_ids_before": [],
+    "duplicate_script_ids_before": [],
+    "duplicate_ids_after": [],
+    "duplicate_script_ids_after": []
+  },
+  "fixes_applied": [
+    "Verified only one COA attach control exists.",
+    "Added final live-refresh guard for tabs, tables, charts, edit buttons, and bad attachment cleanup."
+  ],
+  "warnings": [
+    {
+      "missing_panels_for_tabs_before": []
+    },
+    {
+      "panels_without_sidebar_tab_before": [
+        "locked"
+      ]
+    },
+    {
+      "missing_panels_for_tabs_after": []
+    }
+  ],
+  "upgrade_suggestions": [
+    "Move from localStorage to IndexedDB for larger file uploads and better reliability.",
+    "Add a dedicated Import Center with file preview before applying CSV imports.",
+    "Add a Data Health dashboard showing broken/missing fields and duplicate records.",
+    "Add versioned backups with one-click restore points.",
+    "Add role-based admin controls if the site will be shared with multiple users.",
+    "Add automated end-to-end browser tests using Playwright before each release.",
+    "Add schema validation for each section so imported CSV columns are mapped before saving.",
+    "Add encrypted local backups for sensitive private records.",
+    "Add an activity log that records edits, deletes, uploads, and imports.",
+    "Add a global search bar across inventory, logs, labs, COAs, and notes."
+  ],
+  "checks": {
+    "coa_attach_controls": 1,
+    "coa_file_inputs": 1,
+    "generic_attachment_cards_static": 0,
+    "edit_engines_present": {
+      "actions_edit_column": true,
+      "visible_edit_buttons": true
+    },
+    "smart_upload_engine_present": true,
+    "final_live_guard_present": true
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "source": "peptide-anonymous-final-live-dropdown-checked.zip",
+  "checks": {
+    "total_tabs": 38,
+    "total_panels": 33,
+    "missing_tab_panels": [],
+    "duplicate_ids": [],
+    "duplicate_script_ids": [],
+    "lab_dropdown_fix_present": true,
+    "daily_steps_present": true,
+    "smart_upload_present": true,
+    "edit_buttons_engine_present": true,
+    "coa_attach_controls": 1,
+    "coa_file_inputs": 1
+  },
+  "fixes_applied": [
+    "Corrected data-tab=\"lab\" to data-tab=\"labs\" so the Lab Markers tab opens the existing page.",
+    "Kept final dropdown/live master guard active.",
+    "Verified no duplicate IDs or script IDs after final pass."
+  ]
+}

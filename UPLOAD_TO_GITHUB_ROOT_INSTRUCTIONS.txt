@@ -1,0 +1,24 @@
+HEALTH DYNAMICS ENTERPRISE V3 - GITHUB UPLOAD INSTRUCTIONS
+
+1. Extract this ZIP on your computer.
+2. Open the extracted folder.
+3. Select ALL files in the folder, not the ZIP itself.
+4. Drag ALL selected files directly into your GitHub repository root.
+5. Confirm these files are visible at the top level of GitHub, next to each other:
+   - index.html
+   - health-dynamics.html
+   - app.js
+   - styles.css
+   - inventory.xlsx
+   - dosage-tracker.html
+   - local-upgrades.js
+   - health-dynamics-v2.js
+   - health-cost-analysis.js
+   - health-dashboard-pro.js
+
+Do not place the files inside an extra folder such as peptide-inventory-web-main/.
+
+Live site path should look like:
+https://thelaw818.github.io/TheFuture/
+
+Health Dynamics is now root-level and loads from health-dynamics.html only when the Health Dynamics tab is clicked.

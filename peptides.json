@@ -1,0 +1,776 @@
+[
+  {
+    "name": "Retatrutide",
+    "alias": "Reta",
+    "category": "GLP-1/GIP/GCG",
+    "halfLife": "6 days",
+    "duration": "Long-acting triple agonist",
+    "routes": "SC",
+    "notes": "Approximate; formulation and study design dependent"
+  },
+  {
+    "name": "Tirzepatide",
+    "alias": "Tirz",
+    "category": "GLP-1/GIP",
+    "halfLife": "5 days",
+    "duration": "Weekly peptide drug analog",
+    "routes": "SC",
+    "notes": "Approximate"
+  },
+  {
+    "name": "Semaglutide",
+    "alias": "Sema",
+    "category": "GLP-1",
+    "halfLife": "7 days",
+    "duration": "Weekly GLP-1 analog",
+    "routes": "SC/Oral formulation",
+    "notes": "Approximate"
+  },
+  {
+    "name": "Cagrilintide",
+    "alias": "Cagri",
+    "category": "Amylin analog",
+    "halfLife": "6 days",
+    "duration": "Long acting amylin analog",
+    "routes": "SC",
+    "notes": "Approximate"
+  },
+  {
+    "name": "Liraglutide",
+    "alias": "Lira",
+    "category": "GLP-1",
+    "halfLife": "13 hours",
+    "duration": "Daily GLP-1 analog",
+    "routes": "SC",
+    "notes": "Approximate"
+  },
+  {
+    "name": "Dulaglutide",
+    "alias": "Dula",
+    "category": "GLP-1",
+    "halfLife": "5 days",
+    "duration": "Long acting GLP-1",
+    "routes": "SC",
+    "notes": "Approximate"
+  },
+  {
+    "name": "Exenatide",
+    "alias": "Exen",
+    "category": "GLP-1",
+    "halfLife": "2.4 hours",
+    "duration": "Short acting incretin mimetic",
+    "routes": "SC",
+    "notes": "Approximate"
+  },
+  {
+    "name": "Exenatide ER",
+    "alias": "Bydureon",
+    "category": "GLP-1",
+    "halfLife": "14 days",
+    "duration": "Extended-release formulation",
+    "routes": "SC",
+    "notes": "Formulation dependent"
+  },
+  {
+    "name": "Mazdutide",
+    "alias": "IBI362",
+    "category": "GLP-1/GCG",
+    "halfLife": "7 days",
+    "duration": "Investigational",
+    "routes": "SC",
+    "notes": "Estimated"
+  },
+  {
+    "name": "Survodutide",
+    "alias": "BI 456906",
+    "category": "GLP-1/GCG",
+    "halfLife": "6.5 days",
+    "duration": "Investigational",
+    "routes": "SC",
+    "notes": "Estimated"
+  },
+  {
+    "name": "Pemvidutide",
+    "alias": "ALT-801",
+    "category": "GLP-1/GCG",
+    "halfLife": "7 days",
+    "duration": "Investigational",
+    "routes": "SC",
+    "notes": "Estimated"
+  },
+  {
+    "name": "MariTide",
+    "alias": "AMG-133",
+    "category": "GLP-1/GIPR",
+    "halfLife": "21 days",
+    "duration": "Long acting investigational",
+    "routes": "SC",
+    "notes": "Estimated"
+  },
+  {
+    "name": "VK2735",
+    "alias": "VK2735",
+    "category": "GLP-1/GIP",
+    "halfLife": "6.5 days",
+    "duration": "Investigational",
+    "routes": "SC",
+    "notes": "Estimated"
+  },
+  {
+    "name": "BPC-157",
+    "alias": "BPC",
+    "category": "Healing / Recovery",
+    "halfLife": "5 hours",
+    "duration": "Biological effects may outlast plasma half-life",
+    "routes": "SC/Oral",
+    "notes": "Approximate research reference"
+  },
+  {
+    "name": "TB-500",
+    "alias": "TB4 fragment",
+    "category": "Healing / Recovery",
+    "halfLife": "5 hours",
+    "duration": "Effects may persist longer",
+    "routes": "SC",
+    "notes": "Approximate"
+  },
+  {
+    "name": "Thymosin Beta-4",
+    "alias": "TB4",
+    "category": "Healing / Recovery",
+    "halfLife": "2 hours",
+    "duration": "Parent thymosin peptide",
+    "routes": "SC",
+    "notes": "Approximate"
+  },
+  {
+    "name": "GHK-Cu",
+    "alias": "Copper peptide",
+    "category": "Regenerative / Skin",
+    "halfLife": "18 hours",
+    "duration": "Copper tripeptide",
+    "routes": "Topical/SC",
+    "notes": "Approximate"
+  },
+  {
+    "name": "MOTS-C",
+    "alias": "MOTS-C",
+    "category": "Mitochondrial",
+    "halfLife": "45 minutes",
+    "duration": "Mitochondrial-derived peptide",
+    "routes": "SC",
+    "notes": "Approximate"
+  },
+  {
+    "name": "SS-31",
+    "alias": "Elamipretide",
+    "category": "Mitochondrial",
+    "halfLife": "6 hours",
+    "duration": "Mitochondrial-targeted tetrapeptide",
+    "routes": "SC/IV",
+    "notes": "Approximate"
+  },
+  {
+    "name": "Humanin",
+    "alias": "HN",
+    "category": "Mitochondrial",
+    "halfLife": "3 hours",
+    "duration": "Mitochondrial-derived peptide",
+    "routes": "SC",
+    "notes": "Estimated"
+  },
+  {
+    "name": "AOD-9604",
+    "alias": "AOD",
+    "category": "Metabolic / Fat Loss",
+    "halfLife": "2.5 hours",
+    "duration": "hGH fragment analog",
+    "routes": "SC",
+    "notes": "Approximate"
+  },
+  {
+    "name": "Tesamorelin",
+    "alias": "Egrifta analog",
+    "category": "GHRH analog",
+    "halfLife": "2 hours",
+    "duration": "GH-releasing hormone analog",
+    "routes": "SC",
+    "notes": "Approximate"
+  },
+  {
+    "name": "Sermorelin",
+    "alias": "GHRH 1-29",
+    "category": "GHRH analog",
+    "halfLife": "15 minutes",
+    "duration": "Short acting GHRH fragment",
+    "routes": "SC",
+    "notes": "Approximate"
+  },
+  {
+    "name": "CJC-1295 No DAC",
+    "alias": "Mod GRF 1-29",
+    "category": "GHRH analog",
+    "halfLife": "1 hours",
+    "duration": "Short acting",
+    "routes": "SC",
+    "notes": "Approximate"
+  },
+  {
+    "name": "CJC-1295 DAC",
+    "alias": "CJC DAC",
+    "category": "GHRH analog",
+    "halfLife": "6.5 days",
+    "duration": "DAC extends half-life",
+    "routes": "SC",
+    "notes": "Approximate"
+  },
+  {
+    "name": "Ipamorelin",
+    "alias": "Ipa",
+    "category": "GH Secretagogue",
+    "halfLife": "2 hours",
+    "duration": "Ghrelin receptor agonist",
+    "routes": "SC",
+    "notes": "Approximate"
+  },
+  {
+    "name": "Hexarelin",
+    "alias": "Hex",
+    "category": "GH Secretagogue",
+    "halfLife": "55 minutes",
+    "duration": "GHRP family",
+    "routes": "SC",
+    "notes": "Approximate"
+  },
+  {
+    "name": "GHRP-2",
+    "alias": "GHRP-2",
+    "category": "GH Secretagogue",
+    "halfLife": "25 minutes",
+    "duration": "GHRP family",
+    "routes": "SC",
+    "notes": "Approximate"
+  },
+  {
+    "name": "GHRP-6",
+    "alias": "GHRP-6",
+    "category": "GH Secretagogue",
+    "halfLife": "25 minutes",
+    "duration": "GHRP family",
+    "routes": "SC",
+    "notes": "Approximate"
+  },
+  {
+    "name": "MK-677",
+    "alias": "Ibutamoren",
+    "category": "GH Secretagogue",
+    "halfLife": "24 hours",
+    "duration": "Non-peptide secretagogue",
+    "routes": "Oral",
+    "notes": "Included for tracker reference"
+  },
+  {
+    "name": "PEG-MGF",
+    "alias": "PEG MGF",
+    "category": "Growth Factor",
+    "halfLife": "60 hours",
+    "duration": "PEGylated mechano growth factor",
+    "routes": "SC",
+    "notes": "Approximate"
+  },
+  {
+    "name": "MGF",
+    "alias": "Mechano Growth Factor",
+    "category": "Growth Factor",
+    "halfLife": "6 minutes",
+    "duration": "Short acting splice variant",
+    "routes": "SC",
+    "notes": "Estimated"
+  },
+  {
+    "name": "IGF-1 LR3",
+    "alias": "LR3",
+    "category": "Growth Factor",
+    "halfLife": "25 hours",
+    "duration": "Longer acting IGF-1 analog",
+    "routes": "SC",
+    "notes": "Approximate"
+  },
+  {
+    "name": "IGF-1 DES",
+    "alias": "DES",
+    "category": "Growth Factor",
+    "halfLife": "25 minutes",
+    "duration": "Short IGF-1 variant",
+    "routes": "SC",
+    "notes": "Approximate"
+  },
+  {
+    "name": "Follistatin-344",
+    "alias": "FST-344",
+    "category": "Myostatin / Growth",
+    "halfLife": "18 hours",
+    "duration": "Myostatin pathway research",
+    "routes": "SC",
+    "notes": "Estimated"
+  },
+  {
+    "name": "Follistatin-315",
+    "alias": "FST-315",
+    "category": "Myostatin / Growth",
+    "halfLife": "36 hours",
+    "duration": "Myostatin pathway research",
+    "routes": "SC",
+    "notes": "Estimated"
+  },
+  {
+    "name": "Thymosin Alpha-1",
+    "alias": "TA1",
+    "category": "Immune",
+    "halfLife": "2 hours",
+    "duration": "Immune modulating peptide",
+    "routes": "SC",
+    "notes": "Approximate"
+  },
+  {
+    "name": "LL-37",
+    "alias": "Cathelicidin",
+    "category": "Antimicrobial",
+    "halfLife": "1.5 hours",
+    "duration": "Antimicrobial peptide",
+    "routes": "Topical/SC",
+    "notes": "Estimated"
+  },
+  {
+    "name": "KPV",
+    "alias": "KPV",
+    "category": "Anti-inflammatory",
+    "halfLife": "2 hours",
+    "duration": "Alpha-MSH fragment",
+    "routes": "Oral/SC",
+    "notes": "Estimated"
+  },
+  {
+    "name": "Epitalon",
+    "alias": "Epithalon",
+    "category": "Longevity",
+    "halfLife": "3 hours",
+    "duration": "Tetrapeptide",
+    "routes": "SC",
+    "notes": "Estimated"
+  },
+  {
+    "name": "Pinealon",
+    "alias": "Pinealon",
+    "category": "Bioregulator",
+    "halfLife": "2 hours",
+    "duration": "Short peptide bioregulator",
+    "routes": "SC",
+    "notes": "Estimated"
+  },
+  {
+    "name": "Vesugen",
+    "alias": "Vesugen",
+    "category": "Bioregulator",
+    "halfLife": "2 hours",
+    "duration": "Short peptide bioregulator",
+    "routes": "SC",
+    "notes": "Estimated"
+  },
+  {
+    "name": "Cortexin",
+    "alias": "Cortexin",
+    "category": "Nootropic complex",
+    "halfLife": "3 hours",
+    "duration": "Peptide complex",
+    "routes": "IM",
+    "notes": "Estimated"
+  },
+  {
+    "name": "Selank",
+    "alias": "Selank",
+    "category": "Nootropic",
+    "halfLife": "10 minutes",
+    "duration": "Effects may last much longer",
+    "routes": "Nasal",
+    "notes": "Approximate"
+  },
+  {
+    "name": "Semax",
+    "alias": "Semax",
+    "category": "Nootropic",
+    "halfLife": "15 minutes",
+    "duration": "Effects may last much longer",
+    "routes": "Nasal",
+    "notes": "Approximate"
+  },
+  {
+    "name": "NA Semax Amidate",
+    "alias": "NASA",
+    "category": "Nootropic",
+    "halfLife": "1.5 hours",
+    "duration": "Modified Semax",
+    "routes": "Nasal",
+    "notes": "Estimated"
+  },
+  {
+    "name": "NA Selank Amidate",
+    "alias": "NASA/Selank",
+    "category": "Nootropic",
+    "halfLife": "1.5 hours",
+    "duration": "Modified Selank",
+    "routes": "Nasal",
+    "notes": "Estimated"
+  },
+  {
+    "name": "Dihexa",
+    "alias": "Dihexa",
+    "category": "Nootropic",
+    "halfLife": "10.5 days",
+    "duration": "Very limited public PK data",
+    "routes": "Oral",
+    "notes": "Estimated/limited data"
+  },
+  {
+    "name": "VIP",
+    "alias": "VIP",
+    "category": "Neuropeptide",
+    "halfLife": "2 minutes",
+    "duration": "Very short plasma half-life",
+    "routes": "Nasal/Injection",
+    "notes": "Approximate"
+  },
+  {
+    "name": "Oxytocin",
+    "alias": "OXT",
+    "category": "Hormonal",
+    "halfLife": "4 minutes",
+    "duration": "Peptide hormone",
+    "routes": "Nasal/Injection",
+    "notes": "Approximate"
+  },
+  {
+    "name": "Desmopressin",
+    "alias": "DDAVP",
+    "category": "Hormonal",
+    "halfLife": "2.5 hours",
+    "duration": "Vasopressin analog",
+    "routes": "Nasal/Oral/Injection",
+    "notes": "Approximate"
+  },
+  {
+    "name": "Kisspeptin-10",
+    "alias": "KP-10",
+    "category": "Hormonal",
+    "halfLife": "25 minutes",
+    "duration": "Reproductive signaling",
+    "routes": "SC/IV",
+    "notes": "Approximate"
+  },
+  {
+    "name": "Kisspeptin-54",
+    "alias": "KP-54",
+    "category": "Hormonal",
+    "halfLife": "29 hours",
+    "duration": "Longer acting kisspeptin form",
+    "routes": "SC/IV",
+    "notes": "Approximate"
+  },
+  {
+    "name": "Melanotan I",
+    "alias": "MT-1",
+    "category": "Melanocortin",
+    "halfLife": "30 hours",
+    "duration": "Afamelanotide-related",
+    "routes": "SC",
+    "notes": "Approximate"
+  },
+  {
+    "name": "Melanotan II",
+    "alias": "MT-2",
+    "category": "Melanocortin",
+    "halfLife": "34 hours",
+    "duration": "Melanocortin agonist",
+    "routes": "SC/Nasal",
+    "notes": "Approximate"
+  },
+  {
+    "name": "PT-141",
+    "alias": "Bremelanotide",
+    "category": "Melanocortin",
+    "halfLife": "2.7 hours",
+    "duration": "Melanocortin agonist",
+    "routes": "SC/Nasal",
+    "notes": "Approximate"
+  },
+  {
+    "name": "DSIP",
+    "alias": "DSIP",
+    "category": "Sleep",
+    "halfLife": "22 minutes",
+    "duration": "Delta sleep-inducing peptide",
+    "routes": "SC",
+    "notes": "Estimated"
+  },
+  {
+    "name": "Glutathione",
+    "alias": "GSH",
+    "category": "Antioxidant",
+    "halfLife": "12 minutes",
+    "duration": "Tripeptide antioxidant",
+    "routes": "IV/SC",
+    "notes": "Approximate"
+  },
+  {
+    "name": "NAD+",
+    "alias": "NAD",
+    "category": "Metabolic cofactor",
+    "halfLife": "1.5 hours",
+    "duration": "Cofactor; not peptide",
+    "routes": "IV/SC",
+    "notes": "Included for tracker reference"
+  },
+  {
+    "name": "ARA-290",
+    "alias": "Cibinetide",
+    "category": "Regenerative",
+    "halfLife": "20 minutes",
+    "duration": "EPO receptor-derived peptide",
+    "routes": "SC",
+    "notes": "Approximate"
+  },
+  {
+    "name": "FOXO4-DRI",
+    "alias": "FOXO4",
+    "category": "Senolytic research",
+    "halfLife": "9 hours",
+    "duration": "Limited public PK data",
+    "routes": "SC",
+    "notes": "Estimated"
+  },
+  {
+    "name": "PNC-27",
+    "alias": "PNC-27",
+    "category": "Oncology research",
+    "halfLife": "1.5 hours",
+    "duration": "Limited public PK data",
+    "routes": "SC/IV",
+    "notes": "Estimated"
+  },
+  {
+    "name": "Klotho fragments",
+    "alias": "Klotho",
+    "category": "Longevity",
+    "halfLife": "Limited data",
+    "duration": "Fragment-dependent",
+    "routes": "SC",
+    "notes": "Limited data"
+  },
+  {
+    "name": "P21",
+    "alias": "P021",
+    "category": "Nootropic",
+    "halfLife": "Limited data",
+    "duration": "Investigational",
+    "routes": "SC/Oral",
+    "notes": "Limited data"
+  },
+  {
+    "name": "N-Acetyl Epitalon Amidate",
+    "alias": "NA Epitalon",
+    "category": "Longevity",
+    "halfLife": "Limited data",
+    "duration": "Longer than Epitalon / limited data",
+    "routes": "SC",
+    "notes": "Estimated"
+  },
+  {
+    "name": "ACE-031",
+    "alias": "ACE-031",
+    "category": "Myostatin pathway",
+    "halfLife": "12 days",
+    "duration": "Fusion protein/peptide biologic",
+    "routes": "SC",
+    "notes": "Approximate"
+  },
+  {
+    "name": "Myostatin Propeptide",
+    "alias": "MSTN Propeptide",
+    "category": "Myostatin pathway",
+    "halfLife": "Limited data",
+    "duration": "Research peptide",
+    "routes": "SC",
+    "notes": "Limited data"
+  },
+  {
+    "name": "HCG",
+    "alias": "hCG",
+    "category": "Hormonal glycoprotein",
+    "halfLife": "30 hours",
+    "duration": "Glycoprotein hormone",
+    "routes": "SC/IM",
+    "notes": "Included for tracker reference"
+  },
+  {
+    "name": "Gonadorelin",
+    "alias": "GnRH",
+    "category": "Hormonal",
+    "halfLife": "3 minutes",
+    "duration": "GnRH analog",
+    "routes": "SC/IV",
+    "notes": "Approximate"
+  },
+  {
+    "name": "Triptorelin",
+    "alias": "GnRH agonist",
+    "category": "Hormonal",
+    "halfLife": "4 hours",
+    "duration": "Formulation dependent",
+    "routes": "SC/IM",
+    "notes": "Approximate"
+  },
+  {
+    "name": "Buserelin",
+    "alias": "GnRH agonist",
+    "category": "Hormonal",
+    "halfLife": "1.5 hours",
+    "duration": "Formulation dependent",
+    "routes": "Nasal/SC",
+    "notes": "Approximate"
+  },
+  {
+    "name": "Gonadorelin Acetate",
+    "alias": "GnRH acetate",
+    "category": "Hormonal",
+    "halfLife": "3 minutes",
+    "duration": "GnRH analog",
+    "routes": "SC/IV",
+    "notes": "Approximate"
+  },
+  {
+    "name": "Nesiritide",
+    "alias": "BNP",
+    "category": "Cardiac peptide",
+    "halfLife": "18 minutes",
+    "duration": "Recombinant BNP",
+    "routes": "IV",
+    "notes": "Approximate"
+  },
+  {
+    "name": "Anamorelin",
+    "alias": "Anamorelin",
+    "category": "Ghrelin agonist",
+    "halfLife": "7 hours",
+    "duration": "Non-peptide ghrelin agonist",
+    "routes": "Oral",
+    "notes": "Included for tracker reference"
+  },
+  {
+    "name": "Abaloparatide",
+    "alias": "ABL",
+    "category": "PTHrP analog",
+    "halfLife": "1.7 hours",
+    "duration": "Bone-related peptide analog",
+    "routes": "SC",
+    "notes": "Approximate"
+  },
+  {
+    "name": "Teriparatide",
+    "alias": "PTH 1-34",
+    "category": "PTH analog",
+    "halfLife": "1 hours",
+    "duration": "Bone-related peptide analog",
+    "routes": "SC",
+    "notes": "Approximate"
+  },
+  {
+    "name": "Calcitonin Salmon",
+    "alias": "Calcitonin",
+    "category": "Hormonal",
+    "halfLife": "43 minutes",
+    "duration": "Peptide hormone analog",
+    "routes": "Nasal/SC",
+    "notes": "Approximate"
+  },
+  {
+    "name": "Pramlintide",
+    "alias": "Symlin",
+    "category": "Amylin analog",
+    "halfLife": "48 minutes",
+    "duration": "Amylin analog",
+    "routes": "SC",
+    "notes": "Approximate"
+  },
+  {
+    "name": "Amylin",
+    "alias": "IAPP",
+    "category": "Amylin",
+    "halfLife": "13 minutes",
+    "duration": "Native amylin",
+    "routes": "SC/IV",
+    "notes": "Approximate"
+  },
+  {
+    "name": "Leptin",
+    "alias": "Metreleptin",
+    "category": "Hormonal",
+    "halfLife": "3.5 hours",
+    "duration": "Protein hormone",
+    "routes": "SC",
+    "notes": "Approximate"
+  },
+  {
+    "name": "Insulin Lispro",
+    "alias": "Lispro",
+    "category": "Insulin analog",
+    "halfLife": "1 hours",
+    "duration": "Rapid-acting insulin analog",
+    "routes": "SC",
+    "notes": "Approximate"
+  },
+  {
+    "name": "Insulin Aspart",
+    "alias": "Aspart",
+    "category": "Insulin analog",
+    "halfLife": "1 hours",
+    "duration": "Rapid-acting insulin analog",
+    "routes": "SC",
+    "notes": "Approximate"
+  },
+  {
+    "name": "Insulin Glargine",
+    "alias": "Glargine",
+    "category": "Insulin analog",
+    "halfLife": "12 hours",
+    "duration": "Long-acting formulation",
+    "routes": "SC",
+    "notes": "Formulation-dependent"
+  },
+  {
+    "name": "GIP",
+    "alias": "GIP",
+    "category": "Incretin",
+    "halfLife": "7 minutes",
+    "duration": "Native incretin peptide",
+    "routes": "IV/SC",
+    "notes": "Approximate"
+  },
+  {
+    "name": "GLP-1 Native",
+    "alias": "GLP-1",
+    "category": "Incretin",
+    "halfLife": "2 minutes",
+    "duration": "Native GLP-1",
+    "routes": "IV/SC",
+    "notes": "Approximate"
+  },
+  {
+    "name": "Glucagon",
+    "alias": "GCG",
+    "category": "Hormonal",
+    "halfLife": "5 minutes",
+    "duration": "Peptide hormone",
+    "routes": "Injection",
+    "notes": "Approximate"
+  }
+]

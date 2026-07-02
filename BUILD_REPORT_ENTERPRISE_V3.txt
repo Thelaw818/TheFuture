@@ -1,0 +1,17 @@
+Enterprise V3 Build Report
+
+Included root-level files:
+- Peptide Inventory / COA dashboard in index.html
+- Health Dynamics complete app in health-dynamics.html
+- Dosage tracker in dosage-tracker.html
+- Excel workbook data in inventory.xlsx and inventory_updated.xlsx
+- Health modules: legal/privacy, live health calculators, dashboard, cost analysis, reports, local-only data
+- No health-dynamics folder required
+
+Important fix:
+- Health Dynamics now loads from root-level health-dynamics.html when the Health Dynamics tab is clicked.
+- Service worker cache updated to a new version and includes Health Dynamics assets.
+- Navigation buttons were verified against matching section IDs.
+
+Upload rule:
+Upload ALL extracted files to the GitHub repository root. Do not upload the ZIP itself and do not place files inside another folder.
