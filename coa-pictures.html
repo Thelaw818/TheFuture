@@ -1,0 +1,200 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>COA Pictures · Peptide Research Intelligence</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#07111f;--panel:#0b1728;--card:#111f33;--card2:#0f1b2d;--ink:#e5eefb;--muted:#9fb0c9;--line:#23344f;--accent:#14b8a6;--accent2:#38bdf8;--good:#22c55e;--warn:#f59e0b;--bad:#ef4444}
+*{box-sizing:border-box}
+body{margin:0;font-family:Inter,Segoe UI,Arial,sans-serif;background:radial-gradient(circle at top left,#0f3152 0,#07111f 38%,#050b14 100%);color:var(--ink);min-height:100vh;position:relative}
+body:before{content:"";position:fixed;inset:0;background-image:radial-gradient(rgba(56,189,248,.10) 1px,transparent 1px);background-size:26px 26px;pointer-events:none;z-index:0;mask-image:radial-gradient(ellipse 80% 60% at 50% 0%,#000 40%,transparent 100%)}
+h1,h2,.eyebrow,.cardhead{font-family:'Space Grotesk',Inter,sans-serif}
+main{max-width:1280px;margin:0 auto;padding:28px 24px 80px;position:relative;z-index:1}
+
+/* top bar */
+.topnav{display:flex;align-items:center;justify-content:space-between;gap:16px;margin-bottom:22px;flex-wrap:wrap}
+.back{display:inline-flex;align-items:center;gap:8px;color:#99f6e4;text-decoration:none;font-weight:800;font-size:13px;border:1px solid rgba(153,246,228,.18);padding:9px 14px;border-radius:12px;background:rgba(255,255,255,.04);transition:.2s}
+.back:hover{background:rgba(255,255,255,.09);border-color:rgba(56,189,248,.4)}
+.logo-mini{display:flex;align-items:center;gap:10px}
+.logo-mini .box{width:34px;height:34px;border-radius:10px;background:linear-gradient(135deg,var(--accent),var(--accent2));display:grid;place-items:center;font-weight:900;color:#03111c;font-size:13px}
+.logo-mini span{color:var(--muted);font-size:12px;font-weight:700;letter-spacing:.04em;text-transform:uppercase}
+
+/* hero */
+.hero{position:relative;overflow:hidden;border:1px solid rgba(153,246,228,.18);border-radius:26px;padding:30px;margin:0 0 26px;background:linear-gradient(135deg,rgba(15,27,45,.86),rgba(3,17,28,.72));box-shadow:0 28px 80px rgba(0,0,0,.28);backdrop-filter:blur(24px);display:grid;grid-template-columns:1.15fr .95fr;gap:26px;align-items:center}
+.hero:before{content:"";position:absolute;inset:auto -12% -72% 36%;height:220%;background:conic-gradient(from 120deg,rgba(20,184,166,0),rgba(20,184,166,.18),rgba(56,189,248,.22),rgba(20,184,166,0));filter:blur(18px);animation:paSpin 18s linear infinite}
+.hero>*{position:relative}
+@keyframes paSpin{to{transform:rotate(360deg)}}
+.eyebrow{color:#99f6e4;text-transform:uppercase;letter-spacing:.18em;font-size:12px;font-weight:950}
+.hero h1{font-size:clamp(30px,4.4vw,54px);line-height:1;margin:10px 0 12px;letter-spacing:-.04em;background:linear-gradient(90deg,#f4fffb 10%,var(--accent) 55%,var(--accent2) 100%);-webkit-background-clip:text;background-clip:text;color:transparent;filter:drop-shadow(0 0 22px rgba(56,189,248,.18))}
+.hero p{max-width:640px;color:#b6c6dc;font-size:15.5px;line-height:1.65;margin:0 0 16px}
+.stat-row{display:flex;gap:12px;flex-wrap:wrap}
+.stat{background:rgba(255,255,255,.055);border:1px solid rgba(255,255,255,.08);border-radius:14px;padding:10px 16px;min-width:110px}
+.stat b{display:block;font-size:20px;font-family:'Space Grotesk',sans-serif}
+.stat span{color:var(--muted);font-size:11px;font-weight:800;text-transform:uppercase;letter-spacing:.05em}
+.hero-visual{position:relative;display:flex;flex-direction:column;align-items:center;justify-content:center}
+.chain-svg{width:100%;height:auto;overflow:visible}
+.residue{fill:#0b1728;stroke:url(#chainGrad);stroke-width:2;animation:residuePulse 3.2s ease-in-out infinite}
+@keyframes residuePulse{0%,100%{r:9;fill-opacity:.9}50%{r:11;fill-opacity:1}}
+.residue-label{fill:#9fb0c9;font-family:'JetBrains Mono',monospace;font-size:10px;font-weight:600;letter-spacing:.02em;opacity:.85}
+.hero-visual-caption{margin-top:8px;text-align:center;color:var(--muted);font-size:11px;font-family:'JetBrains Mono',monospace;letter-spacing:.03em}
+.hero-visual-caption b{color:#99f6e4;font-weight:700}
+@media(max-width:900px){.hero{grid-template-columns:1fr}.hero-visual{order:-1}}
+
+/* toolbar */
+.toolbar{display:flex;align-items:center;gap:12px;flex-wrap:wrap;margin:0 0 18px}
+.toolbar input{flex:1;min-width:220px;background:var(--card2);border:1px solid var(--line);color:var(--ink);padding:12px 14px;border-radius:12px;font-size:14px}
+.toolbar input:focus{outline:none;border-color:var(--accent2)}
+.count-pill{position:relative;padding-left:16px;color:var(--muted);font-size:13px;font-weight:700;white-space:nowrap}
+.count-pill:before{content:"";position:absolute;left:0;top:50%;width:7px;height:7px;border-radius:50%;background:var(--accent);transform:translateY(-50%);box-shadow:0 0 0 0 rgba(20,184,166,.6);animation:pulseDot 1.8s ease-out infinite}
+@keyframes pulseDot{0%{box-shadow:0 0 0 0 rgba(20,184,166,.55)}70%{box-shadow:0 0 0 9px rgba(20,184,166,0)}100%{box-shadow:0 0 0 0 rgba(20,184,166,0)}}
+
+/* gallery */
+.gallery{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:16px}
+.pic{position:relative;border-radius:16px;overflow:hidden;border:1px solid var(--line);background:var(--card);cursor:pointer;transition:transform .22s ease,box-shadow .22s ease,border-color .22s ease;aspect-ratio:1/1}
+.pic img{width:100%;height:100%;object-fit:cover;display:block;transition:transform .35s ease}
+.pic:hover{transform:translateY(-4px);border-color:rgba(56,189,248,.4);box-shadow:0 22px 50px rgba(0,0,0,.32),0 0 0 1px rgba(56,189,248,.12),0 0 32px rgba(20,184,166,.14)}
+.pic:hover img{transform:scale(1.06)}
+.pic .tag{position:absolute;left:8px;bottom:8px;background:rgba(3,17,28,.72);backdrop-filter:blur(6px);border:1px solid rgba(153,246,228,.18);color:#cfe9ff;font-family:'JetBrains Mono',monospace;font-size:10px;padding:4px 8px;border-radius:8px;max-width:calc(100% - 16px);overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.pic .zoom{position:absolute;top:8px;right:8px;width:26px;height:26px;border-radius:8px;background:rgba(3,17,28,.72);border:1px solid rgba(153,246,228,.18);display:grid;place-items:center;font-size:13px;opacity:0;transition:opacity .2s ease}
+.pic:hover .zoom{opacity:1}
+.empty{grid-column:1/-1;text-align:center;color:var(--muted);padding:60px 20px;border:1px dashed var(--line);border-radius:16px}
+
+/* lightbox */
+.lightbox{position:fixed;inset:0;background:rgba(3,8,15,.88);backdrop-filter:blur(10px);display:none;align-items:center;justify-content:center;z-index:50;padding:30px}
+.lightbox.show{display:flex}
+.lightbox-inner{position:relative;max-width:min(1100px,92vw);max-height:88vh;display:flex;flex-direction:column;align-items:center;gap:14px}
+.lightbox img{max-width:100%;max-height:74vh;border-radius:16px;border:1px solid rgba(153,246,228,.18);box-shadow:0 30px 90px rgba(0,0,0,.5)}
+.lb-bar{display:flex;align-items:center;gap:10px;flex-wrap:wrap;justify-content:center}
+.lb-btn{border:1px solid rgba(153,246,228,.18);border-radius:12px;padding:10px 16px;background:rgba(255,255,255,.06);color:#e5eefb;text-decoration:none;font-weight:800;font-size:13px;cursor:pointer}
+.lb-btn.primary{background:linear-gradient(90deg,var(--accent),var(--accent2));color:#03111c;border:0}
+.lb-close{position:absolute;top:-18px;right:-6px;width:38px;height:38px;border-radius:50%;background:rgba(255,255,255,.08);border:1px solid rgba(153,246,228,.18);color:#e5eefb;font-size:18px;cursor:pointer;display:grid;place-items:center}
+.lb-caption{color:var(--muted);font-family:'JetBrains Mono',monospace;font-size:12px}
+
+.footer-note{margin-top:34px;color:var(--muted);font-size:12.5px;line-height:1.6;border:1px solid var(--line);background:var(--panel);padding:16px 18px;border-radius:16px}
+.footer-note strong{color:#e5eefb}
+</style>
+</head>
+<body>
+<main>
+  <div class="topnav">
+    <div class="logo-mini"><div class="box">PA</div><span>Peptide Research Intelligence</span></div>
+    <a class="back" href="index.html">← Back to Dashboard</a>
+  </div>
+
+  <div class="hero">
+    <div class="hero-copy">
+      <div class="eyebrow">Peptide Anonymous · Visual Archive</div>
+      <h1>COA Pictures</h1>
+      <p>Every certificate-of-analysis photo, vial image, and lab scan collected for the research database, in one visual archive. Click any image to view it full size or download the original.</p>
+      <div class="stat-row">
+        <div class="stat"><b id="statCount">—</b><span>Images</span></div>
+        <div class="stat"><b id="statTypes">JPG / PNG</b><span>Formats</span></div>
+        <div class="stat"><b>Local-first</b><span>No server needed</span></div>
+      </div>
+    </div>
+    <div class="hero-visual">
+      <svg class="chain-svg" viewBox="0 0 640 230" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Schematic backbone diagram of a peptide">
+        <defs>
+          <linearGradient id="chainGrad" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="var(--accent)"/><stop offset="100%" stop-color="var(--accent2)"/></linearGradient>
+          <filter id="chainGlow" x="-60%" y="-60%" width="220%" height="220%"><feGaussianBlur stdDeviation="4" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+          <radialGradient id="pulseGrad" cx="50%" cy="50%" r="50%"><stop offset="0%" stop-color="#fff"/><stop offset="100%" stop-color="var(--accent2)" stop-opacity="0"/></radialGradient>
+        </defs>
+        <path d="M 36.0,115.0 L 76.6,155.7 L 117.1,162.3 L 157.7,129.4 L 198.3,84.4 L 238.9,65.0 L 279.4,87.5 L 320.0,132.9 L 360.6,163.4 L 401.1,153.4 L 441.7,111.2 L 482.3,72.3 L 522.9,69.0 L 563.4,104.3 L 604.0,148.5" fill="none" stroke="url(#chainGrad)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" filter="url(#chainGlow)" opacity="0.85"/>
+        <g class="residues" filter="url(#chainGlow)">
+          <circle class="residue" cx="36.0" cy="115.0" r="11" style="animation-delay:0.0s"/><circle class="residue" cx="76.6" cy="155.7" r="9" style="animation-delay:0.12s"/><circle class="residue" cx="117.1" cy="162.3" r="9" style="animation-delay:0.24s"/><circle class="residue" cx="157.7" cy="129.4" r="11" style="animation-delay:0.36s"/><circle class="residue" cx="198.3" cy="84.4" r="9" style="animation-delay:0.48s"/><circle class="residue" cx="238.9" cy="65.0" r="9" style="animation-delay:0.6s"/><circle class="residue" cx="279.4" cy="87.5" r="11" style="animation-delay:0.72s"/><circle class="residue" cx="320.0" cy="132.9" r="9" style="animation-delay:0.84s"/><circle class="residue" cx="360.6" cy="163.4" r="9" style="animation-delay:0.96s"/><circle class="residue" cx="401.1" cy="153.4" r="11" style="animation-delay:1.08s"/><circle class="residue" cx="441.7" cy="111.2" r="9" style="animation-delay:1.2s"/><circle class="residue" cx="482.3" cy="72.3" r="9" style="animation-delay:1.32s"/><circle class="residue" cx="522.9" cy="69.0" r="11" style="animation-delay:1.44s"/><circle class="residue" cx="563.4" cy="104.3" r="9" style="animation-delay:1.56s"/><circle class="residue" cx="604.0" cy="148.5" r="9" style="animation-delay:1.68s"/>
+        </g>
+        <circle class="chain-pulse" r="6" fill="url(#pulseGrad)"><animateMotion dur="6s" repeatCount="indefinite" path="M 36.0,115.0 L 76.6,155.7 L 117.1,162.3 L 157.7,129.4 L 198.3,84.4 L 238.9,65.0 L 279.4,87.5 L 320.0,132.9 L 360.6,163.4 L 401.1,153.4 L 441.7,111.2 L 482.3,72.3 L 522.9,69.0 L 563.4,104.3 L 604.0,148.5"/></circle>
+      </svg>
+      <div class="hero-visual-caption"><b>Visual Archive</b> · schematic backbone, not to scale</div>
+    </div>
+  </div>
+
+  <div class="toolbar">
+    <input id="search" type="text" placeholder="Search by filename…" />
+    <span class="count-pill" id="countPill">Loading…</span>
+  </div>
+
+  <div class="gallery" id="gallery"></div>
+
+  <div class="footer-note"><strong>Research-use disclaimer:</strong> These images are certificate-of-analysis scans and vial photos retained for research recordkeeping only. Nothing here is medical advice, a product listing, or a vendor endorsement.</div>
+</main>
+
+<div class="lightbox" id="lightbox">
+  <div class="lightbox-inner">
+    <button class="lb-close" id="lbClose">✕</button>
+    <img id="lbImg" src="" alt="" />
+    <div class="lb-caption" id="lbCaption"></div>
+    <div class="lb-bar">
+      <a class="lb-btn primary" id="lbDownload" download>Download</a>
+      <button class="lb-btn" id="lbPrev">← Prev</button>
+      <button class="lb-btn" id="lbNext">Next →</button>
+    </div>
+  </div>
+</div>
+
+<script>
+const FILES = ["000c296adb6a7c1f9788.png", "03bc4d407e453b774d333df4a76227c7.jpg", "0a039173eb30ee5c678a.png", "0fe6b6e0e7dc16328751.png", "1385c72e9a5cfabe489467555ebe20c2.jpg", "13cfc7c2f6b80062fc9f9fe1682323f1.jpg", "150313a499448907fede.jpg", "22a769fdae61dd02ba2f.png", "2c434fe8ecd507ae786ab9a9209fb36b.jpg", "4446c107ff459181b54e9fb46a945603.jpg", "472ae51ae9855178d8a0.jpg", "4758c18b2b91f7b1da83.png", "5c6680a976be0b36fb1b.png", "5fec70e0a37ade8fb8d0.png", "63b839203ea8938063322bd81deb5f19.jpg", "849b799881be1d98cdf6.png", "8f7d753fb461ccd4146ff44cf61dc05b.jpg", "91d896e168573749bff2.png", "98080414966ddab87146.png", "a666c693c0acaafb1417(1).png", "ae0f3e83f7b419b09dbb698886c185a4(1).jpg", "b251d85eeaeb467b053e(1).png", "b2ba3d6572a07818e1f3.jpg", "cced482e390f29c3e98a.png", "d5bd6505426a23763d31.jpg", "ec784a5bfc2e9f29e7d7.png", "f738b9653f14d398fdd5.jpg", "f7401a36cb7b1e81a04220169d4ff05a.jpg", "GHK-CU50MG 7-19-26.jpg", "GHK-CU50MG-2026-06-29-Freedom.jpg", "IMG_20260615_213101_179.jpg", "IMG_20260622_180620_451.jpg", "IMG_20260622_180638_459.jpg", "IMG_20260622_195230_162.jpg", "IMG_20260622_195230_314.jpg", "photo_2026-05-16_17-59-13.jpg", "photo_2026-05-17_20-01-43.jpg", "photo_2026-05-17_20-04-11.jpg", "photo_2026-05-17_20-08-50-2.jpg", "photo_2026-05-22_06-39-49.jpg", "photo_2026-06-05_23-54-28.jpg", "photo_2026-06-05_23-54-58.jpg", "Screenshot_20260715_221905_My Files.jpg", "Screenshot_20260715_222024_My Files.jpg", "Screenshot_20260715_222037_My Files.jpg", "Screenshot_20260715_222054_My Files.jpg"];
+const BASE = "assets/coa/";
+
+const $ = id => document.getElementById(id);
+const urlFor = f => BASE + encodeURIComponent(f).replace(/%2F/g, '/');
+
+let filtered = FILES.slice();
+let currentIndex = -1;
+
+function render(){
+  const q = ($('search').value || '').toLowerCase();
+  filtered = FILES.filter(f => f.toLowerCase().includes(q));
+  $('countPill').textContent = `${filtered.length} of ${FILES.length} images`;
+  const gallery = $('gallery');
+  if(!filtered.length){
+    gallery.innerHTML = '<div class="empty">No images match that search.</div>';
+    return;
+  }
+  gallery.innerHTML = filtered.map((f, i) => `
+    <div class="pic" data-idx="${i}">
+      <img src="${urlFor(f)}" alt="${f.replace(/"/g,'')}" loading="lazy" />
+      <div class="zoom">⤢</div>
+      <div class="tag">${f.length > 26 ? f.slice(0,23)+'…' : f}</div>
+    </div>`).join('');
+  gallery.querySelectorAll('.pic').forEach(el => el.addEventListener('click', () => openLightbox(+el.dataset.idx)));
+}
+
+function openLightbox(i){
+  currentIndex = i;
+  const f = filtered[i];
+  $('lbImg').src = urlFor(f);
+  $('lbImg').alt = f;
+  $('lbCaption').textContent = f;
+  $('lbDownload').href = urlFor(f);
+  $('lbDownload').setAttribute('download', f);
+  $('lightbox').classList.add('show');
+}
+function closeLightbox(){ $('lightbox').classList.remove('show'); }
+function step(delta){
+  if(currentIndex < 0) return;
+  currentIndex = (currentIndex + delta + filtered.length) % filtered.length;
+  openLightbox(currentIndex);
+}
+
+$('search').addEventListener('input', render);
+$('lbClose').addEventListener('click', closeLightbox);
+$('lightbox').addEventListener('click', e => { if(e.target.id === 'lightbox') closeLightbox(); });
+$('lbPrev').addEventListener('click', () => step(-1));
+$('lbNext').addEventListener('click', () => step(1));
+document.addEventListener('keydown', e => {
+  if(!$('lightbox').classList.contains('show')) return;
+  if(e.key === 'Escape') closeLightbox();
+  if(e.key === 'ArrowLeft') step(-1);
+  if(e.key === 'ArrowRight') step(1);
+});
+
+$('statCount').textContent = FILES.length;
+render();
+</script>
+</body>
+</html>
