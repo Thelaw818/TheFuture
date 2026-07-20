@@ -1,10 +1,10 @@
 {
-  "name": "Peptide Research Intelligence V4.1",
-  "short_name": "Peptide Intel V4.1",
+  "name": "Health Dynamics Professional Health Tracker",
+  "short_name": "Health Dynamics",
   "start_url": "./index.html",
   "display": "standalone",
-  "background_color": "#050914",
-  "theme_color": "#050914",
+  "background_color": "#f8fafc",
+  "theme_color": "#0b57d0",
   "icons": [
     {
       "src": "406225c5-f22c-4f35-8978-1fb92f60e068.png",
@@ -17,6 +17,5 @@
       "type": "image/png"
     }
   ],
-  "description": "Installable, offline-first COA, inventory, batch intelligence and research dashboard.",
-  "scope": "./"
+  "description": "Local-only private health, wellness, lab, notes, document, calculator, and protocol tracking. Data stays on this device."
 }

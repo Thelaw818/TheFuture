@@ -1,14 +1,5 @@
-const CACHE='thefuture-v4-1-peptide-bg-35-20260720';
-const CORE=['./','./index.html','./styles.css','./v4.css','./v4.js','./app.js','./manifest.json','./coa-database.json','./inventory.xlsx','./peptides.json','./assets/backgrounds/peptide-chain-dashboard-bg.png'];
-self.addEventListener('install',e=>e.waitUntil(caches.open(CACHE).then(c=>c.addAll(CORE)).then(()=>self.skipWaiting())));
-self.addEventListener('activate',e=>e.waitUntil(caches.keys().then(keys=>Promise.all(keys.filter(k=>k!==CACHE).map(k=>caches.delete(k)))).then(()=>self.clients.claim())));
-self.addEventListener('fetch',e=>{
-  if(e.request.method!=='GET')return;
-  const u=new URL(e.request.url);
-  const fresh=['coa-database.json','inventory.xlsx','index.html','v4.js','v4.css'].some(x=>u.pathname.endsWith(x));
-  if(fresh){
-    e.respondWith(fetch(e.request).then(r=>{const c=r.clone();caches.open(CACHE).then(x=>x.put(e.request,c));return r}).catch(()=>caches.match(e.request)));
-  }else{
-    e.respondWith(caches.match(e.request).then(r=>r||fetch(e.request).then(n=>{const c=n.clone();caches.open(CACHE).then(x=>x.put(e.request,c));return n})));
-  }
-});
+const CACHE_NAME='thefuture-fixed-all-20260719-v5';
+const STATIC=['./','./index.html','./coa-database.json','./inventory.xlsx','./inventory_updated.xlsx','./styles.css','./app.js','./manifest.json','./peptides.json','./dosage-tracker.html','./health-dynamics.html','./assets/coa/GHK-CU50MG-2026-06-29-Freedom.jpg'];
+self.addEventListener('install',e=>e.waitUntil(caches.open(CACHE_NAME).then(c=>c.addAll(STATIC)).then(()=>self.skipWaiting())));
+self.addEventListener('activate',e=>e.waitUntil(caches.keys().then(keys=>Promise.all(keys.filter(k=>k!==CACHE_NAME).map(k=>caches.delete(k)))).then(()=>self.clients.claim())));
+self.addEventListener('fetch',e=>{if(e.request.method!=='GET')return;const u=new URL(e.request.url);const fresh=/coa-database\.json|inventory(_updated)?\.xlsx|index\.html$/.test(u.pathname);if(fresh){e.respondWith(fetch(e.request,{cache:'no-store'}).then(r=>{const copy=r.clone();caches.open(CACHE_NAME).then(c=>c.put(e.request,copy));return r;}).catch(()=>caches.match(e.request)));}else{e.respondWith(caches.match(e.request).then(c=>c||fetch(e.request)));}});
