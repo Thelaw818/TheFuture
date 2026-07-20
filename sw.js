@@ -1,4 +1,4 @@
-const CACHE_NAME='thefuture-true-35-20260719-v1';
+const CACHE_NAME='thefuture-fixed-all-20260719-v5';
 const STATIC=['./','./index.html','./coa-database.json','./inventory.xlsx','./inventory_updated.xlsx','./styles.css','./app.js','./manifest.json','./peptides.json','./dosage-tracker.html','./health-dynamics.html','./assets/coa/GHK-CU50MG-2026-06-29-Freedom.jpg'];
 self.addEventListener('install',e=>e.waitUntil(caches.open(CACHE_NAME).then(c=>c.addAll(STATIC)).then(()=>self.skipWaiting())));
 self.addEventListener('activate',e=>e.waitUntil(caches.keys().then(keys=>Promise.all(keys.filter(k=>k!==CACHE_NAME).map(k=>caches.delete(k)))).then(()=>self.clients.claim())));
