@@ -69,4 +69,4 @@ Functionality preserved:
 - Search fields, downloads, workbook viewer, certificate detail modal, and calculator behavior remain connected.
 
 How to use:
-Open index.html from the folder, or host the folder on any static web server. Keep inventory.xlsx in the same folder as index.html for the live workbook data source.
+Open index.html from the folder, or host the folder on any static web server. Keep inventory.xlsx in the same folder as index.html for the live workbook data source....
