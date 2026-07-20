@@ -1,0 +1,18 @@
+PEPTIDE RESEARCH INTELLIGENCE V4.1 — GITHUB UPLOAD
+
+1. Extract this ZIP.
+2. Open your GitHub repository: Thelaw818/TheFuture
+3. Upload ALL extracted files and folders directly into the repository root.
+4. Replace existing index.html, sw.js, manifest.json and related files.
+5. Commit directly to main.
+6. In Settings > Pages, choose GitHub Actions.
+7. Open Actions and run the included deployment workflow if it does not start automatically.
+8. After deployment, open the site in a private window or hard-refresh.
+
+Verification:
+- COA records: 35
+- Required final record: COA-0035 GHK-Cu
+- Main upgrade files: v4.css, v4.js, V4_VERIFICATION.json
+- QR files: assets/qr/COA-0001.png through COA-0035.png
+
+- Background asset: assets/backgrounds/peptide-chain-dashboard-bg.png

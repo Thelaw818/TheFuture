@@ -1,0 +1,27 @@
+{
+  "status": "PASS",
+  "version": "4.1.35",
+  "coa_record_count": 35,
+  "embedded_database_record_count": 35,
+  "required_record": "COA-0035 GHK-Cu",
+  "features": [
+    "dark/light glassmorphism interface",
+    "skeleton loading states",
+    "animated KPIs and transitions",
+    "global fuzzy search",
+    "35 direct QR verification codes",
+    "last-synced and integrity badge",
+    "side-by-side certificate image and parsed data",
+    "purity trend charts",
+    "lab reliability analytics",
+    "anomaly detection",
+    "two-batch comparison",
+    "CSV and print/PDF export",
+    "offline PWA caching",
+    "responsive mobile layout",
+    "peptide-chain futuristic main-page background with responsive readability overlay"
+  ],
+  "database_sha256": "8775274fd3e32d61ccc7efa9e6a9c5940c535b78583b2eed56325c42108ac7fb",
+  "background": "assets/backgrounds/peptide-chain-dashboard-bg.png",
+  "background_sha256": "7b3fc1fb6f17a4519ce3df1f0047ac37fb0cfeca6f5b4eac62c66bdbd25410bd"
+}
