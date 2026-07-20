@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "total_coa_records": 35,
+  "ghk_cu": {
+    "coa_id": "COA-0035",
+    "compound": "GHK-Cu",
+    "purity": 99.77,
+    "actual_content_mg": 50.75,
+    "cap_color": "Clear/Transparent",
+    "crimp_color": "Silver",
+    "image": "assets/coa/GHK-CU50MG-2026-06-29-Freedom.jpg"
+  },
+  "runtime_order": [
+    "coa-database.json",
+    "inventory.xlsx",
+    "embedded fallback"
+  ],
+  "append_only": true
+}
