@@ -1,0 +1,24 @@
+{
+  "status": "PASS",
+  "verified_sources": {
+    "coa-database.json": 35,
+    "index.html embedded database": 35,
+    "inventory.xlsx COA Database": 35,
+    "inventory_updated.xlsx COA Database": 35
+  },
+  "dashboard": {
+    "total_coa_records": 35,
+    "unique_peptides": 14
+  },
+  "required_record": {
+    "coa_id": "COA-0035",
+    "compound": "GHK-Cu",
+    "labeled_mg": 50,
+    "actual_mg": 50.75,
+    "purity_percent": 99.77,
+    "lab": "Freedom Diagnostics",
+    "cap": "Clear/Transparent",
+    "crimp": "Silver"
+  },
+  "append_only": true
+}

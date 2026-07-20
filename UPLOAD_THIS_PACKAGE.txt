@@ -1,0 +1,31 @@
+THEFUTURE — COMPLETE GITHUB-READY PACKAGE
+
+This ZIP has NO outer website folder. After extracting it, upload every extracted file and folder directly to the ROOT of:
+Thelaw818/TheFuture
+
+Important files included:
+- index.html
+- coa-database.json
+- inventory.xlsx
+- inventory_updated.xlsx
+- sw.js
+- assets/coa/...
+- .nojekyll
+- .github/workflows/deploy-pages.yml
+
+GitHub steps:
+1. Extract this ZIP on your computer. GitHub does not unpack ZIP files.
+2. In the repository, choose Add file > Upload files.
+3. Drag ALL extracted items into the upload box, including the .github folder.
+4. Commit directly to main.
+5. Open Settings > Pages and set Source to GitHub Actions.
+6. Open Actions and run "Deploy TheFuture to GitHub Pages" if it does not begin automatically.
+7. After the workflow finishes, test:
+   https://thelaw818.github.io/TheFuture/coa-database.json
+
+Expected website status:
+Master JSON loaded · 35 COAs
+
+Verified GHK-Cu record:
+COA-0035 | GHK-Cu | 50 mg | 50.75 mg actual | 99.77% purity
+Clear/Transparent cap | Silver crimp
