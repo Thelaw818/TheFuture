@@ -1,0 +1,14 @@
+COA Pictures Fix Complete
+
+Valid images included: 69
+Broken/corrupt images excluded: 0
+Image folder: assets/coa/
+Gallery page: coa-pictures.html
+
+The gallery manifest was rebuilt from the actual valid image files.
+All filenames are preserved exactly and URLs are encoded for spaces and parentheses.
+
+Validation: every image listed in coa-pictures.html exists and passed Pillow image verification.
+
+Excluded corrupt files:
+None
