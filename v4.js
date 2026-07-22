@@ -208,9 +208,9 @@ const V4 = {
     const rec=this.find(recId)||this.getRecords().find(r=>this.get(r,'Compound')===document.getElementById('modalTitle')?.textContent);
     if(!rec)return;
     const existing=body.innerHTML,file=this.filePath(rec),id=this.get(rec,'COA ID');
-    const preview=file?(file.toLowerCase().endsWith('.pdf')?`<iframe src="${this.esc(file)}#view=FitH" title="${id} certificate"></iframe>`:`<img src="${this.esc(file)}" alt="${id} certificate image">`):'<p class="muted">No certificate image is linked to this record.</p>';
+    const preview=file?(file.toLowerCase().endsWith('.pdf')?`<iframe src="${this.esc(file)}#view=FitH" title="${id} certificate" onerror="this.parentElement.innerHTML='<p class=&quot;muted&quot;>Certificate file could not be loaded.</p>'"></iframe>`:`<img src="${this.esc(file)}" alt="${id} certificate image" onerror="this.parentElement.innerHTML='<p class=&quot;muted&quot;>Certificate image could not be loaded.</p>'">`):'<p class="muted">No certificate image is linked to this record.</p>';
     body.innerHTML=`<div class="v4-detail-grid"><div class="v4-coa-preview">${preview}</div><div class="v4-detail-side">
-      <div class="v4-detail-verify"><img class="v4-qr" src="assets/qr/${encodeURIComponent(id)}.png" alt="QR code"><div><b>Direct verification</b><div class="muted">${this.esc(id)} · Scan to reopen this record</div></div></div>${existing}</div></div>`;
+      <div class="v4-detail-verify"><img class="v4-qr" src="assets/qr/${encodeURIComponent(id)}.png" alt="QR code" onerror="this.style.display='none'"><div><b>Direct verification</b><div class="muted">${this.esc(id)} · Scan to reopen this record</div></div></div>${existing}</div></div>`;
     body.dataset.v4done='1';history.replaceState(null,'',`#coa=${encodeURIComponent(id)}`);
   },
   openRecord(id){
