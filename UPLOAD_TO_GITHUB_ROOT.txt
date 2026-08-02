@@ -1,0 +1,20 @@
+CORRECTED DEPLOYMENT INSTRUCTIONS
+
+1. Open your GitHub repository: TheFuture.
+2. Upload the CONTENTS of this package directly into the repository root.
+3. Do not upload a containing folder named TheFuture-main or corrected_root.
+4. Replace index.html when GitHub asks about the existing file.
+5. Commit the changes to the branch used by GitHub Pages (normally main).
+6. Wait for the Pages deployment to finish, then hard-refresh:
+   Windows: Ctrl + F5
+   Mac: Command + Shift + R
+7. Open the Legal & COA Disclaimer tab to verify the new page.
+
+Expected visible changes:
+- Top independent COA repository notice
+- Legal acknowledgment gate on first visit
+- Navigation label: Legal & COA Disclaimer
+- Full legal disclaimer page
+- Legal footer
+
+To test the gate again after accepting, clear site data/local storage for thelaw818.github.io.

@@ -76,10 +76,14 @@ main{max-width:1280px;margin:0 auto;padding:28px 24px 80px;position:relative;z-i
 
 .footer-note{margin-top:34px;color:var(--muted);font-size:12.5px;line-height:1.6;border:1px solid var(--line);background:var(--panel);padding:16px 18px;border-radius:16px}
 .footer-note strong{color:#e5eefb}
+
+.legal-banner{margin:0 0 20px;padding:13px 16px;border:1px solid #0e7490;border-radius:14px;background:linear-gradient(90deg,rgba(8,47,73,.96),rgba(15,118,110,.86));color:#e6fbff;line-height:1.5}.legal-banner strong{color:#fff}.legal-banner a{color:#a5f3fc;font-weight:900}.legal-gate{position:fixed;inset:0;z-index:999;background:rgba(2,6,23,.95);display:flex;align-items:center;justify-content:center;padding:20px;backdrop-filter:blur(10px)}.legal-gate.hidden{display:none}.legal-gate-card{width:min(680px,100%);background:linear-gradient(180deg,#10223a,#081421);border:1px solid #24627b;border-radius:22px;padding:25px;box-shadow:0 30px 90px rgba(0,0,0,.65)}.legal-gate-card h2{margin:0 0 10px}.legal-gate-card p{color:#c7d8eb;line-height:1.55}.legal-check{display:flex;gap:10px;align-items:flex-start;padding:10px 0;line-height:1.45}.legal-check input{margin-top:4px}.legal-accept{margin-top:14px;border:0;border-radius:11px;padding:12px 17px;background:linear-gradient(90deg,#0f766e,#0891b2);color:#fff;font-weight:900;cursor:pointer}.legal-accept:disabled{opacity:.45;cursor:not-allowed}
 </style>
 </head>
 <body>
+<div class="legal-gate" id="legalGate"><div class="legal-gate-card"><div class="eyebrow">COA DOCUMENT REPOSITORY</div><h2>Informational-use acknowledgment</h2><p>Confirm each statement before viewing COA images.</p><label class="legal-check"><input type="checkbox" class="gate-check"><span>This archive displays third-party laboratory documents for informational purposes only.</span></label><label class="legal-check"><input type="checkbox" class="gate-check"><span>No products are sold, distributed, brokered, prescribed, or endorsed through this website.</span></label><label class="legal-check"><input type="checkbox" class="gate-check"><span>A COA is not medical advice, government approval, proof of safety, or independent verification.</span></label><button class="legal-accept" id="legalAccept" disabled>Accept and View Archive</button></div></div>
 <main>
+<div class="legal-banner"><strong>Independent COA Repository Notice:</strong> Documents and images are displayed for informational and transparency purposes only. No products are sold or endorsed. <a href="index.html#readme">Read the full Legal &amp; COA Disclaimer.</a></div>
   <div class="topnav">
     <div class="logo-mini"><div class="box">PA</div><span>Peptide Research Intelligence</span></div>
     <a class="back" href="index.html">← Back to Dashboard</a>
@@ -201,6 +205,9 @@ document.addEventListener('keydown', e => {
 
 $('statCount').textContent = FILES.length;
 render();
+</script>
+<script>
+(function(){const gate=document.getElementById('legalGate'),accept=document.getElementById('legalAccept'),checks=[...document.querySelectorAll('.gate-check')],key='pa_coa_disclaimer_ack_2026_08_01';function update(){accept.disabled=!checks.every(c=>c.checked)}checks.forEach(c=>c.addEventListener('change',update));if(localStorage.getItem(key)==='accepted')gate.classList.add('hidden');accept.addEventListener('click',()=>{if(!accept.disabled){localStorage.setItem(key,'accepted');gate.classList.add('hidden')}})})();
 </script>
 </body>
 </html>
