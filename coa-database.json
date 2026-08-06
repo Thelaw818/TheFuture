@@ -1084,7 +1084,7 @@
         "Redacted",
         "Redacted",
         "Redacted",
-        "Local image: assets/coa/GHK-CU50MG-7-19-26.jpg",
+        "Local image: assets/coa/GHK-CU50MG%207-19-26.jpg",
         "Pass",
         "Append-only: independent test record retained; never overwrite or remove records based only on peptide name.",
         "GHK-Cu 50mg; identity confirmed; blue lyophilized powder; received 06/26/2026; reported 06/29/2026.",
@@ -1132,7 +1132,7 @@
         "RPT-2026-237183",
         "SGX-VP-2026-0728-G37",
         "BB260725A",
-        "Local PDF: assets/coa/COA-RPT-2026-237183-SteriGenix.pdf",
+        "Local PDF: assets/coa/COA%20RPT-2026-237183%20-%20SteriGenix.pdf",
         "Pass",
         "Duplicates removed by same lab/report/date/product",
         "Identity confirmed by LC-MS. Component content reported as 5.37 mg BPC-157 and 5.18 mg TB-500; total 10.55 mg. Heavy metals and batch conformity: no data.",
@@ -1156,7 +1156,7 @@
         "RPT-2026-442015",
         "SGX-VP-2026-0728-K72",
         "TR260725A",
-        "Local PDF: assets/coa/COA-RPT-2026-442015-SteriGenix.pdf",
+        "Local PDF: assets/coa/COA%20RPT-2026-442015%20-%20SteriGenix.pdf",
         "Pass",
         "Duplicates removed by same lab/report/date/product",
         "Identity confirmed by LC-MS. Heavy metals and batch conformity: no data.",
@@ -1180,7 +1180,7 @@
         "RPT-2026-538821",
         "SGX-VP-2026-0728-U17",
         "SM260725A",
-        "Local PDF: assets/coa/COA-RPT-2026-538821-SteriGenix.pdf",
+        "Local PDF: assets/coa/COA%20RPT-2026-538821%20-%20SteriGenix.pdf",
         "Pass",
         "Duplicates removed by same lab/report/date/product",
         "Identity confirmed by LC-MS. Heavy metals and batch conformity: no data.",
@@ -1204,7 +1204,7 @@
         "RPT-2026-654610",
         "SGX-VP-2026-0728-Z53",
         "BC260725A",
-        "Local PDF: assets/coa/COA-RPT-2026-654610-SteriGenix.pdf",
+        "Local PDF: assets/coa/COA%20RPT-2026-654610%20-%20SteriGenix.pdf",
         "Pass",
         "Duplicates removed by same lab/report/date/product",
         "Identity confirmed by LC-MS. Heavy metals and batch conformity: no data.",
@@ -1228,7 +1228,7 @@
         "RPT-2026-697297",
         "SGX-VP-2026-0728-K16",
         "CU260725A",
-        "Local PDF: assets/coa/COA-RPT-2026-697297-SteriGenix.pdf",
+        "Local PDF: assets/coa/COA%20RPT-2026-697297%20-%20SteriGenix.pdf",
         "Pass",
         "Duplicates removed by same lab/report/date/product",
         "Reported as GHK-Cu (Copper Peptide); identity confirmed by LC-MS. Heavy metals and batch conformity: no data.",
@@ -1252,7 +1252,7 @@
         "RPT-2026-822844",
         "SGX-VP-2026-0728-U21",
         "IP260725A",
-        "Local PDF: assets/coa/COA-RPT-2026-822844-SteriGenix.pdf",
+        "Local PDF: assets/coa/COA%20RPT-2026-822844%20-%20SteriGenix.pdf",
         "Pass",
         "Duplicates removed by same lab/report/date/product",
         "Identity confirmed by LC-MS. Heavy metals and batch conformity: no data.",
@@ -1276,7 +1276,7 @@
         "RPT-2026-932680",
         "SGX-VP-2026-0728-G60",
         "RT260725A",
-        "Local PDF: assets/coa/COA-RPT-2026-932680-SteriGenix.pdf",
+        "Local PDF: assets/coa/COA%20RPT-2026-932680%20-%20SteriGenix.pdf",
         "Pass",
         "Duplicates removed by same lab/report/date/product",
         "Identity confirmed by LC-MS. Heavy metals and batch conformity: no data.",
@@ -2888,7 +2888,7 @@
         "Redacted",
         "Redacted",
         "Redacted",
-        "Local image: assets/coa/GHK-CU50MG-7-19-26.jpg",
+        "Local image: assets/coa/GHK-CU50MG%207-19-26.jpg",
         "Pass",
         "Append-only: independent test record retained; never overwrite or remove records based only on peptide name.",
         "GHK-Cu 50mg; identity confirmed; blue lyophilized powder; received 06/26/2026; reported 06/29/2026.",
@@ -2936,7 +2936,7 @@
         "RPT-2026-237183",
         "SGX-VP-2026-0728-G37",
         "BB260725A",
-        "Local PDF: assets/coa/COA-RPT-2026-237183-SteriGenix.pdf",
+        "Local PDF: assets/coa/COA%20RPT-2026-237183%20-%20SteriGenix.pdf",
         "Pass",
         "Duplicates removed by same lab/report/date/product",
         "Identity confirmed by LC-MS. Component content reported as 5.37 mg BPC-157 and 5.18 mg TB-500; total 10.55 mg. Heavy metals and batch conformity: no data.",
@@ -2960,7 +2960,7 @@
         "RPT-2026-442015",
         "SGX-VP-2026-0728-K72",
         "TR260725A",
-        "Local PDF: assets/coa/COA-RPT-2026-442015-SteriGenix.pdf",
+        "Local PDF: assets/coa/COA%20RPT-2026-442015%20-%20SteriGenix.pdf",
         "Pass",
         "Duplicates removed by same lab/report/date/product",
         "Identity confirmed by LC-MS. Heavy metals and batch conformity: no data.",
@@ -2984,7 +2984,7 @@
         "RPT-2026-538821",
         "SGX-VP-2026-0728-U17",
         "SM260725A",
-        "Local PDF: assets/coa/COA-RPT-2026-538821-SteriGenix.pdf",
+        "Local PDF: assets/coa/COA%20RPT-2026-538821%20-%20SteriGenix.pdf",
         "Pass",
         "Duplicates removed by same lab/report/date/product",
         "Identity confirmed by LC-MS. Heavy metals and batch conformity: no data.",
@@ -3008,7 +3008,7 @@
         "RPT-2026-654610",
         "SGX-VP-2026-0728-Z53",
         "BC260725A",
-        "Local PDF: assets/coa/COA-RPT-2026-654610-SteriGenix.pdf",
+        "Local PDF: assets/coa/COA%20RPT-2026-654610%20-%20SteriGenix.pdf",
         "Pass",
         "Duplicates removed by same lab/report/date/product",
         "Identity confirmed by LC-MS. Heavy metals and batch conformity: no data.",
@@ -3032,7 +3032,7 @@
         "RPT-2026-697297",
         "SGX-VP-2026-0728-K16",
         "CU260725A",
-        "Local PDF: assets/coa/COA-RPT-2026-697297-SteriGenix.pdf",
+        "Local PDF: assets/coa/COA%20RPT-2026-697297%20-%20SteriGenix.pdf",
         "Pass",
         "Duplicates removed by same lab/report/date/product",
         "Reported as GHK-Cu (Copper Peptide); identity confirmed by LC-MS. Heavy metals and batch conformity: no data.",
@@ -3056,7 +3056,7 @@
         "RPT-2026-822844",
         "SGX-VP-2026-0728-U21",
         "IP260725A",
-        "Local PDF: assets/coa/COA-RPT-2026-822844-SteriGenix.pdf",
+        "Local PDF: assets/coa/COA%20RPT-2026-822844%20-%20SteriGenix.pdf",
         "Pass",
         "Duplicates removed by same lab/report/date/product",
         "Identity confirmed by LC-MS. Heavy metals and batch conformity: no data.",
@@ -3080,7 +3080,7 @@
         "RPT-2026-932680",
         "SGX-VP-2026-0728-G60",
         "RT260725A",
-        "Local PDF: assets/coa/COA-RPT-2026-932680-SteriGenix.pdf",
+        "Local PDF: assets/coa/COA%20RPT-2026-932680%20-%20SteriGenix.pdf",
         "Pass",
         "Duplicates removed by same lab/report/date/product",
         "Identity confirmed by LC-MS. Heavy metals and batch conformity: no data.",
@@ -3938,7 +3938,7 @@
         "COA-0035",
         "Redacted",
         "Redacted",
-        "Local image: assets/coa/GHK-CU50MG-7-19-26.jpg",
+        "Local image: assets/coa/GHK-CU50MG%207-19-26.jpg",
         "Clear/Transparent",
         "Silver",
         "Clear/transparent flip-off cap with silver aluminum crimp, based on the vial image shown on the COA.",
@@ -3982,7 +3982,7 @@
         "COA-0037",
         "RPT-2026-237183",
         "SGX-VP-2026-0728-G37",
-        "Local PDF: assets/coa/COA-RPT-2026-237183-SteriGenix.pdf",
+        "Local PDF: assets/coa/COA%20RPT-2026-237183%20-%20SteriGenix.pdf",
         "Red",
         "Silver",
         "Red flip-off cap with silver aluminum crimp, as listed in the COA.",
@@ -4004,7 +4004,7 @@
         "COA-0038",
         "RPT-2026-442015",
         "SGX-VP-2026-0728-K72",
-        "Local PDF: assets/coa/COA-RPT-2026-442015-SteriGenix.pdf",
+        "Local PDF: assets/coa/COA%20RPT-2026-442015%20-%20SteriGenix.pdf",
         "Yellow",
         "Silver",
         "Yellow flip-off cap with silver aluminum crimp, as listed in the COA.",
@@ -4026,7 +4026,7 @@
         "COA-0039",
         "RPT-2026-538821",
         "SGX-VP-2026-0728-U17",
-        "Local PDF: assets/coa/COA-RPT-2026-538821-SteriGenix.pdf",
+        "Local PDF: assets/coa/COA%20RPT-2026-538821%20-%20SteriGenix.pdf",
         "Blue",
         "Silver",
         "Blue flip-off cap with silver aluminum crimp, as listed in the COA.",
@@ -4048,7 +4048,7 @@
         "COA-0040",
         "RPT-2026-654610",
         "SGX-VP-2026-0728-Z53",
-        "Local PDF: assets/coa/COA-RPT-2026-654610-SteriGenix.pdf",
+        "Local PDF: assets/coa/COA%20RPT-2026-654610%20-%20SteriGenix.pdf",
         "Green",
         "Silver",
         "Green flip-off cap with silver aluminum crimp, as listed in the COA.",
@@ -4070,7 +4070,7 @@
         "COA-0041",
         "RPT-2026-697297",
         "SGX-VP-2026-0728-K16",
-        "Local PDF: assets/coa/COA-RPT-2026-697297-SteriGenix.pdf",
+        "Local PDF: assets/coa/COA%20RPT-2026-697297%20-%20SteriGenix.pdf",
         "Blue",
         "Silver",
         "Blue flip-off cap with silver aluminum crimp, as listed in the COA.",
@@ -4092,7 +4092,7 @@
         "COA-0042",
         "RPT-2026-822844",
         "SGX-VP-2026-0728-U21",
-        "Local PDF: assets/coa/COA-RPT-2026-822844-SteriGenix.pdf",
+        "Local PDF: assets/coa/COA%20RPT-2026-822844%20-%20SteriGenix.pdf",
         "White",
         "Silver",
         "White flip-off cap with silver aluminum crimp, as listed in the COA.",
@@ -4114,7 +4114,7 @@
         "COA-0043",
         "RPT-2026-932680",
         "SGX-VP-2026-0728-G60",
-        "Local PDF: assets/coa/COA-RPT-2026-932680-SteriGenix.pdf",
+        "Local PDF: assets/coa/COA%20RPT-2026-932680%20-%20SteriGenix.pdf",
         "Clear",
         "Copper",
         "Clear flip-off cap with copper aluminum crimp, as listed in the COA.",
@@ -4956,7 +4956,7 @@
         "Freedom Diagnostics",
         "Redacted",
         "Redacted",
-        "Local image: assets/coa/GHK-CU50MG-7-19-26.jpg",
+        "Local image: assets/coa/GHK-CU50MG%207-19-26.jpg",
         "Yes",
         50,
         50.75,
@@ -5002,7 +5002,7 @@
         "SteriGenix",
         "RPT-2026-237183",
         "SGX-VP-2026-0728-G37",
-        "Local PDF: assets/coa/COA-RPT-2026-237183-SteriGenix.pdf",
+        "Local PDF: assets/coa/COA%20RPT-2026-237183%20-%20SteriGenix.pdf",
         "Yes",
         10,
         10.55,
@@ -5025,7 +5025,7 @@
         "SteriGenix",
         "RPT-2026-442015",
         "SGX-VP-2026-0728-K72",
-        "Local PDF: assets/coa/COA-RPT-2026-442015-SteriGenix.pdf",
+        "Local PDF: assets/coa/COA%20RPT-2026-442015%20-%20SteriGenix.pdf",
         "Yes",
         10,
         10.09,
@@ -5048,7 +5048,7 @@
         "SteriGenix",
         "RPT-2026-538821",
         "SGX-VP-2026-0728-U17",
-        "Local PDF: assets/coa/COA-RPT-2026-538821-SteriGenix.pdf",
+        "Local PDF: assets/coa/COA%20RPT-2026-538821%20-%20SteriGenix.pdf",
         "Yes",
         5,
         5.07,
@@ -5071,7 +5071,7 @@
         "SteriGenix",
         "RPT-2026-654610",
         "SGX-VP-2026-0728-Z53",
-        "Local PDF: assets/coa/COA-RPT-2026-654610-SteriGenix.pdf",
+        "Local PDF: assets/coa/COA%20RPT-2026-654610%20-%20SteriGenix.pdf",
         "Yes",
         5,
         5.13,
@@ -5094,7 +5094,7 @@
         "SteriGenix",
         "RPT-2026-697297",
         "SGX-VP-2026-0728-K16",
-        "Local PDF: assets/coa/COA-RPT-2026-697297-SteriGenix.pdf",
+        "Local PDF: assets/coa/COA%20RPT-2026-697297%20-%20SteriGenix.pdf",
         "Yes",
         50,
         51.34,
@@ -5117,7 +5117,7 @@
         "SteriGenix",
         "RPT-2026-822844",
         "SGX-VP-2026-0728-U21",
-        "Local PDF: assets/coa/COA-RPT-2026-822844-SteriGenix.pdf",
+        "Local PDF: assets/coa/COA%20RPT-2026-822844%20-%20SteriGenix.pdf",
         "Yes",
         5,
         5.17,
@@ -5140,7 +5140,7 @@
         "SteriGenix",
         "RPT-2026-932680",
         "SGX-VP-2026-0728-G60",
-        "Local PDF: assets/coa/COA-RPT-2026-932680-SteriGenix.pdf",
+        "Local PDF: assets/coa/COA%20RPT-2026-932680%20-%20SteriGenix.pdf",
         "Yes",
         10,
         10.36,
@@ -7442,7 +7442,7 @@
       ],
       [
         "PDF",
-        "assets/coa/COA-RPT-2026-237183-SteriGenix.pdf"
+        "assets/coa/COA RPT-2026-237183 - SteriGenix.pdf"
       ]
     ],
     "COA_COA_0038": [
@@ -7512,7 +7512,7 @@
       ],
       [
         "PDF",
-        "assets/coa/COA-RPT-2026-442015-SteriGenix.pdf"
+        "assets/coa/COA RPT-2026-442015 - SteriGenix.pdf"
       ]
     ],
     "COA_COA_0039": [
@@ -7582,7 +7582,7 @@
       ],
       [
         "PDF",
-        "assets/coa/COA-RPT-2026-538821-SteriGenix.pdf"
+        "assets/coa/COA RPT-2026-538821 - SteriGenix.pdf"
       ]
     ],
     "COA_COA_0040": [
@@ -7652,7 +7652,7 @@
       ],
       [
         "PDF",
-        "assets/coa/COA-RPT-2026-654610-SteriGenix.pdf"
+        "assets/coa/COA RPT-2026-654610 - SteriGenix.pdf"
       ]
     ],
     "COA_COA_0041": [
@@ -7722,7 +7722,7 @@
       ],
       [
         "PDF",
-        "assets/coa/COA-RPT-2026-697297-SteriGenix.pdf"
+        "assets/coa/COA RPT-2026-697297 - SteriGenix.pdf"
       ]
     ],
     "COA_COA_0042": [
@@ -7792,7 +7792,7 @@
       ],
       [
         "PDF",
-        "assets/coa/COA-RPT-2026-822844-SteriGenix.pdf"
+        "assets/coa/COA RPT-2026-822844 - SteriGenix.pdf"
       ]
     ],
     "COA_COA_0043": [
@@ -7862,7 +7862,7 @@
       ],
       [
         "PDF",
-        "assets/coa/COA-RPT-2026-932680-SteriGenix.pdf"
+        "assets/coa/COA RPT-2026-932680 - SteriGenix.pdf"
       ]
     ],
     "COA_COA_0044": [
