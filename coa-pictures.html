@@ -78,6 +78,7 @@ main{max-width:1280px;margin:0 auto;padding:28px 24px 80px;position:relative;z-i
 .footer-note strong{color:#e5eefb}
 
 .legal-banner{margin:0 0 20px;padding:13px 16px;border:1px solid #0e7490;border-radius:14px;background:linear-gradient(90deg,rgba(8,47,73,.96),rgba(15,118,110,.86));color:#e6fbff;line-height:1.5}.legal-banner strong{color:#fff}.legal-banner a{color:#a5f3fc;font-weight:900}.legal-gate{position:fixed;inset:0;z-index:999;background:rgba(2,6,23,.95);display:flex;align-items:center;justify-content:center;padding:20px;backdrop-filter:blur(10px)}.legal-gate.hidden{display:none}.legal-gate-card{width:min(680px,100%);background:linear-gradient(180deg,#10223a,#081421);border:1px solid #24627b;border-radius:22px;padding:25px;box-shadow:0 30px 90px rgba(0,0,0,.65)}.legal-gate-card h2{margin:0 0 10px}.legal-gate-card p{color:#c7d8eb;line-height:1.55}.legal-check{display:flex;gap:10px;align-items:flex-start;padding:10px 0;line-height:1.45}.legal-check input{margin-top:4px}.legal-accept{margin-top:14px;border:0;border-radius:11px;padding:12px 17px;background:linear-gradient(90deg,#0f766e,#0891b2);color:#fff;font-weight:900;cursor:pointer}.legal-accept:disabled{opacity:.45;cursor:not-allowed}
+.pdf-link{display:block;margin:8px 10px 10px;padding:8px 10px;border-radius:8px;background:#0b66c3;color:#fff;text-align:center;text-decoration:none;font-weight:700;font-size:13px}.pdf-link:hover{filter:brightness(1.08)}
 </style>
 </head>
 <body>
@@ -141,47 +142,61 @@ main{max-width:1280px;margin:0 auto;padding:28px 24px 80px;position:relative;z-i
 </div>
 
 <script>
-const FILES = ["000c296adb6a7c1f9788.png", "03bc4d407e453b774d333df4a76227c7.jpg", "0a039173eb30ee5c678a.png", "1385c72e9a5cfabe489467555ebe20c2.jpg", "13cfc7c2f6b80062fc9f9fe1682323f1.jpg", "150313a499448907fede.jpg", "22a769fdae61dd02ba2f.png", "2c434fe8ecd507ae786ab9a9209fb36b.jpg", "4446c107ff459181b54e9fb46a945603.jpg", "472ae51ae9855178d8a0.jpg", "4758c18b2b91f7b1da83.png", "5c6680a976be0b36fb1b.png", "5fec70e0a37ade8fb8d0.png", "63b839203ea8938063322bd81deb5f19.jpg", "849b799881be1d98cdf6.png", "8f7d753fb461ccd4146ff44cf61dc05b.jpg", "98080414966ddab87146.png", "a666c693c0acaafb1417.png", "ae0f3e83f7b419b09dbb698886c185a4.jpg", "b251d85eeaeb467b053e.png", "b2ba3d6572a07818e1f3.jpg", "b8b4cf08daaec38f42d8.png", "cced482e390f29c3e98a.png", "COA RPT-2026-237183 - SteriGenix__preview.png", "COA RPT-2026-442015 - SteriGenix__preview.png", "COA RPT-2026-538821 - SteriGenix__preview.png", "COA RPT-2026-654610 - SteriGenix__preview.png", "COA RPT-2026-697297 - SteriGenix__preview.png", "COA RPT-2026-822844 - SteriGenix__preview.png", "COA RPT-2026-932680 - SteriGenix__preview.png", "d5bd6505426a23763d31.jpg", "ec784a5bfc2e9f29e7d7.png", "Elor5-20260731S0925_report__preview.png", "f738b9653f14d398fdd5.jpg", "f7401a36cb7b1e81a04220169d4ff05a.jpg", "GHK-CU50MG 7-19-26.jpg", "IMG_20260622_180620_451.jpg", "IMG_20260622_180632_557.jpg", "IMG_20260622_180638_459.jpg", "IMG_20260622_195230_162.jpg", "IMG_20260622_195230_314.jpg", "KLOW80mg-02.png", "L7n-8eBfEWqpkRbofPhSGTXt1xRlzoRmiprVQ9fl-6__preview.png", "photo_2026-05-16_17-59-13.jpg", "photo_2026-05-17_20-01-43.jpg", "photo_2026-05-17_20-04-11.jpg", "photo_2026-05-17_20-08-50.jpg", "photo_2026-05-22_06-39-49.jpg", "photo_2026-06-05_23-54-28.jpg", "photo_2026-06-05_23-54-58.jpg", "PT-BPCTB-10-062226-01__preview.png", "PT-MOTS-40-062226-01__preview.png", "PT-RETA-20-062226-01__preview.png", "PT-RETA-30-062226-01__preview.png", "rtJJMlELy-lXjf_wVSi5uf5Xmd6EInvkl5izZ-kvwZ__preview.png", "Screenshot_20260715_221905_My Files.jpg", "Screenshot_20260715_222024_My Files.jpg", "Screenshot_20260715_222037_My Files.jpg", "Screenshot_20260715_222054_My Files.jpg", "Test-Report-155127.png"];
+const NEW_ITEMS = [
+  {preview:"COA RPT-2026-237183 - SteriGenix__preview.png", pdf:"COA RPT-2026-237183 - SteriGenix.pdf", label:"Retatrutide — COA-0037"},
+  {preview:"COA RPT-2026-442015 - SteriGenix__preview.png", pdf:"COA RPT-2026-442015 - SteriGenix.pdf", label:"Tirzepatide — COA-0038"},
+  {preview:"COA RPT-2026-538821 - SteriGenix__preview.png", pdf:"COA RPT-2026-538821 - SteriGenix.pdf", label:"Semaglutide — COA-0039"},
+  {preview:"COA RPT-2026-654610 - SteriGenix__preview.png", pdf:"COA RPT-2026-654610 - SteriGenix.pdf", label:"BPC-157 — COA-0040"},
+  {preview:"COA RPT-2026-697297 - SteriGenix__preview.png", pdf:"COA RPT-2026-697297 - SteriGenix.pdf", label:"GHK-Cu — COA-0041"},
+  {preview:"COA RPT-2026-822844 - SteriGenix__preview.png", pdf:"COA RPT-2026-822844 - SteriGenix.pdf", label:"Ipamorelin — COA-0042"},
+  {preview:"COA RPT-2026-932680 - SteriGenix__preview.png", pdf:"COA RPT-2026-932680 - SteriGenix.pdf", label:"CJC-1295 No DAC — COA-0043"},
+  {preview:"Elor5-20260731S0925_report__preview.png", pdf:"Elor5-20260731S0925_report.pdf", label:"Eloralintide — COA-0044"}
+];
+const OLD_FILES = ["000c296adb6a7c1f9788.png", "03bc4d407e453b774d333df4a76227c7.jpg", "0a039173eb30ee5c678a.png", "1385c72e9a5cfabe489467555ebe20c2.jpg", "13cfc7c2f6b80062fc9f9fe1682323f1.jpg", "150313a499448907fede.jpg", "22a769fdae61dd02ba2f.png", "2c434fe8ecd507ae786ab9a9209fb36b.jpg", "4446c107ff459181b54e9fb46a945603.jpg", "472ae51ae9855178d8a0.jpg", "4758c18b2b91f7b1da83.png", "5c6680a976be0b36fb1b.png", "5fec70e0a37ade8fb8d0.png", "63b839203ea8938063322bd81deb5f19.jpg", "849b799881be1d98cdf6.png", "8f7d753fb461ccd4146ff44cf61dc05b.jpg", "98080414966ddab87146.png", "a666c693c0acaafb1417.png", "ae0f3e83f7b419b09dbb698886c185a4.jpg", "b251d85eeaeb467b053e.png", "b2ba3d6572a07818e1f3.jpg", "b8b4cf08daaec38f42d8.png", "cced482e390f29c3e98a.png", "d5bd6505426a23763d31.jpg", "ec784a5bfc2e9f29e7d7.png", "f738b9653f14d398fdd5.jpg", "f7401a36cb7b1e81a04220169d4ff05a.jpg", "GHK-CU50MG 7-19-26.jpg", "IMG_20260622_180620_451.jpg", "IMG_20260622_180632_557.jpg", "IMG_20260622_180638_459.jpg", "IMG_20260622_195230_162.jpg", "IMG_20260622_195230_314.jpg", "KLOW80mg-02.png", "L7n-8eBfEWqpkRbofPhSGTXt1xRlzoRmiprVQ9fl-6__preview.png", "photo_2026-05-16_17-59-13.jpg", "photo_2026-05-17_20-01-43.jpg", "photo_2026-05-17_20-04-11.jpg", "photo_2026-05-17_20-08-50.jpg", "photo_2026-05-22_06-39-49.jpg", "photo_2026-06-05_23-54-28.jpg", "photo_2026-06-05_23-54-58.jpg", "PT-BPCTB-10-062226-01__preview.png", "PT-MOTS-40-062226-01__preview.png", "PT-RETA-20-062226-01__preview.png", "PT-RETA-30-062226-01__preview.png", "rtJJMlELy-lXjf_wVSi5uf5Xmd6EInvkl5izZ-kvwZ__preview.png", "Screenshot_20260715_221905_My Files.jpg", "Screenshot_20260715_222024_My Files.jpg", "Screenshot_20260715_222037_My Files.jpg", "Screenshot_20260715_222054_My Files.jpg", "Test-Report-155127.png"];
+const ITEMS = [...NEW_ITEMS, ...OLD_FILES.map(f => ({preview:f, pdf:null, label:f}))];
 const BASE = "assets/coa/";
 
 const $ = id => document.getElementById(id);
 const urlFor = f => BASE + encodeURIComponent(f).replace(/%2F/g, '/');
 
-let filtered = FILES.slice();
+let filtered = ITEMS.slice();
 let currentIndex = -1;
 
 function updateVisibleCount(){
   const visible = document.querySelectorAll('.pic').length;
-  $('countPill').textContent = `${visible} of ${FILES.length} images`;
+  $('countPill').textContent = `${visible} of ${ITEMS.length} images`;
   $('statCount').textContent = visible;
 }
 
 function render(){
   const q = ($('search').value || '').toLowerCase();
-  filtered = FILES.filter(f => f.toLowerCase().includes(q));
-  $('countPill').textContent = `${filtered.length} of ${FILES.length} images`;
+  filtered = ITEMS.filter(item => (item.preview+' '+item.label).toLowerCase().includes(q));
+  $('countPill').textContent = `${filtered.length} of ${ITEMS.length} images`;
   const gallery = $('gallery');
   if(!filtered.length){
     gallery.innerHTML = '<div class="empty">No images match that search.</div>';
     return;
   }
-  gallery.innerHTML = filtered.map((f, i) => `
+  gallery.innerHTML = filtered.map((item, i) => `
     <div class="pic" data-idx="${i}">
-      <img src="${urlFor(f)}" alt="${f.replace(/"/g,'')}" loading="lazy" onerror="this.closest('.pic').remove(); updateVisibleCount();" />
+      <img src="${urlFor(item.preview)}" alt="${item.label.replace(/"/g,'')}" loading="lazy" onerror="this.closest('.pic').remove(); updateVisibleCount();" />
       <div class="zoom">⤢</div>
-      <div class="tag">${f.length > 26 ? f.slice(0,23)+'…' : f}</div>
+      <div class="tag">${item.label.length > 32 ? item.label.slice(0,29)+'…' : item.label}</div>
+      ${item.pdf ? `<a class="pdf-link" href="${urlFor(item.pdf)}" target="_blank" rel="noopener" onclick="event.stopPropagation()">Open PDF</a>` : ''}
     </div>`).join('');
   gallery.querySelectorAll('.pic').forEach(el => el.addEventListener('click', () => openLightbox(+el.dataset.idx)));
 }
 
 function openLightbox(i){
   currentIndex = i;
-  const f = filtered[i];
-  $('lbImg').src = urlFor(f);
-  $('lbImg').alt = f;
-  $('lbCaption').textContent = f;
-  $('lbDownload').href = urlFor(f);
-  $('lbDownload').setAttribute('download', f);
+  const item = filtered[i];
+  $('lbImg').src = urlFor(item.preview);
+  $('lbImg').alt = item.label;
+  $('lbCaption').textContent = item.label;
+  $('lbDownload').href = item.pdf ? urlFor(item.pdf) : urlFor(item.preview);
+  $('lbDownload').textContent = item.pdf ? 'Open COA PDF' : 'Download';
+  if(item.pdf){ $('lbDownload').removeAttribute('download'); $('lbDownload').setAttribute('target','_blank'); }
+  else { $('lbDownload').setAttribute('download', item.preview); $('lbDownload').removeAttribute('target'); }
   $('lightbox').classList.add('show');
 }
 function closeLightbox(){ $('lightbox').classList.remove('show'); }
@@ -203,7 +218,7 @@ document.addEventListener('keydown', e => {
   if(e.key === 'ArrowRight') step(1);
 });
 
-$('statCount').textContent = FILES.length;
+$('statCount').textContent = ITEMS.length;
 render();
 </script>
 <script>
