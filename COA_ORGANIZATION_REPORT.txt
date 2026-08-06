@@ -1,0 +1,18 @@
+PROFESSIONAL COA ORGANIZATION REPORT
+Generated: 2026-08-06
+
+Completed
+- Organized COA PDFs by laboratory and product.
+- Organized COA images separately from PDF documents.
+- Added both uploaded SteriGenix page images for all seven reports.
+- Replaced space-heavy SteriGenix filenames with GitHub Pages-safe names.
+- Updated COA database and website references to the new paths.
+- Corrected gallery labels for COA-0037 and COA-0043.
+- Preserved unknown historical images under legacy/unclassified instead of guessing their identity.
+- Removed redundant duplicate SteriGenix PDF copies from the deployment package.
+
+Deployment
+Upload the CONTENTS of TheFuture-main-professional to the GitHub repository root.
+Do not upload the outer folder as an extra nested directory.
+
+File count: 89 organized COA files.

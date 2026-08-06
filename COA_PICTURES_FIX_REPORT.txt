@@ -7,14 +7,14 @@ QR codes generated: 36 (assets/qr/COA-0001.png ... COA-0036.png)
 Broken database image links fixed: 4 (1 corrected to real file, 3 marked "no image on file" since the referenced files were never actually uploaded)
 
 Duplicate groups removed (kept first, deleted rest):
-- KLOW80mg-02.png  == KLOW80mg-02__preview.png
+- images/freedom-diagnostics/klow-80mg/KLOW80mg-02.png  == KLOW80mg-02__preview.png
 - rtJJMlELy...__preview.png == rtJJMlELy...-1__preview.png  (and the two source PDFs were also identical; the "-1" copy of everything was removed)
-- Test-Report-155127.png == -1,-2,-3,-4,-5,-6 == 0fe6b6e0e7dc16328751.png  (8 identical copies of one image)
-- b8b4cf08daaec38f42d8.png == 91d896e168573749bff2.png
-- ae0f3e83f7b419b09dbb698886c185a4.jpg == ae0f3e83f7b419b09dbb698886c185a4(1).jpg
-- photo_2026-05-17_20-08-50.jpg == photo_2026-05-17_20-08-50-2.jpg
-- b251d85eeaeb467b053e.png == b251d85eeaeb467b053e(1).png
-- a666c693c0acaafb1417.png == a666c693c0acaafb1417(1).png == a666c693c0acaafb1417(2).png  (3 copies)
-- IMG_20260622_180632_557.jpg == photo_2026-06-15_19-52-38.jpg == IMG_20260615_213101_179.jpg  (3 copies)
+- legacy/unclassified/Test-Report-155127.png == -1,-2,-3,-4,-5,-6 == 0fe6b6e0e7dc16328751.png  (8 identical copies of one image)
+- legacy/unclassified/b8b4cf08daaec38f42d8.png == 91d896e168573749bff2.png
+- legacy/unclassified/ae0f3e83f7b419b09dbb698886c185a4.jpg == ae0f3e83f7b419b09dbb698886c185a4(1).jpg
+- legacy/unclassified/photo_2026-05-17_20-08-50.jpg == photo_2026-05-17_20-08-50-2.jpg
+- legacy/unclassified/b251d85eeaeb467b053e.png == b251d85eeaeb467b053e(1).png
+- legacy/unclassified/a666c693c0acaafb1417.png == a666c693c0acaafb1417(1).png == a666c693c0acaafb1417(2).png  (3 copies)
+- legacy/unclassified/IMG_20260622_180632_557.jpg == photo_2026-06-15_19-52-38.jpg == IMG_20260615_213101_179.jpg  (3 copies)
 
 Validation: every remaining image passed Pillow verify(); every PDF passed pypdf parsing; gallery manifest matches assets/coa/ contents exactly (52/52, 0 missing, 0 extra, 0 duplicate content).

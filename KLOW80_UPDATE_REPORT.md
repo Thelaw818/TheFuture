@@ -13,7 +13,7 @@ Added COA-0036 (Freedom Diagnostics) throughout the database and workbook.
 - Appearance: Blue lyophilized powder
 - Cap color: Yellow
 - Crimp color: Silver
-- PDF: assets/coa/KLOW80mg-02.pdf
-- Preview: assets/coa/KLOW80mg-02.png
+- PDF: assets/coa/documents/freedom-diagnostics/klow-80mg/KLOW80mg-02.pdf
+- Preview: assets/coa/images/freedom-diagnostics/klow-80mg/images/freedom-diagnostics/klow-80mg/KLOW80mg-02.png
 
 Synchronized into Dashboard, COA Database, Purity Rankings, Batch History, Lab Match, Inventory, Certificates, Lists, COA Status, and a dedicated COA_KLOW80_Freedom sheet.

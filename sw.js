@@ -1,5 +1,5 @@
 const CACHE_NAME='thefuture-coa-20260805-v99';
-const STATIC=['./','./index.html','./coa-database.json','./inventory.xlsx','./inventory_updated.xlsx','./styles.css','./app.js','./manifest.json','./peptides.json','./dosage-tracker.html','./health-dynamics.html','./assets/coa/GHK-CU50MG 7-19-26.jpg'];
+const STATIC=['./','./index.html','./coa-database.json','./inventory.xlsx','./inventory_updated.xlsx','./styles.css','./app.js','./manifest.json','./peptides.json','./dosage-tracker.html','./health-dynamics.html','./assets/coa/images/freedom-diagnostics/ghk-cu/GHK-CU50MG-2026-06-29-Freedom.jpg'];
 self.addEventListener('install',e=>e.waitUntil(caches.open(CACHE_NAME).then(c=>c.addAll(STATIC)).then(()=>self.skipWaiting())));
 self.addEventListener('activate',e=>e.waitUntil(caches.keys().then(keys=>Promise.all(keys.filter(k=>k!==CACHE_NAME).map(k=>caches.delete(k)))).then(()=>self.clients.claim())));
 self.addEventListener('fetch',e=>{if(e.request.method!=='GET')return;const u=new URL(e.request.url);const fresh=/coa-database\.json|inventory(_updated)?\.xlsx|index\.html$/.test(u.pathname);if(fresh){e.respondWith(fetch(e.request,{cache:'no-store'}).then(r=>{const copy=r.clone();caches.open(CACHE_NAME).then(c=>c.put(e.request,copy));return r;}).catch(()=>caches.match(e.request)));}else{e.respondWith(caches.match(e.request).then(c=>c||fetch(e.request)));}});
