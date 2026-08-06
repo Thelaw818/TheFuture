@@ -1,4 +1,4 @@
-const CACHE_NAME='thefuture-coa-20260805-v1';
+const CACHE_NAME='thefuture-coa-20260805-v99';
 const STATIC=['./','./index.html','./coa-database.json','./inventory.xlsx','./inventory_updated.xlsx','./styles.css','./app.js','./manifest.json','./peptides.json','./dosage-tracker.html','./health-dynamics.html','./assets/coa/GHK-CU50MG 7-19-26.jpg'];
 self.addEventListener('install',e=>e.waitUntil(caches.open(CACHE_NAME).then(c=>c.addAll(STATIC)).then(()=>self.skipWaiting())));
 self.addEventListener('activate',e=>e.waitUntil(caches.keys().then(keys=>Promise.all(keys.filter(k=>k!==CACHE_NAME).map(k=>caches.delete(k)))).then(()=>self.clients.claim())));
