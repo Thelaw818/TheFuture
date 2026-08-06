@@ -1,0 +1,13 @@
+UPLOAD THIS FIRST — COA RECOVERY
+
+This package contains 89 files, below GitHub's 100-file browser upload limit.
+
+1. Unzip this package.
+2. Open the unzipped UPLOAD-FIRST-COA-ONLY folder.
+3. On the GitHub repository root, choose Add file > Upload files.
+4. Drag the folder named assets into the upload box.
+5. Confirm paths begin with assets/coa/.
+6. Commit to main.
+7. Wait for GitHub Pages deployment to finish, then hard-refresh coa-pictures.html.
+
+Do not delete anything else before this upload is complete.
