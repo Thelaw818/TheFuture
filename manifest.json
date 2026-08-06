@@ -17,5 +17,6 @@
       "type": "image/png"
     }
   ],
-  "description": "Local-only private health, wellness, lab, notes, document, calculator, and protocol tracking. Data stays on this device."
+  "description": "Local-only private health, wellness, lab, notes, document, calculator, and protocol tracking. Data stays on this device.",
+  "version": "2026.08.05"
 }

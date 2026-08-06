@@ -1,0 +1,91 @@
+{
+  "status": "PASS",
+  "total_records": 44,
+  "new_records": 8,
+  "new_ids": [
+    "COA-0037",
+    "COA-0038",
+    "COA-0039",
+    "COA-0040",
+    "COA-0041",
+    "COA-0042",
+    "COA-0043",
+    "COA-0044"
+  ],
+  "assets_verified": [
+    {
+      "id": "COA-0037",
+      "compound": "BPC-157 / TB-500 Blend",
+      "report": "RPT-2026-237183",
+      "pdf": "assets/coa/COA RPT-2026-237183 - SteriGenix.pdf",
+      "preview": "assets/coa/COA RPT-2026-237183 - SteriGenix__preview.png",
+      "qr": "assets/qr/COA-0037.png"
+    },
+    {
+      "id": "COA-0038",
+      "compound": "Tirzepatide",
+      "report": "RPT-2026-442015",
+      "pdf": "assets/coa/COA RPT-2026-442015 - SteriGenix.pdf",
+      "preview": "assets/coa/COA RPT-2026-442015 - SteriGenix__preview.png",
+      "qr": "assets/qr/COA-0038.png"
+    },
+    {
+      "id": "COA-0039",
+      "compound": "Semaglutide",
+      "report": "RPT-2026-538821",
+      "pdf": "assets/coa/COA RPT-2026-538821 - SteriGenix.pdf",
+      "preview": "assets/coa/COA RPT-2026-538821 - SteriGenix__preview.png",
+      "qr": "assets/qr/COA-0039.png"
+    },
+    {
+      "id": "COA-0040",
+      "compound": "BPC-157",
+      "report": "RPT-2026-654610",
+      "pdf": "assets/coa/COA RPT-2026-654610 - SteriGenix.pdf",
+      "preview": "assets/coa/COA RPT-2026-654610 - SteriGenix__preview.png",
+      "qr": "assets/qr/COA-0040.png"
+    },
+    {
+      "id": "COA-0041",
+      "compound": "GHK-Cu",
+      "report": "RPT-2026-697297",
+      "pdf": "assets/coa/COA RPT-2026-697297 - SteriGenix.pdf",
+      "preview": "assets/coa/COA RPT-2026-697297 - SteriGenix__preview.png",
+      "qr": "assets/qr/COA-0041.png"
+    },
+    {
+      "id": "COA-0042",
+      "compound": "Ipamorelin",
+      "report": "RPT-2026-822844",
+      "pdf": "assets/coa/COA RPT-2026-822844 - SteriGenix.pdf",
+      "preview": "assets/coa/COA RPT-2026-822844 - SteriGenix__preview.png",
+      "qr": "assets/qr/COA-0042.png"
+    },
+    {
+      "id": "COA-0043",
+      "compound": "Retatrutide",
+      "report": "RPT-2026-932680",
+      "pdf": "assets/coa/COA RPT-2026-932680 - SteriGenix.pdf",
+      "preview": "assets/coa/COA RPT-2026-932680 - SteriGenix__preview.png",
+      "qr": "assets/qr/COA-0043.png"
+    },
+    {
+      "id": "COA-0044",
+      "compound": "Eloralintide",
+      "report": "Elor5-20260731S0925",
+      "pdf": "assets/coa/Elor5-20260731S0925_report.pdf",
+      "preview": "assets/coa/Elor5-20260731S0925_report__preview.png",
+      "qr": "assets/qr/COA-0044.png"
+    }
+  ],
+  "cross_sheet_counts": {
+    "COA Database": 44,
+    "Batch History": 44,
+    "Inventory": 44,
+    "Certificates": 44,
+    "Purity Rankings": 44
+  },
+  "javascript_syntax": "PASS",
+  "pdf_parse": "PASS",
+  "xlsx_zip_integrity": "PASS"
+}

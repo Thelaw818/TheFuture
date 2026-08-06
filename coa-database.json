@@ -1,5 +1,5 @@
 {
-  "version": "2026-07-22-klow80",
+  "version": "2026-08-05-new-coas",
   "sheets": {
     "Dashboard": [
       [
@@ -18,56 +18,56 @@
       ],
       [
         "Total COA Records",
-        36,
+        44,
         "Synced from COA Database",
         null,
         null
       ],
       [
         "Unique Peptides",
-        15,
-        "ADAMAX, AOD-9604, BPC-157, BPC/TB Blend, CJC-1295 No DAC, Cagrilintide, GHK-Cu, KLOW 80mg, KPV, MOTS-C, Retatrutide, SS-31, Semaglutide, TB-500, Tirzepatide",
+        18,
+        "ADAMAX, AOD-9604, BPC-157, BPC-157 / TB-500 Blend, BPC/TB Blend, CJC-1295 No DAC, Cagrilintide, Eloralintide, GHK-Cu, Ipamorelin, KLOW 80mg, KPV, MOTS-C, Retatrutide, SS-31, Semaglutide, TB-500, Tirzepatide",
         null,
         null
       ],
       [
         "Average Purity %",
-        99.647,
+        99.613,
         "Populated purity results",
         null,
         null
       ],
       [
         "Overfilled",
-        26,
+        31,
         null,
         null,
         null
       ],
       [
         "Underfilled",
-        1,
+        2,
         null,
         null,
         null
       ],
       [
         "On Label/Review",
-        9,
+        11,
         null,
         null,
         null
       ],
       [
         "Labs Used",
-        7,
-        "Aminos Analytics, BT Labs, Freedom Diagnostics, Janoshik, Kovera Labs, SteriGenix, Testides",
+        8,
+        "Aminos Analytics, BT Labs, Freedom Diagnostics, Janoshik, Kovera Labs, SteriGenix, Testides, Tianjin Qiangxin (third-party partner lab)",
         null,
         null
       ],
       [
         "Latest COA Date",
-        "2026-07-20",
+        "2026-08-05",
         null,
         null,
         null
@@ -87,25 +87,60 @@
         "Cap Color"
       ],
       [
-        "COA-0036",
-        "KLOW 80mg",
-        "Freedom Diagnostics",
-        99.82,
+        "COA-0043",
+        "Retatrutide",
+        "SteriGenix",
+        99.41,
+        "Clear"
+      ],
+      [
+        "COA-0042",
+        "Ipamorelin",
+        "SteriGenix",
+        99.34,
+        "White"
+      ],
+      [
+        "COA-0041",
+        "GHK-Cu",
+        "SteriGenix",
+        99.78,
+        "Blue"
+      ],
+      [
+        "COA-0040",
+        "BPC-157",
+        "SteriGenix",
+        99.57,
+        "Green"
+      ],
+      [
+        "COA-0039",
+        "Semaglutide",
+        "SteriGenix",
+        99.32,
+        "Blue"
+      ],
+      [
+        "COA-0038",
+        "Tirzepatide",
+        "SteriGenix",
+        99.52,
         "Yellow"
       ],
       [
-        "COA-0035",
-        "GHK-Cu",
-        "Freedom Diagnostics",
-        99.77,
-        "Clear/Transparent"
+        "COA-0037",
+        "BPC-157 / TB-500 Blend",
+        "SteriGenix",
+        99.13,
+        "Red"
       ],
       [
-        "COA-0024",
-        "Retatrutide",
-        "Freedom Diagnostics",
-        99.86,
-        "Clear Green"
+        "COA-0044",
+        "Eloralintide",
+        "Tianjin Qiangxin (third-party partner lab)",
+        99.67,
+        "Not Listed"
       ],
       [
         "COA-0004",
@@ -122,24 +157,10 @@
         "Not Listed"
       ],
       [
-        "COA-0001",
-        null,
-        null,
-        null,
-        "Not Listed"
-      ],
-      [
-        "COA-0012",
-        "AOD-9604",
+        "COA-0023",
+        "Tirzepatide",
         "Janoshik",
-        99.883,
-        "Not Listed"
-      ],
-      [
-        "COA-0021",
-        "CJC-1295 No DAC",
-        "Janoshik",
-        99.897,
+        99.731,
         "Not Listed"
       ],
       [
@@ -150,31 +171,24 @@
         "Not Listed"
       ],
       [
-        "COA-0023",
-        "Tirzepatide",
+        "COA-0021",
+        "CJC-1295 No DAC",
         "Janoshik",
-        99.731,
+        99.897,
         "Not Listed"
       ],
       [
-        "COA-0011",
-        "Cagrilintide",
+        "COA-0012",
+        "AOD-9604",
         "Janoshik",
-        99.04,
+        99.883,
         "Not Listed"
       ],
       [
-        "COA-0014",
-        "MOTS-C",
+        "COA-0001",
+        "Retatrutide",
         "Janoshik",
-        99.055,
-        "Not Listed"
-      ],
-      [
-        "COA-0016",
-        "TB-500",
-        "Janoshik",
-        99.085,
+        99.516,
         "Not Listed"
       ],
       [
@@ -185,53 +199,32 @@
         "Not Listed"
       ],
       [
-        "COA-0028",
-        "BPC/TB Blend",
-        "Testides",
-        99.81,
+        "COA-0016",
+        "TB-500",
+        "Janoshik",
+        99.085,
         "Not Listed"
       ],
       [
-        "COA-0029",
+        "COA-0014",
         "MOTS-C",
-        "Testides",
-        99.39,
+        "Janoshik",
+        99.055,
         "Not Listed"
       ],
       [
-        "COA-0030",
+        "COA-0011",
+        "Cagrilintide",
+        "Janoshik",
+        99.04,
+        "Not Listed"
+      ],
+      [
+        "COA-0006",
         "Retatrutide",
-        "Testides",
-        99.49,
+        "Aminos Analytics",
+        99.5,
         "Not Listed"
-      ],
-      [
-        "COA-0031",
-        "Retatrutide",
-        "Testides",
-        99.58,
-        "Not Listed"
-      ],
-      [
-        "COA-0032",
-        "Semaglutide",
-        "Kovera Labs",
-        99.642,
-        "Black"
-      ],
-      [
-        "COA-0033",
-        "Tirzepatide",
-        "Kovera Labs",
-        99.6,
-        "Blue"
-      ],
-      [
-        "COA-0034",
-        "Tirzepatide",
-        "Kovera Labs",
-        99.747,
-        "Purple"
       ]
     ],
     "COA Database": [
@@ -1122,6 +1115,198 @@
         "Silver",
         "Yellow",
         "Yellow flip-off cap with silver aluminum crimp, based on the vial image shown on page 1 of the COA."
+      ],
+      [
+        "COA-0037",
+        "BPC-157 / TB-500 Blend",
+        "Healing / Recovery Blend",
+        10,
+        10.55,
+        0.5500000000000007,
+        0.05500000000000007,
+        99.13,
+        "Overfilled",
+        "SteriGenix",
+        "Confirmed",
+        46239,
+        "RPT-2026-237183",
+        "SGX-VP-2026-0728-G37",
+        "BB260725A",
+        "Local PDF: assets/coa/COA%20RPT-2026-237183%20-%20SteriGenix.pdf",
+        "Pass",
+        "Duplicates removed by same lab/report/date/product",
+        "Identity confirmed by LC-MS. Component content reported as 5.37 mg BPC-157 and 5.18 mg TB-500; total 10.55 mg. Heavy metals and batch conformity: no data.",
+        "Silver",
+        "Red",
+        "Red flip-off cap with silver aluminum crimp, as listed in the COA."
+      ],
+      [
+        "COA-0038",
+        "Tirzepatide",
+        "GLP-1 / Weight",
+        10,
+        10.09,
+        0.08999999999999986,
+        0.008999999999999985,
+        99.52,
+        "On label",
+        "SteriGenix",
+        "Confirmed",
+        46239,
+        "RPT-2026-442015",
+        "SGX-VP-2026-0728-K72",
+        "TR260725A",
+        "Local PDF: assets/coa/COA%20RPT-2026-442015%20-%20SteriGenix.pdf",
+        "Pass",
+        "Duplicates removed by same lab/report/date/product",
+        "Identity confirmed by LC-MS. Heavy metals and batch conformity: no data.",
+        "Silver",
+        "Yellow",
+        "Yellow flip-off cap with silver aluminum crimp, as listed in the COA."
+      ],
+      [
+        "COA-0039",
+        "Semaglutide",
+        "GLP-1 / Weight",
+        5,
+        5.07,
+        0.07000000000000028,
+        0.014000000000000058,
+        99.32,
+        "On label",
+        "SteriGenix",
+        "Confirmed",
+        46239,
+        "RPT-2026-538821",
+        "SGX-VP-2026-0728-U17",
+        "SM260725A",
+        "Local PDF: assets/coa/COA%20RPT-2026-538821%20-%20SteriGenix.pdf",
+        "Pass",
+        "Duplicates removed by same lab/report/date/product",
+        "Identity confirmed by LC-MS. Heavy metals and batch conformity: no data.",
+        "Silver",
+        "Blue",
+        "Blue flip-off cap with silver aluminum crimp, as listed in the COA."
+      ],
+      [
+        "COA-0040",
+        "BPC-157",
+        "Healing / Recovery",
+        5,
+        5.13,
+        0.1299999999999999,
+        0.025999999999999978,
+        99.57,
+        "Overfilled",
+        "SteriGenix",
+        "Confirmed",
+        46239,
+        "RPT-2026-654610",
+        "SGX-VP-2026-0728-Z53",
+        "BC260725A",
+        "Local PDF: assets/coa/COA%20RPT-2026-654610%20-%20SteriGenix.pdf",
+        "Pass",
+        "Duplicates removed by same lab/report/date/product",
+        "Identity confirmed by LC-MS. Heavy metals and batch conformity: no data.",
+        "Silver",
+        "Green",
+        "Green flip-off cap with silver aluminum crimp, as listed in the COA."
+      ],
+      [
+        "COA-0041",
+        "GHK-Cu",
+        "Cosmetic / Recovery",
+        50,
+        51.34,
+        1.3400000000000034,
+        0.026800000000000067,
+        99.78,
+        "Overfilled",
+        "SteriGenix",
+        "Confirmed",
+        46239,
+        "RPT-2026-697297",
+        "SGX-VP-2026-0728-K16",
+        "CU260725A",
+        "Local PDF: assets/coa/COA%20RPT-2026-697297%20-%20SteriGenix.pdf",
+        "Pass",
+        "Duplicates removed by same lab/report/date/product",
+        "Reported as GHK-Cu (Copper Peptide); identity confirmed by LC-MS. Heavy metals and batch conformity: no data.",
+        "Silver",
+        "Blue",
+        "Blue flip-off cap with silver aluminum crimp, as listed in the COA."
+      ],
+      [
+        "COA-0042",
+        "Ipamorelin",
+        "Growth Hormone Support",
+        5,
+        5.17,
+        0.16999999999999993,
+        0.03399999999999999,
+        99.34,
+        "Overfilled",
+        "SteriGenix",
+        "Confirmed",
+        46239,
+        "RPT-2026-822844",
+        "SGX-VP-2026-0728-U21",
+        "IP260725A",
+        "Local PDF: assets/coa/COA%20RPT-2026-822844%20-%20SteriGenix.pdf",
+        "Pass",
+        "Duplicates removed by same lab/report/date/product",
+        "Identity confirmed by LC-MS. Heavy metals and batch conformity: no data.",
+        "Silver",
+        "White",
+        "White flip-off cap with silver aluminum crimp, as listed in the COA."
+      ],
+      [
+        "COA-0043",
+        "Retatrutide",
+        "GLP-1 / Weight",
+        10,
+        10.36,
+        0.35999999999999943,
+        0.03599999999999994,
+        99.41,
+        "Overfilled",
+        "SteriGenix",
+        "Confirmed",
+        46239,
+        "RPT-2026-932680",
+        "SGX-VP-2026-0728-G60",
+        "RT260725A",
+        "Local PDF: assets/coa/COA%20RPT-2026-932680%20-%20SteriGenix.pdf",
+        "Pass",
+        "Duplicates removed by same lab/report/date/product",
+        "Identity confirmed by LC-MS. Heavy metals and batch conformity: no data.",
+        "Copper",
+        "Clear",
+        "Clear flip-off cap with copper aluminum crimp, as listed in the COA."
+      ],
+      [
+        "COA-0044",
+        "Eloralintide",
+        "Amylin / Weight",
+        5,
+        4.63,
+        -0.3700000000000001,
+        -0.07400000000000002,
+        99.67,
+        "Underfilled",
+        "Tianjin Qiangxin (third-party partner lab)",
+        "Report reviewed",
+        46234,
+        "Elor5-20260731S0925",
+        "Not Listed",
+        "Not Listed",
+        "Local PDF: assets/coa/Elor5-20260731S0925_report.pdf",
+        "Pass",
+        "Duplicates removed by same lab/report/date/product",
+        "Report identifies sample as Elor5/Eloralintide. LCMS/HPLC purity 99.67%; peptide weight 4.63 mg. Report states neither issuer nor partner lab holds CMA/CNAS accreditation.",
+        "Not Listed",
+        "Not Listed",
+        "Crimp/cap color not listed in the testing record."
       ]
     ],
     "Purity Rankings": [
@@ -1351,6 +1536,22 @@
       ],
       [
         14,
+        "COA-0041",
+        "GHK-Cu",
+        "Cosmetic / Recovery",
+        50,
+        51.34,
+        0.026800000000000067,
+        99.78,
+        "Overfilled",
+        "SteriGenix",
+        46239,
+        "Blue",
+        "Silver",
+        "Reported as GHK-Cu (Copper Peptide); identity confirmed by LC-MS. Heavy metals and batch conformity: no data."
+      ],
+      [
+        15,
         "COA-0035",
         "GHK-Cu",
         "Regenerative / Skin",
@@ -1366,7 +1567,7 @@
         "GHK-Cu 50mg; identity confirmed; blue lyophilized powder; received 06/26/2026; reported 06/29/2026."
       ],
       [
-        15,
+        16,
         "COA-0034",
         "Tirzepatide",
         "GLP-1 / Weight",
@@ -1382,7 +1583,7 @@
         "Kovera image COA; purple cap / silver crimp; heavy metals negative; endotoxin pass. CAS 2023788-19-2 visible; report/access code redacted."
       ],
       [
-        16,
+        17,
         "COA-0023",
         "Tirzepatide",
         "GLP-1 / Weight",
@@ -1398,7 +1599,7 @@
         "T15 Tirzepatide 15mg; common GLP-1 blind test; overfilled."
       ],
       [
-        17,
+        18,
         "COA-0007",
         "Tirzepatide",
         "GLP-1 / Weight",
@@ -1414,7 +1615,7 @@
         "20 mg label; 130.1% potency"
       ],
       [
-        18,
+        19,
         "COA-0008",
         "Tirzepatide",
         "GLP-1 / Weight",
@@ -1430,7 +1631,23 @@
         "40 mg label; 116.4% potency"
       ],
       [
-        19,
+        20,
+        "COA-0044",
+        "Eloralintide",
+        "Amylin / Weight",
+        5,
+        4.63,
+        -0.07400000000000002,
+        99.67,
+        "Underfilled",
+        "Tianjin Qiangxin (third-party partner lab)",
+        46234,
+        "Not Listed",
+        "Not Listed",
+        "Report identifies sample as Elor5/Eloralintide. LCMS/HPLC purity 99.67%; peptide weight 4.63 mg. Report states neither issuer nor partner lab holds CMA/CNAS accreditation."
+      ],
+      [
+        21,
         "COA-0003",
         "Retatrutide",
         "GLP-1 / Weight",
@@ -1446,7 +1663,7 @@
         "Heavy metals negative; endotoxin pass"
       ],
       [
-        20,
+        22,
         "COA-0032",
         "Semaglutide",
         "GLP-1 / Weight",
@@ -1462,7 +1679,7 @@
         "Kovera image COA; black cap / silver crimp; heavy metals negative; endotoxin pass. CAS 910463-68-2 visible; report/access code redacted."
       ],
       [
-        21,
+        23,
         "COA-0033",
         "Tirzepatide",
         "GLP-1 / Weight",
@@ -1478,7 +1695,7 @@
         "Kovera image COA; blue cap / silver crimp; heavy metals negative; endotoxin pass. CAS 2023788-19-2 visible; report/access code redacted."
       ],
       [
-        22,
+        24,
         "COA-0020",
         "KPV",
         "Other",
@@ -1494,7 +1711,7 @@
         "Overfilled"
       ],
       [
-        23,
+        25,
         "COA-0031",
         "Retatrutide",
         "GLP-1 / Weight",
@@ -1510,7 +1727,23 @@
         "Retatrutide 30mg; Date received/reported Jun 24, 2026; generated Jul 4, 2026."
       ],
       [
-        24,
+        26,
+        "COA-0040",
+        "BPC-157",
+        "Healing / Recovery",
+        5,
+        5.13,
+        0.025999999999999978,
+        99.57,
+        "Overfilled",
+        "SteriGenix",
+        46239,
+        "Green",
+        "Silver",
+        "Identity confirmed by LC-MS. Heavy metals and batch conformity: no data."
+      ],
+      [
+        27,
         "COA-0026",
         "Retatrutide",
         "GLP-1 / Weight",
@@ -1526,7 +1759,7 @@
         "Blue cap Retatrutide 40mg"
       ],
       [
-        25,
+        28,
         "COA-0025",
         "Retatrutide",
         "GLP-1 / Weight",
@@ -1542,7 +1775,23 @@
         "Transparent cap Retatrutide 30mg"
       ],
       [
-        26,
+        29,
+        "COA-0038",
+        "Tirzepatide",
+        "GLP-1 / Weight",
+        10,
+        10.09,
+        0.008999999999999985,
+        99.52,
+        "On label",
+        "SteriGenix",
+        46239,
+        "Yellow",
+        "Silver",
+        "Identity confirmed by LC-MS. Heavy metals and batch conformity: no data."
+      ],
+      [
+        30,
         "COA-0001",
         "Retatrutide",
         "GLP-1 / Weight",
@@ -1558,7 +1807,7 @@
         "RT10 - common GLP-1 blind test; overfilled"
       ],
       [
-        27,
+        31,
         "COA-0006",
         "Retatrutide",
         "GLP-1 / Weight",
@@ -1574,7 +1823,7 @@
         "Labeled quantity unclear from image"
       ],
       [
-        28,
+        32,
         "COA-0004",
         "Retatrutide",
         "GLP-1 / Weight",
@@ -1590,7 +1839,7 @@
         "Heavy metals negative; endotoxin pass"
       ],
       [
-        29,
+        33,
         "COA-0030",
         "Retatrutide",
         "GLP-1 / Weight",
@@ -1606,7 +1855,23 @@
         "Retatrutide 20mg; Date received/reported Jun 24, 2026; generated Jul 4, 2026."
       ],
       [
-        30,
+        34,
+        "COA-0043",
+        "Retatrutide",
+        "GLP-1 / Weight",
+        10,
+        10.36,
+        0.03599999999999994,
+        99.41,
+        "Overfilled",
+        "SteriGenix",
+        46239,
+        "Clear",
+        "Copper",
+        "Identity confirmed by LC-MS. Heavy metals and batch conformity: no data."
+      ],
+      [
+        35,
         "COA-0029",
         "MOTS-C",
         "Metabolic / Mito",
@@ -1622,7 +1887,7 @@
         "MOTS-c 40mg; Date received/reported Jun 24, 2026; generated Jul 4, 2026."
       ],
       [
-        31,
+        36,
         "COA-0002",
         "Retatrutide",
         "GLP-1 / Weight",
@@ -1638,7 +1903,55 @@
         "On label"
       ],
       [
-        32,
+        37,
+        "COA-0042",
+        "Ipamorelin",
+        "Growth Hormone Support",
+        5,
+        5.17,
+        0.03399999999999999,
+        99.34,
+        "Overfilled",
+        "SteriGenix",
+        46239,
+        "White",
+        "Silver",
+        "Identity confirmed by LC-MS. Heavy metals and batch conformity: no data."
+      ],
+      [
+        38,
+        "COA-0039",
+        "Semaglutide",
+        "GLP-1 / Weight",
+        5,
+        5.07,
+        0.014000000000000058,
+        99.32,
+        "On label",
+        "SteriGenix",
+        46239,
+        "Blue",
+        "Silver",
+        "Identity confirmed by LC-MS. Heavy metals and batch conformity: no data."
+      ],
+      [
+        39,
+        "COA-0037",
+        "BPC-157 / TB-500 Blend",
+        "Healing / Recovery Blend",
+        10,
+        10.55,
+        0.05500000000000007,
+        99.13,
+        "Overfilled",
+        "SteriGenix",
+        46239,
+        "Red",
+        "Silver",
+        "Identity confirmed by LC-MS. Component content reported as 5.37 mg BPC-157 and 5.18 mg TB-500; total 10.55 mg. Heavy metals and batch conformity: no data."
+      ],
+      [
+        40,
         "COA-0016",
         "TB-500",
         "Healing / Recovery",
@@ -1654,7 +1967,7 @@
         "TB-500 / TB4"
       ],
       [
-        33,
+        41,
         "COA-0014",
         "MOTS-C",
         "Metabolic / Mito",
@@ -1670,7 +1983,7 @@
         "MS10 / MOTS-C"
       ],
       [
-        34,
+        42,
         "COA-0011",
         "Cagrilintide",
         "GLP-1 / Weight",
@@ -1684,6 +1997,38 @@
         "Not Listed",
         "Not Listed",
         "Overfilled"
+      ],
+      [
+        43,
+        "COA-0017",
+        "BPC-157",
+        "Healing / Recovery",
+        5,
+        5.54,
+        0.108,
+        null,
+        "Overfilled",
+        "Janoshik",
+        46057,
+        "Not Listed",
+        "Not Listed",
+        "Blend report BPC5+TB5"
+      ],
+      [
+        44,
+        "COA-0018",
+        "TB-500",
+        "Healing / Recovery",
+        5,
+        5.43,
+        0.08599999999999994,
+        null,
+        "On label",
+        "Janoshik",
+        46057,
+        "Not Listed",
+        "Not Listed",
+        "Blend report BPC5+TB5"
       ]
     ],
     "Batch History": [
@@ -2545,7 +2890,7 @@
         "Redacted",
         "Local image: assets/coa/GHK-CU50MG%207-19-26.jpg",
         "Pass",
-        "Unique Freedom Diagnostics GHK-Cu 50mg COA; no exact duplicate by compound/lab/date/content.",
+        "Append-only: independent test record retained; never overwrite or remove records based only on peptide name.",
         "GHK-Cu 50mg; identity confirmed; blue lyophilized powder; received 06/26/2026; reported 06/29/2026.",
         "Silver",
         "Clear/Transparent",
@@ -2574,6 +2919,198 @@
         "Silver",
         "Yellow",
         "Yellow flip-off cap with silver aluminum crimp, based on the vial image shown on page 1 of the COA."
+      ],
+      [
+        "COA-0037",
+        "BPC-157 / TB-500 Blend",
+        "Healing / Recovery Blend",
+        10,
+        10.55,
+        0.5500000000000007,
+        0.05500000000000007,
+        99.13,
+        "Overfilled",
+        "SteriGenix",
+        "Confirmed",
+        46239,
+        "RPT-2026-237183",
+        "SGX-VP-2026-0728-G37",
+        "BB260725A",
+        "Local PDF: assets/coa/COA%20RPT-2026-237183%20-%20SteriGenix.pdf",
+        "Pass",
+        "Duplicates removed by same lab/report/date/product",
+        "Identity confirmed by LC-MS. Component content reported as 5.37 mg BPC-157 and 5.18 mg TB-500; total 10.55 mg. Heavy metals and batch conformity: no data.",
+        "Silver",
+        "Red",
+        "Red flip-off cap with silver aluminum crimp, as listed in the COA."
+      ],
+      [
+        "COA-0038",
+        "Tirzepatide",
+        "GLP-1 / Weight",
+        10,
+        10.09,
+        0.08999999999999986,
+        0.008999999999999985,
+        99.52,
+        "On label",
+        "SteriGenix",
+        "Confirmed",
+        46239,
+        "RPT-2026-442015",
+        "SGX-VP-2026-0728-K72",
+        "TR260725A",
+        "Local PDF: assets/coa/COA%20RPT-2026-442015%20-%20SteriGenix.pdf",
+        "Pass",
+        "Duplicates removed by same lab/report/date/product",
+        "Identity confirmed by LC-MS. Heavy metals and batch conformity: no data.",
+        "Silver",
+        "Yellow",
+        "Yellow flip-off cap with silver aluminum crimp, as listed in the COA."
+      ],
+      [
+        "COA-0039",
+        "Semaglutide",
+        "GLP-1 / Weight",
+        5,
+        5.07,
+        0.07000000000000028,
+        0.014000000000000058,
+        99.32,
+        "On label",
+        "SteriGenix",
+        "Confirmed",
+        46239,
+        "RPT-2026-538821",
+        "SGX-VP-2026-0728-U17",
+        "SM260725A",
+        "Local PDF: assets/coa/COA%20RPT-2026-538821%20-%20SteriGenix.pdf",
+        "Pass",
+        "Duplicates removed by same lab/report/date/product",
+        "Identity confirmed by LC-MS. Heavy metals and batch conformity: no data.",
+        "Silver",
+        "Blue",
+        "Blue flip-off cap with silver aluminum crimp, as listed in the COA."
+      ],
+      [
+        "COA-0040",
+        "BPC-157",
+        "Healing / Recovery",
+        5,
+        5.13,
+        0.1299999999999999,
+        0.025999999999999978,
+        99.57,
+        "Overfilled",
+        "SteriGenix",
+        "Confirmed",
+        46239,
+        "RPT-2026-654610",
+        "SGX-VP-2026-0728-Z53",
+        "BC260725A",
+        "Local PDF: assets/coa/COA%20RPT-2026-654610%20-%20SteriGenix.pdf",
+        "Pass",
+        "Duplicates removed by same lab/report/date/product",
+        "Identity confirmed by LC-MS. Heavy metals and batch conformity: no data.",
+        "Silver",
+        "Green",
+        "Green flip-off cap with silver aluminum crimp, as listed in the COA."
+      ],
+      [
+        "COA-0041",
+        "GHK-Cu",
+        "Cosmetic / Recovery",
+        50,
+        51.34,
+        1.3400000000000034,
+        0.026800000000000067,
+        99.78,
+        "Overfilled",
+        "SteriGenix",
+        "Confirmed",
+        46239,
+        "RPT-2026-697297",
+        "SGX-VP-2026-0728-K16",
+        "CU260725A",
+        "Local PDF: assets/coa/COA%20RPT-2026-697297%20-%20SteriGenix.pdf",
+        "Pass",
+        "Duplicates removed by same lab/report/date/product",
+        "Reported as GHK-Cu (Copper Peptide); identity confirmed by LC-MS. Heavy metals and batch conformity: no data.",
+        "Silver",
+        "Blue",
+        "Blue flip-off cap with silver aluminum crimp, as listed in the COA."
+      ],
+      [
+        "COA-0042",
+        "Ipamorelin",
+        "Growth Hormone Support",
+        5,
+        5.17,
+        0.16999999999999993,
+        0.03399999999999999,
+        99.34,
+        "Overfilled",
+        "SteriGenix",
+        "Confirmed",
+        46239,
+        "RPT-2026-822844",
+        "SGX-VP-2026-0728-U21",
+        "IP260725A",
+        "Local PDF: assets/coa/COA%20RPT-2026-822844%20-%20SteriGenix.pdf",
+        "Pass",
+        "Duplicates removed by same lab/report/date/product",
+        "Identity confirmed by LC-MS. Heavy metals and batch conformity: no data.",
+        "Silver",
+        "White",
+        "White flip-off cap with silver aluminum crimp, as listed in the COA."
+      ],
+      [
+        "COA-0043",
+        "Retatrutide",
+        "GLP-1 / Weight",
+        10,
+        10.36,
+        0.35999999999999943,
+        0.03599999999999994,
+        99.41,
+        "Overfilled",
+        "SteriGenix",
+        "Confirmed",
+        46239,
+        "RPT-2026-932680",
+        "SGX-VP-2026-0728-G60",
+        "RT260725A",
+        "Local PDF: assets/coa/COA%20RPT-2026-932680%20-%20SteriGenix.pdf",
+        "Pass",
+        "Duplicates removed by same lab/report/date/product",
+        "Identity confirmed by LC-MS. Heavy metals and batch conformity: no data.",
+        "Copper",
+        "Clear",
+        "Clear flip-off cap with copper aluminum crimp, as listed in the COA."
+      ],
+      [
+        "COA-0044",
+        "Eloralintide",
+        "Amylin / Weight",
+        5,
+        4.63,
+        -0.3700000000000001,
+        -0.07400000000000002,
+        99.67,
+        "Underfilled",
+        "Tianjin Qiangxin (third-party partner lab)",
+        "Report reviewed",
+        46234,
+        "Elor5-20260731S0925",
+        "Not Listed",
+        "Not Listed",
+        "Local PDF: assets/coa/Elor5-20260731S0925_report.pdf",
+        "Pass",
+        "Duplicates removed by same lab/report/date/product",
+        "Report identifies sample as Elor5/Eloralintide. LCMS/HPLC purity 99.67%; peptide weight 4.63 mg. Report states neither issuer nor partner lab holds CMA/CNAS accreditation.",
+        "Not Listed",
+        "Not Listed",
+        "Crimp/cap color not listed in the testing record."
       ]
     ],
     "Lab Match": [
@@ -3247,7 +3784,7 @@
         "COA-0028",
         "PT-BPCTB-10-062226-01",
         "da424443",
-        "assets/coa/PT-BPCTB-10-062226-01.pdf",
+        "Local PDF: assets/coa/PT-BPCTB-10-062226-01.pdf",
         "Not Listed",
         "Not Listed",
         "Crimp/cap color not listed in PDF.",
@@ -3269,7 +3806,7 @@
         "COA-0029",
         "PT-MOTS-40-062226-01",
         "96ea8238",
-        "assets/coa/PT-MOTS-40-062226-01.pdf",
+        "Local PDF: assets/coa/PT-MOTS-40-062226-01.pdf",
         "Not Listed",
         "Not Listed",
         "Crimp/cap color not listed in PDF.",
@@ -3291,7 +3828,7 @@
         "COA-0030",
         "PT-RETA-20-062226-01",
         "5c1aa528",
-        "assets/coa/PT-RETA-20-062226-01.pdf",
+        "Local PDF: assets/coa/PT-RETA-20-062226-01.pdf",
         "Not Listed",
         "Not Listed",
         "Crimp/cap color not listed in PDF.",
@@ -3313,7 +3850,7 @@
         "COA-0031",
         "PT-RETA-30-062226-01",
         "a8c10db6",
-        "assets/coa/PT-RETA-30-062226-01.pdf",
+        "Local PDF: assets/coa/PT-RETA-30-062226-01.pdf",
         "Not Listed",
         "Not Listed",
         "Crimp/cap color not listed in PDF.",
@@ -3335,7 +3872,7 @@
         "COA-0032",
         "Redacted",
         "Redacted",
-        "No local image on file (Kovera COA, Semaglutide 15mg)",
+        "Local image: No local image on file (Kovera COA, Semaglutide 15mg)",
         "Black",
         "Silver",
         "Black cap / silver crimp per COA image.",
@@ -3357,7 +3894,7 @@
         "COA-0033",
         "Redacted",
         "Redacted",
-        "No local image on file (Kovera COA, Tirzepatide 30mg)",
+        "Local image: No local image on file (Kovera COA, Tirzepatide 30mg)",
         "Blue",
         "Silver",
         "Blue cap / silver crimp per COA image.",
@@ -3379,7 +3916,7 @@
         "COA-0034",
         "Redacted",
         "Redacted",
-        "No local image on file (Kovera COA, Tirzepatide 15mg)",
+        "Local image: No local image on file (Kovera COA, Tirzepatide 15mg)",
         "Purple",
         "Silver",
         "Purple cap / silver crimp per COA image.",
@@ -3401,7 +3938,7 @@
         "COA-0035",
         "Redacted",
         "Redacted",
-        "assets/coa/GHK-CU50MG%207-19-26.jpg",
+        "Local image: assets/coa/GHK-CU50MG%207-19-26.jpg",
         "Clear/Transparent",
         "Silver",
         "Clear/transparent flip-off cap with silver aluminum crimp, based on the vial image shown on the COA.",
@@ -3423,11 +3960,187 @@
         "COA-0036",
         "2607170250",
         "Trio2607170250",
-        "assets/coa/KLOW80mg-02.pdf",
+        "Freedom Diagnostics COA PDF",
         "Yellow",
         "Silver",
         "Yellow flip-off cap with silver aluminum crimp, based on the vial image shown on page 1 of the COA.",
         "Identity confirmed: GHK-Cu/KPV/BPC-157/Thymosin Beta-4. Net content: GHK-Cu 62.93 mg; KPV 9.09 mg; BPC-157 12.40 mg; Thymosin Beta-4 12.04 mg. Blue lyophilized powder. Received 07/17/2026; reported 07/20/2026."
+      ],
+      [
+        "COA-0037",
+        "BPC-157 / TB-500 Blend",
+        "Healing / Recovery Blend",
+        10,
+        10.55,
+        0.5500000000000007,
+        0.05500000000000007,
+        99.13,
+        "BB260725A",
+        "SteriGenix",
+        "Overfilled",
+        46239,
+        "COA-0037",
+        "RPT-2026-237183",
+        "SGX-VP-2026-0728-G37",
+        "Local PDF: assets/coa/COA%20RPT-2026-237183%20-%20SteriGenix.pdf",
+        "Red",
+        "Silver",
+        "Red flip-off cap with silver aluminum crimp, as listed in the COA.",
+        "Identity confirmed by LC-MS. Component content reported as 5.37 mg BPC-157 and 5.18 mg TB-500; total 10.55 mg. Heavy metals and batch conformity: no data."
+      ],
+      [
+        "COA-0038",
+        "Tirzepatide",
+        "GLP-1 / Weight",
+        10,
+        10.09,
+        0.08999999999999986,
+        0.008999999999999985,
+        99.52,
+        "TR260725A",
+        "SteriGenix",
+        "On label",
+        46239,
+        "COA-0038",
+        "RPT-2026-442015",
+        "SGX-VP-2026-0728-K72",
+        "Local PDF: assets/coa/COA%20RPT-2026-442015%20-%20SteriGenix.pdf",
+        "Yellow",
+        "Silver",
+        "Yellow flip-off cap with silver aluminum crimp, as listed in the COA.",
+        "Identity confirmed by LC-MS. Heavy metals and batch conformity: no data."
+      ],
+      [
+        "COA-0039",
+        "Semaglutide",
+        "GLP-1 / Weight",
+        5,
+        5.07,
+        0.07000000000000028,
+        0.014000000000000058,
+        99.32,
+        "SM260725A",
+        "SteriGenix",
+        "On label",
+        46239,
+        "COA-0039",
+        "RPT-2026-538821",
+        "SGX-VP-2026-0728-U17",
+        "Local PDF: assets/coa/COA%20RPT-2026-538821%20-%20SteriGenix.pdf",
+        "Blue",
+        "Silver",
+        "Blue flip-off cap with silver aluminum crimp, as listed in the COA.",
+        "Identity confirmed by LC-MS. Heavy metals and batch conformity: no data."
+      ],
+      [
+        "COA-0040",
+        "BPC-157",
+        "Healing / Recovery",
+        5,
+        5.13,
+        0.1299999999999999,
+        0.025999999999999978,
+        99.57,
+        "BC260725A",
+        "SteriGenix",
+        "Overfilled",
+        46239,
+        "COA-0040",
+        "RPT-2026-654610",
+        "SGX-VP-2026-0728-Z53",
+        "Local PDF: assets/coa/COA%20RPT-2026-654610%20-%20SteriGenix.pdf",
+        "Green",
+        "Silver",
+        "Green flip-off cap with silver aluminum crimp, as listed in the COA.",
+        "Identity confirmed by LC-MS. Heavy metals and batch conformity: no data."
+      ],
+      [
+        "COA-0041",
+        "GHK-Cu",
+        "Cosmetic / Recovery",
+        50,
+        51.34,
+        1.3400000000000034,
+        0.026800000000000067,
+        99.78,
+        "CU260725A",
+        "SteriGenix",
+        "Overfilled",
+        46239,
+        "COA-0041",
+        "RPT-2026-697297",
+        "SGX-VP-2026-0728-K16",
+        "Local PDF: assets/coa/COA%20RPT-2026-697297%20-%20SteriGenix.pdf",
+        "Blue",
+        "Silver",
+        "Blue flip-off cap with silver aluminum crimp, as listed in the COA.",
+        "Reported as GHK-Cu (Copper Peptide); identity confirmed by LC-MS. Heavy metals and batch conformity: no data."
+      ],
+      [
+        "COA-0042",
+        "Ipamorelin",
+        "Growth Hormone Support",
+        5,
+        5.17,
+        0.16999999999999993,
+        0.03399999999999999,
+        99.34,
+        "IP260725A",
+        "SteriGenix",
+        "Overfilled",
+        46239,
+        "COA-0042",
+        "RPT-2026-822844",
+        "SGX-VP-2026-0728-U21",
+        "Local PDF: assets/coa/COA%20RPT-2026-822844%20-%20SteriGenix.pdf",
+        "White",
+        "Silver",
+        "White flip-off cap with silver aluminum crimp, as listed in the COA.",
+        "Identity confirmed by LC-MS. Heavy metals and batch conformity: no data."
+      ],
+      [
+        "COA-0043",
+        "Retatrutide",
+        "GLP-1 / Weight",
+        10,
+        10.36,
+        0.35999999999999943,
+        0.03599999999999994,
+        99.41,
+        "RT260725A",
+        "SteriGenix",
+        "Overfilled",
+        46239,
+        "COA-0043",
+        "RPT-2026-932680",
+        "SGX-VP-2026-0728-G60",
+        "Local PDF: assets/coa/COA%20RPT-2026-932680%20-%20SteriGenix.pdf",
+        "Clear",
+        "Copper",
+        "Clear flip-off cap with copper aluminum crimp, as listed in the COA.",
+        "Identity confirmed by LC-MS. Heavy metals and batch conformity: no data."
+      ],
+      [
+        "COA-0044",
+        "Eloralintide",
+        "Amylin / Weight",
+        5,
+        4.63,
+        -0.3700000000000001,
+        -0.07400000000000002,
+        99.67,
+        "Not Listed",
+        "Tianjin Qiangxin (third-party partner lab)",
+        "Underfilled",
+        46234,
+        "COA-0044",
+        "Elor5-20260731S0925",
+        "Not Listed",
+        "Local PDF: assets/coa/Elor5-20260731S0925_report.pdf",
+        "Not Listed",
+        "Not Listed",
+        "Crimp/cap color not listed in the testing record.",
+        "Report identifies sample as Elor5/Eloralintide. LCMS/HPLC purity 99.67%; peptide weight 4.63 mg. Report states neither issuer nor partner lab holds CMA/CNAS accreditation."
       ]
     ],
     "Certificates": [
@@ -4082,7 +4795,7 @@
         "Testides",
         "PT-BPCTB-10-062226-01",
         "da424443",
-        "assets/coa/PT-BPCTB-10-062226-01.pdf",
+        "Local PDF: assets/coa/PT-BPCTB-10-062226-01.pdf",
         "Yes",
         10,
         11.85,
@@ -4105,7 +4818,7 @@
         "Testides",
         "PT-MOTS-40-062226-01",
         "96ea8238",
-        "assets/coa/PT-MOTS-40-062226-01.pdf",
+        "Local PDF: assets/coa/PT-MOTS-40-062226-01.pdf",
         "Yes",
         40,
         45.03,
@@ -4128,7 +4841,7 @@
         "Testides",
         "PT-RETA-20-062226-01",
         "5c1aa528",
-        "assets/coa/PT-RETA-20-062226-01.pdf",
+        "Local PDF: assets/coa/PT-RETA-20-062226-01.pdf",
         "Yes",
         20,
         21.4,
@@ -4151,7 +4864,7 @@
         "Testides",
         "PT-RETA-30-062226-01",
         "a8c10db6",
-        "assets/coa/PT-RETA-30-062226-01.pdf",
+        "Local PDF: assets/coa/PT-RETA-30-062226-01.pdf",
         "Yes",
         30,
         33.77,
@@ -4174,7 +4887,7 @@
         "Kovera Labs",
         "Redacted",
         "Redacted",
-        "No local image on file (Kovera COA, Semaglutide 15mg)",
+        "Local image: No local image on file (Kovera COA, Semaglutide 15mg)",
         "Yes",
         15,
         15.53,
@@ -4197,7 +4910,7 @@
         "Kovera Labs",
         "Redacted",
         "Redacted",
-        "No local image on file (Kovera COA, Tirzepatide 30mg)",
+        "Local image: No local image on file (Kovera COA, Tirzepatide 30mg)",
         "Yes",
         30,
         33.24,
@@ -4220,7 +4933,7 @@
         "Kovera Labs",
         "Redacted",
         "Redacted",
-        "No local image on file (Kovera COA, Tirzepatide 15mg)",
+        "Local image: No local image on file (Kovera COA, Tirzepatide 15mg)",
         "Yes",
         15,
         15.59,
@@ -4243,7 +4956,7 @@
         "Freedom Diagnostics",
         "Redacted",
         "Redacted",
-        "assets/coa/GHK-CU50MG%207-19-26.jpg",
+        "Local image: assets/coa/GHK-CU50MG%207-19-26.jpg",
         "Yes",
         50,
         50.75,
@@ -4266,7 +4979,7 @@
         "Freedom Diagnostics",
         "2607170250",
         "Trio2607170250",
-        "assets/coa/KLOW80mg-02.pdf",
+        "Freedom Diagnostics COA PDF",
         "Yes",
         80,
         96.46,
@@ -4281,6 +4994,190 @@
         "Silver",
         "Yellow",
         "Yellow flip-off cap with silver aluminum crimp, based on the vial image shown on page 1 of the COA."
+      ],
+      [
+        "COA-0037",
+        "BPC-157 / TB-500 Blend",
+        "Healing / Recovery Blend",
+        "SteriGenix",
+        "RPT-2026-237183",
+        "SGX-VP-2026-0728-G37",
+        "Local PDF: assets/coa/COA%20RPT-2026-237183%20-%20SteriGenix.pdf",
+        "Yes",
+        10,
+        10.55,
+        0.5500000000000007,
+        0.05500000000000007,
+        99.13,
+        "Overfilled",
+        "BB260725A",
+        46239,
+        "Pass",
+        "Identity confirmed by LC-MS. Component content reported as 5.37 mg BPC-157 and 5.18 mg TB-500; total 10.55 mg. Heavy metals and batch conformity: no data.",
+        "Silver",
+        "Red",
+        "Red flip-off cap with silver aluminum crimp, as listed in the COA."
+      ],
+      [
+        "COA-0038",
+        "Tirzepatide",
+        "GLP-1 / Weight",
+        "SteriGenix",
+        "RPT-2026-442015",
+        "SGX-VP-2026-0728-K72",
+        "Local PDF: assets/coa/COA%20RPT-2026-442015%20-%20SteriGenix.pdf",
+        "Yes",
+        10,
+        10.09,
+        0.08999999999999986,
+        0.008999999999999985,
+        99.52,
+        "On label",
+        "TR260725A",
+        46239,
+        "Pass",
+        "Identity confirmed by LC-MS. Heavy metals and batch conformity: no data.",
+        "Silver",
+        "Yellow",
+        "Yellow flip-off cap with silver aluminum crimp, as listed in the COA."
+      ],
+      [
+        "COA-0039",
+        "Semaglutide",
+        "GLP-1 / Weight",
+        "SteriGenix",
+        "RPT-2026-538821",
+        "SGX-VP-2026-0728-U17",
+        "Local PDF: assets/coa/COA%20RPT-2026-538821%20-%20SteriGenix.pdf",
+        "Yes",
+        5,
+        5.07,
+        0.07000000000000028,
+        0.014000000000000058,
+        99.32,
+        "On label",
+        "SM260725A",
+        46239,
+        "Pass",
+        "Identity confirmed by LC-MS. Heavy metals and batch conformity: no data.",
+        "Silver",
+        "Blue",
+        "Blue flip-off cap with silver aluminum crimp, as listed in the COA."
+      ],
+      [
+        "COA-0040",
+        "BPC-157",
+        "Healing / Recovery",
+        "SteriGenix",
+        "RPT-2026-654610",
+        "SGX-VP-2026-0728-Z53",
+        "Local PDF: assets/coa/COA%20RPT-2026-654610%20-%20SteriGenix.pdf",
+        "Yes",
+        5,
+        5.13,
+        0.1299999999999999,
+        0.025999999999999978,
+        99.57,
+        "Overfilled",
+        "BC260725A",
+        46239,
+        "Pass",
+        "Identity confirmed by LC-MS. Heavy metals and batch conformity: no data.",
+        "Silver",
+        "Green",
+        "Green flip-off cap with silver aluminum crimp, as listed in the COA."
+      ],
+      [
+        "COA-0041",
+        "GHK-Cu",
+        "Cosmetic / Recovery",
+        "SteriGenix",
+        "RPT-2026-697297",
+        "SGX-VP-2026-0728-K16",
+        "Local PDF: assets/coa/COA%20RPT-2026-697297%20-%20SteriGenix.pdf",
+        "Yes",
+        50,
+        51.34,
+        1.3400000000000034,
+        0.026800000000000067,
+        99.78,
+        "Overfilled",
+        "CU260725A",
+        46239,
+        "Pass",
+        "Reported as GHK-Cu (Copper Peptide); identity confirmed by LC-MS. Heavy metals and batch conformity: no data.",
+        "Silver",
+        "Blue",
+        "Blue flip-off cap with silver aluminum crimp, as listed in the COA."
+      ],
+      [
+        "COA-0042",
+        "Ipamorelin",
+        "Growth Hormone Support",
+        "SteriGenix",
+        "RPT-2026-822844",
+        "SGX-VP-2026-0728-U21",
+        "Local PDF: assets/coa/COA%20RPT-2026-822844%20-%20SteriGenix.pdf",
+        "Yes",
+        5,
+        5.17,
+        0.16999999999999993,
+        0.03399999999999999,
+        99.34,
+        "Overfilled",
+        "IP260725A",
+        46239,
+        "Pass",
+        "Identity confirmed by LC-MS. Heavy metals and batch conformity: no data.",
+        "Silver",
+        "White",
+        "White flip-off cap with silver aluminum crimp, as listed in the COA."
+      ],
+      [
+        "COA-0043",
+        "Retatrutide",
+        "GLP-1 / Weight",
+        "SteriGenix",
+        "RPT-2026-932680",
+        "SGX-VP-2026-0728-G60",
+        "Local PDF: assets/coa/COA%20RPT-2026-932680%20-%20SteriGenix.pdf",
+        "Yes",
+        10,
+        10.36,
+        0.35999999999999943,
+        0.03599999999999994,
+        99.41,
+        "Overfilled",
+        "RT260725A",
+        46239,
+        "Pass",
+        "Identity confirmed by LC-MS. Heavy metals and batch conformity: no data.",
+        "Copper",
+        "Clear",
+        "Clear flip-off cap with copper aluminum crimp, as listed in the COA."
+      ],
+      [
+        "COA-0044",
+        "Eloralintide",
+        "Amylin / Weight",
+        "Tianjin Qiangxin (third-party partner lab)",
+        "Elor5-20260731S0925",
+        "Not Listed",
+        "Local PDF: assets/coa/Elor5-20260731S0925_report.pdf",
+        "Yes",
+        5,
+        4.63,
+        -0.3700000000000001,
+        -0.07400000000000002,
+        99.67,
+        "Underfilled",
+        "Not Listed",
+        46234,
+        "Pass",
+        "Report identifies sample as Elor5/Eloralintide. LCMS/HPLC purity 99.67%; peptide weight 4.63 mg. Report states neither issuer nor partner lab holds CMA/CNAS accreditation.",
+        "Not Listed",
+        "Not Listed",
+        "Crimp/cap color not listed in the testing record."
       ]
     ],
     "Lists": [
@@ -4293,63 +5190,127 @@
         "Categories"
       ],
       [
-        "AOD-9604",
+        "ADAMAX",
         "Aminos Analytics",
-        "Review",
-        "Clear Green",
+        "On label",
+        "Black",
+        "Copper",
+        "Amylin / Weight"
+      ],
+      [
+        "AOD-9604",
+        "BT Labs",
+        "Overfilled",
+        "Blue",
         "Not Listed",
-        "GLP-1 / Weight"
+        "Cosmetic / Recovery"
       ],
       [
         "BPC-157",
-        "BT Labs",
-        "On label",
-        "Gold",
+        "Freedom Diagnostics",
+        "Review",
+        "Clear",
+        "Silver",
+        "GLP-1 / Weight"
+      ],
+      [
+        "BPC-157 / TB-500 Blend",
+        "Janoshik",
+        "Underfilled",
+        "Clear Green",
         null,
         "Growth Hormone Support"
       ],
       [
-        "CJC-1295 No DAC",
-        "Freedom Diagnostics",
-        "Overfilled",
-        "Gray",
+        "BPC/TB Blend",
+        "Kovera Labs",
+        null,
+        "Clear/Transparent",
         null,
         "Healing / Recovery"
       ],
       [
+        "CJC-1295 No DAC",
+        "SteriGenix",
+        null,
+        "Gold",
+        null,
+        "Healing / Recovery Blend"
+      ],
+      [
         "Cagrilintide",
-        "Janoshik",
-        "Underfilled",
-        "Not Listed",
+        "Testides",
+        null,
+        "Gray",
         null,
         "Metabolic / Fat Loss"
       ],
       [
+        "Eloralintide",
+        "Tianjin Qiangxin (third-party partner lab)",
+        null,
+        "Green",
+        null,
+        "Metabolic / Mito"
+      ],
+      [
+        "GHK-Cu",
+        null,
+        null,
+        "Not Listed",
+        null,
+        "Other"
+      ],
+      [
+        "Ipamorelin",
+        null,
+        null,
+        "Purple",
+        null,
+        "Regenerative / Skin"
+      ],
+      [
+        "KLOW 80mg",
+        null,
+        null,
+        "Red",
+        null,
+        "Research Peptide"
+      ],
+      [
         "KPV",
-        "Kovera Labs",
+        null,
         null,
         "Royal Blue",
         null,
-        "Metabolic / Mito"
+        null
       ],
       [
         "MOTS-C",
         null,
         null,
+        "Transparent",
         null,
-        null,
-        "Other"
+        null
       ],
       [
         "Retatrutide",
         null,
         null,
-        null,
+        "White",
         null,
         null
       ],
       [
         "SS-31",
+        null,
+        null,
+        "Yellow",
+        null,
+        null
+      ],
+      [
+        "Semaglutide",
         null,
         null,
         null,
@@ -4371,38 +5332,6 @@
         null,
         null,
         null
-      ],
-      [
-        "KLOW 80mg",
-        null,
-        null,
-        null,
-        null,
-        null
-      ],
-      [
-        null,
-        null,
-        null,
-        "Yellow",
-        null,
-        null
-      ],
-      [
-        null,
-        null,
-        null,
-        null,
-        "Silver",
-        null
-      ],
-      [
-        null,
-        null,
-        null,
-        null,
-        null,
-        "Healing / Recovery Blend"
       ]
     ],
     "README": [
@@ -4514,7 +5443,7 @@
     ],
     "COA Status": [
       [
-        "COA Status Summary \u2014 Tested Peptides",
+        "COA Status Summary — Tested Peptides",
         null,
         null,
         null,
@@ -4557,7 +5486,7 @@
       ],
       [
         "Total COA/Test Records",
-        36,
+        44,
         "All records from COA Database",
         null,
         null,
@@ -4683,7 +5612,7 @@
       ],
       [
         "Average Purity %",
-        99.647,
+        99.613,
         "Based on populated purity values",
         null,
         null,
@@ -5593,7 +6522,7 @@
         "Cagrilintide",
         "Cagri",
         "Amylin analog",
-        "~5\u20137 days",
+        "~5–7 days",
         "Long acting amylin analog",
         "SC",
         "Approximate"
@@ -5638,7 +6567,7 @@
         "Mazdutide",
         "IBI362",
         "GLP-1/GCG",
-        "~6\u20138 days",
+        "~6–8 days",
         "Investigational",
         "SC",
         "Estimated"
@@ -5647,7 +6576,7 @@
         "Survodutide",
         "BI 456906",
         "GLP-1/GCG",
-        "~6\u20137 days",
+        "~6–7 days",
         "Investigational",
         "SC",
         "Estimated"
@@ -5656,7 +6585,7 @@
         "Pemvidutide",
         "ALT-801",
         "GLP-1/GCG",
-        "~6\u20138 days",
+        "~6–8 days",
         "Investigational",
         "SC",
         "Estimated"
@@ -5674,7 +6603,7 @@
         "VK2735",
         "VK2735",
         "GLP-1/GIP",
-        "~6\u20137 days",
+        "~6–7 days",
         "Investigational",
         "SC",
         "Estimated"
@@ -5683,7 +6612,7 @@
         "BPC-157",
         "BPC",
         "Healing / Recovery",
-        "~4\u20136 hours",
+        "~4–6 hours",
         "Biological effects may outlast plasma half-life",
         "SC/Oral",
         "Approximate research reference"
@@ -5692,7 +6621,7 @@
         "TB-500",
         "TB4 fragment",
         "Healing / Recovery",
-        "~2\u20138 hours",
+        "~2–8 hours",
         "Effects may persist longer",
         "SC",
         "Approximate"
@@ -5710,7 +6639,7 @@
         "GHK-Cu",
         "Copper peptide",
         "Regenerative / Skin",
-        "~12\u201324 hours",
+        "~12–24 hours",
         "Copper tripeptide",
         "Topical/SC",
         "Approximate"
@@ -5719,7 +6648,7 @@
         "MOTS-C",
         "MOTS-C",
         "Mitochondrial",
-        "~30\u201360 minutes",
+        "~30–60 minutes",
         "Mitochondrial-derived peptide",
         "SC",
         "Approximate"
@@ -5728,7 +6657,7 @@
         "SS-31",
         "Elamipretide",
         "Mitochondrial",
-        "~4\u20138 hours",
+        "~4–8 hours",
         "Mitochondrial-targeted tetrapeptide",
         "SC/IV",
         "Approximate"
@@ -5737,7 +6666,7 @@
         "Humanin",
         "HN",
         "Mitochondrial",
-        "~2\u20134 hours",
+        "~2–4 hours",
         "Mitochondrial-derived peptide",
         "SC",
         "Estimated"
@@ -5746,7 +6675,7 @@
         "AOD-9604",
         "AOD",
         "Metabolic / Fat Loss",
-        "~2\u20133 hours",
+        "~2–3 hours",
         "hGH fragment analog",
         "SC",
         "Approximate"
@@ -5764,7 +6693,7 @@
         "Sermorelin",
         "GHRH 1-29",
         "GHRH analog",
-        "~10\u201320 minutes",
+        "~10–20 minutes",
         "Short acting GHRH fragment",
         "SC",
         "Approximate"
@@ -5773,7 +6702,7 @@
         "CJC-1295 No DAC",
         "Mod GRF 1-29",
         "GHRH analog",
-        "~30 minutes\u20132 hours",
+        "~30 minutes–2 hours",
         "Short acting",
         "SC",
         "Approximate"
@@ -5782,7 +6711,7 @@
         "CJC-1295 DAC",
         "CJC DAC",
         "GHRH analog",
-        "~5\u20138 days",
+        "~5–8 days",
         "DAC extends half-life",
         "SC",
         "Approximate"
@@ -5800,7 +6729,7 @@
         "Hexarelin",
         "Hex",
         "GH Secretagogue",
-        "~50\u201360 minutes",
+        "~50–60 minutes",
         "GHRP family",
         "SC",
         "Approximate"
@@ -5809,7 +6738,7 @@
         "GHRP-2",
         "GHRP-2",
         "GH Secretagogue",
-        "~20\u201330 minutes",
+        "~20–30 minutes",
         "GHRP family",
         "SC",
         "Approximate"
@@ -5818,7 +6747,7 @@
         "GHRP-6",
         "GHRP-6",
         "GH Secretagogue",
-        "~20\u201330 minutes",
+        "~20–30 minutes",
         "GHRP family",
         "SC",
         "Approximate"
@@ -5836,7 +6765,7 @@
         "PEG-MGF",
         "PEG MGF",
         "Growth Factor",
-        "~48\u201372 hours",
+        "~48–72 hours",
         "PEGylated mechano growth factor",
         "SC",
         "Approximate"
@@ -5845,7 +6774,7 @@
         "MGF",
         "Mechano Growth Factor",
         "Growth Factor",
-        "~5\u20137 minutes",
+        "~5–7 minutes",
         "Short acting splice variant",
         "SC",
         "Estimated"
@@ -5854,7 +6783,7 @@
         "IGF-1 LR3",
         "LR3",
         "Growth Factor",
-        "~20\u201330 hours",
+        "~20–30 hours",
         "Longer acting IGF-1 analog",
         "SC",
         "Approximate"
@@ -5863,7 +6792,7 @@
         "IGF-1 DES",
         "DES",
         "Growth Factor",
-        "~20\u201330 minutes",
+        "~20–30 minutes",
         "Short IGF-1 variant",
         "SC",
         "Approximate"
@@ -5872,7 +6801,7 @@
         "Follistatin-344",
         "FST-344",
         "Myostatin / Growth",
-        "~12\u201324 hours",
+        "~12–24 hours",
         "Myostatin pathway research",
         "SC",
         "Estimated"
@@ -5881,7 +6810,7 @@
         "Follistatin-315",
         "FST-315",
         "Myostatin / Growth",
-        "~24\u201348 hours",
+        "~24–48 hours",
         "Myostatin pathway research",
         "SC",
         "Estimated"
@@ -5899,7 +6828,7 @@
         "LL-37",
         "Cathelicidin",
         "Antimicrobial",
-        "~1\u20132 hours",
+        "~1–2 hours",
         "Antimicrobial peptide",
         "Topical/SC",
         "Estimated"
@@ -5908,7 +6837,7 @@
         "KPV",
         "KPV",
         "Anti-inflammatory",
-        "~1\u20133 hours",
+        "~1–3 hours",
         "Alpha-MSH fragment",
         "Oral/SC",
         "Estimated"
@@ -5917,7 +6846,7 @@
         "Epitalon",
         "Epithalon",
         "Longevity",
-        "~2\u20134 hours",
+        "~2–4 hours",
         "Tetrapeptide",
         "SC",
         "Estimated"
@@ -5926,7 +6855,7 @@
         "Pinealon",
         "Pinealon",
         "Bioregulator",
-        "~1\u20133 hours",
+        "~1–3 hours",
         "Short peptide bioregulator",
         "SC",
         "Estimated"
@@ -5935,7 +6864,7 @@
         "Vesugen",
         "Vesugen",
         "Bioregulator",
-        "~1\u20133 hours",
+        "~1–3 hours",
         "Short peptide bioregulator",
         "SC",
         "Estimated"
@@ -5944,7 +6873,7 @@
         "Cortexin",
         "Cortexin",
         "Nootropic complex",
-        "~2\u20134 hours",
+        "~2–4 hours",
         "Peptide complex",
         "IM",
         "Estimated"
@@ -5953,7 +6882,7 @@
         "Selank",
         "Selank",
         "Nootropic",
-        "~5\u201315 minutes",
+        "~5–15 minutes",
         "Effects may last much longer",
         "Nasal",
         "Approximate"
@@ -5962,7 +6891,7 @@
         "Semax",
         "Semax",
         "Nootropic",
-        "~10\u201320 minutes",
+        "~10–20 minutes",
         "Effects may last much longer",
         "Nasal",
         "Approximate"
@@ -5971,7 +6900,7 @@
         "NA Semax Amidate",
         "NASA",
         "Nootropic",
-        "~1\u20132 hours",
+        "~1–2 hours",
         "Modified Semax",
         "Nasal",
         "Estimated"
@@ -5980,7 +6909,7 @@
         "NA Selank Amidate",
         "NASA/Selank",
         "Nootropic",
-        "~1\u20132 hours",
+        "~1–2 hours",
         "Modified Selank",
         "Nasal",
         "Estimated"
@@ -5989,7 +6918,7 @@
         "Dihexa",
         "Dihexa",
         "Nootropic",
-        "~7\u201314 days",
+        "~7–14 days",
         "Very limited public PK data",
         "Oral",
         "Estimated/limited data"
@@ -5998,7 +6927,7 @@
         "VIP",
         "VIP",
         "Neuropeptide",
-        "~1\u20132 minutes",
+        "~1–2 minutes",
         "Very short plasma half-life",
         "Nasal/Injection",
         "Approximate"
@@ -6007,7 +6936,7 @@
         "Oxytocin",
         "OXT",
         "Hormonal",
-        "~3\u20135 minutes",
+        "~3–5 minutes",
         "Peptide hormone",
         "Nasal/Injection",
         "Approximate"
@@ -6016,7 +6945,7 @@
         "Desmopressin",
         "DDAVP",
         "Hormonal",
-        "~2\u20133 hours",
+        "~2–3 hours",
         "Vasopressin analog",
         "Nasal/Oral/Injection",
         "Approximate"
@@ -6025,7 +6954,7 @@
         "Kisspeptin-10",
         "KP-10",
         "Hormonal",
-        "~20\u201330 minutes",
+        "~20–30 minutes",
         "Reproductive signaling",
         "SC/IV",
         "Approximate"
@@ -6034,7 +6963,7 @@
         "Kisspeptin-54",
         "KP-54",
         "Hormonal",
-        "~28\u201330 hours",
+        "~28–30 hours",
         "Longer acting kisspeptin form",
         "SC/IV",
         "Approximate"
@@ -6052,7 +6981,7 @@
         "Melanotan II",
         "MT-2",
         "Melanocortin",
-        "~33\u201336 hours",
+        "~33–36 hours",
         "Melanocortin agonist",
         "SC/Nasal",
         "Approximate"
@@ -6070,7 +6999,7 @@
         "DSIP",
         "DSIP",
         "Sleep",
-        "~15\u201330 minutes",
+        "~15–30 minutes",
         "Delta sleep-inducing peptide",
         "SC",
         "Estimated"
@@ -6079,7 +7008,7 @@
         "Glutathione",
         "GSH",
         "Antioxidant",
-        "~10\u201315 minutes",
+        "~10–15 minutes",
         "Tripeptide antioxidant",
         "IV/SC",
         "Approximate"
@@ -6088,7 +7017,7 @@
         "NAD+",
         "NAD",
         "Metabolic cofactor",
-        "~1\u20132 hours",
+        "~1–2 hours",
         "Cofactor; not peptide",
         "IV/SC",
         "Included for tracker reference"
@@ -6106,7 +7035,7 @@
         "FOXO4-DRI",
         "FOXO4",
         "Senolytic research",
-        "~6\u201312 hours",
+        "~6–12 hours",
         "Limited public PK data",
         "SC",
         "Estimated"
@@ -6115,7 +7044,7 @@
         "PNC-27",
         "PNC-27",
         "Oncology research",
-        "~1\u20132 hours",
+        "~1–2 hours",
         "Limited public PK data",
         "SC/IV",
         "Estimated"
@@ -6151,7 +7080,7 @@
         "ACE-031",
         "ACE-031",
         "Myostatin pathway",
-        "~10\u201315 days",
+        "~10–15 days",
         "Fusion protein/peptide biologic",
         "SC",
         "Approximate"
@@ -6169,7 +7098,7 @@
         "HCG",
         "hCG",
         "Hormonal glycoprotein",
-        "~24\u201336 hours",
+        "~24–36 hours",
         "Glycoprotein hormone",
         "SC/IM",
         "Included for tracker reference"
@@ -6178,7 +7107,7 @@
         "Gonadorelin",
         "GnRH",
         "Hormonal",
-        "~2\u20134 minutes",
+        "~2–4 minutes",
         "GnRH analog",
         "SC/IV",
         "Approximate"
@@ -6187,7 +7116,7 @@
         "Triptorelin",
         "GnRH agonist",
         "Hormonal",
-        "~3\u20135 hours",
+        "~3–5 hours",
         "Formulation dependent",
         "SC/IM",
         "Approximate"
@@ -6196,7 +7125,7 @@
         "Buserelin",
         "GnRH agonist",
         "Hormonal",
-        "~1\u20132 hours",
+        "~1–2 hours",
         "Formulation dependent",
         "Nasal/SC",
         "Approximate"
@@ -6205,7 +7134,7 @@
         "Gonadorelin Acetate",
         "GnRH acetate",
         "Hormonal",
-        "~2\u20134 minutes",
+        "~2–4 minutes",
         "GnRH analog",
         "SC/IV",
         "Approximate"
@@ -6277,7 +7206,7 @@
         "Leptin",
         "Metreleptin",
         "Hormonal",
-        "~3\u20134 hours",
+        "~3–4 hours",
         "Protein hormone",
         "SC",
         "Approximate"
@@ -6322,7 +7251,7 @@
         "GLP-1 Native",
         "GLP-1",
         "Incretin",
-        "~1\u20132 minutes",
+        "~1–2 minutes",
         "Native GLP-1",
         "IV/SC",
         "Approximate"
@@ -6331,7 +7260,7 @@
         "Glucagon",
         "GCG",
         "Hormonal",
-        "~3\u20136 minutes",
+        "~3–6 minutes",
         "Peptide hormone",
         "Injection",
         "Approximate"
@@ -6444,6 +7373,566 @@
       [
         "PDF",
         "assets/coa/KLOW80mg-02.pdf"
+      ]
+    ],
+    "COA_COA_0037": [
+      [
+        "Field",
+        "Value"
+      ],
+      [
+        "COA ID",
+        "COA-0037"
+      ],
+      [
+        "Product",
+        "BPC-157 / TB-500 Blend"
+      ],
+      [
+        "Compound Type",
+        "Healing / Recovery Blend"
+      ],
+      [
+        "Lab",
+        "SteriGenix"
+      ],
+      [
+        "Report/Task #",
+        "RPT-2026-237183"
+      ],
+      [
+        "Verification Key",
+        "SGX-VP-2026-0728-G37"
+      ],
+      [
+        "Test Date",
+        "2026-08-05"
+      ],
+      [
+        "Batch/Lot",
+        "BB260725A"
+      ],
+      [
+        "Labeled Qty (mg)",
+        10
+      ],
+      [
+        "Actual Content (mg)",
+        10.55
+      ],
+      [
+        "Purity %",
+        99.13
+      ],
+      [
+        "Status",
+        "Overfilled"
+      ],
+      [
+        "Cap Color",
+        "Red"
+      ],
+      [
+        "Crimp Color",
+        "Silver"
+      ],
+      [
+        "Notes",
+        "Identity confirmed by LC-MS. Component content reported as 5.37 mg BPC-157 and 5.18 mg TB-500; total 10.55 mg. Heavy metals and batch conformity: no data."
+      ],
+      [
+        "PDF",
+        "assets/coa/COA RPT-2026-237183 - SteriGenix.pdf"
+      ]
+    ],
+    "COA_COA_0038": [
+      [
+        "Field",
+        "Value"
+      ],
+      [
+        "COA ID",
+        "COA-0038"
+      ],
+      [
+        "Product",
+        "Tirzepatide"
+      ],
+      [
+        "Compound Type",
+        "GLP-1 / Weight"
+      ],
+      [
+        "Lab",
+        "SteriGenix"
+      ],
+      [
+        "Report/Task #",
+        "RPT-2026-442015"
+      ],
+      [
+        "Verification Key",
+        "SGX-VP-2026-0728-K72"
+      ],
+      [
+        "Test Date",
+        "2026-08-05"
+      ],
+      [
+        "Batch/Lot",
+        "TR260725A"
+      ],
+      [
+        "Labeled Qty (mg)",
+        10
+      ],
+      [
+        "Actual Content (mg)",
+        10.09
+      ],
+      [
+        "Purity %",
+        99.52
+      ],
+      [
+        "Status",
+        "On label"
+      ],
+      [
+        "Cap Color",
+        "Yellow"
+      ],
+      [
+        "Crimp Color",
+        "Silver"
+      ],
+      [
+        "Notes",
+        "Identity confirmed by LC-MS. Heavy metals and batch conformity: no data."
+      ],
+      [
+        "PDF",
+        "assets/coa/COA RPT-2026-442015 - SteriGenix.pdf"
+      ]
+    ],
+    "COA_COA_0039": [
+      [
+        "Field",
+        "Value"
+      ],
+      [
+        "COA ID",
+        "COA-0039"
+      ],
+      [
+        "Product",
+        "Semaglutide"
+      ],
+      [
+        "Compound Type",
+        "GLP-1 / Weight"
+      ],
+      [
+        "Lab",
+        "SteriGenix"
+      ],
+      [
+        "Report/Task #",
+        "RPT-2026-538821"
+      ],
+      [
+        "Verification Key",
+        "SGX-VP-2026-0728-U17"
+      ],
+      [
+        "Test Date",
+        "2026-08-05"
+      ],
+      [
+        "Batch/Lot",
+        "SM260725A"
+      ],
+      [
+        "Labeled Qty (mg)",
+        5
+      ],
+      [
+        "Actual Content (mg)",
+        5.07
+      ],
+      [
+        "Purity %",
+        99.32
+      ],
+      [
+        "Status",
+        "On label"
+      ],
+      [
+        "Cap Color",
+        "Blue"
+      ],
+      [
+        "Crimp Color",
+        "Silver"
+      ],
+      [
+        "Notes",
+        "Identity confirmed by LC-MS. Heavy metals and batch conformity: no data."
+      ],
+      [
+        "PDF",
+        "assets/coa/COA RPT-2026-538821 - SteriGenix.pdf"
+      ]
+    ],
+    "COA_COA_0040": [
+      [
+        "Field",
+        "Value"
+      ],
+      [
+        "COA ID",
+        "COA-0040"
+      ],
+      [
+        "Product",
+        "BPC-157"
+      ],
+      [
+        "Compound Type",
+        "Healing / Recovery"
+      ],
+      [
+        "Lab",
+        "SteriGenix"
+      ],
+      [
+        "Report/Task #",
+        "RPT-2026-654610"
+      ],
+      [
+        "Verification Key",
+        "SGX-VP-2026-0728-Z53"
+      ],
+      [
+        "Test Date",
+        "2026-08-05"
+      ],
+      [
+        "Batch/Lot",
+        "BC260725A"
+      ],
+      [
+        "Labeled Qty (mg)",
+        5
+      ],
+      [
+        "Actual Content (mg)",
+        5.13
+      ],
+      [
+        "Purity %",
+        99.57
+      ],
+      [
+        "Status",
+        "Overfilled"
+      ],
+      [
+        "Cap Color",
+        "Green"
+      ],
+      [
+        "Crimp Color",
+        "Silver"
+      ],
+      [
+        "Notes",
+        "Identity confirmed by LC-MS. Heavy metals and batch conformity: no data."
+      ],
+      [
+        "PDF",
+        "assets/coa/COA RPT-2026-654610 - SteriGenix.pdf"
+      ]
+    ],
+    "COA_COA_0041": [
+      [
+        "Field",
+        "Value"
+      ],
+      [
+        "COA ID",
+        "COA-0041"
+      ],
+      [
+        "Product",
+        "GHK-Cu"
+      ],
+      [
+        "Compound Type",
+        "Cosmetic / Recovery"
+      ],
+      [
+        "Lab",
+        "SteriGenix"
+      ],
+      [
+        "Report/Task #",
+        "RPT-2026-697297"
+      ],
+      [
+        "Verification Key",
+        "SGX-VP-2026-0728-K16"
+      ],
+      [
+        "Test Date",
+        "2026-08-05"
+      ],
+      [
+        "Batch/Lot",
+        "CU260725A"
+      ],
+      [
+        "Labeled Qty (mg)",
+        50
+      ],
+      [
+        "Actual Content (mg)",
+        51.34
+      ],
+      [
+        "Purity %",
+        99.78
+      ],
+      [
+        "Status",
+        "Overfilled"
+      ],
+      [
+        "Cap Color",
+        "Blue"
+      ],
+      [
+        "Crimp Color",
+        "Silver"
+      ],
+      [
+        "Notes",
+        "Reported as GHK-Cu (Copper Peptide); identity confirmed by LC-MS. Heavy metals and batch conformity: no data."
+      ],
+      [
+        "PDF",
+        "assets/coa/COA RPT-2026-697297 - SteriGenix.pdf"
+      ]
+    ],
+    "COA_COA_0042": [
+      [
+        "Field",
+        "Value"
+      ],
+      [
+        "COA ID",
+        "COA-0042"
+      ],
+      [
+        "Product",
+        "Ipamorelin"
+      ],
+      [
+        "Compound Type",
+        "Growth Hormone Support"
+      ],
+      [
+        "Lab",
+        "SteriGenix"
+      ],
+      [
+        "Report/Task #",
+        "RPT-2026-822844"
+      ],
+      [
+        "Verification Key",
+        "SGX-VP-2026-0728-U21"
+      ],
+      [
+        "Test Date",
+        "2026-08-05"
+      ],
+      [
+        "Batch/Lot",
+        "IP260725A"
+      ],
+      [
+        "Labeled Qty (mg)",
+        5
+      ],
+      [
+        "Actual Content (mg)",
+        5.17
+      ],
+      [
+        "Purity %",
+        99.34
+      ],
+      [
+        "Status",
+        "Overfilled"
+      ],
+      [
+        "Cap Color",
+        "White"
+      ],
+      [
+        "Crimp Color",
+        "Silver"
+      ],
+      [
+        "Notes",
+        "Identity confirmed by LC-MS. Heavy metals and batch conformity: no data."
+      ],
+      [
+        "PDF",
+        "assets/coa/COA RPT-2026-822844 - SteriGenix.pdf"
+      ]
+    ],
+    "COA_COA_0043": [
+      [
+        "Field",
+        "Value"
+      ],
+      [
+        "COA ID",
+        "COA-0043"
+      ],
+      [
+        "Product",
+        "Retatrutide"
+      ],
+      [
+        "Compound Type",
+        "GLP-1 / Weight"
+      ],
+      [
+        "Lab",
+        "SteriGenix"
+      ],
+      [
+        "Report/Task #",
+        "RPT-2026-932680"
+      ],
+      [
+        "Verification Key",
+        "SGX-VP-2026-0728-G60"
+      ],
+      [
+        "Test Date",
+        "2026-08-05"
+      ],
+      [
+        "Batch/Lot",
+        "RT260725A"
+      ],
+      [
+        "Labeled Qty (mg)",
+        10
+      ],
+      [
+        "Actual Content (mg)",
+        10.36
+      ],
+      [
+        "Purity %",
+        99.41
+      ],
+      [
+        "Status",
+        "Overfilled"
+      ],
+      [
+        "Cap Color",
+        "Clear"
+      ],
+      [
+        "Crimp Color",
+        "Copper"
+      ],
+      [
+        "Notes",
+        "Identity confirmed by LC-MS. Heavy metals and batch conformity: no data."
+      ],
+      [
+        "PDF",
+        "assets/coa/COA RPT-2026-932680 - SteriGenix.pdf"
+      ]
+    ],
+    "COA_COA_0044": [
+      [
+        "Field",
+        "Value"
+      ],
+      [
+        "COA ID",
+        "COA-0044"
+      ],
+      [
+        "Product",
+        "Eloralintide"
+      ],
+      [
+        "Compound Type",
+        "Amylin / Weight"
+      ],
+      [
+        "Lab",
+        "Tianjin Qiangxin (third-party partner lab)"
+      ],
+      [
+        "Report/Task #",
+        "Elor5-20260731S0925"
+      ],
+      [
+        "Verification Key",
+        "Not Listed"
+      ],
+      [
+        "Test Date",
+        "2026-07-31"
+      ],
+      [
+        "Batch/Lot",
+        "Not Listed"
+      ],
+      [
+        "Labeled Qty (mg)",
+        5
+      ],
+      [
+        "Actual Content (mg)",
+        4.63
+      ],
+      [
+        "Purity %",
+        99.67
+      ],
+      [
+        "Status",
+        "Underfilled"
+      ],
+      [
+        "Cap Color",
+        "Not Listed"
+      ],
+      [
+        "Crimp Color",
+        "Not Listed"
+      ],
+      [
+        "Notes",
+        "Report identifies sample as Elor5/Eloralintide. LCMS/HPLC purity 99.67%; peptide weight 4.63 mg. Report states neither issuer nor partner lab holds CMA/CNAS accreditation."
+      ],
+      [
+        "PDF",
+        "assets/coa/Elor5-20260731S0925_report.pdf"
       ]
     ]
   }
