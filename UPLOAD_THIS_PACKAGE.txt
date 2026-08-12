@@ -1,31 +1,38 @@
-THEFUTURE — COMPLETE GITHUB-READY PACKAGE
+THEFUTURE — COMPLETE GITHUB-READY PACKAGE — UPDATED 2026-08-12
 
-This ZIP has NO outer website folder. After extracting it, upload every extracted file and folder directly to the ROOT of:
+After extracting this ZIP, upload every extracted file and folder directly to the ROOT of:
 Thelaw818/TheFuture
 
-Important files included:
-- index.html
-- coa-database.json
-- inventory.xlsx
-- inventory_updated.xlsx
-- sw.js
-- assets/coa/...
-- .nojekyll
-- .github/workflows/deploy-pages.yml
+This build contains 46 master COA records and includes the complete root assets/coa folder.
 
-GitHub steps:
-1. Extract this ZIP on your computer. GitHub does not unpack ZIP files.
-2. In the repository, choose Add file > Upload files.
-3. Drag ALL extracted items into the upload box, including the .github folder.
-4. Commit directly to main.
-5. Open Settings > Pages and set Source to GitHub Actions.
-6. Open Actions and run "Deploy TheFuture to GitHub Pages" if it does not begin automatically.
-7. After the workflow finishes, test:
+NEW RECORDS:
+- COA-0045 | CJC-1295 10 mg | ILS Laboratories | 99.72% purity | 10.52 mg actual | 07/31/2026
+- COA-0046 | NAD+ 500 mg | Kovera Labs | 99.549% purity | 488.47 mg batch average | 07/29/2026
+
+Updated everywhere used by the site:
+- Dashboard metrics / recent batches
+- COA Database
+- Purity Rankings
+- Batch History
+- Lab Match
+- Inventory
+- Certificates
+- Lists / filters
+- COA Status
+- Individual COA detail tabs
+- COA Pictures gallery
+- Embedded offline/fallback workbook data in index.html
+- inventory.xlsx and inventory_updated.xlsx
+- Service-worker cache version
+
+IMPORTANT:
+1. Extract the ZIP first. GitHub does not unpack ZIP files.
+2. Upload ALL extracted files and folders to the repository root.
+3. Commit to main.
+4. Wait for GitHub Pages to redeploy.
+5. Hard-refresh the site (Ctrl+F5) after deployment because the service-worker cache was updated.
+6. Test these URLs after deployment:
    https://thelaw818.github.io/TheFuture/coa-database.json
+   https://thelaw818.github.io/TheFuture/coa-pictures.html
 
-Expected website status:
-Master JSON loaded · 35 COAs
-
-Verified GHK-Cu record:
-COA-0035 | GHK-Cu | 50 mg | 50.75 mg actual | 99.77% purity
-Clear/Transparent cap | Silver crimp
+Expected master record count: 46

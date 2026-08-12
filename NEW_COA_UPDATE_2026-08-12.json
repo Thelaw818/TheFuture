@@ -1,0 +1,43 @@
+{
+  "version": "2026-08-12-cjc-nad",
+  "total_coa_records": 46,
+  "added": [
+    {
+      "coa_id": "COA-0045",
+      "compound": "CJC-1295",
+      "lab": "ILS Laboratories",
+      "test_date": "2026-07-31",
+      "purity_pct": 99.72,
+      "net_content_mg": 10.52,
+      "preview": "assets/coa/images/ils-laboratories/cjc-1295/CJC-1295-10mg-2026-07-31-ILS-preview.jpg",
+      "document": "assets/coa/documents/ils-laboratories/cjc-1295/CJC-1295-10mg-2026-07-31-ILS.pdf"
+    },
+    {
+      "coa_id": "COA-0046",
+      "compound": "NAD+",
+      "lab": "Kovera Labs",
+      "test_date": "2026-07-29",
+      "purity_pct": 99.549,
+      "net_content_mg": 488.47,
+      "preview": "assets/coa/images/kovera-labs/nad-plus/NAD-500mg-2026-07-29-Kovera-preview.jpg",
+      "document": "assets/coa/documents/kovera-labs/nad-plus/NAD-500mg-2026-07-29-Kovera.pdf"
+    }
+  ],
+  "updated_sections": [
+    "Dashboard",
+    "COA Database",
+    "Purity Rankings",
+    "Batch History",
+    "Lab Match",
+    "Inventory",
+    "Certificates",
+    "Lists",
+    "COA Status",
+    "COA_COA_0045",
+    "COA_COA_0046",
+    "COA Pictures gallery",
+    "Embedded workbook fallback",
+    "Service worker cache",
+    "Excel workbooks"
+  ]
+}

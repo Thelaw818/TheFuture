@@ -1,0 +1,15 @@
+QA PASSED — 2026-08-12
+
+- Master COA database: 46 records
+- COA-0045 present in Database, Rankings, Batch History, Inventory, Certificates, COA Status, Dashboard and detail sheet
+- COA-0046 present in Database, Rankings, Batch History, Inventory, Certificates, COA Status, Dashboard and detail sheet
+- ILS Laboratories added to Lab Match and lab filters
+- CJC-1295 and NAD+ added to compound filters/lists
+- Both gallery previews resolve locally
+- Both generated local COA PDFs render successfully
+- All COA database local file links exist
+- All COA Pictures gallery references exist
+- index.html inline JavaScript syntax check passed
+- coa-pictures.html inline JavaScript syntax check passed
+- Local HTTP smoke test returned HTTP 200 for index, database, gallery, both previews and both PDFs
+- inventory.xlsx formula-error scan: no #REF!, #DIV/0!, #VALUE!, #NAME?, or #N/A matches

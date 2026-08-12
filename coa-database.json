@@ -1,5 +1,5 @@
 {
-  "version": "2026-08-05-new-coas",
+  "version": "2026-08-12-cjc-nad",
   "sheets": {
     "Dashboard": [
       [
@@ -18,28 +18,28 @@
       ],
       [
         "Total COA Records",
-        44,
+        46,
         "Synced from COA Database",
         null,
         null
       ],
       [
         "Unique Peptides",
-        18,
-        "ADAMAX, AOD-9604, BPC-157, BPC-157 / TB-500 Blend, BPC/TB Blend, CJC-1295 No DAC, Cagrilintide, Eloralintide, GHK-Cu, Ipamorelin, KLOW 80mg, KPV, MOTS-C, Retatrutide, SS-31, Semaglutide, TB-500, Tirzepatide",
+        20,
+        "ADAMAX, AOD-9604, BPC-157, BPC-157 / TB-500 Blend, BPC/TB Blend, CJC-1295, CJC-1295 No DAC, Cagrilintide, Eloralintide, GHK-Cu, Ipamorelin, KLOW 80mg, KPV, MOTS-C, NAD+, Retatrutide, SS-31, Semaglutide, TB-500, Tirzepatide",
         null,
         null
       ],
       [
         "Average Purity %",
-        99.613,
+        99.614,
         "Populated purity results",
         null,
         null
       ],
       [
         "Overfilled",
-        31,
+        32,
         null,
         null,
         null
@@ -53,15 +53,15 @@
       ],
       [
         "On Label/Review",
-        11,
+        12,
         null,
         null,
         null
       ],
       [
         "Labs Used",
-        8,
-        "Aminos Analytics, BT Labs, Freedom Diagnostics, Janoshik, Kovera Labs, SteriGenix, Testides, Tianjin Qiangxin (third-party partner lab)",
+        9,
+        "Aminos Analytics, BT Labs, Freedom Diagnostics, ILS Laboratories, Janoshik, Kovera Labs, SteriGenix, Testides, Tianjin Qiangxin (third-party partner lab)",
         null,
         null
       ],
@@ -136,11 +136,25 @@
         "Red"
       ],
       [
+        "COA-0045",
+        "CJC-1295",
+        "ILS Laboratories",
+        99.72,
+        "Not Listed"
+      ],
+      [
         "COA-0044",
         "Eloralintide",
         "Tianjin Qiangxin (third-party partner lab)",
         99.67,
         "Not Listed"
+      ],
+      [
+        "COA-0046",
+        "NAD+",
+        "Kovera Labs",
+        99.549,
+        "Black"
       ],
       [
         "COA-0004",
@@ -210,20 +224,6 @@
         "MOTS-C",
         "Janoshik",
         99.055,
-        "Not Listed"
-      ],
-      [
-        "COA-0011",
-        "Cagrilintide",
-        "Janoshik",
-        99.04,
-        "Not Listed"
-      ],
-      [
-        "COA-0006",
-        "Retatrutide",
-        "Aminos Analytics",
-        99.5,
         "Not Listed"
       ]
     ],
@@ -1307,6 +1307,54 @@
         "Not Listed",
         "Not Listed",
         "Crimp/cap color not listed in the testing record."
+      ],
+      [
+        "COA-0045",
+        "CJC-1295",
+        "GHRH analog",
+        10,
+        10.52,
+        0.5199999999999996,
+        0.051999999999999956,
+        99.72,
+        "Overfilled",
+        "ILS Laboratories",
+        "Confirmed",
+        46234,
+        "Redacted",
+        "Redacted",
+        "CND10-2606",
+        "Local PDF: assets/coa/documents/ils-laboratories/cjc-1295/CJC-1295-10mg-2026-07-31-ILS.pdf",
+        "Pass",
+        "Duplicates removed by same lab/report/date/product",
+        "Accession ACC-2026-10918. Identity confirmed by HPLC-RTM; fentanyl screen not detected. Analysis 07/31/2026; received 07/17/2026; lyophilized sample, 3 mL. COA/access identifiers are redacted in the supplied image.",
+        "Not Listed",
+        "Not Listed",
+        "Crimp/cap color not listed or visible in the supplied COA image."
+      ],
+      [
+        "COA-0046",
+        "NAD+",
+        "Metabolic / Cellular Energy",
+        500,
+        488.47,
+        -11.529999999999973,
+        -0.023059999999999945,
+        99.549,
+        "On label",
+        "Kovera Labs",
+        "Confirmed",
+        46232,
+        "Redacted",
+        "Redacted",
+        "Redacted",
+        "Local PDF: assets/coa/documents/kovera-labs/nad-plus/NAD-500mg-2026-07-29-Kovera.pdf",
+        "Pass",
+        "Duplicates removed by same lab/report/date/product",
+        "Identity confirmed as NAD+. Endotoxin safety screen PASS. Heavy metals arsenic, cadmium, lead, and mercury negative. Batch conformity: vial 1 = 99.517% / 483.68 mg; vial 2 = 99.582% / 493.26 mg. Certified 07/29/2026. Report/access and batch identifiers are redacted.",
+        "Silver",
+        "Black",
+        "Black flip-off cap with silver aluminum crimp, as listed in the COA."
       ]
     ],
     "Purity Rankings": [
@@ -1600,6 +1648,22 @@
       ],
       [
         18,
+        "COA-0045",
+        "CJC-1295",
+        "GHRH analog",
+        10,
+        10.52,
+        0.051999999999999956,
+        99.72,
+        "Overfilled",
+        "ILS Laboratories",
+        46234,
+        "Not Listed",
+        "Not Listed",
+        "Accession ACC-2026-10918. Identity confirmed by HPLC-RTM; fentanyl screen not detected. Analysis 07/31/2026; received 07/17/2026; lyophilized sample, 3 mL. COA/access identifiers are redacted in the supplied image."
+      ],
+      [
+        19,
         "COA-0007",
         "Tirzepatide",
         "GLP-1 / Weight",
@@ -1615,7 +1679,7 @@
         "20 mg label; 130.1% potency"
       ],
       [
-        19,
+        20,
         "COA-0008",
         "Tirzepatide",
         "GLP-1 / Weight",
@@ -1631,7 +1695,7 @@
         "40 mg label; 116.4% potency"
       ],
       [
-        20,
+        21,
         "COA-0044",
         "Eloralintide",
         "Amylin / Weight",
@@ -1647,7 +1711,7 @@
         "Report identifies sample as Elor5/Eloralintide. LCMS/HPLC purity 99.67%; peptide weight 4.63 mg. Report states neither issuer nor partner lab holds CMA/CNAS accreditation."
       ],
       [
-        21,
+        22,
         "COA-0003",
         "Retatrutide",
         "GLP-1 / Weight",
@@ -1663,7 +1727,7 @@
         "Heavy metals negative; endotoxin pass"
       ],
       [
-        22,
+        23,
         "COA-0032",
         "Semaglutide",
         "GLP-1 / Weight",
@@ -1679,7 +1743,7 @@
         "Kovera image COA; black cap / silver crimp; heavy metals negative; endotoxin pass. CAS 910463-68-2 visible; report/access code redacted."
       ],
       [
-        23,
+        24,
         "COA-0033",
         "Tirzepatide",
         "GLP-1 / Weight",
@@ -1695,7 +1759,7 @@
         "Kovera image COA; blue cap / silver crimp; heavy metals negative; endotoxin pass. CAS 2023788-19-2 visible; report/access code redacted."
       ],
       [
-        24,
+        25,
         "COA-0020",
         "KPV",
         "Other",
@@ -1711,7 +1775,7 @@
         "Overfilled"
       ],
       [
-        25,
+        26,
         "COA-0031",
         "Retatrutide",
         "GLP-1 / Weight",
@@ -1727,7 +1791,7 @@
         "Retatrutide 30mg; Date received/reported Jun 24, 2026; generated Jul 4, 2026."
       ],
       [
-        26,
+        27,
         "COA-0040",
         "BPC-157",
         "Healing / Recovery",
@@ -1743,7 +1807,7 @@
         "Identity confirmed by LC-MS. Heavy metals and batch conformity: no data."
       ],
       [
-        27,
+        28,
         "COA-0026",
         "Retatrutide",
         "GLP-1 / Weight",
@@ -1759,7 +1823,7 @@
         "Blue cap Retatrutide 40mg"
       ],
       [
-        28,
+        29,
         "COA-0025",
         "Retatrutide",
         "GLP-1 / Weight",
@@ -1775,7 +1839,23 @@
         "Transparent cap Retatrutide 30mg"
       ],
       [
-        29,
+        30,
+        "COA-0046",
+        "NAD+",
+        "Metabolic / Cellular Energy",
+        500,
+        488.47,
+        -0.023059999999999945,
+        99.549,
+        "On label",
+        "Kovera Labs",
+        46232,
+        "Black",
+        "Silver",
+        "Identity confirmed as NAD+. Endotoxin safety screen PASS. Heavy metals arsenic, cadmium, lead, and mercury negative. Batch conformity: vial 1 = 99.517% / 483.68 mg; vial 2 = 99.582% / 493.26 mg. Certified 07/29/2026. Report/access and batch identifiers are redacted."
+      ],
+      [
+        31,
         "COA-0038",
         "Tirzepatide",
         "GLP-1 / Weight",
@@ -1791,7 +1871,7 @@
         "Identity confirmed by LC-MS. Heavy metals and batch conformity: no data."
       ],
       [
-        30,
+        32,
         "COA-0001",
         "Retatrutide",
         "GLP-1 / Weight",
@@ -1807,7 +1887,7 @@
         "RT10 - common GLP-1 blind test; overfilled"
       ],
       [
-        31,
+        33,
         "COA-0006",
         "Retatrutide",
         "GLP-1 / Weight",
@@ -1823,7 +1903,7 @@
         "Labeled quantity unclear from image"
       ],
       [
-        32,
+        34,
         "COA-0004",
         "Retatrutide",
         "GLP-1 / Weight",
@@ -1839,7 +1919,7 @@
         "Heavy metals negative; endotoxin pass"
       ],
       [
-        33,
+        35,
         "COA-0030",
         "Retatrutide",
         "GLP-1 / Weight",
@@ -1855,7 +1935,7 @@
         "Retatrutide 20mg; Date received/reported Jun 24, 2026; generated Jul 4, 2026."
       ],
       [
-        34,
+        36,
         "COA-0043",
         "Retatrutide",
         "GLP-1 / Weight",
@@ -1871,7 +1951,7 @@
         "Identity confirmed by LC-MS. Heavy metals and batch conformity: no data."
       ],
       [
-        35,
+        37,
         "COA-0029",
         "MOTS-C",
         "Metabolic / Mito",
@@ -1887,7 +1967,7 @@
         "MOTS-c 40mg; Date received/reported Jun 24, 2026; generated Jul 4, 2026."
       ],
       [
-        36,
+        38,
         "COA-0002",
         "Retatrutide",
         "GLP-1 / Weight",
@@ -1903,7 +1983,7 @@
         "On label"
       ],
       [
-        37,
+        39,
         "COA-0042",
         "Ipamorelin",
         "Growth Hormone Support",
@@ -1919,7 +1999,7 @@
         "Identity confirmed by LC-MS. Heavy metals and batch conformity: no data."
       ],
       [
-        38,
+        40,
         "COA-0039",
         "Semaglutide",
         "GLP-1 / Weight",
@@ -1935,7 +2015,7 @@
         "Identity confirmed by LC-MS. Heavy metals and batch conformity: no data."
       ],
       [
-        39,
+        41,
         "COA-0037",
         "BPC-157 / TB-500 Blend",
         "Healing / Recovery Blend",
@@ -1951,7 +2031,7 @@
         "Identity confirmed by LC-MS. Component content reported as 5.37 mg BPC-157 and 5.18 mg TB-500; total 10.55 mg. Heavy metals and batch conformity: no data."
       ],
       [
-        40,
+        42,
         "COA-0016",
         "TB-500",
         "Healing / Recovery",
@@ -1967,7 +2047,7 @@
         "TB-500 / TB4"
       ],
       [
-        41,
+        43,
         "COA-0014",
         "MOTS-C",
         "Metabolic / Mito",
@@ -1983,7 +2063,7 @@
         "MS10 / MOTS-C"
       ],
       [
-        42,
+        44,
         "COA-0011",
         "Cagrilintide",
         "GLP-1 / Weight",
@@ -1999,7 +2079,7 @@
         "Overfilled"
       ],
       [
-        43,
+        45,
         "COA-0017",
         "BPC-157",
         "Healing / Recovery",
@@ -2015,7 +2095,7 @@
         "Blend report BPC5+TB5"
       ],
       [
-        44,
+        46,
         "COA-0018",
         "TB-500",
         "Healing / Recovery",
@@ -3111,6 +3191,54 @@
         "Not Listed",
         "Not Listed",
         "Crimp/cap color not listed in the testing record."
+      ],
+      [
+        "COA-0045",
+        "CJC-1295",
+        "GHRH analog",
+        10,
+        10.52,
+        0.5199999999999996,
+        0.051999999999999956,
+        99.72,
+        "Overfilled",
+        "ILS Laboratories",
+        "Confirmed",
+        46234,
+        "Redacted",
+        "Redacted",
+        "CND10-2606",
+        "Local PDF: assets/coa/documents/ils-laboratories/cjc-1295/CJC-1295-10mg-2026-07-31-ILS.pdf",
+        "Pass",
+        "Duplicates removed by same lab/report/date/product",
+        "Accession ACC-2026-10918. Identity confirmed by HPLC-RTM; fentanyl screen not detected. Analysis 07/31/2026; received 07/17/2026; lyophilized sample, 3 mL. COA/access identifiers are redacted in the supplied image.",
+        "Not Listed",
+        "Not Listed",
+        "Crimp/cap color not listed or visible in the supplied COA image."
+      ],
+      [
+        "COA-0046",
+        "NAD+",
+        "Metabolic / Cellular Energy",
+        500,
+        488.47,
+        -11.529999999999973,
+        -0.023059999999999945,
+        99.549,
+        "On label",
+        "Kovera Labs",
+        "Confirmed",
+        46232,
+        "Redacted",
+        "Redacted",
+        "Redacted",
+        "Local PDF: assets/coa/documents/kovera-labs/nad-plus/NAD-500mg-2026-07-29-Kovera.pdf",
+        "Pass",
+        "Duplicates removed by same lab/report/date/product",
+        "Identity confirmed as NAD+. Endotoxin safety screen PASS. Heavy metals arsenic, cadmium, lead, and mercury negative. Batch conformity: vial 1 = 99.517% / 483.68 mg; vial 2 = 99.582% / 493.26 mg. Certified 07/29/2026. Report/access and batch identifiers are redacted.",
+        "Silver",
+        "Black",
+        "Black flip-off cap with silver aluminum crimp, as listed in the COA."
       ]
     ],
     "Lab Match": [
@@ -3121,34 +3249,58 @@
         "Notes"
       ],
       [
-        "Janoshik",
-        "Retatrutide, Tirzepatide 30, Cagrilintide, AOD-9604, MOTS-C, TB-500, BPC-157, SS-31, KPV, CJC-1295 No DAC",
-        "Janoshik task number + verify key",
-        "Task/report numbers preserved in COA Database"
-      ],
-      [
-        "BT Labs",
-        "Tirzepatide 20, Tirzepatide 40, Tirzepatide 60",
-        "BT Labs report number",
-        "BT Labs reports use IF-824-QSA-TR006 report IDs"
-      ],
-      [
-        "Kovera Labs",
-        "Retatrutide 5, Retatrutide 10 / Trivial-3R, Retatrutide 15",
-        "Kovera certificate",
-        "Heavy metals/endotoxin screening shown on certificates"
-      ],
-      [
         "Aminos Analytics",
         "Retatrutide",
         "Aminos certificate",
-        "Labeled quantity unclear in image; marked N/A/unclear"
+        "Records preserved in COA Database and Certificates tabs."
+      ],
+      [
+        "BT Labs",
+        "Tirzepatide",
+        "BT Labs report number",
+        "Records preserved in COA Database and Certificates tabs."
       ],
       [
         "Freedom Diagnostics",
-        "Retatrutide 20mg, KLOW 80mg",
+        "GHK-Cu, KLOW 80mg, Retatrutide",
         "Freedom Diagnostics accession/search code + COA PDF",
-        "Accession and search code preserved; vial closure colors documented from COA image."
+        "Records preserved in COA Database and Certificates tabs."
+      ],
+      [
+        "ILS Laboratories",
+        "CJC-1295",
+        "ILS Laboratories certificate / HPLC report",
+        "Records preserved in COA Database and Certificates tabs."
+      ],
+      [
+        "Janoshik",
+        "AOD-9604, BPC-157, CJC-1295 No DAC, Cagrilintide, KPV, MOTS-C, Retatrutide, SS-31, TB-500, Tirzepatide",
+        "Janoshik task number + verify key",
+        "Records preserved in COA Database and Certificates tabs."
+      ],
+      [
+        "Kovera Labs",
+        "NAD+, Retatrutide, Semaglutide, Tirzepatide",
+        "Kovera certificate",
+        "Records preserved in COA Database and Certificates tabs."
+      ],
+      [
+        "SteriGenix",
+        "ADAMAX, BPC-157, BPC-157 / TB-500 Blend, GHK-Cu, Ipamorelin, Retatrutide, Semaglutide, Tirzepatide",
+        "SteriGenix report/task number + verification key + COA PDF",
+        "Records preserved in COA Database and Certificates tabs."
+      ],
+      [
+        "Testides",
+        "BPC/TB Blend, MOTS-C, Retatrutide",
+        "Testides report image / certificate",
+        "Records preserved in COA Database and Certificates tabs."
+      ],
+      [
+        "Tianjin Qiangxin (third-party partner lab)",
+        "Eloralintide",
+        "Partner laboratory report PDF",
+        "Records preserved in COA Database and Certificates tabs."
       ]
     ],
     "Inventory": [
@@ -4141,6 +4293,50 @@
         "Not Listed",
         "Crimp/cap color not listed in the testing record.",
         "Report identifies sample as Elor5/Eloralintide. LCMS/HPLC purity 99.67%; peptide weight 4.63 mg. Report states neither issuer nor partner lab holds CMA/CNAS accreditation."
+      ],
+      [
+        "COA-0045",
+        "CJC-1295",
+        "GHRH analog",
+        10,
+        10.52,
+        0.5199999999999996,
+        0.051999999999999956,
+        99.72,
+        "CND10-2606",
+        "ILS Laboratories",
+        "Overfilled",
+        46234,
+        "COA-0045",
+        "Redacted",
+        "Redacted",
+        "Local PDF: assets/coa/documents/ils-laboratories/cjc-1295/CJC-1295-10mg-2026-07-31-ILS.pdf",
+        "Not Listed",
+        "Not Listed",
+        "Crimp/cap color not listed or visible in the supplied COA image.",
+        "Accession ACC-2026-10918. Identity confirmed by HPLC-RTM; fentanyl screen not detected. Analysis 07/31/2026; received 07/17/2026; lyophilized sample, 3 mL. COA/access identifiers are redacted in the supplied image."
+      ],
+      [
+        "COA-0046",
+        "NAD+",
+        "Metabolic / Cellular Energy",
+        500,
+        488.47,
+        -11.529999999999973,
+        -0.023059999999999945,
+        99.549,
+        "Redacted",
+        "Kovera Labs",
+        "On label",
+        46232,
+        "COA-0046",
+        "Redacted",
+        "Redacted",
+        "Local PDF: assets/coa/documents/kovera-labs/nad-plus/NAD-500mg-2026-07-29-Kovera.pdf",
+        "Black",
+        "Silver",
+        "Black flip-off cap with silver aluminum crimp, as listed in the COA.",
+        "Identity confirmed as NAD+. Endotoxin safety screen PASS. Heavy metals arsenic, cadmium, lead, and mercury negative. Batch conformity: vial 1 = 99.517% / 483.68 mg; vial 2 = 99.582% / 493.26 mg. Certified 07/29/2026. Report/access and batch identifiers are redacted."
       ]
     ],
     "Certificates": [
@@ -5178,6 +5374,52 @@
         "Not Listed",
         "Not Listed",
         "Crimp/cap color not listed in the testing record."
+      ],
+      [
+        "COA-0045",
+        "CJC-1295",
+        "GHRH analog",
+        "ILS Laboratories",
+        "Redacted",
+        "Redacted",
+        "Local PDF: assets/coa/documents/ils-laboratories/cjc-1295/CJC-1295-10mg-2026-07-31-ILS.pdf",
+        "Yes",
+        10,
+        10.52,
+        0.5199999999999996,
+        0.051999999999999956,
+        99.72,
+        "Overfilled",
+        "CND10-2606",
+        46234,
+        "Pass",
+        "Accession ACC-2026-10918. Identity confirmed by HPLC-RTM; fentanyl screen not detected. Analysis 07/31/2026; received 07/17/2026; lyophilized sample, 3 mL. COA/access identifiers are redacted in the supplied image.",
+        "Not Listed",
+        "Not Listed",
+        "Crimp/cap color not listed or visible in the supplied COA image."
+      ],
+      [
+        "COA-0046",
+        "NAD+",
+        "Metabolic / Cellular Energy",
+        "Kovera Labs",
+        "Redacted",
+        "Redacted",
+        "Local PDF: assets/coa/documents/kovera-labs/nad-plus/NAD-500mg-2026-07-29-Kovera.pdf",
+        "Yes",
+        500,
+        488.47,
+        -11.529999999999973,
+        -0.023059999999999945,
+        99.549,
+        "On label",
+        "Redacted",
+        46232,
+        "Pass",
+        "Identity confirmed as NAD+. Endotoxin safety screen PASS. Heavy metals arsenic, cadmium, lead, and mercury negative. Batch conformity: vial 1 = 99.517% / 483.68 mg; vial 2 = 99.582% / 493.26 mg. Certified 07/29/2026. Report/access and batch identifiers are redacted.",
+        "Silver",
+        "Black",
+        "Black flip-off cap with silver aluminum crimp, as listed in the COA."
       ]
     ],
     "Lists": [
@@ -5211,21 +5453,29 @@
         "Review",
         "Clear",
         "Silver",
-        "GLP-1 / Weight"
+        "GHRH analog"
       ],
       [
         "BPC-157 / TB-500 Blend",
-        "Janoshik",
+        "ILS Laboratories",
         "Underfilled",
         "Clear Green",
+        null,
+        "GLP-1 / Weight"
+      ],
+      [
+        "BPC/TB Blend",
+        "Janoshik",
+        null,
+        "Clear/Transparent",
         null,
         "Growth Hormone Support"
       ],
       [
-        "BPC/TB Blend",
+        "CJC-1295",
         "Kovera Labs",
         null,
-        "Clear/Transparent",
+        "Gold",
         null,
         "Healing / Recovery"
       ],
@@ -5233,7 +5483,7 @@
         "CJC-1295 No DAC",
         "SteriGenix",
         null,
-        "Gold",
+        "Gray",
         null,
         "Healing / Recovery Blend"
       ],
@@ -5241,60 +5491,52 @@
         "Cagrilintide",
         "Testides",
         null,
-        "Gray",
+        "Green",
         null,
-        "Metabolic / Fat Loss"
+        "Metabolic / Cellular Energy"
       ],
       [
         "Eloralintide",
         "Tianjin Qiangxin (third-party partner lab)",
         null,
-        "Green",
+        "Not Listed",
         null,
-        "Metabolic / Mito"
+        "Metabolic / Fat Loss"
       ],
       [
         "GHK-Cu",
         null,
         null,
-        "Not Listed",
+        "Purple",
         null,
-        "Other"
+        "Metabolic / Mito"
       ],
       [
         "Ipamorelin",
         null,
         null,
-        "Purple",
+        "Red",
         null,
-        "Regenerative / Skin"
+        "Other"
       ],
       [
         "KLOW 80mg",
         null,
         null,
-        "Red",
+        "Royal Blue",
         null,
-        "Research Peptide"
+        "Regenerative / Skin"
       ],
       [
         "KPV",
         null,
         null,
-        "Royal Blue",
+        "Transparent",
         null,
-        null
+        "Research Peptide"
       ],
       [
         "MOTS-C",
-        null,
-        null,
-        "Transparent",
-        null,
-        null
-      ],
-      [
-        "Retatrutide",
         null,
         null,
         "White",
@@ -5302,10 +5544,26 @@
         null
       ],
       [
-        "SS-31",
+        "NAD+",
         null,
         null,
         "Yellow",
+        null,
+        null
+      ],
+      [
+        "Retatrutide",
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        "SS-31",
+        null,
+        null,
+        null,
         null,
         null
       ],
@@ -5486,7 +5744,7 @@
       ],
       [
         "Total COA/Test Records",
-        44,
+        46,
         "All records from COA Database",
         null,
         null,
@@ -5507,8 +5765,8 @@
       ],
       [
         "Unique Peptides",
-        15,
-        "ADAMAX, AOD-9604, BPC-157, BPC/TB Blend, CJC-1295 No DAC, Cagrilintide, GHK-Cu, KLOW 80mg, KPV, MOTS-C, Retatrutide, SS-31, Semaglutide, TB-500, Tirzepatide",
+        20,
+        "ADAMAX, AOD-9604, BPC-157, BPC-157 / TB-500 Blend, BPC/TB Blend, CJC-1295, CJC-1295 No DAC, Cagrilintide, Eloralintide, GHK-Cu, Ipamorelin, KLOW 80mg, KPV, MOTS-C, NAD+, Retatrutide, SS-31, Semaglutide, TB-500, Tirzepatide",
         null,
         null,
         null,
@@ -5528,7 +5786,7 @@
       ],
       [
         "Passed Records",
-        36,
+        46,
         "Pass/Fail column",
         null,
         null,
@@ -5549,7 +5807,7 @@
       ],
       [
         "Overfilled",
-        26,
+        32,
         "Status column",
         null,
         null,
@@ -5570,7 +5828,7 @@
       ],
       [
         "Underfilled",
-        1,
+        2,
         "Status column",
         null,
         null,
@@ -5591,7 +5849,7 @@
       ],
       [
         "On Label/Review",
-        9,
+        12,
         "Status column",
         null,
         null,
@@ -5612,7 +5870,7 @@
       ],
       [
         "Average Purity %",
-        99.613,
+        99.614,
         "Based on populated purity values",
         null,
         null,
@@ -5633,8 +5891,8 @@
       ],
       [
         "Unique Labs",
-        7,
-        "Aminos Analytics, BT Labs, Freedom Diagnostics, Janoshik, Kovera Labs, SteriGenix, Testides",
+        9,
+        "Aminos Analytics, BT Labs, Freedom Diagnostics, ILS Laboratories, Janoshik, Kovera Labs, SteriGenix, Testides, Tianjin Qiangxin (third-party partner lab)",
         null,
         null,
         null,
@@ -5654,7 +5912,7 @@
       ],
       [
         "Last Test Date",
-        "2026-07-20",
+        "2026-08-05",
         "Most recent test date",
         null,
         null,
@@ -6470,6 +6728,216 @@
         "Yellow",
         "Yellow flip-off cap with silver aluminum crimp, based on the vial image shown on page 1 of the COA.",
         "Identity confirmed: GHK-Cu/KPV/BPC-157/Thymosin Beta-4. Net content: GHK-Cu 62.93 mg; KPV 9.09 mg; BPC-157 12.40 mg; Thymosin Beta-4 12.04 mg. Blue lyophilized powder. Received 07/17/2026; reported 07/20/2026."
+      ],
+      [
+        "COA-0037",
+        "BPC-157 / TB-500 Blend",
+        "Healing / Recovery Blend",
+        10,
+        10.55,
+        0.5500000000000007,
+        0.05500000000000007,
+        99.13,
+        "Overfilled",
+        "SteriGenix",
+        46239,
+        "RPT-2026-237183",
+        "SGX-VP-2026-0728-G37",
+        "BB260725A",
+        "Pass",
+        "Silver",
+        "Red",
+        "Red flip-off cap with silver aluminum crimp, as listed in the COA.",
+        "Identity confirmed by LC-MS. Component content reported as 5.37 mg BPC-157 and 5.18 mg TB-500; total 10.55 mg. Heavy metals and batch conformity: no data."
+      ],
+      [
+        "COA-0038",
+        "Tirzepatide",
+        "GLP-1 / Weight",
+        10,
+        10.09,
+        0.08999999999999986,
+        0.008999999999999985,
+        99.52,
+        "On label",
+        "SteriGenix",
+        46239,
+        "RPT-2026-442015",
+        "SGX-VP-2026-0728-K72",
+        "TR260725A",
+        "Pass",
+        "Silver",
+        "Yellow",
+        "Yellow flip-off cap with silver aluminum crimp, as listed in the COA.",
+        "Identity confirmed by LC-MS. Heavy metals and batch conformity: no data."
+      ],
+      [
+        "COA-0039",
+        "Semaglutide",
+        "GLP-1 / Weight",
+        5,
+        5.07,
+        0.07000000000000028,
+        0.014000000000000058,
+        99.32,
+        "On label",
+        "SteriGenix",
+        46239,
+        "RPT-2026-538821",
+        "SGX-VP-2026-0728-U17",
+        "SM260725A",
+        "Pass",
+        "Silver",
+        "Blue",
+        "Blue flip-off cap with silver aluminum crimp, as listed in the COA.",
+        "Identity confirmed by LC-MS. Heavy metals and batch conformity: no data."
+      ],
+      [
+        "COA-0040",
+        "BPC-157",
+        "Healing / Recovery",
+        5,
+        5.13,
+        0.1299999999999999,
+        0.025999999999999978,
+        99.57,
+        "Overfilled",
+        "SteriGenix",
+        46239,
+        "RPT-2026-654610",
+        "SGX-VP-2026-0728-Z53",
+        "BC260725A",
+        "Pass",
+        "Silver",
+        "Green",
+        "Green flip-off cap with silver aluminum crimp, as listed in the COA.",
+        "Identity confirmed by LC-MS. Heavy metals and batch conformity: no data."
+      ],
+      [
+        "COA-0041",
+        "GHK-Cu",
+        "Cosmetic / Recovery",
+        50,
+        51.34,
+        1.3400000000000034,
+        0.026800000000000067,
+        99.78,
+        "Overfilled",
+        "SteriGenix",
+        46239,
+        "RPT-2026-697297",
+        "SGX-VP-2026-0728-K16",
+        "CU260725A",
+        "Pass",
+        "Silver",
+        "Blue",
+        "Blue flip-off cap with silver aluminum crimp, as listed in the COA.",
+        "Reported as GHK-Cu (Copper Peptide); identity confirmed by LC-MS. Heavy metals and batch conformity: no data."
+      ],
+      [
+        "COA-0042",
+        "Ipamorelin",
+        "Growth Hormone Support",
+        5,
+        5.17,
+        0.16999999999999993,
+        0.03399999999999999,
+        99.34,
+        "Overfilled",
+        "SteriGenix",
+        46239,
+        "RPT-2026-822844",
+        "SGX-VP-2026-0728-U21",
+        "IP260725A",
+        "Pass",
+        "Silver",
+        "White",
+        "White flip-off cap with silver aluminum crimp, as listed in the COA.",
+        "Identity confirmed by LC-MS. Heavy metals and batch conformity: no data."
+      ],
+      [
+        "COA-0043",
+        "Retatrutide",
+        "GLP-1 / Weight",
+        10,
+        10.36,
+        0.35999999999999943,
+        0.03599999999999994,
+        99.41,
+        "Overfilled",
+        "SteriGenix",
+        46239,
+        "RPT-2026-932680",
+        "SGX-VP-2026-0728-G60",
+        "RT260725A",
+        "Pass",
+        "Copper",
+        "Clear",
+        "Clear flip-off cap with copper aluminum crimp, as listed in the COA.",
+        "Identity confirmed by LC-MS. Heavy metals and batch conformity: no data."
+      ],
+      [
+        "COA-0044",
+        "Eloralintide",
+        "Amylin / Weight",
+        5,
+        4.63,
+        -0.3700000000000001,
+        -0.07400000000000002,
+        99.67,
+        "Underfilled",
+        "Tianjin Qiangxin (third-party partner lab)",
+        46234,
+        "Elor5-20260731S0925",
+        "Not Listed",
+        "Not Listed",
+        "Pass",
+        "Not Listed",
+        "Not Listed",
+        "Crimp/cap color not listed in the testing record.",
+        "Report identifies sample as Elor5/Eloralintide. LCMS/HPLC purity 99.67%; peptide weight 4.63 mg. Report states neither issuer nor partner lab holds CMA/CNAS accreditation."
+      ],
+      [
+        "COA-0045",
+        "CJC-1295",
+        "GHRH analog",
+        10,
+        10.52,
+        0.5199999999999996,
+        0.051999999999999956,
+        99.72,
+        "Overfilled",
+        "ILS Laboratories",
+        46234,
+        "Redacted",
+        "Redacted",
+        "CND10-2606",
+        "Pass",
+        "Not Listed",
+        "Not Listed",
+        "Crimp/cap color not listed or visible in the supplied COA image.",
+        "Accession ACC-2026-10918. Identity confirmed by HPLC-RTM; fentanyl screen not detected. Analysis 07/31/2026; received 07/17/2026; lyophilized sample, 3 mL. COA/access identifiers are redacted in the supplied image."
+      ],
+      [
+        "COA-0046",
+        "NAD+",
+        "Metabolic / Cellular Energy",
+        500,
+        488.47,
+        -11.529999999999973,
+        -0.023059999999999945,
+        99.549,
+        "On label",
+        "Kovera Labs",
+        46232,
+        "Redacted",
+        "Redacted",
+        "Redacted",
+        "Pass",
+        "Silver",
+        "Black",
+        "Black flip-off cap with silver aluminum crimp, as listed in the COA.",
+        "Identity confirmed as NAD+. Endotoxin safety screen PASS. Heavy metals arsenic, cadmium, lead, and mercury negative. Batch conformity: vial 1 = 99.517% / 483.68 mg; vial 2 = 99.582% / 493.26 mg. Certified 07/29/2026. Report/access and batch identifiers are redacted."
       ]
     ],
     "Half-Life Reference": [
@@ -7933,6 +8401,194 @@
       [
         "PDF",
         "assets/coa/documents/tianjin-qiangxin/eloralintide/Elor5-20260731S0925-report.pdf"
+      ]
+    ],
+    "COA_COA_0045": [
+      [
+        "Field",
+        "Value"
+      ],
+      [
+        "COA ID",
+        "COA-0045"
+      ],
+      [
+        "Product",
+        "CJC-1295"
+      ],
+      [
+        "Compound Type",
+        "GHRH analog"
+      ],
+      [
+        "Lab",
+        "ILS Laboratories"
+      ],
+      [
+        "COA #",
+        "Redacted"
+      ],
+      [
+        "Accession #",
+        "ACC-2026-10918"
+      ],
+      [
+        "Analysis Date",
+        "2026-07-31"
+      ],
+      [
+        "Date Received",
+        "2026-07-17"
+      ],
+      [
+        "Batch/Lot",
+        "CND10-2606"
+      ],
+      [
+        "Labeled Qty (mg)",
+        10
+      ],
+      [
+        "Actual Content (mg)",
+        10.52
+      ],
+      [
+        "Purity %",
+        99.72
+      ],
+      [
+        "Status",
+        "Overfilled"
+      ],
+      [
+        "Identity",
+        "Confirmed: CJC-1295 (HPLC-RTM)"
+      ],
+      [
+        "Fentanyl Screen",
+        "Not Detected"
+      ],
+      [
+        "Sample Matrix",
+        "Lyophilized"
+      ],
+      [
+        "Volume",
+        "3 mL"
+      ],
+      [
+        "Cap Color",
+        "Not Listed"
+      ],
+      [
+        "Crimp Color",
+        "Not Listed"
+      ],
+      [
+        "Notes",
+        "COA/access identifiers are redacted in the supplied certificate image."
+      ],
+      [
+        "PDF",
+        "assets/coa/documents/ils-laboratories/cjc-1295/CJC-1295-10mg-2026-07-31-ILS.pdf"
+      ]
+    ],
+    "COA_COA_0046": [
+      [
+        "Field",
+        "Value"
+      ],
+      [
+        "COA ID",
+        "COA-0046"
+      ],
+      [
+        "Product",
+        "NAD+"
+      ],
+      [
+        "Compound Type",
+        "Metabolic / Cellular Energy"
+      ],
+      [
+        "Lab",
+        "Kovera Labs"
+      ],
+      [
+        "Certified",
+        "2026-07-29"
+      ],
+      [
+        "Report #",
+        "Redacted"
+      ],
+      [
+        "Verification Key",
+        "Redacted"
+      ],
+      [
+        "Batch/Lot",
+        "Redacted"
+      ],
+      [
+        "Labeled Qty (mg)",
+        500
+      ],
+      [
+        "Actual Content (mg)",
+        488.47
+      ],
+      [
+        "Purity %",
+        99.549
+      ],
+      [
+        "Status",
+        "On label"
+      ],
+      [
+        "Identity",
+        "Confirmed: NAD+ (LC-MS)"
+      ],
+      [
+        "CAS Number",
+        "53-84-9"
+      ],
+      [
+        "Molecular Formula",
+        "C21H27N7O14P2"
+      ],
+      [
+        "Endotoxin Safety Screen",
+        "PASS"
+      ],
+      [
+        "Heavy Metals",
+        "Arsenic, Cadmium, Lead, Mercury: Negative"
+      ],
+      [
+        "Vial 1",
+        "99.517% purity / 483.68 mg"
+      ],
+      [
+        "Vial 2",
+        "99.582% purity / 493.26 mg"
+      ],
+      [
+        "Cap Color",
+        "Black"
+      ],
+      [
+        "Crimp Color",
+        "Silver"
+      ],
+      [
+        "Closure Notes",
+        "Black flip-off cap with silver aluminum crimp, as listed in the COA."
+      ],
+      [
+        "PDF",
+        "assets/coa/documents/kovera-labs/nad-plus/NAD-500mg-2026-07-29-Kovera.pdf"
       ]
     ]
   }
