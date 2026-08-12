@@ -1,0 +1,10 @@
+PICTURE/PDF PATH FIX — 2026-08-12
+
+Upload the CONTENTS of this patch to the ROOT of your GitHub TheFuture repository and choose Replace when GitHub asks.
+
+This patch does NOT delete or move your existing COAs. It makes the site use the existing stable folder:
+assets/coa/
+
+It also adds the new CJC-1295 and NAD+ preview/PDF files into that same folder and updates the service worker so one missing image can never break the cache install again.
+
+After GitHub Pages finishes deploying, use Ctrl+F5 once.

@@ -1,0 +1,28 @@
+FINAL QA VERIFIED — 2026-08-12
+
+RESULT: PASS — 0 broken local references found in the tested build.
+
+Verified:
+- 46 COA database records.
+- COA-0045 CJC-1295 present in COA Database, Purity Rankings, Batch History, Inventory, Certificates, detail sheet, gallery, PDF, and both Excel workbooks.
+- COA-0046 NAD+ present in COA Database, Purity Rankings, Batch History, Inventory, Certificates, detail sheet, gallery, PDF, and both Excel workbooks.
+- COA Pictures gallery: 62 displayed gallery items, all 62 image files present.
+- 10 gallery PDF buttons, all target PDFs present.
+- Canonical assets/coa archive: 76 valid image files and 17 readable PDFs.
+- 93 total files under assets/coa; compatibility mirror retained under UPLOAD-FIRST-COA-ONLY/assets/coa.
+- All gallery/image/PDF URLs tested through a local HTTP server: 75 requests, 75 successful, 0 errors.
+- coa-database.json parses successfully.
+- inventory.xlsx and inventory_updated.xlsx both open successfully (25 sheets each).
+- Main JavaScript files and inline scripts passed syntax checks.
+
+IMPORTANT STRUCTURE:
+The LIVE canonical location is now:
+  assets/coa/
+
+The older location is retained only as a compatibility backup:
+  UPLOAD-FIRST-COA-ONLY/assets/coa/
+
+The live coa-pictures.html points to assets/coa/.
+
+UPLOAD:
+Upload the CONTENTS of this package to the ROOT of the TheFuture GitHub repository and replace same-name files/folders. Do not place the outer folder inside the repository.

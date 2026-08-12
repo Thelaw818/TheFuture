@@ -1,0 +1,8 @@
+FINAL VERIFIED BUILD — 2026-08-12
+
+Canonical COA files are now at: assets/coa/
+The older UPLOAD-FIRST-COA-ONLY/assets/coa/ copy is retained as a compatibility backup.
+The live COA Pictures page uses assets/coa/ and all gallery image/PDF references were verified locally.
+CJC-1295 COA-0045 and NAD+ COA-0046 are included in the database, gallery, PDFs, and workbooks.
+
+Upload the CONTENTS of this folder to the root of the GitHub repository, replacing same-name files/folders. Do not upload the outer folder itself as a nested folder.
