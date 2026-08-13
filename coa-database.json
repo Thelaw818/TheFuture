@@ -1,5 +1,5 @@
 {
-  "version": "2026-08-12-cjc-nad",
+  "version": "2026-08-13-five-kovera-coas",
   "sheets": {
     "Dashboard": [
       [
@@ -18,28 +18,28 @@
       ],
       [
         "Total COA Records",
-        46,
+        51,
         "Synced from COA Database",
         null,
         null
       ],
       [
         "Unique Peptides",
-        20,
-        "ADAMAX, AOD-9604, BPC-157, BPC-157 / TB-500 Blend, BPC/TB Blend, CJC-1295, CJC-1295 No DAC, Cagrilintide, Eloralintide, GHK-Cu, Ipamorelin, KLOW 80mg, KPV, MOTS-C, NAD+, Retatrutide, SS-31, Semaglutide, TB-500, Tirzepatide",
+        22,
+        "5-Amino-1MQ, ADAMAX, AOD-9604, BPC-157, BPC-157 / TB-500 Blend, BPC/TB Blend, CJC-1295, CJC-1295 No DAC, Cagrilintide, DSIP, Eloralintide, GHK-Cu, Ipamorelin, KLOW 80mg, KPV, MOTS-C, NAD+, Retatrutide, SS-31, Semaglutide, TB-500, Tirzepatide",
         null,
         null
       ],
       [
         "Average Purity %",
-        99.614,
+        99.6,
         "Populated purity results",
         null,
         null
       ],
       [
         "Overfilled",
-        32,
+        30,
         null,
         null,
         null
@@ -53,7 +53,7 @@
       ],
       [
         "On Label/Review",
-        12,
+        19,
         null,
         null,
         null
@@ -85,6 +85,41 @@
         "Lab",
         "Purity %",
         "Cap Color"
+      ],
+      [
+        "COA-0047",
+        "Retatrutide",
+        "Kovera Labs",
+        99.59,
+        "Red"
+      ],
+      [
+        "COA-0048",
+        "SS-31",
+        "Kovera Labs",
+        99.32,
+        "Purple"
+      ],
+      [
+        "COA-0049",
+        "5-Amino-1MQ",
+        "Kovera Labs",
+        99.369,
+        "Red"
+      ],
+      [
+        "COA-0050",
+        "Cagrilintide",
+        "Kovera Labs",
+        99.639,
+        "Purple"
+      ],
+      [
+        "COA-0051",
+        "DSIP",
+        "Kovera Labs",
+        99.464,
+        "Red"
       ],
       [
         "COA-0043",
@@ -1355,6 +1390,126 @@
         "Silver",
         "Black",
         "Black flip-off cap with silver aluminum crimp, as listed in the COA."
+      ],
+      [
+        "COA-0047",
+        "Retatrutide",
+        "GLP-1 / Weight",
+        60,
+        63.37,
+        3.3699999999999974,
+        0.05616666666666662,
+        99.59,
+        "Overfilled",
+        "Kovera Labs",
+        "Confirmed",
+        "2026-07-29",
+        "Redacted",
+        "Redacted",
+        "Redacted",
+        "Local image: assets/coa/images/kovera-labs/retatrutide/Retatrutide-60mg-2026-07-29-Kovera.jpg",
+        "Pass",
+        "Unique supplied Kovera certificate image.",
+        "Identity confirmed as Retatrutide by LC-MS. Endotoxin safety screen PASS. Heavy metals arsenic, cadmium, lead, and mercury negative. Batch average from two-vial conformity results. Certified 07/29/2026; report, client, CAS, and batch identifiers are redacted in the supplied image.",
+        "Silver",
+        "Red",
+        "Red flip-off cap with silver aluminum crimp, as listed in the COA."
+      ],
+      [
+        "COA-0048",
+        "SS-31",
+        "Metabolic / Mito",
+        50,
+        51.52,
+        1.5200000000000031,
+        0.030400000000000062,
+        99.32,
+        "On label",
+        "Kovera Labs",
+        "Confirmed",
+        "2026-07-29",
+        "Redacted",
+        "Redacted",
+        "Redacted",
+        "Local image: assets/coa/images/kovera-labs/ss-31/SS-31-50mg-2026-07-29-Kovera.jpg",
+        "Pass",
+        "Unique supplied Kovera certificate image.",
+        "Identity confirmed as SS-31 by LC-MS. Endotoxin safety screen PASS. Heavy metals arsenic, cadmium, lead, and mercury negative. Batch average from two-vial conformity results. Certified 07/29/2026; report, client, CAS, and batch identifiers are redacted in the supplied image.",
+        "Silver",
+        "Purple",
+        "Purple flip-off cap with silver aluminum crimp, as listed in the COA."
+      ],
+      [
+        "COA-0049",
+        "5-Amino-1MQ",
+        "Metabolic / Research",
+        50,
+        51.88,
+        1.8800000000000026,
+        0.03760000000000005,
+        99.369,
+        "On label",
+        "Kovera Labs",
+        "Confirmed",
+        "2026-07-29",
+        "Redacted",
+        "Redacted",
+        "Redacted",
+        "Local image: assets/coa/images/kovera-labs/5-amino-1mq/5-Amino-1MQ-50mg-2026-07-29-Kovera.jpg",
+        "Pass",
+        "Unique supplied Kovera certificate image.",
+        "Identity confirmed as 5-Amino-1MQ by LC-MS. Endotoxin safety screen PASS. Heavy metals arsenic, cadmium, lead, and mercury negative. Batch average from two-vial conformity results. Certified 07/29/2026; report, client, CAS, and batch identifiers are redacted in the supplied image.",
+        "Silver",
+        "Red",
+        "Red flip-off cap with silver aluminum crimp, as listed in the COA."
+      ],
+      [
+        "COA-0050",
+        "Cagrilintide",
+        "Amylin / Weight",
+        10,
+        10.16,
+        0.16000000000000014,
+        0.016000000000000014,
+        99.639,
+        "On label",
+        "Kovera Labs",
+        "Confirmed",
+        "2026-07-29",
+        "Redacted",
+        "Redacted",
+        "Redacted",
+        "Local image: assets/coa/images/kovera-labs/cagrilintide/Cagrilintide-10mg-2026-07-29-Kovera.jpg",
+        "Pass",
+        "Unique supplied Kovera certificate image.",
+        "Identity confirmed as Cagrilintide by LC-MS. Endotoxin safety screen PASS. Heavy metals arsenic, cadmium, lead, and mercury negative. Batch average from two-vial conformity results. Certified 07/29/2026; report, client, CAS, and batch identifiers are redacted in the supplied image.",
+        "Silver",
+        "Purple",
+        "Purple flip-off cap with silver aluminum crimp, as listed in the COA."
+      ],
+      [
+        "COA-0051",
+        "DSIP",
+        "Sleep / Research",
+        10,
+        10.16,
+        0.16000000000000014,
+        0.016000000000000014,
+        99.464,
+        "On label",
+        "Kovera Labs",
+        "Confirmed",
+        "2026-07-29",
+        "Redacted",
+        "Redacted",
+        "Redacted",
+        "Local image: assets/coa/images/kovera-labs/dsip/DSIP-10mg-2026-07-29-Kovera.jpg",
+        "Pass",
+        "Unique supplied Kovera certificate image.",
+        "Identity confirmed as DSIP by LC-MS. Endotoxin safety screen PASS. Heavy metals arsenic, cadmium, lead, and mercury negative. Batch average from two-vial conformity results. Certified 07/29/2026; report, client, CAS, and batch identifiers are redacted in the supplied image.",
+        "Silver",
+        "Red",
+        "Red flip-off cap with silver aluminum crimp, as listed in the COA."
       ]
     ],
     "Purity Rankings": [
@@ -1744,6 +1899,22 @@
       ],
       [
         24,
+        "COA-0050",
+        "Cagrilintide",
+        "Amylin / Weight",
+        10,
+        10.16,
+        0.016000000000000014,
+        99.639,
+        "On label",
+        "Kovera Labs",
+        "2026-07-29",
+        "Purple",
+        "Silver",
+        "Identity confirmed as Cagrilintide by LC-MS. Endotoxin safety screen PASS. Heavy metals arsenic, cadmium, lead, and mercury negative. Batch average from two-vial conformity results. Certified 07/29/2026; report, client, CAS, and batch identifiers are redacted in the supplied image."
+      ],
+      [
+        25,
         "COA-0033",
         "Tirzepatide",
         "GLP-1 / Weight",
@@ -1759,7 +1930,23 @@
         "Kovera image COA; blue cap / silver crimp; heavy metals negative; endotoxin pass. CAS 2023788-19-2 visible; report/access code redacted."
       ],
       [
-        25,
+        26,
+        "COA-0047",
+        "Retatrutide",
+        "GLP-1 / Weight",
+        60,
+        63.37,
+        0.05616666666666662,
+        99.59,
+        "Overfilled",
+        "Kovera Labs",
+        "2026-07-29",
+        "Red",
+        "Silver",
+        "Identity confirmed as Retatrutide by LC-MS. Endotoxin safety screen PASS. Heavy metals arsenic, cadmium, lead, and mercury negative. Batch average from two-vial conformity results. Certified 07/29/2026; report, client, CAS, and batch identifiers are redacted in the supplied image."
+      ],
+      [
+        27,
         "COA-0020",
         "KPV",
         "Other",
@@ -1775,7 +1962,7 @@
         "Overfilled"
       ],
       [
-        26,
+        28,
         "COA-0031",
         "Retatrutide",
         "GLP-1 / Weight",
@@ -1791,7 +1978,7 @@
         "Retatrutide 30mg; Date received/reported Jun 24, 2026; generated Jul 4, 2026."
       ],
       [
-        27,
+        29,
         "COA-0040",
         "BPC-157",
         "Healing / Recovery",
@@ -1807,7 +1994,7 @@
         "Identity confirmed by LC-MS. Heavy metals and batch conformity: no data."
       ],
       [
-        28,
+        30,
         "COA-0026",
         "Retatrutide",
         "GLP-1 / Weight",
@@ -1823,7 +2010,7 @@
         "Blue cap Retatrutide 40mg"
       ],
       [
-        29,
+        31,
         "COA-0025",
         "Retatrutide",
         "GLP-1 / Weight",
@@ -1839,7 +2026,7 @@
         "Transparent cap Retatrutide 30mg"
       ],
       [
-        30,
+        32,
         "COA-0046",
         "NAD+",
         "Metabolic / Cellular Energy",
@@ -1855,7 +2042,7 @@
         "Identity confirmed as NAD+. Endotoxin safety screen PASS. Heavy metals arsenic, cadmium, lead, and mercury negative. Batch conformity: vial 1 = 99.517% / 483.68 mg; vial 2 = 99.582% / 493.26 mg. Certified 07/29/2026. Report/access and batch identifiers are redacted."
       ],
       [
-        31,
+        33,
         "COA-0038",
         "Tirzepatide",
         "GLP-1 / Weight",
@@ -1871,7 +2058,7 @@
         "Identity confirmed by LC-MS. Heavy metals and batch conformity: no data."
       ],
       [
-        32,
+        34,
         "COA-0001",
         "Retatrutide",
         "GLP-1 / Weight",
@@ -1887,7 +2074,7 @@
         "RT10 - common GLP-1 blind test; overfilled"
       ],
       [
-        33,
+        35,
         "COA-0006",
         "Retatrutide",
         "GLP-1 / Weight",
@@ -1903,7 +2090,7 @@
         "Labeled quantity unclear from image"
       ],
       [
-        34,
+        36,
         "COA-0004",
         "Retatrutide",
         "GLP-1 / Weight",
@@ -1919,7 +2106,7 @@
         "Heavy metals negative; endotoxin pass"
       ],
       [
-        35,
+        37,
         "COA-0030",
         "Retatrutide",
         "GLP-1 / Weight",
@@ -1935,7 +2122,23 @@
         "Retatrutide 20mg; Date received/reported Jun 24, 2026; generated Jul 4, 2026."
       ],
       [
-        36,
+        38,
+        "COA-0051",
+        "DSIP",
+        "Sleep / Research",
+        10,
+        10.16,
+        0.016000000000000014,
+        99.464,
+        "On label",
+        "Kovera Labs",
+        "2026-07-29",
+        "Red",
+        "Silver",
+        "Identity confirmed as DSIP by LC-MS. Endotoxin safety screen PASS. Heavy metals arsenic, cadmium, lead, and mercury negative. Batch average from two-vial conformity results. Certified 07/29/2026; report, client, CAS, and batch identifiers are redacted in the supplied image."
+      ],
+      [
+        39,
         "COA-0043",
         "Retatrutide",
         "GLP-1 / Weight",
@@ -1951,7 +2154,7 @@
         "Identity confirmed by LC-MS. Heavy metals and batch conformity: no data."
       ],
       [
-        37,
+        40,
         "COA-0029",
         "MOTS-C",
         "Metabolic / Mito",
@@ -1967,7 +2170,7 @@
         "MOTS-c 40mg; Date received/reported Jun 24, 2026; generated Jul 4, 2026."
       ],
       [
-        38,
+        41,
         "COA-0002",
         "Retatrutide",
         "GLP-1 / Weight",
@@ -1983,7 +2186,23 @@
         "On label"
       ],
       [
-        39,
+        42,
+        "COA-0049",
+        "5-Amino-1MQ",
+        "Metabolic / Research",
+        50,
+        51.88,
+        0.03760000000000005,
+        99.369,
+        "On label",
+        "Kovera Labs",
+        "2026-07-29",
+        "Red",
+        "Silver",
+        "Identity confirmed as 5-Amino-1MQ by LC-MS. Endotoxin safety screen PASS. Heavy metals arsenic, cadmium, lead, and mercury negative. Batch average from two-vial conformity results. Certified 07/29/2026; report, client, CAS, and batch identifiers are redacted in the supplied image."
+      ],
+      [
+        43,
         "COA-0042",
         "Ipamorelin",
         "Growth Hormone Support",
@@ -1999,7 +2218,7 @@
         "Identity confirmed by LC-MS. Heavy metals and batch conformity: no data."
       ],
       [
-        40,
+        44,
         "COA-0039",
         "Semaglutide",
         "GLP-1 / Weight",
@@ -2015,7 +2234,23 @@
         "Identity confirmed by LC-MS. Heavy metals and batch conformity: no data."
       ],
       [
-        41,
+        45,
+        "COA-0048",
+        "SS-31",
+        "Metabolic / Mito",
+        50,
+        51.52,
+        0.030400000000000062,
+        99.32,
+        "On label",
+        "Kovera Labs",
+        "2026-07-29",
+        "Purple",
+        "Silver",
+        "Identity confirmed as SS-31 by LC-MS. Endotoxin safety screen PASS. Heavy metals arsenic, cadmium, lead, and mercury negative. Batch average from two-vial conformity results. Certified 07/29/2026; report, client, CAS, and batch identifiers are redacted in the supplied image."
+      ],
+      [
+        46,
         "COA-0037",
         "BPC-157 / TB-500 Blend",
         "Healing / Recovery Blend",
@@ -2031,7 +2266,7 @@
         "Identity confirmed by LC-MS. Component content reported as 5.37 mg BPC-157 and 5.18 mg TB-500; total 10.55 mg. Heavy metals and batch conformity: no data."
       ],
       [
-        42,
+        47,
         "COA-0016",
         "TB-500",
         "Healing / Recovery",
@@ -2047,7 +2282,7 @@
         "TB-500 / TB4"
       ],
       [
-        43,
+        48,
         "COA-0014",
         "MOTS-C",
         "Metabolic / Mito",
@@ -2063,7 +2298,7 @@
         "MS10 / MOTS-C"
       ],
       [
-        44,
+        49,
         "COA-0011",
         "Cagrilintide",
         "GLP-1 / Weight",
@@ -2079,7 +2314,7 @@
         "Overfilled"
       ],
       [
-        45,
+        50,
         "COA-0017",
         "BPC-157",
         "Healing / Recovery",
@@ -2095,7 +2330,7 @@
         "Blend report BPC5+TB5"
       ],
       [
-        46,
+        51,
         "COA-0018",
         "TB-500",
         "Healing / Recovery",
@@ -3239,6 +3474,126 @@
         "Silver",
         "Black",
         "Black flip-off cap with silver aluminum crimp, as listed in the COA."
+      ],
+      [
+        "COA-0047",
+        "Retatrutide",
+        "GLP-1 / Weight",
+        60,
+        63.37,
+        3.3699999999999974,
+        0.05616666666666662,
+        99.59,
+        "Overfilled",
+        "Kovera Labs",
+        "Confirmed",
+        "2026-07-29",
+        "Redacted",
+        "Redacted",
+        "Redacted",
+        "Local image: assets/coa/images/kovera-labs/retatrutide/Retatrutide-60mg-2026-07-29-Kovera.jpg",
+        "Pass",
+        "Unique supplied Kovera certificate image.",
+        "Identity confirmed as Retatrutide by LC-MS. Endotoxin safety screen PASS. Heavy metals arsenic, cadmium, lead, and mercury negative. Batch average from two-vial conformity results. Certified 07/29/2026; report, client, CAS, and batch identifiers are redacted in the supplied image.",
+        "Silver",
+        "Red",
+        "Red flip-off cap with silver aluminum crimp, as listed in the COA."
+      ],
+      [
+        "COA-0048",
+        "SS-31",
+        "Metabolic / Mito",
+        50,
+        51.52,
+        1.5200000000000031,
+        0.030400000000000062,
+        99.32,
+        "On label",
+        "Kovera Labs",
+        "Confirmed",
+        "2026-07-29",
+        "Redacted",
+        "Redacted",
+        "Redacted",
+        "Local image: assets/coa/images/kovera-labs/ss-31/SS-31-50mg-2026-07-29-Kovera.jpg",
+        "Pass",
+        "Unique supplied Kovera certificate image.",
+        "Identity confirmed as SS-31 by LC-MS. Endotoxin safety screen PASS. Heavy metals arsenic, cadmium, lead, and mercury negative. Batch average from two-vial conformity results. Certified 07/29/2026; report, client, CAS, and batch identifiers are redacted in the supplied image.",
+        "Silver",
+        "Purple",
+        "Purple flip-off cap with silver aluminum crimp, as listed in the COA."
+      ],
+      [
+        "COA-0049",
+        "5-Amino-1MQ",
+        "Metabolic / Research",
+        50,
+        51.88,
+        1.8800000000000026,
+        0.03760000000000005,
+        99.369,
+        "On label",
+        "Kovera Labs",
+        "Confirmed",
+        "2026-07-29",
+        "Redacted",
+        "Redacted",
+        "Redacted",
+        "Local image: assets/coa/images/kovera-labs/5-amino-1mq/5-Amino-1MQ-50mg-2026-07-29-Kovera.jpg",
+        "Pass",
+        "Unique supplied Kovera certificate image.",
+        "Identity confirmed as 5-Amino-1MQ by LC-MS. Endotoxin safety screen PASS. Heavy metals arsenic, cadmium, lead, and mercury negative. Batch average from two-vial conformity results. Certified 07/29/2026; report, client, CAS, and batch identifiers are redacted in the supplied image.",
+        "Silver",
+        "Red",
+        "Red flip-off cap with silver aluminum crimp, as listed in the COA."
+      ],
+      [
+        "COA-0050",
+        "Cagrilintide",
+        "Amylin / Weight",
+        10,
+        10.16,
+        0.16000000000000014,
+        0.016000000000000014,
+        99.639,
+        "On label",
+        "Kovera Labs",
+        "Confirmed",
+        "2026-07-29",
+        "Redacted",
+        "Redacted",
+        "Redacted",
+        "Local image: assets/coa/images/kovera-labs/cagrilintide/Cagrilintide-10mg-2026-07-29-Kovera.jpg",
+        "Pass",
+        "Unique supplied Kovera certificate image.",
+        "Identity confirmed as Cagrilintide by LC-MS. Endotoxin safety screen PASS. Heavy metals arsenic, cadmium, lead, and mercury negative. Batch average from two-vial conformity results. Certified 07/29/2026; report, client, CAS, and batch identifiers are redacted in the supplied image.",
+        "Silver",
+        "Purple",
+        "Purple flip-off cap with silver aluminum crimp, as listed in the COA."
+      ],
+      [
+        "COA-0051",
+        "DSIP",
+        "Sleep / Research",
+        10,
+        10.16,
+        0.16000000000000014,
+        0.016000000000000014,
+        99.464,
+        "On label",
+        "Kovera Labs",
+        "Confirmed",
+        "2026-07-29",
+        "Redacted",
+        "Redacted",
+        "Redacted",
+        "Local image: assets/coa/images/kovera-labs/dsip/DSIP-10mg-2026-07-29-Kovera.jpg",
+        "Pass",
+        "Unique supplied Kovera certificate image.",
+        "Identity confirmed as DSIP by LC-MS. Endotoxin safety screen PASS. Heavy metals arsenic, cadmium, lead, and mercury negative. Batch average from two-vial conformity results. Certified 07/29/2026; report, client, CAS, and batch identifiers are redacted in the supplied image.",
+        "Silver",
+        "Red",
+        "Red flip-off cap with silver aluminum crimp, as listed in the COA."
       ]
     ],
     "Lab Match": [
@@ -4337,6 +4692,116 @@
         "Silver",
         "Black flip-off cap with silver aluminum crimp, as listed in the COA.",
         "Identity confirmed as NAD+. Endotoxin safety screen PASS. Heavy metals arsenic, cadmium, lead, and mercury negative. Batch conformity: vial 1 = 99.517% / 483.68 mg; vial 2 = 99.582% / 493.26 mg. Certified 07/29/2026. Report/access and batch identifiers are redacted."
+      ],
+      [
+        "ITEM-0047",
+        "Retatrutide",
+        "GLP-1 / Weight",
+        60,
+        63.37,
+        3.3699999999999974,
+        0.05616666666666662,
+        99.59,
+        "Redacted",
+        "Kovera Labs",
+        "Overfilled",
+        "2026-07-29",
+        "COA-0047",
+        "Redacted",
+        "Redacted",
+        "assets/coa/images/kovera-labs/retatrutide/Retatrutide-60mg-2026-07-29-Kovera.jpg",
+        "Red",
+        "Silver",
+        "Red flip-off cap with silver aluminum crimp, as listed in the COA.",
+        "Identity confirmed as Retatrutide by LC-MS. Endotoxin safety screen PASS. Heavy metals arsenic, cadmium, lead, and mercury negative. Batch average from two-vial conformity results. Certified 07/29/2026; report, client, CAS, and batch identifiers are redacted in the supplied image."
+      ],
+      [
+        "ITEM-0048",
+        "SS-31",
+        "Metabolic / Mito",
+        50,
+        51.52,
+        1.5200000000000031,
+        0.030400000000000062,
+        99.32,
+        "Redacted",
+        "Kovera Labs",
+        "On label",
+        "2026-07-29",
+        "COA-0048",
+        "Redacted",
+        "Redacted",
+        "assets/coa/images/kovera-labs/ss-31/SS-31-50mg-2026-07-29-Kovera.jpg",
+        "Purple",
+        "Silver",
+        "Purple flip-off cap with silver aluminum crimp, as listed in the COA.",
+        "Identity confirmed as SS-31 by LC-MS. Endotoxin safety screen PASS. Heavy metals arsenic, cadmium, lead, and mercury negative. Batch average from two-vial conformity results. Certified 07/29/2026; report, client, CAS, and batch identifiers are redacted in the supplied image."
+      ],
+      [
+        "ITEM-0049",
+        "5-Amino-1MQ",
+        "Metabolic / Research",
+        50,
+        51.88,
+        1.8800000000000026,
+        0.03760000000000005,
+        99.369,
+        "Redacted",
+        "Kovera Labs",
+        "On label",
+        "2026-07-29",
+        "COA-0049",
+        "Redacted",
+        "Redacted",
+        "assets/coa/images/kovera-labs/5-amino-1mq/5-Amino-1MQ-50mg-2026-07-29-Kovera.jpg",
+        "Red",
+        "Silver",
+        "Red flip-off cap with silver aluminum crimp, as listed in the COA.",
+        "Identity confirmed as 5-Amino-1MQ by LC-MS. Endotoxin safety screen PASS. Heavy metals arsenic, cadmium, lead, and mercury negative. Batch average from two-vial conformity results. Certified 07/29/2026; report, client, CAS, and batch identifiers are redacted in the supplied image."
+      ],
+      [
+        "ITEM-0050",
+        "Cagrilintide",
+        "Amylin / Weight",
+        10,
+        10.16,
+        0.16000000000000014,
+        0.016000000000000014,
+        99.639,
+        "Redacted",
+        "Kovera Labs",
+        "On label",
+        "2026-07-29",
+        "COA-0050",
+        "Redacted",
+        "Redacted",
+        "assets/coa/images/kovera-labs/cagrilintide/Cagrilintide-10mg-2026-07-29-Kovera.jpg",
+        "Purple",
+        "Silver",
+        "Purple flip-off cap with silver aluminum crimp, as listed in the COA.",
+        "Identity confirmed as Cagrilintide by LC-MS. Endotoxin safety screen PASS. Heavy metals arsenic, cadmium, lead, and mercury negative. Batch average from two-vial conformity results. Certified 07/29/2026; report, client, CAS, and batch identifiers are redacted in the supplied image."
+      ],
+      [
+        "ITEM-0051",
+        "DSIP",
+        "Sleep / Research",
+        10,
+        10.16,
+        0.16000000000000014,
+        0.016000000000000014,
+        99.464,
+        "Redacted",
+        "Kovera Labs",
+        "On label",
+        "2026-07-29",
+        "COA-0051",
+        "Redacted",
+        "Redacted",
+        "assets/coa/images/kovera-labs/dsip/DSIP-10mg-2026-07-29-Kovera.jpg",
+        "Red",
+        "Silver",
+        "Red flip-off cap with silver aluminum crimp, as listed in the COA.",
+        "Identity confirmed as DSIP by LC-MS. Endotoxin safety screen PASS. Heavy metals arsenic, cadmium, lead, and mercury negative. Batch average from two-vial conformity results. Certified 07/29/2026; report, client, CAS, and batch identifiers are redacted in the supplied image."
       ]
     ],
     "Certificates": [
@@ -5420,6 +5885,121 @@
         "Silver",
         "Black",
         "Black flip-off cap with silver aluminum crimp, as listed in the COA."
+      ],
+      [
+        "COA-0047",
+        "Retatrutide",
+        "GLP-1 / Weight",
+        "Kovera Labs",
+        "Redacted",
+        "Redacted",
+        "assets/coa/images/kovera-labs/retatrutide/Retatrutide-60mg-2026-07-29-Kovera.jpg",
+        "Yes",
+        60,
+        63.37,
+        3.3699999999999974,
+        0.05616666666666662,
+        99.59,
+        "Overfilled",
+        "Redacted",
+        "2026-07-29",
+        "Pass",
+        "Identity confirmed as Retatrutide by LC-MS. Endotoxin safety screen PASS. Heavy metals arsenic, cadmium, lead, and mercury negative. Batch average from two-vial conformity results. Certified 07/29/2026; report, client, CAS, and batch identifiers are redacted in the supplied image.",
+        "Silver",
+        "Red",
+        "Red flip-off cap with silver aluminum crimp, as listed in the COA."
+      ],
+      [
+        "COA-0048",
+        "SS-31",
+        "Metabolic / Mito",
+        "Kovera Labs",
+        "Redacted",
+        "Redacted",
+        "assets/coa/images/kovera-labs/ss-31/SS-31-50mg-2026-07-29-Kovera.jpg",
+        "Yes",
+        50,
+        51.52,
+        1.5200000000000031,
+        0.030400000000000062,
+        99.32,
+        "On label",
+        "Redacted",
+        "2026-07-29",
+        "Pass",
+        "Identity confirmed as SS-31 by LC-MS. Endotoxin safety screen PASS. Heavy metals arsenic, cadmium, lead, and mercury negative. Batch average from two-vial conformity results. Certified 07/29/2026; report, client, CAS, and batch identifiers are redacted in the supplied image.",
+        "Silver",
+        "Purple",
+        "Purple flip-off cap with silver aluminum crimp, as listed in the COA."
+      ],
+      [
+        "COA-0049",
+        "5-Amino-1MQ",
+        "Metabolic / Research",
+        "Kovera Labs",
+        "Redacted",
+        "Redacted",
+        "assets/coa/images/kovera-labs/5-amino-1mq/5-Amino-1MQ-50mg-2026-07-29-Kovera.jpg",
+        "Yes",
+        50,
+        51.88,
+        1.8800000000000026,
+        0.03760000000000005,
+        99.369,
+        "On label",
+        "Redacted",
+        "2026-07-29",
+        "Pass",
+        "Identity confirmed as 5-Amino-1MQ by LC-MS. Endotoxin safety screen PASS. Heavy metals arsenic, cadmium, lead, and mercury negative. Batch average from two-vial conformity results. Certified 07/29/2026; report, client, CAS, and batch identifiers are redacted in the supplied image.",
+        "Silver",
+        "Red",
+        "Red flip-off cap with silver aluminum crimp, as listed in the COA."
+      ],
+      [
+        "COA-0050",
+        "Cagrilintide",
+        "Amylin / Weight",
+        "Kovera Labs",
+        "Redacted",
+        "Redacted",
+        "assets/coa/images/kovera-labs/cagrilintide/Cagrilintide-10mg-2026-07-29-Kovera.jpg",
+        "Yes",
+        10,
+        10.16,
+        0.16000000000000014,
+        0.016000000000000014,
+        99.639,
+        "On label",
+        "Redacted",
+        "2026-07-29",
+        "Pass",
+        "Identity confirmed as Cagrilintide by LC-MS. Endotoxin safety screen PASS. Heavy metals arsenic, cadmium, lead, and mercury negative. Batch average from two-vial conformity results. Certified 07/29/2026; report, client, CAS, and batch identifiers are redacted in the supplied image.",
+        "Silver",
+        "Purple",
+        "Purple flip-off cap with silver aluminum crimp, as listed in the COA."
+      ],
+      [
+        "COA-0051",
+        "DSIP",
+        "Sleep / Research",
+        "Kovera Labs",
+        "Redacted",
+        "Redacted",
+        "assets/coa/images/kovera-labs/dsip/DSIP-10mg-2026-07-29-Kovera.jpg",
+        "Yes",
+        10,
+        10.16,
+        0.16000000000000014,
+        0.016000000000000014,
+        99.464,
+        "On label",
+        "Redacted",
+        "2026-07-29",
+        "Pass",
+        "Identity confirmed as DSIP by LC-MS. Endotoxin safety screen PASS. Heavy metals arsenic, cadmium, lead, and mercury negative. Batch average from two-vial conformity results. Certified 07/29/2026; report, client, CAS, and batch identifiers are redacted in the supplied image.",
+        "Silver",
+        "Red",
+        "Red flip-off cap with silver aluminum crimp, as listed in the COA."
       ]
     ],
     "Lists": [
@@ -5585,6 +6165,22 @@
       ],
       [
         "Tirzepatide",
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        "5-Amino-1MQ",
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        "DSIP",
         null,
         null,
         null,
@@ -8589,6 +9185,376 @@
       [
         "PDF",
         "assets/coa/documents/kovera-labs/nad-plus/NAD-500mg-2026-07-29-Kovera.pdf"
+      ]
+    ],
+    "COA_COA_0047": [
+      [
+        "Field",
+        "Value"
+      ],
+      [
+        "COA ID",
+        "COA-0047"
+      ],
+      [
+        "Product",
+        "Retatrutide"
+      ],
+      [
+        "Compound Type",
+        "GLP-1 / Weight"
+      ],
+      [
+        "Lab",
+        "Kovera Labs"
+      ],
+      [
+        "Certified",
+        "2026-07-29"
+      ],
+      [
+        "Report #",
+        "Redacted"
+      ],
+      [
+        "Batch/Lot",
+        "Redacted"
+      ],
+      [
+        "Labeled Qty (mg)",
+        60
+      ],
+      [
+        "Actual Content (mg)",
+        63.37
+      ],
+      [
+        "Purity %",
+        99.59
+      ],
+      [
+        "Status",
+        "Overfilled"
+      ],
+      [
+        "Identity",
+        "Confirmed: Retatrutide (LC-MS)"
+      ],
+      [
+        "Endotoxin Safety Screen",
+        "PASS"
+      ],
+      [
+        "Heavy Metals",
+        "Arsenic, Cadmium, Lead, Mercury: Negative"
+      ],
+      [
+        "Cap Color",
+        "Red"
+      ],
+      [
+        "Crimp Color",
+        "Silver"
+      ],
+      [
+        "Image",
+        "assets/coa/images/kovera-labs/retatrutide/Retatrutide-60mg-2026-07-29-Kovera.jpg"
+      ]
+    ],
+    "COA_COA_0048": [
+      [
+        "Field",
+        "Value"
+      ],
+      [
+        "COA ID",
+        "COA-0048"
+      ],
+      [
+        "Product",
+        "SS-31"
+      ],
+      [
+        "Compound Type",
+        "Metabolic / Mito"
+      ],
+      [
+        "Lab",
+        "Kovera Labs"
+      ],
+      [
+        "Certified",
+        "2026-07-29"
+      ],
+      [
+        "Report #",
+        "Redacted"
+      ],
+      [
+        "Batch/Lot",
+        "Redacted"
+      ],
+      [
+        "Labeled Qty (mg)",
+        50
+      ],
+      [
+        "Actual Content (mg)",
+        51.52
+      ],
+      [
+        "Purity %",
+        99.32
+      ],
+      [
+        "Status",
+        "On label"
+      ],
+      [
+        "Identity",
+        "Confirmed: SS-31 (LC-MS)"
+      ],
+      [
+        "Endotoxin Safety Screen",
+        "PASS"
+      ],
+      [
+        "Heavy Metals",
+        "Arsenic, Cadmium, Lead, Mercury: Negative"
+      ],
+      [
+        "Cap Color",
+        "Purple"
+      ],
+      [
+        "Crimp Color",
+        "Silver"
+      ],
+      [
+        "Image",
+        "assets/coa/images/kovera-labs/ss-31/SS-31-50mg-2026-07-29-Kovera.jpg"
+      ]
+    ],
+    "COA_COA_0049": [
+      [
+        "Field",
+        "Value"
+      ],
+      [
+        "COA ID",
+        "COA-0049"
+      ],
+      [
+        "Product",
+        "5-Amino-1MQ"
+      ],
+      [
+        "Compound Type",
+        "Metabolic / Research"
+      ],
+      [
+        "Lab",
+        "Kovera Labs"
+      ],
+      [
+        "Certified",
+        "2026-07-29"
+      ],
+      [
+        "Report #",
+        "Redacted"
+      ],
+      [
+        "Batch/Lot",
+        "Redacted"
+      ],
+      [
+        "Labeled Qty (mg)",
+        50
+      ],
+      [
+        "Actual Content (mg)",
+        51.88
+      ],
+      [
+        "Purity %",
+        99.369
+      ],
+      [
+        "Status",
+        "On label"
+      ],
+      [
+        "Identity",
+        "Confirmed: 5-Amino-1MQ (LC-MS)"
+      ],
+      [
+        "Endotoxin Safety Screen",
+        "PASS"
+      ],
+      [
+        "Heavy Metals",
+        "Arsenic, Cadmium, Lead, Mercury: Negative"
+      ],
+      [
+        "Cap Color",
+        "Red"
+      ],
+      [
+        "Crimp Color",
+        "Silver"
+      ],
+      [
+        "Image",
+        "assets/coa/images/kovera-labs/5-amino-1mq/5-Amino-1MQ-50mg-2026-07-29-Kovera.jpg"
+      ]
+    ],
+    "COA_COA_0050": [
+      [
+        "Field",
+        "Value"
+      ],
+      [
+        "COA ID",
+        "COA-0050"
+      ],
+      [
+        "Product",
+        "Cagrilintide"
+      ],
+      [
+        "Compound Type",
+        "Amylin / Weight"
+      ],
+      [
+        "Lab",
+        "Kovera Labs"
+      ],
+      [
+        "Certified",
+        "2026-07-29"
+      ],
+      [
+        "Report #",
+        "Redacted"
+      ],
+      [
+        "Batch/Lot",
+        "Redacted"
+      ],
+      [
+        "Labeled Qty (mg)",
+        10
+      ],
+      [
+        "Actual Content (mg)",
+        10.16
+      ],
+      [
+        "Purity %",
+        99.639
+      ],
+      [
+        "Status",
+        "On label"
+      ],
+      [
+        "Identity",
+        "Confirmed: Cagrilintide (LC-MS)"
+      ],
+      [
+        "Endotoxin Safety Screen",
+        "PASS"
+      ],
+      [
+        "Heavy Metals",
+        "Arsenic, Cadmium, Lead, Mercury: Negative"
+      ],
+      [
+        "Cap Color",
+        "Purple"
+      ],
+      [
+        "Crimp Color",
+        "Silver"
+      ],
+      [
+        "Image",
+        "assets/coa/images/kovera-labs/cagrilintide/Cagrilintide-10mg-2026-07-29-Kovera.jpg"
+      ]
+    ],
+    "COA_COA_0051": [
+      [
+        "Field",
+        "Value"
+      ],
+      [
+        "COA ID",
+        "COA-0051"
+      ],
+      [
+        "Product",
+        "DSIP"
+      ],
+      [
+        "Compound Type",
+        "Sleep / Research"
+      ],
+      [
+        "Lab",
+        "Kovera Labs"
+      ],
+      [
+        "Certified",
+        "2026-07-29"
+      ],
+      [
+        "Report #",
+        "Redacted"
+      ],
+      [
+        "Batch/Lot",
+        "Redacted"
+      ],
+      [
+        "Labeled Qty (mg)",
+        10
+      ],
+      [
+        "Actual Content (mg)",
+        10.16
+      ],
+      [
+        "Purity %",
+        99.464
+      ],
+      [
+        "Status",
+        "On label"
+      ],
+      [
+        "Identity",
+        "Confirmed: DSIP (LC-MS)"
+      ],
+      [
+        "Endotoxin Safety Screen",
+        "PASS"
+      ],
+      [
+        "Heavy Metals",
+        "Arsenic, Cadmium, Lead, Mercury: Negative"
+      ],
+      [
+        "Cap Color",
+        "Red"
+      ],
+      [
+        "Crimp Color",
+        "Silver"
+      ],
+      [
+        "Image",
+        "assets/coa/images/kovera-labs/dsip/DSIP-10mg-2026-07-29-Kovera.jpg"
       ]
     ]
   }

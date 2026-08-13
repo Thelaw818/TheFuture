@@ -1,0 +1,55 @@
+{
+  "version": "2026-08-13",
+  "added": [
+    {
+      "id": "COA-0047",
+      "compound": "Retatrutide",
+      "labeled": 60,
+      "actual": 63.37,
+      "purity": 99.59,
+      "cap": "Red",
+      "crimp": "Silver",
+      "path": "assets/coa/images/kovera-labs/retatrutide/Retatrutide-60mg-2026-07-29-Kovera.jpg"
+    },
+    {
+      "id": "COA-0048",
+      "compound": "SS-31",
+      "labeled": 50,
+      "actual": 51.52,
+      "purity": 99.32,
+      "cap": "Purple",
+      "crimp": "Silver",
+      "path": "assets/coa/images/kovera-labs/ss-31/SS-31-50mg-2026-07-29-Kovera.jpg"
+    },
+    {
+      "id": "COA-0049",
+      "compound": "5-Amino-1MQ",
+      "labeled": 50,
+      "actual": 51.88,
+      "purity": 99.369,
+      "cap": "Red",
+      "crimp": "Silver",
+      "path": "assets/coa/images/kovera-labs/5-amino-1mq/5-Amino-1MQ-50mg-2026-07-29-Kovera.jpg"
+    },
+    {
+      "id": "COA-0050",
+      "compound": "Cagrilintide",
+      "labeled": 10,
+      "actual": 10.16,
+      "purity": 99.639,
+      "cap": "Purple",
+      "crimp": "Silver",
+      "path": "assets/coa/images/kovera-labs/cagrilintide/Cagrilintide-10mg-2026-07-29-Kovera.jpg"
+    },
+    {
+      "id": "COA-0051",
+      "compound": "DSIP",
+      "labeled": 10,
+      "actual": 10.16,
+      "purity": 99.464,
+      "cap": "Red",
+      "crimp": "Silver",
+      "path": "assets/coa/images/kovera-labs/dsip/DSIP-10mg-2026-07-29-Kovera.jpg"
+    }
+  ]
+}
