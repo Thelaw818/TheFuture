@@ -1,5 +1,5 @@
 const CACHE_NAME='thefuture-coa-20260812-pathfix-v101';
-const STATIC=['./','./index.html','./coa-pictures.html','./coa-database.json','./styles.css','./app.js','./manifest.json','./peptides.json','./dosage-tracker.html','./health-dynamics.html'];
+const STATIC=['./','./index.html','./coa-pictures.html','./coa-database.json','./styles.css','./peptides.json'];
 self.addEventListener('install',e=>e.waitUntil(caches.open(CACHE_NAME).then(async c=>{await Promise.allSettled(STATIC.map(u=>c.add(u)));}).then(()=>self.skipWaiting())));
 self.addEventListener('activate',e=>e.waitUntil(caches.keys().then(keys=>Promise.all(keys.filter(k=>k!==CACHE_NAME).map(k=>caches.delete(k)))).then(()=>self.clients.claim())));
 self.addEventListener('fetch',e=>{if(e.request.method!=='GET')return;const u=new URL(e.request.url);const fresh=/coa-database\.json|inventory(_updated)?\.xlsx|index\.html$|coa-pictures\.html$/.test(u.pathname);if(fresh){e.respondWith(fetch(e.request,{cache:'no-store'}).then(r=>{if(r&&r.ok){const copy=r.clone();caches.open(CACHE_NAME).then(c=>c.put(e.request,copy));}return r;}).catch(()=>caches.match(e.request)));}else{e.respondWith(caches.match(e.request).then(c=>c||fetch(e.request)));}});
