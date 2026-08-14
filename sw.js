@@ -1,4 +1,4 @@
-const CACHE_NAME='thefuture-coa-20260812-pathfix-v101';
+const CACHE_NAME='thefuture-coa-20260814-four-coa-v102';
 const STATIC=['./','./index.html','./coa-pictures.html','./coa-database.json','./styles.css','./peptides.json'];
 self.addEventListener('install',e=>e.waitUntil(caches.open(CACHE_NAME).then(async c=>{await Promise.allSettled(STATIC.map(u=>c.add(u)));}).then(()=>self.skipWaiting())));
 self.addEventListener('activate',e=>e.waitUntil(caches.keys().then(keys=>Promise.all(keys.filter(k=>k!==CACHE_NAME).map(k=>caches.delete(k)))).then(()=>self.clients.claim())));

@@ -772,5 +772,23 @@
     "duration": "Peptide hormone",
     "routes": "Injection",
     "notes": "Approximate"
+  },
+  {
+    "name": "5-Amino-1MQ",
+    "alias": "5A1MQ",
+    "category": "Metabolic / Research",
+    "halfLife": "Limited data",
+    "duration": "Small-molecule NNMT inhibitor; limited public PK data",
+    "routes": "Research reference",
+    "notes": "Not a peptide; included for inventory/tracker reference"
+  },
+  {
+    "name": "CJC-1295 No DAC / Ipamorelin",
+    "alias": "CJC/IPA",
+    "category": "GHRH / GH Secretagogue Blend",
+    "halfLife": "Component-dependent",
+    "duration": "Blend containing two compounds with different kinetics",
+    "routes": "Research reference",
+    "notes": "Track components separately when kinetics matter"
   }
 ]
