@@ -1,0 +1,16 @@
+SITE REPAIR — 2026-08-13
+
+Fixed:
+- Synced index.html embedded fallback database to current coa-database.json (53 COA records).
+- Updated master JSON cache-buster.
+- Updated service-worker cache key so browsers discard stale cached pages after deployment.
+- Removed three gallery entries whose image files are physically absent, preventing broken image cards/lightbox navigation.
+- Preserved their COA database records; no incorrect older certificate was substituted.
+
+Missing source files required to restore those three pictures:
+1. assets/coa/images/kovera-labs/cagrilintide/Cagrilintide-10mg-2026-08-08-Kovera.jpg
+2. assets/coa/images/kovera-labs/cjc-1295-no-dac-ipamorelin/CJC-1295-No-DAC-Ipamorelin-10mg-2026-08-08-Kovera.jpg
+3. assets/coa/images/freedom-diagnostics/ghk-cu/GHK-Cu-100mg-2026-07-21-Freedom.jpg
+
+GitHub Pages deployment:
+Upload the CONTENTS of this package to the repository root. index.html must be at the repository root, not nested inside another TheFuture-main folder.

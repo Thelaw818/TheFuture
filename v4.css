@@ -113,13 +113,11 @@ html[data-theme="light"] .v4-integrity{background:rgba(240,255,250,.86)}
 body{
   background:
     linear-gradient(rgba(3,7,18,.84),rgba(3,7,18,.90)),
-    url("assets/backgrounds/peptide-chain-dashboard-bg.png") center top / cover fixed no-repeat,
     var(--v4-bg)!important;
 }
 html[data-theme="light"] body{
   background:
     linear-gradient(rgba(238,245,251,.82),rgba(238,245,251,.90)),
-    url("assets/backgrounds/peptide-chain-dashboard-bg.png") center top / cover fixed no-repeat,
     var(--v4-bg)!important;
 }
 body:before{
@@ -155,13 +153,11 @@ html[data-theme="light"] .inventory-mini{
   body{
     background:
       linear-gradient(rgba(3,7,18,.90),rgba(3,7,18,.94)),
-      url("assets/backgrounds/peptide-chain-dashboard-bg.png") 38% top / auto 100vh fixed no-repeat,
       var(--v4-bg)!important;
   }
   html[data-theme="light"] body{
     background:
       linear-gradient(rgba(238,245,251,.88),rgba(238,245,251,.93)),
-      url("assets/backgrounds/peptide-chain-dashboard-bg.png") 38% top / auto 100vh fixed no-repeat,
       var(--v4-bg)!important;
   }
 }

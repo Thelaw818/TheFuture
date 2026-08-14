@@ -1,0 +1,18 @@
+TheFuture FINAL WORKING SITE verification
+
+COA records: 53
+Strict local file/link references checked: 43 unique referenced files
+Missing real local references: 0
+Referenced image validation failures: 0
+Referenced PDF validation failures: 0
+Bad duplicate nested paths: 0
+
+New supplied COAs included and connected:
+- Cagrilintide 10mg — Kovera — 08/08/2026
+- CJC-1295 No DAC / Ipamorelin 10mg — Kovera — 08/08/2026
+- GHK-Cu 100mg — Freedom Diagnostics — 07/21/2026
+- 5-Amino-1MQ 50mg — Kovera — 07/29/2026
+
+Duplicate accidental folders such as images/images, documents/documents, and legacy/unclassified/legacy/unclassified were not included.
+
+IMPORTANT: Upload the CONTENTS of this ZIP directly to the GitHub repository root. Do not upload a parent TheFuture-main folder around the files.
