@@ -18,7 +18,7 @@
       ],
       [
         "Total COA Records",
-        53,
+        55,
         "Synced from COA Database",
         null,
         null
@@ -32,14 +32,14 @@
       ],
       [
         "Average Purity %",
-        99.594,
+        99.602,
         "Populated purity results",
         null,
         null
       ],
       [
         "Overfilled",
-        30,
+        32,
         null,
         null,
         null
@@ -1558,6 +1558,54 @@
         "Silver",
         "Light Blue",
         "Light-blue flip-off cap; silver aluminum crimp visible in the supplied COA vial image."
+      ],
+      [
+        "COA-0054",
+        "Retatrutide",
+        "GLP-1 / Weight",
+        20,
+        21.94,
+        1.94,
+        0.097,
+        99.72,
+        "Overfilled",
+        "Freedom Diagnostics",
+        "Confirmed",
+        "2026-08-29",
+        "2608250163",
+        "N/A",
+        "Clear Pink Cap",
+        "assets/coa/images/freedom-diagnostics/retatrutide/Retatrutide-20mg-2026-08-29-Freedom.jpg",
+        "Pass",
+        "Unique client/accession/date record",
+        "Identity confirmed as Retatrutide (GLP RT) by LC-MS; purity by HPLC-UV. White lyophilized powder. Net content 21.94 mg. Client: Tomcat Peptides. Accession 2608250163; received 08/25/2026; reported 08/29/2026.",
+        "Not Listed",
+        "Clear Pink",
+        "Clear pink flip-off cap, per vial image and 'Clear Pink Cap' lot description on the COA."
+      ],
+      [
+        "COA-0055",
+        "Retatrutide",
+        "GLP-1 / Weight",
+        40,
+        43.16,
+        3.16,
+        0.079,
+        99.9,
+        "Overfilled",
+        "Freedom Diagnostics",
+        "Confirmed",
+        "2026-08-29",
+        "2608250164",
+        "N/A",
+        "Clear Purple Cap",
+        "assets/coa/images/freedom-diagnostics/retatrutide/Retatrutide-40mg-2026-08-29-Freedom.jpg",
+        "Pass",
+        "Unique client/accession/date record",
+        "Identity confirmed as Retatrutide (GLP RT) by LC-MS; purity by HPLC-UV. White lyophilized powder. Net content 43.16 mg. Client: Tomcat Peptides. Accession 2608250164; received 08/25/2026; reported 08/29/2026.",
+        "Not Listed",
+        "Clear Purple",
+        "Clear purple flip-off cap, per vial image and 'Clear Purple Cap' lot description on the COA."
       ]
     ],
     "Purity Rankings": [
@@ -2424,6 +2472,38 @@
         "Not Listed",
         "Not Listed",
         "Blend report BPC5+TB5"
+      ],
+      [
+        54,
+        "COA-0054",
+        "Retatrutide",
+        "GLP-1 / Weight",
+        20,
+        21.94,
+        0.097,
+        99.72,
+        "Overfilled",
+        "Freedom Diagnostics",
+        "2026-08-29",
+        "Clear Pink",
+        "Not Listed",
+        "Identity confirmed as Retatrutide (GLP RT) by LC-MS; purity by HPLC-UV. White lyophilized powder. Net content 21.94 mg. Client: Tomcat Peptides. Accession 2608250163; received 08/25/2026; reported 08/29/2026."
+      ],
+      [
+        55,
+        "COA-0055",
+        "Retatrutide",
+        "GLP-1 / Weight",
+        40,
+        43.16,
+        0.079,
+        99.9,
+        "Overfilled",
+        "Freedom Diagnostics",
+        "2026-08-29",
+        "Clear Purple",
+        "Not Listed",
+        "Identity confirmed as Retatrutide (GLP RT) by LC-MS; purity by HPLC-UV. White lyophilized powder. Net content 43.16 mg. Client: Tomcat Peptides. Accession 2608250164; received 08/25/2026; reported 08/29/2026."
       ]
     ],
     "Batch History": [
@@ -3722,6 +3802,54 @@
         "Silver",
         "Light Blue",
         "Light-blue flip-off cap; silver aluminum crimp visible in the supplied COA vial image."
+      ],
+      [
+        "COA-0054",
+        "Retatrutide",
+        "GLP-1 / Weight",
+        20,
+        21.94,
+        1.94,
+        0.097,
+        99.72,
+        "Overfilled",
+        "Freedom Diagnostics",
+        "Confirmed",
+        "2026-08-29",
+        "2608250163",
+        "N/A",
+        "Clear Pink Cap",
+        "assets/coa/images/freedom-diagnostics/retatrutide/Retatrutide-20mg-2026-08-29-Freedom.jpg",
+        "Pass",
+        "Unique client/accession/date record",
+        "Identity confirmed as Retatrutide (GLP RT) by LC-MS; purity by HPLC-UV. White lyophilized powder. Net content 21.94 mg. Client: Tomcat Peptides. Accession 2608250163; received 08/25/2026; reported 08/29/2026.",
+        "Not Listed",
+        "Clear Pink",
+        "Clear pink flip-off cap, per vial image and 'Clear Pink Cap' lot description on the COA."
+      ],
+      [
+        "COA-0055",
+        "Retatrutide",
+        "GLP-1 / Weight",
+        40,
+        43.16,
+        3.16,
+        0.079,
+        99.9,
+        "Overfilled",
+        "Freedom Diagnostics",
+        "Confirmed",
+        "2026-08-29",
+        "2608250164",
+        "N/A",
+        "Clear Purple Cap",
+        "assets/coa/images/freedom-diagnostics/retatrutide/Retatrutide-40mg-2026-08-29-Freedom.jpg",
+        "Pass",
+        "Unique client/accession/date record",
+        "Identity confirmed as Retatrutide (GLP RT) by LC-MS; purity by HPLC-UV. White lyophilized powder. Net content 43.16 mg. Client: Tomcat Peptides. Accession 2608250164; received 08/25/2026; reported 08/29/2026.",
+        "Not Listed",
+        "Clear Purple",
+        "Clear purple flip-off cap, per vial image and 'Clear Purple Cap' lot description on the COA."
       ]
     ],
     "Lab Match": [
@@ -4974,6 +5102,50 @@
         "Silver",
         "Light-blue flip-off cap; silver aluminum crimp visible in the supplied COA vial image.",
         "Identity confirmed as GHK-Cu by LC-MS. Blue lyophilized powder. Endotoxin replicates PASS; microbial analysis (PCR) PASS / no detectable microbial DNA. Received 07/17/2026; reported 07/21/2026."
+      ],
+      [
+        "COA-0054",
+        "Retatrutide",
+        "GLP-1 / Weight",
+        20,
+        21.94,
+        1.94,
+        0.097,
+        99.72,
+        "Clear Pink Cap",
+        "Freedom Diagnostics",
+        "Overfilled",
+        "2026-08-29",
+        "COA-0054",
+        "2608250163",
+        "N/A",
+        "assets/coa/images/freedom-diagnostics/retatrutide/Retatrutide-20mg-2026-08-29-Freedom.jpg",
+        "Clear Pink",
+        "Not Listed",
+        "Clear pink flip-off cap, per vial image and 'Clear Pink Cap' lot description on the COA.",
+        "Identity confirmed as Retatrutide (GLP RT) by LC-MS; purity by HPLC-UV. White lyophilized powder. Net content 21.94 mg. Client: Tomcat Peptides. Accession 2608250163; received 08/25/2026; reported 08/29/2026."
+      ],
+      [
+        "COA-0055",
+        "Retatrutide",
+        "GLP-1 / Weight",
+        40,
+        43.16,
+        3.16,
+        0.079,
+        99.9,
+        "Clear Purple Cap",
+        "Freedom Diagnostics",
+        "Overfilled",
+        "2026-08-29",
+        "COA-0055",
+        "2608250164",
+        "N/A",
+        "assets/coa/images/freedom-diagnostics/retatrutide/Retatrutide-40mg-2026-08-29-Freedom.jpg",
+        "Clear Purple",
+        "Not Listed",
+        "Clear purple flip-off cap, per vial image and 'Clear Purple Cap' lot description on the COA.",
+        "Identity confirmed as Retatrutide (GLP RT) by LC-MS; purity by HPLC-UV. White lyophilized powder. Net content 43.16 mg. Client: Tomcat Peptides. Accession 2608250164; received 08/25/2026; reported 08/29/2026."
       ]
     ],
     "Certificates": [
@@ -6218,6 +6390,52 @@
         "Silver",
         "Light Blue",
         "Light-blue flip-off cap; silver aluminum crimp visible in the supplied COA vial image."
+      ],
+      [
+        "COA-0054",
+        "Retatrutide",
+        "GLP-1 / Weight",
+        "Freedom Diagnostics",
+        "2608250163",
+        "N/A",
+        "assets/coa/images/freedom-diagnostics/retatrutide/Retatrutide-20mg-2026-08-29-Freedom.jpg",
+        "Confirmed",
+        20,
+        21.94,
+        1.94,
+        0.097,
+        99.72,
+        "Overfilled",
+        "Clear Pink Cap",
+        "2026-08-29",
+        "Pass",
+        "Identity confirmed as Retatrutide (GLP RT) by LC-MS; purity by HPLC-UV. White lyophilized powder. Net content 21.94 mg. Client: Tomcat Peptides. Accession 2608250163; received 08/25/2026; reported 08/29/2026.",
+        "Not Listed",
+        "Clear Pink",
+        "Clear pink flip-off cap, per vial image and 'Clear Pink Cap' lot description on the COA."
+      ],
+      [
+        "COA-0055",
+        "Retatrutide",
+        "GLP-1 / Weight",
+        "Freedom Diagnostics",
+        "2608250164",
+        "N/A",
+        "assets/coa/images/freedom-diagnostics/retatrutide/Retatrutide-40mg-2026-08-29-Freedom.jpg",
+        "Confirmed",
+        40,
+        43.16,
+        3.16,
+        0.079,
+        99.9,
+        "Overfilled",
+        "Clear Purple Cap",
+        "2026-08-29",
+        "Pass",
+        "Identity confirmed as Retatrutide (GLP RT) by LC-MS; purity by HPLC-UV. White lyophilized powder. Net content 43.16 mg. Client: Tomcat Peptides. Accession 2608250164; received 08/25/2026; reported 08/29/2026.",
+        "Not Listed",
+        "Clear Purple",
+        "Clear purple flip-off cap, per vial image and 'Clear Purple Cap' lot description on the COA."
       ]
     ],
     "Lists": [
@@ -7907,6 +8125,48 @@
         "Light Blue",
         "Light-blue flip-off cap; silver aluminum crimp visible in the supplied COA vial image.",
         "Identity confirmed as GHK-Cu by LC-MS. Blue lyophilized powder. Endotoxin replicates PASS; microbial analysis (PCR) PASS / no detectable microbial DNA. Received 07/17/2026; reported 07/21/2026."
+      ],
+      [
+        "COA-0054",
+        "Retatrutide",
+        "GLP-1 / Weight",
+        20,
+        21.94,
+        1.94,
+        0.097,
+        99.72,
+        "Overfilled",
+        "Freedom Diagnostics",
+        "2026-08-29",
+        "2608250163",
+        "N/A",
+        "Clear Pink Cap",
+        "Pass",
+        "Not Listed",
+        "Clear Pink",
+        "Clear pink flip-off cap, per vial image and 'Clear Pink Cap' lot description on the COA.",
+        "Identity confirmed as Retatrutide (GLP RT) by LC-MS; purity by HPLC-UV. White lyophilized powder. Net content 21.94 mg. Client: Tomcat Peptides. Accession 2608250163; received 08/25/2026; reported 08/29/2026."
+      ],
+      [
+        "COA-0055",
+        "Retatrutide",
+        "GLP-1 / Weight",
+        40,
+        43.16,
+        3.16,
+        0.079,
+        99.9,
+        "Overfilled",
+        "Freedom Diagnostics",
+        "2026-08-29",
+        "2608250164",
+        "N/A",
+        "Clear Purple Cap",
+        "Pass",
+        "Not Listed",
+        "Clear Purple",
+        "Clear purple flip-off cap, per vial image and 'Clear Purple Cap' lot description on the COA.",
+        "Identity confirmed as Retatrutide (GLP RT) by LC-MS; purity by HPLC-UV. White lyophilized powder. Net content 43.16 mg. Client: Tomcat Peptides. Accession 2608250164; received 08/25/2026; reported 08/29/2026."
       ]
     ],
     "Half-Life Reference": [
@@ -10088,6 +10348,162 @@
       [
         "Source Type",
         "assets/coa/images/freedom-diagnostics/ghk-cu/GHK-Cu-100mg-2026-07-21-Freedom.jpg"
+      ]
+    ],
+    "COA_COA_0054": [
+      [
+        "Field",
+        "Value"
+      ],
+      [
+        "COA ID",
+        "COA-0054"
+      ],
+      [
+        "Compound",
+        "Retatrutide"
+      ],
+      [
+        "Compound Type",
+        "GLP-1 / Weight"
+      ],
+      [
+        "Lab",
+        "Freedom Diagnostics"
+      ],
+      [
+        "Test Date",
+        "2026-08-29"
+      ],
+      [
+        "Report/Task #",
+        "2608250163"
+      ],
+      [
+        "Verification Key",
+        "N/A"
+      ],
+      [
+        "Batch/Lot",
+        "Clear Pink Cap"
+      ],
+      [
+        "Labeled Qty (mg)",
+        20
+      ],
+      [
+        "Actual Content (mg)",
+        21.94
+      ],
+      [
+        "Purity %",
+        99.72
+      ],
+      [
+        "Status",
+        "Overfilled"
+      ],
+      [
+        "Cap Color",
+        "Clear Pink"
+      ],
+      [
+        "Crimp Color",
+        "Not Listed"
+      ],
+      [
+        "Closure Notes",
+        "Clear pink flip-off cap, per vial image and 'Clear Pink Cap' lot description on the COA."
+      ],
+      [
+        "Pass/Fail",
+        "Pass"
+      ],
+      [
+        "Notes",
+        "Identity confirmed as Retatrutide (GLP RT) by LC-MS; purity by HPLC-UV. White lyophilized powder. Net content 21.94 mg. Client: Tomcat Peptides. Accession 2608250163; received 08/25/2026; reported 08/29/2026."
+      ],
+      [
+        "Source Type",
+        "assets/coa/images/freedom-diagnostics/retatrutide/Retatrutide-20mg-2026-08-29-Freedom.jpg"
+      ]
+    ],
+    "COA_COA_0055": [
+      [
+        "Field",
+        "Value"
+      ],
+      [
+        "COA ID",
+        "COA-0055"
+      ],
+      [
+        "Compound",
+        "Retatrutide"
+      ],
+      [
+        "Compound Type",
+        "GLP-1 / Weight"
+      ],
+      [
+        "Lab",
+        "Freedom Diagnostics"
+      ],
+      [
+        "Test Date",
+        "2026-08-29"
+      ],
+      [
+        "Report/Task #",
+        "2608250164"
+      ],
+      [
+        "Verification Key",
+        "N/A"
+      ],
+      [
+        "Batch/Lot",
+        "Clear Purple Cap"
+      ],
+      [
+        "Labeled Qty (mg)",
+        40
+      ],
+      [
+        "Actual Content (mg)",
+        43.16
+      ],
+      [
+        "Purity %",
+        99.9
+      ],
+      [
+        "Status",
+        "Overfilled"
+      ],
+      [
+        "Cap Color",
+        "Clear Purple"
+      ],
+      [
+        "Crimp Color",
+        "Not Listed"
+      ],
+      [
+        "Closure Notes",
+        "Clear purple flip-off cap, per vial image and 'Clear Purple Cap' lot description on the COA."
+      ],
+      [
+        "Pass/Fail",
+        "Pass"
+      ],
+      [
+        "Notes",
+        "Identity confirmed as Retatrutide (GLP RT) by LC-MS; purity by HPLC-UV. White lyophilized powder. Net content 43.16 mg. Client: Tomcat Peptides. Accession 2608250164; received 08/25/2026; reported 08/29/2026."
+      ],
+      [
+        "Source Type",
+        "assets/coa/images/freedom-diagnostics/retatrutide/Retatrutide-40mg-2026-08-29-Freedom.jpg"
       ]
     ]
   }
