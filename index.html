@@ -239,23 +239,46 @@ function workbookFromJson(payload){
   if(!sheets||!Array.isArray(sheets['COA Database'])) throw new Error('Invalid master JSON');
   return {SheetNames:Object.keys(sheets),Sheets:sheets};
 }
+async function killStaleServiceWorkers(){
+  // A stale/old Service Worker registered anywhere on this origin (e.g. from
+  // health-dynamics.html) can shadow ALL pages at this scope, including this
+  // one, and serve old cached responses even after the real files are fixed.
+  // Clear that out so this page always sees the actual current files.
+  try{
+    if('serviceWorker' in navigator){
+      const regs=await navigator.serviceWorker.getRegistrations();
+      await Promise.all(regs.map(r=>r.unregister()));
+    }
+    if(window.caches){
+      const keys=await caches.keys();
+      await Promise.all(keys.map(k=>caches.delete(k)));
+    }
+  }catch(e){console.warn('Service worker cleanup skipped:',e);}
+}
 async function bootDatabase(){
+  const failures=[];
   try{
     const r=await fetch('coa-database.json?v=20260903-pristin-coas-v105',{cache:'no-store'});
-    if(!r.ok) throw new Error(`Master JSON HTTP ${r.status}`);
+    if(!r.ok) throw new Error(`HTTP ${r.status} ${r.statusText||''}`.trim());
     startWithWorkbook(workbookFromJson(await r.json()),'Master JSON');
     return;
-  }catch(e){console.warn('Master JSON failed; trying Excel fallback.',e);}
+  }catch(e){failures.push(`Master JSON (coa-database.json): ${e.message||e}`);console.warn('Master JSON failed; trying Excel fallback.',e);}
   try{
-    if(typeof XLSX==='undefined') throw new Error('XLSX library unavailable');
+    if(typeof XLSX==='undefined') throw new Error('XLSX library did not load (check network/CDN access)');
     const r=await fetch('inventory.xlsx?v=20260719-fixed-all',{cache:'no-store'});
-    if(!r.ok) throw new Error(`Workbook HTTP ${r.status}`);
+    if(!r.ok) throw new Error(`HTTP ${r.status} ${r.statusText||''}`.trim());
     startWithWorkbook(XLSX.read(await r.arrayBuffer(),{type:'array',cellDates:true}),'Excel fallback');
     return;
-  }catch(e){console.warn('Excel fallback failed; using embedded data.',e);}
-  startWithWorkbook(makeWorkbookFromData(EMBEDDED_WORKBOOK_DATA),'Embedded fallback');
+  }catch(e){failures.push(`Excel fallback (inventory.xlsx): ${e.message||e}`);console.warn('Excel fallback failed; using embedded data.',e);}
+  try{
+    startWithWorkbook(makeWorkbookFromData(EMBEDDED_WORKBOOK_DATA),'Embedded fallback');
+    return;
+  }catch(e){failures.push(`Embedded fallback: ${e.message||e}`);}
+  throw new Error(failures.join(' | '));
 }
-bootDatabase().catch(e=>{console.error(e);$('loadPill').textContent='Database failed to load';if($('status'))$('status').textContent=String(e.message||e);});
+killStaleServiceWorkers().finally(()=>{
+  bootDatabase().catch(e=>{console.error(e);$('loadPill').textContent='Database failed to load';if($('status'))$('status').textContent=String(e.message||e);});
+});
 
 
 $('modalClose').addEventListener('click',()=>$('detailModal').classList.remove('show')); $('detailModal').addEventListener('click',e=>{if(e.target.id==='detailModal')$('detailModal').classList.remove('show')}); document.querySelectorAll('[data-jump]').forEach(el=>el.addEventListener('click',()=>jumpToSection(el.dataset.jump))); document.querySelectorAll('[data-inventory-view]').forEach(el=>el.addEventListener('click',()=>switchInventoryView(el.dataset.inventoryView))); $('batchSort').addEventListener('change',buildBatchHistory); $('sheetSelect').addEventListener('change',e=>{currentRows=rowsForSheet(e.target.value);renderTable(currentRows,$('tableWrap'),$('status'),{searchEl:'searchBox'})}); $('previewSheet').addEventListener('change',e=>renderTable(rowsForSheet(e.target.value),$('previewWrap'),$('previewStatus'),{limit:8})); $('inventorySheet').addEventListener('change',e=>{renderTable(enrichInventoryRows(rowsForSheet(e.target.value)),$('inventoryTable'),$('inventoryStatus'),{searchEl:'inventorySearch'});renderInventoryCards();}); ['searchBox','coaSearch','inventorySearch','halfSearch','certSearch','allPeptideSearch','batchSearch'].forEach(id=>$(id).addEventListener('input',()=>{if(id==='searchBox')renderTable(currentRows,$('tableWrap'),$('status'),{searchEl:id}); if(id==='coaSearch')buildAnalytics(); if(id==='inventorySearch'){renderTable(enrichInventoryRows(rowsForSheet($('inventorySheet').value)),$('inventoryTable'),$('inventoryStatus'),{searchEl:id});renderInventoryCards();} if(id==='halfSearch')buildHalf(); if(id==='certSearch')buildCertificates(); if(id==='batchSearch')buildBatchHistory(); if(id==='allPeptideSearch')renderTable(coaRows,$('allPeptideTable'),$('allPeptideStatus'),{searchEl:id});})); document.querySelectorAll('.navbtn').forEach(btn=>btn.addEventListener('click',()=>{document.querySelectorAll('.navbtn').forEach(b=>b.classList.remove('active'));document.querySelectorAll('.section').forEach(s=>s.classList.remove('active'));btn.classList.add('active');const section=$(btn.dataset.target); if(section)section.classList.add('active');}));
