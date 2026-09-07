@@ -1,0 +1,15 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>TheFuture Cache Reset</title>
+<style>body{font-family:system-ui,Segoe UI,Arial;background:#07111f;color:#e5eefb;display:grid;place-items:center;min-height:100vh;margin:0}.box{max-width:620px;padding:32px;border:1px solid #23344f;border-radius:18px;background:#0b1728}h1{margin-top:0}.ok{color:#99f6e4}</style></head><body><div class="box"><h1>Refreshing TheFuture…</h1><p id="msg">Clearing the old site cache and service worker.</p></div>
+<script>
+(async()=>{
+ const msg=document.getElementById('msg');
+ try{
+  if('serviceWorker' in navigator){const regs=await navigator.serviceWorker.getRegistrations();await Promise.all(regs.map(r=>r.unregister()));}
+  if('caches' in window){const keys=await caches.keys();await Promise.all(keys.map(k=>caches.delete(k)));}
+  msg.className='ok'; msg.textContent='Old cache cleared. Opening the fixed database…';
+ }catch(e){msg.textContent='Opening the fixed database…';}
+ const u='./index.html?fresh=20260906-cachefix-v2&t='+Date.now();
+ setTimeout(()=>location.replace(u),700);
+})();
+</script></body></html>
