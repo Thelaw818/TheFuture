@@ -1,5 +1,5 @@
 {
-  "version": "2026-08-14-four-coa-update",
+  "version": "2026-09-12-coa-0062-complete-sync",
   "sheets": {
     "Dashboard": [
       [
@@ -18,28 +18,28 @@
       ],
       [
         "Total COA Records",
-        55,
+        62,
         "Synced from COA Database",
         null,
         null
       ],
       [
         "Unique Peptides",
-        23,
-        "5-Amino-1MQ, ADAMAX, AOD-9604, BPC-157, BPC-157 / TB-500 Blend, BPC/TB Blend, CJC-1295, CJC-1295 No DAC, CJC-1295 No DAC / Ipamorelin, Cagrilintide, DSIP, Eloralintide, GHK-Cu, Ipamorelin, KLOW 80mg, KPV, MOTS-C, NAD+, Retatrutide, SS-31, Semaglutide, TB-500, Tirzepatide",
+        27,
+        "5-Amino-1MQ, ADAMAX, AOD-9604, BPC-157, BPC-157 / TB-500 Blend, BPC/TB Blend, CJC-1295, CJC-1295 No DAC, CJC-1295 No DAC / Ipamorelin, Cagrilintide, DSIP, Eloralintide, GHK-Cu, Glutathione, Ipamorelin, KLOW 80mg, KPV, MOTS-C, NAD+, Retatrutide, SS-31, Semaglutide, Semax, Sermorelin, TB-500, Tesamorelin, Tirzepatide",
         null,
         null
       ],
       [
         "Average Purity %",
-        99.602,
+        99.601,
         "Populated purity results",
         null,
         null
       ],
       [
         "Overfilled",
-        32,
+        38,
         null,
         null,
         null
@@ -53,21 +53,21 @@
       ],
       [
         "On Label/Review",
-        19,
+        22,
         null,
         null,
         null
       ],
       [
         "Labs Used",
-        9,
-        "Aminos Analytics, BT Labs, Freedom Diagnostics, ILS Laboratories, Janoshik, Kovera Labs, SteriGenix, Testides, Tianjin Qiangxin (third-party partner lab)",
+        10,
+        "Aminos Analytics, BT Labs, Freedom Diagnostics, ILS Laboratories, Janoshik, Kovera Labs, Pristin Biotech, SteriGenix, Testides, Tianjin Qiangxin (third-party partner lab)",
         null,
         null
       ],
       [
         "Latest COA Date",
-        "2026-08-05",
+        "2026-09-01",
         null,
         null,
         null
@@ -1606,6 +1606,174 @@
         "Not Listed",
         "Clear Purple",
         "Clear purple flip-off cap, per vial image and 'Clear Purple Cap' lot description on the COA."
+      ],
+      [
+        "COA-0056",
+        "Tesamorelin",
+        "Growth Hormone Support",
+        10,
+        12.18,
+        2.18,
+        0.21800000000000003,
+        99.79,
+        "Overfilled",
+        "Pristin Biotech",
+        "Confirmed",
+        "2026-09-01",
+        "Not Listed",
+        "Not Listed",
+        "20260822",
+        "assets/coa/documents/pristin-biotech/tesamorelin/Tesamorelin-10mg-2026-09-01-Pristin.pdf",
+        "Pass",
+        "Unique product/strength/date/report record",
+        "Identity detected by LCMS/MS; HPLC purity 99.79%; net peptide content 12.18 mg measured by nitrogen quantification using an elemental analyzer. White powder; received 2026-08-29 and analyzed 2026-09-01.",
+        "Not Listed",
+        "Not Listed",
+        "Closure colors are not listed or visible in the report."
+      ],
+      [
+        "COA-0057",
+        "Retatrutide",
+        "GLP-1 / Weight",
+        30,
+        37.37,
+        7.37,
+        0.24566666666666667,
+        99.86,
+        "Overfilled",
+        "Pristin Biotech",
+        "Confirmed",
+        "2026-09-01",
+        "Not Listed",
+        "Not Listed",
+        "20260822",
+        "assets/coa/documents/pristin-biotech/retatrutide/Retatrutide-30mg-2026-09-01-Pristin.pdf",
+        "Pass",
+        "Unique product/strength/date/report record",
+        "Identity detected by LCMS/MS; HPLC purity 99.86%; net peptide content 37.37 mg measured by nitrogen quantification using an elemental analyzer. White powder; received 2026-08-29 and analyzed 2026-09-01.",
+        "Not Listed",
+        "Not Listed",
+        "Closure colors are not listed or visible in the report."
+      ],
+      [
+        "COA-0058",
+        "Retatrutide",
+        "GLP-1 / Weight",
+        10,
+        10.8,
+        0.8,
+        0.08,
+        99.83,
+        "Overfilled",
+        "Pristin Biotech",
+        "Confirmed",
+        "2026-09-01",
+        "Not Listed",
+        "Not Listed",
+        "20260822",
+        "assets/coa/documents/pristin-biotech/retatrutide/Retatrutide-10mg-2026-09-01-Pristin.pdf",
+        "Pass",
+        "Unique product/strength/date/report record",
+        "Identity detected by LCMS/MS; HPLC purity 99.83%; net peptide content 10.80 mg measured by nitrogen quantification using an elemental analyzer. White powder; received 2026-08-29 and analyzed 2026-09-01.",
+        "Not Listed",
+        "Not Listed",
+        "Closure colors are not listed or visible in the report."
+      ],
+      [
+        "COA-0059",
+        "Glutathione",
+        "Antioxidant / Cellular Support",
+        1500,
+        1478.47,
+        -21.53,
+        -0.014353333333333334,
+        99.513,
+        "On label",
+        "Kovera Labs",
+        "Confirmed",
+        "2026-08-18",
+        "Redacted",
+        "Redacted",
+        "GLUTATI1500-2608-01-RED-SLV",
+        "assets/coa/images/kovera-labs/glutathione/Glutathione-1500mg-2026-08-18-Kovera.jpg",
+        "Pass",
+        "Unique product/strength/date/report record",
+        "Identity confirmed as Glutathione by LC-MS. Endotoxin PASS; microbial sterility: No Growth; arsenic, cadmium, lead, and mercury Negative. Vial 1: 99.246% / 1464.59 mg; vial 2: 99.781% / 1492.36 mg.",
+        "Silver",
+        "Red",
+        "Red flip-off cap with silver aluminum crimp, as listed in the COA."
+      ],
+      [
+        "COA-0060",
+        "Semax",
+        "Nootropic / Research",
+        10,
+        9.65,
+        -0.35,
+        -0.034999999999999996,
+        99.568,
+        "On label",
+        "Kovera Labs",
+        "Confirmed",
+        "2026-08-18",
+        "Redacted",
+        "Redacted",
+        "SMX10-2608-01-BLK-SLV",
+        "assets/coa/images/kovera-labs/semax/Semax-10mg-2026-08-18-Kovera.jpg",
+        "Pass",
+        "Unique product/strength/date/report record",
+        "Identity confirmed as Semax by LC-MS. Endotoxin PASS; microbial sterility: No Growth; arsenic, cadmium, lead, and mercury Negative. Vial 1: 99.328% / 9.56 mg; vial 2: 99.808% / 9.74 mg.",
+        "Silver",
+        "Black",
+        "Black flip-off cap with silver aluminum crimp, as listed in the COA."
+      ],
+      [
+        "COA-0061",
+        "Sermorelin",
+        "Growth Hormone Support",
+        10,
+        10.41,
+        0.41,
+        0.040999999999999995,
+        99.335,
+        "On label",
+        "Kovera Labs",
+        "Confirmed",
+        "2026-08-18",
+        "Redacted",
+        "Redacted",
+        "SERMOR10-2608-01-GRN-SLV",
+        "assets/coa/images/kovera-labs/sermorelin/Sermorelin-10mg-2026-08-18-Kovera.jpg",
+        "Pass",
+        "Unique product/strength/date/report record",
+        "Identity confirmed as Sermorelin by LC-MS. Endotoxin PASS; microbial sterility: No Growth; arsenic, cadmium, lead, and mercury Negative. Vial 1: 99.266% / 10.31 mg; vial 2: 99.403% / 10.51 mg.",
+        "Silver",
+        "Green",
+        "Green flip-off cap with silver aluminum crimp, as listed in the COA."
+      ],
+      [
+        "COA-0062",
+        "GHK-Cu",
+        "Cosmetic / Recovery",
+        50,
+        52.48,
+        2.48,
+        0.0496,
+        99.25,
+        "On label",
+        "SteriGenix",
+        "Confirmed",
+        "2026-08-26",
+        "RPT-2026-353561",
+        "SGX-VP-2026-0812-U80",
+        "CU260725A",
+        "assets/coa/documents/sterigenix/ghk-cu/COA-RPT-2026-353561-SteriGenix.pdf",
+        "Pass",
+        "Unique product/strength/date/report record",
+        "Identity confirmed as GHK-Cu (Copper Peptide) by LC-MS. Blue lyophilized powder; molecular weight matched 402.92 g/mol. Endotoxin PASS; microbial sterility: No Growth; lead, cadmium, arsenic, and mercury Negative. Batch conformity was not tested.",
+        "Silver",
+        "Blue",
+        "Blue flip-off cap with silver aluminum crimp, as listed in the COA."
       ]
     ],
     "Purity Rankings": [
@@ -1675,6 +1843,22 @@
       ],
       [
         4,
+        "COA-0055",
+        "Retatrutide",
+        "GLP-1 / Weight",
+        40,
+        43.16,
+        0.079,
+        99.9,
+        "Overfilled",
+        "Freedom Diagnostics",
+        "2026-08-29",
+        "Clear Purple",
+        "Not Listed",
+        "Identity confirmed as Retatrutide (GLP RT) by LC-MS; purity by HPLC-UV. White lyophilized powder. Net content 43.16 mg. Client: Tomcat Peptides. Accession 2608250164; received 08/25/2026; reported 08/29/2026."
+      ],
+      [
+        5,
         "COA-0021",
         "CJC-1295 No DAC",
         "Growth Hormone Support",
@@ -1690,7 +1874,7 @@
         "Mod GRF 1-29"
       ],
       [
-        5,
+        6,
         "COA-0012",
         "AOD-9604",
         "Metabolic / Fat Loss",
@@ -1706,7 +1890,7 @@
         "rHGH fragment / AOD-9604"
       ],
       [
-        6,
+        7,
         "COA-0024",
         "Retatrutide",
         "GLP-1 / Weight",
@@ -1722,7 +1906,23 @@
         "Retatrutide 20mg, separate batch from existing Retatrutide records; received 06/11/2026, reported 06/14/2026."
       ],
       [
-        7,
+        8,
+        "COA-0057",
+        "Retatrutide",
+        "GLP-1 / Weight",
+        30,
+        37.37,
+        0.24566666666666667,
+        99.86,
+        "Overfilled",
+        "Pristin Biotech",
+        "2026-09-01",
+        "Not Listed",
+        "Not Listed",
+        "Identity detected by LCMS/MS; HPLC purity 99.86%; net peptide content 37.37 mg measured by nitrogen quantification using an elemental analyzer. White powder; received 2026-08-29 and analyzed 2026-09-01."
+      ],
+      [
+        9,
         "COA-0050",
         "Cagrilintide",
         "Amylin / Weight",
@@ -1738,7 +1938,7 @@
         "Identity confirmed as Cagrilintide by LC-MS. Endotoxin PASS; microbial sterility: No Growth. Vial 1: 99.827% / 10.29 mg; vial 2: 99.871% / 10.46 mg. Certified 08/08/2026."
       ],
       [
-        8,
+        10,
         "COA-0013",
         "MOTS-C",
         "Metabolic / Mito",
@@ -1754,7 +1954,7 @@
         "10 mg label"
       ],
       [
-        9,
+        11,
         "COA-0010",
         "Tirzepatide",
         "GLP-1 / Weight",
@@ -1770,7 +1970,23 @@
         "30 mg label"
       ],
       [
+        12,
+        "COA-0058",
+        "Retatrutide",
+        "GLP-1 / Weight",
         10,
+        10.8,
+        0.08,
+        99.83,
+        "Overfilled",
+        "Pristin Biotech",
+        "2026-09-01",
+        "Not Listed",
+        "Not Listed",
+        "Identity detected by LCMS/MS; HPLC purity 99.83%; net peptide content 10.80 mg measured by nitrogen quantification using an elemental analyzer. White powder; received 2026-08-29 and analyzed 2026-09-01."
+      ],
+      [
+        13,
         "COA-0022",
         "Retatrutide",
         "GLP-1 / Weight",
@@ -1786,7 +2002,7 @@
         "RT30 Retatrutide 30mg; common GLP-1 blind test; overfilled."
       ],
       [
-        11,
+        14,
         "COA-0036",
         "KLOW 80mg",
         "Healing / Recovery Blend",
@@ -1802,7 +2018,7 @@
         "Identity confirmed: GHK-Cu/KPV/BPC-157/Thymosin Beta-4. Net content: GHK-Cu 62.93 mg; KPV 9.09 mg; BPC-157 12.40 mg; Thymosin Beta-4 12.04 mg. Blue lyophilized powder. Received 07/17/2026; reported 07/20/2026."
       ],
       [
-        12,
+        15,
         "COA-0015",
         "MOTS-C",
         "Metabolic / Mito",
@@ -1818,7 +2034,7 @@
         "40 mg label"
       ],
       [
-        13,
+        16,
         "COA-0028",
         "BPC/TB Blend",
         "Healing / Recovery",
@@ -1834,7 +2050,7 @@
         "BPC-157 5.76mg + TB-500 6.09mg; Date received/reported Jun 24, 2026; generated Jul 4, 2026."
       ],
       [
-        14,
+        17,
         "COA-0009",
         "Tirzepatide",
         "GLP-1 / Weight",
@@ -1850,7 +2066,23 @@
         "60 mg label; 108.5% potency"
       ],
       [
-        15,
+        18,
+        "COA-0056",
+        "Tesamorelin",
+        "Growth Hormone Support",
+        10,
+        12.18,
+        0.21800000000000003,
+        99.79,
+        "Overfilled",
+        "Pristin Biotech",
+        "2026-09-01",
+        "Not Listed",
+        "Not Listed",
+        "Identity detected by LCMS/MS; HPLC purity 99.79%; net peptide content 12.18 mg measured by nitrogen quantification using an elemental analyzer. White powder; received 2026-08-29 and analyzed 2026-09-01."
+      ],
+      [
+        19,
         "COA-0041",
         "GHK-Cu",
         "Cosmetic / Recovery",
@@ -1866,7 +2098,7 @@
         "Reported as GHK-Cu (Copper Peptide); identity confirmed by LC-MS. Heavy metals and batch conformity: no data."
       ],
       [
-        16,
+        20,
         "COA-0035",
         "GHK-Cu",
         "Regenerative / Skin",
@@ -1882,7 +2114,7 @@
         "GHK-Cu 50mg; identity confirmed; blue lyophilized powder; received 06/26/2026; reported 06/29/2026."
       ],
       [
-        17,
+        21,
         "COA-0034",
         "Tirzepatide",
         "GLP-1 / Weight",
@@ -1898,7 +2130,7 @@
         "Kovera image COA; purple cap / silver crimp; heavy metals negative; endotoxin pass. CAS 2023788-19-2 visible; report/access code redacted."
       ],
       [
-        18,
+        22,
         "COA-0023",
         "Tirzepatide",
         "GLP-1 / Weight",
@@ -1914,7 +2146,7 @@
         "T15 Tirzepatide 15mg; common GLP-1 blind test; overfilled."
       ],
       [
-        19,
+        23,
         "COA-0045",
         "CJC-1295",
         "GHRH analog",
@@ -1930,551 +2162,7 @@
         "Accession ACC-2026-10918. Identity confirmed by HPLC-RTM; fentanyl screen not detected. Analysis 07/31/2026; received 07/17/2026; lyophilized sample, 3 mL. COA/access identifiers are redacted in the supplied image."
       ],
       [
-        20,
-        "COA-0007",
-        "Tirzepatide",
-        "GLP-1 / Weight",
-        20,
-        26,
-        0.3,
-        99.7,
-        "Overfilled",
-        "BT Labs",
-        46133,
-        "Royal Blue",
-        "Not Listed",
-        "20 mg label; 130.1% potency"
-      ],
-      [
-        21,
-        "COA-0008",
-        "Tirzepatide",
-        "GLP-1 / Weight",
-        40,
-        46.6,
-        0.165,
-        99.7,
-        "Overfilled",
-        "BT Labs",
-        46106,
-        "Gray",
-        "Not Listed",
-        "40 mg label; 116.4% potency"
-      ],
-      [
-        22,
-        "COA-0044",
-        "Eloralintide",
-        "Amylin / Weight",
-        5,
-        4.63,
-        -0.07400000000000002,
-        99.67,
-        "Underfilled",
-        "Tianjin Qiangxin (third-party partner lab)",
-        46234,
-        "Not Listed",
-        "Not Listed",
-        "Report identifies sample as Elor5/Eloralintide. LCMS/HPLC purity 99.67%; peptide weight 4.63 mg. Report states neither issuer nor partner lab holds CMA/CNAS accreditation."
-      ],
-      [
-        23,
-        "COA-0003",
-        "Retatrutide",
-        "GLP-1 / Weight",
-        5,
-        6.63,
-        0.326,
-        99.654,
-        "Overfilled",
-        "Kovera Labs",
-        46174,
-        "Not Listed",
-        "Not Listed",
-        "Heavy metals negative; endotoxin pass"
-      ],
-      [
         24,
-        "COA-0032",
-        "Semaglutide",
-        "GLP-1 / Weight",
-        15,
-        15.53,
-        0.035333333333333335,
-        99.642,
-        "On label",
-        "Kovera Labs",
-        "2026-07-03",
-        "Black",
-        "Silver",
-        "Kovera image COA; black cap / silver crimp; heavy metals negative; endotoxin pass. CAS 910463-68-2 visible; report/access code redacted."
-      ],
-      [
-        25,
-        "COA-0033",
-        "Tirzepatide",
-        "GLP-1 / Weight",
-        30,
-        33.24,
-        0.10800000000000001,
-        99.6,
-        "Overfilled",
-        "Kovera Labs",
-        "2026-07-03",
-        "Blue",
-        "Silver",
-        "Kovera image COA; blue cap / silver crimp; heavy metals negative; endotoxin pass. CAS 2023788-19-2 visible; report/access code redacted."
-      ],
-      [
-        26,
-        "COA-0047",
-        "Retatrutide",
-        "GLP-1 / Weight",
-        60,
-        63.37,
-        0.05616666666666662,
-        99.59,
-        "Overfilled",
-        "Kovera Labs",
-        "2026-07-29",
-        "Red",
-        "Silver",
-        "Identity confirmed as Retatrutide by LC-MS. Endotoxin safety screen PASS. Heavy metals arsenic, cadmium, lead, and mercury negative. Batch average from two-vial conformity results. Certified 07/29/2026; report, client, CAS, and batch identifiers are redacted in the supplied image."
-      ],
-      [
-        27,
-        "COA-0020",
-        "KPV",
-        "Other",
-        10,
-        12.19,
-        0.2189999999999999,
-        99.589,
-        "Overfilled",
-        "Janoshik",
-        46057,
-        "Not Listed",
-        "Not Listed",
-        "Overfilled"
-      ],
-      [
-        28,
-        "COA-0031",
-        "Retatrutide",
-        "GLP-1 / Weight",
-        30,
-        33.77,
-        0.12566666666666668,
-        99.58,
-        "Overfilled",
-        "Testides",
-        "2026-06-15",
-        "Not Listed",
-        "Not Listed",
-        "Retatrutide 30mg; Date received/reported Jun 24, 2026; generated Jul 4, 2026."
-      ],
-      [
-        29,
-        "COA-0040",
-        "BPC-157",
-        "Healing / Recovery",
-        5,
-        5.13,
-        0.025999999999999978,
-        99.57,
-        "Overfilled",
-        "SteriGenix",
-        46239,
-        "Green",
-        "Silver",
-        "Identity confirmed by LC-MS. Heavy metals and batch conformity: no data."
-      ],
-      [
-        30,
-        "COA-0026",
-        "Retatrutide",
-        "GLP-1 / Weight",
-        40,
-        42.53,
-        0.06325,
-        99.569,
-        "Overfilled",
-        "Kovera Labs",
-        "2026-06-20",
-        "Blue",
-        "Silver",
-        "Blue cap Retatrutide 40mg"
-      ],
-      [
-        31,
-        "COA-0025",
-        "Retatrutide",
-        "GLP-1 / Weight",
-        30,
-        33.31,
-        0.1103333333333333,
-        99.563,
-        "Overfilled",
-        "Kovera Labs",
-        "2026-06-20",
-        "Transparent",
-        "Silver",
-        "Transparent cap Retatrutide 30mg"
-      ],
-      [
-        32,
-        "COA-0046",
-        "NAD+",
-        "Metabolic / Cellular Energy",
-        500,
-        488.47,
-        -0.023059999999999945,
-        99.549,
-        "On label",
-        "Kovera Labs",
-        46232,
-        "Black",
-        "Silver",
-        "Identity confirmed as NAD+. Endotoxin safety screen PASS. Heavy metals arsenic, cadmium, lead, and mercury negative. Batch conformity: vial 1 = 99.517% / 483.68 mg; vial 2 = 99.582% / 493.26 mg. Certified 07/29/2026. Report/access and batch identifiers are redacted."
-      ],
-      [
-        33,
-        "COA-0038",
-        "Tirzepatide",
-        "GLP-1 / Weight",
-        10,
-        10.09,
-        0.008999999999999985,
-        99.52,
-        "On label",
-        "SteriGenix",
-        46239,
-        "Yellow",
-        "Silver",
-        "Identity confirmed by LC-MS. Heavy metals and batch conformity: no data."
-      ],
-      [
-        34,
-        "COA-0001",
-        "Retatrutide",
-        "GLP-1 / Weight",
-        10,
-        11.8,
-        0.1800000000000001,
-        99.516,
-        "Overfilled",
-        "Janoshik",
-        46156,
-        "Not Listed",
-        "Not Listed",
-        "RT10 - common GLP-1 blind test; overfilled"
-      ],
-      [
-        35,
-        "COA-0006",
-        "Retatrutide",
-        "GLP-1 / Weight",
-        null,
-        22.47,
-        null,
-        99.5,
-        "Review",
-        "Aminos Analytics",
-        46146,
-        "Not Listed",
-        "Not Listed",
-        "Labeled quantity unclear from image"
-      ],
-      [
-        36,
-        "COA-0004",
-        "Retatrutide",
-        "GLP-1 / Weight",
-        15,
-        17.93,
-        0.1953333333333333,
-        99.491,
-        "Overfilled",
-        "Kovera Labs",
-        46175,
-        "Not Listed",
-        "Not Listed",
-        "Heavy metals negative; endotoxin pass"
-      ],
-      [
-        37,
-        "COA-0030",
-        "Retatrutide",
-        "GLP-1 / Weight",
-        20,
-        21.4,
-        0.06999999999999999,
-        99.49,
-        "Overfilled",
-        "Testides",
-        "2026-06-15",
-        "Not Listed",
-        "Not Listed",
-        "Retatrutide 20mg; Date received/reported Jun 24, 2026; generated Jul 4, 2026."
-      ],
-      [
-        38,
-        "COA-0051",
-        "DSIP",
-        "Sleep / Research",
-        10,
-        10.16,
-        0.016000000000000014,
-        99.464,
-        "On label",
-        "Kovera Labs",
-        "2026-07-29",
-        "Red",
-        "Silver",
-        "Identity confirmed as DSIP by LC-MS. Endotoxin safety screen PASS. Heavy metals arsenic, cadmium, lead, and mercury negative. Batch average from two-vial conformity results. Certified 07/29/2026; report, client, CAS, and batch identifiers are redacted in the supplied image."
-      ],
-      [
-        39,
-        "COA-0052",
-        "CJC-1295 No DAC / Ipamorelin",
-        "GHRH / GH Secretagogue Blend",
-        10,
-        10.42,
-        0.042,
-        99.446,
-        "On label",
-        "Kovera Labs",
-        46242,
-        "Yellow",
-        "Silver",
-        "Blend identity confirmed by LC-MS. Component analysis: Ipamorelin labeled 5 mg / measured 5.84 mg; CJC-1295 No DAC labeled 5 mg / measured 4.71 mg. Endotoxin PASS; microbial sterility: No Growth."
-      ],
-      [
-        40,
-        "COA-0043",
-        "Retatrutide",
-        "GLP-1 / Weight",
-        10,
-        10.36,
-        0.03599999999999994,
-        99.41,
-        "Overfilled",
-        "SteriGenix",
-        46239,
-        "Clear",
-        "Copper",
-        "Identity confirmed by LC-MS. Heavy metals and batch conformity: no data."
-      ],
-      [
-        41,
-        "COA-0029",
-        "MOTS-C",
-        "Metabolic / Mito",
-        40,
-        45.03,
-        0.12575,
-        99.39,
-        "Overfilled",
-        "Testides",
-        "2026-06-15",
-        "Not Listed",
-        "Not Listed",
-        "MOTS-c 40mg; Date received/reported Jun 24, 2026; generated Jul 4, 2026."
-      ],
-      [
-        42,
-        "COA-0002",
-        "Retatrutide",
-        "GLP-1 / Weight",
-        10,
-        10,
-        0,
-        99.369,
-        "On label",
-        "Janoshik",
-        46057,
-        "Not Listed",
-        "Not Listed",
-        "On label"
-      ],
-      [
-        43,
-        "COA-0049",
-        "5-Amino-1MQ",
-        "Metabolic / Research",
-        50,
-        51.88,
-        0.03760000000000005,
-        99.369,
-        "On label",
-        "Kovera Labs",
-        "2026-07-29",
-        "Red",
-        "Silver",
-        "Identity confirmed as 5-Amino-1MQ by LC-MS. Endotoxin safety screen PASS. Heavy metals arsenic, cadmium, lead, and mercury negative. Batch average from two-vial conformity results. Certified 07/29/2026; report, client, CAS, and batch identifiers are redacted in the supplied image."
-      ],
-      [
-        44,
-        "COA-0042",
-        "Ipamorelin",
-        "Growth Hormone Support",
-        5,
-        5.17,
-        0.03399999999999999,
-        99.34,
-        "Overfilled",
-        "SteriGenix",
-        46239,
-        "White",
-        "Silver",
-        "Identity confirmed by LC-MS. Heavy metals and batch conformity: no data."
-      ],
-      [
-        45,
-        "COA-0039",
-        "Semaglutide",
-        "GLP-1 / Weight",
-        5,
-        5.07,
-        0.014000000000000058,
-        99.32,
-        "On label",
-        "SteriGenix",
-        46239,
-        "Blue",
-        "Silver",
-        "Identity confirmed by LC-MS. Heavy metals and batch conformity: no data."
-      ],
-      [
-        46,
-        "COA-0048",
-        "SS-31",
-        "Metabolic / Mito",
-        50,
-        51.52,
-        0.030400000000000062,
-        99.32,
-        "On label",
-        "Kovera Labs",
-        "2026-07-29",
-        "Purple",
-        "Silver",
-        "Identity confirmed as SS-31 by LC-MS. Endotoxin safety screen PASS. Heavy metals arsenic, cadmium, lead, and mercury negative. Batch average from two-vial conformity results. Certified 07/29/2026; report, client, CAS, and batch identifiers are redacted in the supplied image."
-      ],
-      [
-        47,
-        "COA-0053",
-        "GHK-Cu",
-        "Cosmetic / Recovery",
-        100,
-        100.52,
-        0.0052,
-        99.25,
-        "On label",
-        "Freedom Diagnostics",
-        46224,
-        "Light Blue",
-        "Silver",
-        "Identity confirmed as GHK-Cu by LC-MS. Blue lyophilized powder. Endotoxin replicates PASS; microbial analysis (PCR) PASS / no detectable microbial DNA. Received 07/17/2026; reported 07/21/2026."
-      ],
-      [
-        48,
-        "COA-0037",
-        "BPC-157 / TB-500 Blend",
-        "Healing / Recovery Blend",
-        10,
-        10.55,
-        0.05500000000000007,
-        99.13,
-        "Overfilled",
-        "SteriGenix",
-        46239,
-        "Red",
-        "Silver",
-        "Identity confirmed by LC-MS. Component content reported as 5.37 mg BPC-157 and 5.18 mg TB-500; total 10.55 mg. Heavy metals and batch conformity: no data."
-      ],
-      [
-        49,
-        "COA-0016",
-        "TB-500",
-        "Healing / Recovery",
-        10,
-        11.38,
-        0.1380000000000001,
-        99.085,
-        "Overfilled",
-        "Janoshik",
-        46155,
-        "Not Listed",
-        "Not Listed",
-        "TB-500 / TB4"
-      ],
-      [
-        50,
-        "COA-0014",
-        "MOTS-C",
-        "Metabolic / Mito",
-        10,
-        11.17,
-        0.117,
-        99.055,
-        "Overfilled",
-        "Janoshik",
-        46155,
-        "Not Listed",
-        "Not Listed",
-        "MS10 / MOTS-C"
-      ],
-      [
-        51,
-        "COA-0011",
-        "Cagrilintide",
-        "GLP-1 / Weight",
-        10,
-        10.47,
-        0.04700000000000006,
-        99.04,
-        "On label",
-        "Janoshik",
-        46155,
-        "Not Listed",
-        "Not Listed",
-        "Overfilled"
-      ],
-      [
-        52,
-        "COA-0017",
-        "BPC-157",
-        "Healing / Recovery",
-        5,
-        5.54,
-        0.108,
-        null,
-        "Overfilled",
-        "Janoshik",
-        46057,
-        "Not Listed",
-        "Not Listed",
-        "Blend report BPC5+TB5"
-      ],
-      [
-        53,
-        "COA-0018",
-        "TB-500",
-        "Healing / Recovery",
-        5,
-        5.43,
-        0.08599999999999994,
-        null,
-        "On label",
-        "Janoshik",
-        46057,
-        "Not Listed",
-        "Not Listed",
-        "Blend report BPC5+TB5"
-      ],
-      [
-        54,
         "COA-0054",
         "Retatrutide",
         "GLP-1 / Weight",
@@ -2490,20 +2178,612 @@
         "Identity confirmed as Retatrutide (GLP RT) by LC-MS; purity by HPLC-UV. White lyophilized powder. Net content 21.94 mg. Client: Tomcat Peptides. Accession 2608250163; received 08/25/2026; reported 08/29/2026."
       ],
       [
-        55,
-        "COA-0055",
+        25,
+        "COA-0007",
+        "Tirzepatide",
+        "GLP-1 / Weight",
+        20,
+        26,
+        0.3,
+        99.7,
+        "Overfilled",
+        "BT Labs",
+        46133,
+        "Royal Blue",
+        "Not Listed",
+        "20 mg label; 130.1% potency"
+      ],
+      [
+        26,
+        "COA-0008",
+        "Tirzepatide",
+        "GLP-1 / Weight",
+        40,
+        46.6,
+        0.165,
+        99.7,
+        "Overfilled",
+        "BT Labs",
+        46106,
+        "Gray",
+        "Not Listed",
+        "40 mg label; 116.4% potency"
+      ],
+      [
+        27,
+        "COA-0044",
+        "Eloralintide",
+        "Amylin / Weight",
+        5,
+        4.63,
+        -0.07400000000000002,
+        99.67,
+        "Underfilled",
+        "Tianjin Qiangxin (third-party partner lab)",
+        46234,
+        "Not Listed",
+        "Not Listed",
+        "Report identifies sample as Elor5/Eloralintide. LCMS/HPLC purity 99.67%; peptide weight 4.63 mg. Report states neither issuer nor partner lab holds CMA/CNAS accreditation."
+      ],
+      [
+        28,
+        "COA-0003",
+        "Retatrutide",
+        "GLP-1 / Weight",
+        5,
+        6.63,
+        0.326,
+        99.654,
+        "Overfilled",
+        "Kovera Labs",
+        46174,
+        "Not Listed",
+        "Not Listed",
+        "Heavy metals negative; endotoxin pass"
+      ],
+      [
+        29,
+        "COA-0032",
+        "Semaglutide",
+        "GLP-1 / Weight",
+        15,
+        15.53,
+        0.035333333333333335,
+        99.642,
+        "On label",
+        "Kovera Labs",
+        "2026-07-03",
+        "Black",
+        "Silver",
+        "Kovera image COA; black cap / silver crimp; heavy metals negative; endotoxin pass. CAS 910463-68-2 visible; report/access code redacted."
+      ],
+      [
+        30,
+        "COA-0033",
+        "Tirzepatide",
+        "GLP-1 / Weight",
+        30,
+        33.24,
+        0.10800000000000001,
+        99.6,
+        "Overfilled",
+        "Kovera Labs",
+        "2026-07-03",
+        "Blue",
+        "Silver",
+        "Kovera image COA; blue cap / silver crimp; heavy metals negative; endotoxin pass. CAS 2023788-19-2 visible; report/access code redacted."
+      ],
+      [
+        31,
+        "COA-0047",
+        "Retatrutide",
+        "GLP-1 / Weight",
+        60,
+        63.37,
+        0.05616666666666662,
+        99.59,
+        "Overfilled",
+        "Kovera Labs",
+        "2026-07-29",
+        "Red",
+        "Silver",
+        "Identity confirmed as Retatrutide by LC-MS. Endotoxin safety screen PASS. Heavy metals arsenic, cadmium, lead, and mercury negative. Batch average from two-vial conformity results. Certified 07/29/2026; report, client, CAS, and batch identifiers are redacted in the supplied image."
+      ],
+      [
+        32,
+        "COA-0020",
+        "KPV",
+        "Other",
+        10,
+        12.19,
+        0.2189999999999999,
+        99.589,
+        "Overfilled",
+        "Janoshik",
+        46057,
+        "Not Listed",
+        "Not Listed",
+        "Overfilled"
+      ],
+      [
+        33,
+        "COA-0031",
+        "Retatrutide",
+        "GLP-1 / Weight",
+        30,
+        33.77,
+        0.12566666666666668,
+        99.58,
+        "Overfilled",
+        "Testides",
+        "2026-06-15",
+        "Not Listed",
+        "Not Listed",
+        "Retatrutide 30mg; Date received/reported Jun 24, 2026; generated Jul 4, 2026."
+      ],
+      [
+        34,
+        "COA-0040",
+        "BPC-157",
+        "Healing / Recovery",
+        5,
+        5.13,
+        0.025999999999999978,
+        99.57,
+        "Overfilled",
+        "SteriGenix",
+        46239,
+        "Green",
+        "Silver",
+        "Identity confirmed by LC-MS. Heavy metals and batch conformity: no data."
+      ],
+      [
+        35,
+        "COA-0026",
         "Retatrutide",
         "GLP-1 / Weight",
         40,
-        43.16,
-        0.079,
-        99.9,
+        42.53,
+        0.06325,
+        99.569,
         "Overfilled",
-        "Freedom Diagnostics",
-        "2026-08-29",
-        "Clear Purple",
+        "Kovera Labs",
+        "2026-06-20",
+        "Blue",
+        "Silver",
+        "Blue cap Retatrutide 40mg"
+      ],
+      [
+        36,
+        "COA-0060",
+        "Semax",
+        "Nootropic / Research",
+        10,
+        9.65,
+        -0.034999999999999996,
+        99.568,
+        "On label",
+        "Kovera Labs",
+        "2026-08-18",
+        "Black",
+        "Silver",
+        "Identity confirmed as Semax by LC-MS. Endotoxin PASS; microbial sterility: No Growth; arsenic, cadmium, lead, and mercury Negative. Vial 1: 99.328% / 9.56 mg; vial 2: 99.808% / 9.74 mg."
+      ],
+      [
+        37,
+        "COA-0025",
+        "Retatrutide",
+        "GLP-1 / Weight",
+        30,
+        33.31,
+        0.1103333333333333,
+        99.563,
+        "Overfilled",
+        "Kovera Labs",
+        "2026-06-20",
+        "Transparent",
+        "Silver",
+        "Transparent cap Retatrutide 30mg"
+      ],
+      [
+        38,
+        "COA-0046",
+        "NAD+",
+        "Metabolic / Cellular Energy",
+        500,
+        488.47,
+        -0.023059999999999945,
+        99.549,
+        "On label",
+        "Kovera Labs",
+        46232,
+        "Black",
+        "Silver",
+        "Identity confirmed as NAD+. Endotoxin safety screen PASS. Heavy metals arsenic, cadmium, lead, and mercury negative. Batch conformity: vial 1 = 99.517% / 483.68 mg; vial 2 = 99.582% / 493.26 mg. Certified 07/29/2026. Report/access and batch identifiers are redacted."
+      ],
+      [
+        39,
+        "COA-0038",
+        "Tirzepatide",
+        "GLP-1 / Weight",
+        10,
+        10.09,
+        0.008999999999999985,
+        99.52,
+        "On label",
+        "SteriGenix",
+        46239,
+        "Yellow",
+        "Silver",
+        "Identity confirmed by LC-MS. Heavy metals and batch conformity: no data."
+      ],
+      [
+        40,
+        "COA-0001",
+        "Retatrutide",
+        "GLP-1 / Weight",
+        10,
+        11.8,
+        0.1800000000000001,
+        99.516,
+        "Overfilled",
+        "Janoshik",
+        46156,
         "Not Listed",
-        "Identity confirmed as Retatrutide (GLP RT) by LC-MS; purity by HPLC-UV. White lyophilized powder. Net content 43.16 mg. Client: Tomcat Peptides. Accession 2608250164; received 08/25/2026; reported 08/29/2026."
+        "Not Listed",
+        "RT10 - common GLP-1 blind test; overfilled"
+      ],
+      [
+        41,
+        "COA-0059",
+        "Glutathione",
+        "Antioxidant / Cellular Support",
+        1500,
+        1478.47,
+        -0.014353333333333334,
+        99.513,
+        "On label",
+        "Kovera Labs",
+        "2026-08-18",
+        "Red",
+        "Silver",
+        "Identity confirmed as Glutathione by LC-MS. Endotoxin PASS; microbial sterility: No Growth; arsenic, cadmium, lead, and mercury Negative. Vial 1: 99.246% / 1464.59 mg; vial 2: 99.781% / 1492.36 mg."
+      ],
+      [
+        42,
+        "COA-0006",
+        "Retatrutide",
+        "GLP-1 / Weight",
+        null,
+        22.47,
+        null,
+        99.5,
+        "Review",
+        "Aminos Analytics",
+        46146,
+        "Not Listed",
+        "Not Listed",
+        "Labeled quantity unclear from image"
+      ],
+      [
+        43,
+        "COA-0004",
+        "Retatrutide",
+        "GLP-1 / Weight",
+        15,
+        17.93,
+        0.1953333333333333,
+        99.491,
+        "Overfilled",
+        "Kovera Labs",
+        46175,
+        "Not Listed",
+        "Not Listed",
+        "Heavy metals negative; endotoxin pass"
+      ],
+      [
+        44,
+        "COA-0030",
+        "Retatrutide",
+        "GLP-1 / Weight",
+        20,
+        21.4,
+        0.06999999999999999,
+        99.49,
+        "Overfilled",
+        "Testides",
+        "2026-06-15",
+        "Not Listed",
+        "Not Listed",
+        "Retatrutide 20mg; Date received/reported Jun 24, 2026; generated Jul 4, 2026."
+      ],
+      [
+        45,
+        "COA-0051",
+        "DSIP",
+        "Sleep / Research",
+        10,
+        10.16,
+        0.016000000000000014,
+        99.464,
+        "On label",
+        "Kovera Labs",
+        "2026-07-29",
+        "Red",
+        "Silver",
+        "Identity confirmed as DSIP by LC-MS. Endotoxin safety screen PASS. Heavy metals arsenic, cadmium, lead, and mercury negative. Batch average from two-vial conformity results. Certified 07/29/2026; report, client, CAS, and batch identifiers are redacted in the supplied image."
+      ],
+      [
+        46,
+        "COA-0052",
+        "CJC-1295 No DAC / Ipamorelin",
+        "GHRH / GH Secretagogue Blend",
+        10,
+        10.42,
+        0.042,
+        99.446,
+        "On label",
+        "Kovera Labs",
+        46242,
+        "Yellow",
+        "Silver",
+        "Blend identity confirmed by LC-MS. Component analysis: Ipamorelin labeled 5 mg / measured 5.84 mg; CJC-1295 No DAC labeled 5 mg / measured 4.71 mg. Endotoxin PASS; microbial sterility: No Growth."
+      ],
+      [
+        47,
+        "COA-0043",
+        "Retatrutide",
+        "GLP-1 / Weight",
+        10,
+        10.36,
+        0.03599999999999994,
+        99.41,
+        "Overfilled",
+        "SteriGenix",
+        46239,
+        "Clear",
+        "Copper",
+        "Identity confirmed by LC-MS. Heavy metals and batch conformity: no data."
+      ],
+      [
+        48,
+        "COA-0029",
+        "MOTS-C",
+        "Metabolic / Mito",
+        40,
+        45.03,
+        0.12575,
+        99.39,
+        "Overfilled",
+        "Testides",
+        "2026-06-15",
+        "Not Listed",
+        "Not Listed",
+        "MOTS-c 40mg; Date received/reported Jun 24, 2026; generated Jul 4, 2026."
+      ],
+      [
+        49,
+        "COA-0002",
+        "Retatrutide",
+        "GLP-1 / Weight",
+        10,
+        10,
+        0,
+        99.369,
+        "On label",
+        "Janoshik",
+        46057,
+        "Not Listed",
+        "Not Listed",
+        "On label"
+      ],
+      [
+        50,
+        "COA-0049",
+        "5-Amino-1MQ",
+        "Metabolic / Research",
+        50,
+        51.88,
+        0.03760000000000005,
+        99.369,
+        "On label",
+        "Kovera Labs",
+        "2026-07-29",
+        "Red",
+        "Silver",
+        "Identity confirmed as 5-Amino-1MQ by LC-MS. Endotoxin safety screen PASS. Heavy metals arsenic, cadmium, lead, and mercury negative. Batch average from two-vial conformity results. Certified 07/29/2026; report, client, CAS, and batch identifiers are redacted in the supplied image."
+      ],
+      [
+        51,
+        "COA-0042",
+        "Ipamorelin",
+        "Growth Hormone Support",
+        5,
+        5.17,
+        0.03399999999999999,
+        99.34,
+        "Overfilled",
+        "SteriGenix",
+        46239,
+        "White",
+        "Silver",
+        "Identity confirmed by LC-MS. Heavy metals and batch conformity: no data."
+      ],
+      [
+        52,
+        "COA-0061",
+        "Sermorelin",
+        "Growth Hormone Support",
+        10,
+        10.41,
+        0.040999999999999995,
+        99.335,
+        "On label",
+        "Kovera Labs",
+        "2026-08-18",
+        "Green",
+        "Silver",
+        "Identity confirmed as Sermorelin by LC-MS. Endotoxin PASS; microbial sterility: No Growth; arsenic, cadmium, lead, and mercury Negative. Vial 1: 99.266% / 10.31 mg; vial 2: 99.403% / 10.51 mg."
+      ],
+      [
+        53,
+        "COA-0039",
+        "Semaglutide",
+        "GLP-1 / Weight",
+        5,
+        5.07,
+        0.014000000000000058,
+        99.32,
+        "On label",
+        "SteriGenix",
+        46239,
+        "Blue",
+        "Silver",
+        "Identity confirmed by LC-MS. Heavy metals and batch conformity: no data."
+      ],
+      [
+        54,
+        "COA-0048",
+        "SS-31",
+        "Metabolic / Mito",
+        50,
+        51.52,
+        0.030400000000000062,
+        99.32,
+        "On label",
+        "Kovera Labs",
+        "2026-07-29",
+        "Purple",
+        "Silver",
+        "Identity confirmed as SS-31 by LC-MS. Endotoxin safety screen PASS. Heavy metals arsenic, cadmium, lead, and mercury negative. Batch average from two-vial conformity results. Certified 07/29/2026; report, client, CAS, and batch identifiers are redacted in the supplied image."
+      ],
+      [
+        55,
+        "COA-0053",
+        "GHK-Cu",
+        "Cosmetic / Recovery",
+        100,
+        100.52,
+        0.0052,
+        99.25,
+        "On label",
+        "Freedom Diagnostics",
+        46224,
+        "Light Blue",
+        "Silver",
+        "Identity confirmed as GHK-Cu by LC-MS. Blue lyophilized powder. Endotoxin replicates PASS; microbial analysis (PCR) PASS / no detectable microbial DNA. Received 07/17/2026; reported 07/21/2026."
+      ],
+      [
+        56,
+        "COA-0062",
+        "GHK-Cu",
+        "Cosmetic / Recovery",
+        50,
+        52.48,
+        0.0496,
+        99.25,
+        "On label",
+        "SteriGenix",
+        "2026-08-26",
+        "Blue",
+        "Silver",
+        "Identity confirmed as GHK-Cu (Copper Peptide) by LC-MS. Blue lyophilized powder; molecular weight matched 402.92 g/mol. Endotoxin PASS; microbial sterility: No Growth; lead, cadmium, arsenic, and mercury Negative. Batch conformity was not tested."
+      ],
+      [
+        57,
+        "COA-0037",
+        "BPC-157 / TB-500 Blend",
+        "Healing / Recovery Blend",
+        10,
+        10.55,
+        0.05500000000000007,
+        99.13,
+        "Overfilled",
+        "SteriGenix",
+        46239,
+        "Red",
+        "Silver",
+        "Identity confirmed by LC-MS. Component content reported as 5.37 mg BPC-157 and 5.18 mg TB-500; total 10.55 mg. Heavy metals and batch conformity: no data."
+      ],
+      [
+        58,
+        "COA-0016",
+        "TB-500",
+        "Healing / Recovery",
+        10,
+        11.38,
+        0.1380000000000001,
+        99.085,
+        "Overfilled",
+        "Janoshik",
+        46155,
+        "Not Listed",
+        "Not Listed",
+        "TB-500 / TB4"
+      ],
+      [
+        59,
+        "COA-0014",
+        "MOTS-C",
+        "Metabolic / Mito",
+        10,
+        11.17,
+        0.117,
+        99.055,
+        "Overfilled",
+        "Janoshik",
+        46155,
+        "Not Listed",
+        "Not Listed",
+        "MS10 / MOTS-C"
+      ],
+      [
+        60,
+        "COA-0011",
+        "Cagrilintide",
+        "GLP-1 / Weight",
+        10,
+        10.47,
+        0.04700000000000006,
+        99.04,
+        "On label",
+        "Janoshik",
+        46155,
+        "Not Listed",
+        "Not Listed",
+        "Overfilled"
+      ],
+      [
+        61,
+        "COA-0017",
+        "BPC-157",
+        "Healing / Recovery",
+        5,
+        5.54,
+        0.108,
+        null,
+        "Overfilled",
+        "Janoshik",
+        46057,
+        "Not Listed",
+        "Not Listed",
+        "Blend report BPC5+TB5"
+      ],
+      [
+        62,
+        "COA-0018",
+        "TB-500",
+        "Healing / Recovery",
+        5,
+        5.43,
+        0.08599999999999994,
+        null,
+        "On label",
+        "Janoshik",
+        46057,
+        "Not Listed",
+        "Not Listed",
+        "Blend report BPC5+TB5"
       ]
     ],
     "Batch History": [
@@ -3850,6 +4130,174 @@
         "Not Listed",
         "Clear Purple",
         "Clear purple flip-off cap, per vial image and 'Clear Purple Cap' lot description on the COA."
+      ],
+      [
+        "COA-0056",
+        "Tesamorelin",
+        "Growth Hormone Support",
+        10,
+        12.18,
+        2.18,
+        0.21800000000000003,
+        99.79,
+        "Overfilled",
+        "Pristin Biotech",
+        "Confirmed",
+        "2026-09-01",
+        "Not Listed",
+        "Not Listed",
+        "20260822",
+        "assets/coa/documents/pristin-biotech/tesamorelin/Tesamorelin-10mg-2026-09-01-Pristin.pdf",
+        "Pass",
+        "Unique product/strength/date/report record",
+        "Identity detected by LCMS/MS; HPLC purity 99.79%; net peptide content 12.18 mg measured by nitrogen quantification using an elemental analyzer. White powder; received 2026-08-29 and analyzed 2026-09-01.",
+        "Not Listed",
+        "Not Listed",
+        "Closure colors are not listed or visible in the report."
+      ],
+      [
+        "COA-0057",
+        "Retatrutide",
+        "GLP-1 / Weight",
+        30,
+        37.37,
+        7.37,
+        0.24566666666666667,
+        99.86,
+        "Overfilled",
+        "Pristin Biotech",
+        "Confirmed",
+        "2026-09-01",
+        "Not Listed",
+        "Not Listed",
+        "20260822",
+        "assets/coa/documents/pristin-biotech/retatrutide/Retatrutide-30mg-2026-09-01-Pristin.pdf",
+        "Pass",
+        "Unique product/strength/date/report record",
+        "Identity detected by LCMS/MS; HPLC purity 99.86%; net peptide content 37.37 mg measured by nitrogen quantification using an elemental analyzer. White powder; received 2026-08-29 and analyzed 2026-09-01.",
+        "Not Listed",
+        "Not Listed",
+        "Closure colors are not listed or visible in the report."
+      ],
+      [
+        "COA-0058",
+        "Retatrutide",
+        "GLP-1 / Weight",
+        10,
+        10.8,
+        0.8,
+        0.08,
+        99.83,
+        "Overfilled",
+        "Pristin Biotech",
+        "Confirmed",
+        "2026-09-01",
+        "Not Listed",
+        "Not Listed",
+        "20260822",
+        "assets/coa/documents/pristin-biotech/retatrutide/Retatrutide-10mg-2026-09-01-Pristin.pdf",
+        "Pass",
+        "Unique product/strength/date/report record",
+        "Identity detected by LCMS/MS; HPLC purity 99.83%; net peptide content 10.80 mg measured by nitrogen quantification using an elemental analyzer. White powder; received 2026-08-29 and analyzed 2026-09-01.",
+        "Not Listed",
+        "Not Listed",
+        "Closure colors are not listed or visible in the report."
+      ],
+      [
+        "COA-0059",
+        "Glutathione",
+        "Antioxidant / Cellular Support",
+        1500,
+        1478.47,
+        -21.53,
+        -0.014353333333333334,
+        99.513,
+        "On label",
+        "Kovera Labs",
+        "Confirmed",
+        "2026-08-18",
+        "Redacted",
+        "Redacted",
+        "GLUTATI1500-2608-01-RED-SLV",
+        "assets/coa/images/kovera-labs/glutathione/Glutathione-1500mg-2026-08-18-Kovera.jpg",
+        "Pass",
+        "Unique product/strength/date/report record",
+        "Identity confirmed as Glutathione by LC-MS. Endotoxin PASS; microbial sterility: No Growth; arsenic, cadmium, lead, and mercury Negative. Vial 1: 99.246% / 1464.59 mg; vial 2: 99.781% / 1492.36 mg.",
+        "Silver",
+        "Red",
+        "Red flip-off cap with silver aluminum crimp, as listed in the COA."
+      ],
+      [
+        "COA-0060",
+        "Semax",
+        "Nootropic / Research",
+        10,
+        9.65,
+        -0.35,
+        -0.034999999999999996,
+        99.568,
+        "On label",
+        "Kovera Labs",
+        "Confirmed",
+        "2026-08-18",
+        "Redacted",
+        "Redacted",
+        "SMX10-2608-01-BLK-SLV",
+        "assets/coa/images/kovera-labs/semax/Semax-10mg-2026-08-18-Kovera.jpg",
+        "Pass",
+        "Unique product/strength/date/report record",
+        "Identity confirmed as Semax by LC-MS. Endotoxin PASS; microbial sterility: No Growth; arsenic, cadmium, lead, and mercury Negative. Vial 1: 99.328% / 9.56 mg; vial 2: 99.808% / 9.74 mg.",
+        "Silver",
+        "Black",
+        "Black flip-off cap with silver aluminum crimp, as listed in the COA."
+      ],
+      [
+        "COA-0061",
+        "Sermorelin",
+        "Growth Hormone Support",
+        10,
+        10.41,
+        0.41,
+        0.040999999999999995,
+        99.335,
+        "On label",
+        "Kovera Labs",
+        "Confirmed",
+        "2026-08-18",
+        "Redacted",
+        "Redacted",
+        "SERMOR10-2608-01-GRN-SLV",
+        "assets/coa/images/kovera-labs/sermorelin/Sermorelin-10mg-2026-08-18-Kovera.jpg",
+        "Pass",
+        "Unique product/strength/date/report record",
+        "Identity confirmed as Sermorelin by LC-MS. Endotoxin PASS; microbial sterility: No Growth; arsenic, cadmium, lead, and mercury Negative. Vial 1: 99.266% / 10.31 mg; vial 2: 99.403% / 10.51 mg.",
+        "Silver",
+        "Green",
+        "Green flip-off cap with silver aluminum crimp, as listed in the COA."
+      ],
+      [
+        "COA-0062",
+        "GHK-Cu",
+        "Cosmetic / Recovery",
+        50,
+        52.48,
+        2.48,
+        0.0496,
+        99.25,
+        "On label",
+        "SteriGenix",
+        "Confirmed",
+        "2026-08-26",
+        "RPT-2026-353561",
+        "SGX-VP-2026-0812-U80",
+        "CU260725A",
+        "assets/coa/documents/sterigenix/ghk-cu/COA-RPT-2026-353561-SteriGenix.pdf",
+        "Pass",
+        "Unique product/strength/date/report record",
+        "Identity confirmed as GHK-Cu (Copper Peptide) by LC-MS. Blue lyophilized powder; molecular weight matched 402.92 g/mol. Endotoxin PASS; microbial sterility: No Growth; lead, cadmium, arsenic, and mercury Negative. Batch conformity was not tested.",
+        "Silver",
+        "Blue",
+        "Blue flip-off cap with silver aluminum crimp, as listed in the COA."
       ]
     ],
     "Lab Match": [
@@ -5146,6 +5594,160 @@
         "Not Listed",
         "Clear purple flip-off cap, per vial image and 'Clear Purple Cap' lot description on the COA.",
         "Identity confirmed as Retatrutide (GLP RT) by LC-MS; purity by HPLC-UV. White lyophilized powder. Net content 43.16 mg. Client: Tomcat Peptides. Accession 2608250164; received 08/25/2026; reported 08/29/2026."
+      ],
+      [
+        "COA-0056",
+        "Tesamorelin",
+        "Growth Hormone Support",
+        10,
+        12.18,
+        2.18,
+        0.21800000000000003,
+        99.79,
+        "20260822",
+        "Pristin Biotech",
+        "Overfilled",
+        "2026-09-01",
+        "COA-0056",
+        "Not Listed",
+        "Not Listed",
+        "assets/coa/documents/pristin-biotech/tesamorelin/Tesamorelin-10mg-2026-09-01-Pristin.pdf",
+        "Not Listed",
+        "Not Listed",
+        "Closure colors are not listed or visible in the report.",
+        "Identity detected by LCMS/MS; HPLC purity 99.79%; net peptide content 12.18 mg measured by nitrogen quantification using an elemental analyzer. White powder; received 2026-08-29 and analyzed 2026-09-01."
+      ],
+      [
+        "COA-0057",
+        "Retatrutide",
+        "GLP-1 / Weight",
+        30,
+        37.37,
+        7.37,
+        0.24566666666666667,
+        99.86,
+        "20260822",
+        "Pristin Biotech",
+        "Overfilled",
+        "2026-09-01",
+        "COA-0057",
+        "Not Listed",
+        "Not Listed",
+        "assets/coa/documents/pristin-biotech/retatrutide/Retatrutide-30mg-2026-09-01-Pristin.pdf",
+        "Not Listed",
+        "Not Listed",
+        "Closure colors are not listed or visible in the report.",
+        "Identity detected by LCMS/MS; HPLC purity 99.86%; net peptide content 37.37 mg measured by nitrogen quantification using an elemental analyzer. White powder; received 2026-08-29 and analyzed 2026-09-01."
+      ],
+      [
+        "COA-0058",
+        "Retatrutide",
+        "GLP-1 / Weight",
+        10,
+        10.8,
+        0.8,
+        0.08,
+        99.83,
+        "20260822",
+        "Pristin Biotech",
+        "Overfilled",
+        "2026-09-01",
+        "COA-0058",
+        "Not Listed",
+        "Not Listed",
+        "assets/coa/documents/pristin-biotech/retatrutide/Retatrutide-10mg-2026-09-01-Pristin.pdf",
+        "Not Listed",
+        "Not Listed",
+        "Closure colors are not listed or visible in the report.",
+        "Identity detected by LCMS/MS; HPLC purity 99.83%; net peptide content 10.80 mg measured by nitrogen quantification using an elemental analyzer. White powder; received 2026-08-29 and analyzed 2026-09-01."
+      ],
+      [
+        "COA-0059",
+        "Glutathione",
+        "Antioxidant / Cellular Support",
+        1500,
+        1478.47,
+        -21.53,
+        -0.014353333333333334,
+        99.513,
+        "GLUTATI1500-2608-01-RED-SLV",
+        "Kovera Labs",
+        "On label",
+        "2026-08-18",
+        "COA-0059",
+        "Redacted",
+        "Redacted",
+        "assets/coa/images/kovera-labs/glutathione/Glutathione-1500mg-2026-08-18-Kovera.jpg",
+        "Red",
+        "Silver",
+        "Red flip-off cap with silver aluminum crimp, as listed in the COA.",
+        "Identity confirmed as Glutathione by LC-MS. Endotoxin PASS; microbial sterility: No Growth; arsenic, cadmium, lead, and mercury Negative. Vial 1: 99.246% / 1464.59 mg; vial 2: 99.781% / 1492.36 mg."
+      ],
+      [
+        "COA-0060",
+        "Semax",
+        "Nootropic / Research",
+        10,
+        9.65,
+        -0.35,
+        -0.034999999999999996,
+        99.568,
+        "SMX10-2608-01-BLK-SLV",
+        "Kovera Labs",
+        "On label",
+        "2026-08-18",
+        "COA-0060",
+        "Redacted",
+        "Redacted",
+        "assets/coa/images/kovera-labs/semax/Semax-10mg-2026-08-18-Kovera.jpg",
+        "Black",
+        "Silver",
+        "Black flip-off cap with silver aluminum crimp, as listed in the COA.",
+        "Identity confirmed as Semax by LC-MS. Endotoxin PASS; microbial sterility: No Growth; arsenic, cadmium, lead, and mercury Negative. Vial 1: 99.328% / 9.56 mg; vial 2: 99.808% / 9.74 mg."
+      ],
+      [
+        "COA-0061",
+        "Sermorelin",
+        "Growth Hormone Support",
+        10,
+        10.41,
+        0.41,
+        0.040999999999999995,
+        99.335,
+        "SERMOR10-2608-01-GRN-SLV",
+        "Kovera Labs",
+        "On label",
+        "2026-08-18",
+        "COA-0061",
+        "Redacted",
+        "Redacted",
+        "assets/coa/images/kovera-labs/sermorelin/Sermorelin-10mg-2026-08-18-Kovera.jpg",
+        "Green",
+        "Silver",
+        "Green flip-off cap with silver aluminum crimp, as listed in the COA.",
+        "Identity confirmed as Sermorelin by LC-MS. Endotoxin PASS; microbial sterility: No Growth; arsenic, cadmium, lead, and mercury Negative. Vial 1: 99.266% / 10.31 mg; vial 2: 99.403% / 10.51 mg."
+      ],
+      [
+        "COA-0062",
+        "GHK-Cu",
+        "Cosmetic / Recovery",
+        50,
+        52.48,
+        2.48,
+        0.0496,
+        99.25,
+        "CU260725A",
+        "SteriGenix",
+        "On label",
+        "2026-08-26",
+        "COA-0062",
+        "RPT-2026-353561",
+        "SGX-VP-2026-0812-U80",
+        "assets/coa/documents/sterigenix/ghk-cu/COA-RPT-2026-353561-SteriGenix.pdf",
+        "Blue",
+        "Silver",
+        "Blue flip-off cap with silver aluminum crimp, as listed in the COA.",
+        "Identity confirmed as GHK-Cu (Copper Peptide) by LC-MS. Blue lyophilized powder; molecular weight matched 402.92 g/mol. Endotoxin PASS; microbial sterility: No Growth; lead, cadmium, arsenic, and mercury Negative. Batch conformity was not tested."
       ]
     ],
     "Certificates": [
@@ -6436,6 +7038,167 @@
         "Not Listed",
         "Clear Purple",
         "Clear purple flip-off cap, per vial image and 'Clear Purple Cap' lot description on the COA."
+      ],
+      [
+        "COA-0056",
+        "Tesamorelin",
+        "Growth Hormone Support",
+        "Pristin Biotech",
+        "Not Listed",
+        "Not Listed",
+        "assets/coa/documents/pristin-biotech/tesamorelin/Tesamorelin-10mg-2026-09-01-Pristin.pdf",
+        "Confirmed",
+        10,
+        12.18,
+        2.18,
+        0.21800000000000003,
+        99.79,
+        "Overfilled",
+        "20260822",
+        "2026-09-01",
+        "Pass",
+        "Identity detected by LCMS/MS; HPLC purity 99.79%; net peptide content 12.18 mg measured by nitrogen quantification using an elemental analyzer. White powder; received 2026-08-29 and analyzed 2026-09-01.",
+        "Not Listed",
+        "Not Listed",
+        "Closure colors are not listed or visible in the report."
+      ],
+      [
+        "COA-0057",
+        "Retatrutide",
+        "GLP-1 / Weight",
+        "Pristin Biotech",
+        "Not Listed",
+        "Not Listed",
+        "assets/coa/documents/pristin-biotech/retatrutide/Retatrutide-30mg-2026-09-01-Pristin.pdf",
+        "Confirmed",
+        30,
+        37.37,
+        7.37,
+        0.24566666666666667,
+        99.86,
+        "Overfilled",
+        "20260822",
+        "2026-09-01",
+        "Pass",
+        "Identity detected by LCMS/MS; HPLC purity 99.86%; net peptide content 37.37 mg measured by nitrogen quantification using an elemental analyzer. White powder; received 2026-08-29 and analyzed 2026-09-01.",
+        "Not Listed",
+        "Not Listed",
+        "Closure colors are not listed or visible in the report."
+      ],
+      [
+        "COA-0058",
+        "Retatrutide",
+        "GLP-1 / Weight",
+        "Pristin Biotech",
+        "Not Listed",
+        "Not Listed",
+        "assets/coa/documents/pristin-biotech/retatrutide/Retatrutide-10mg-2026-09-01-Pristin.pdf",
+        "Confirmed",
+        10,
+        10.8,
+        0.8,
+        0.08,
+        99.83,
+        "Overfilled",
+        "20260822",
+        "2026-09-01",
+        "Pass",
+        "Identity detected by LCMS/MS; HPLC purity 99.83%; net peptide content 10.80 mg measured by nitrogen quantification using an elemental analyzer. White powder; received 2026-08-29 and analyzed 2026-09-01.",
+        "Not Listed",
+        "Not Listed",
+        "Closure colors are not listed or visible in the report."
+      ],
+      [
+        "COA-0059",
+        "Glutathione",
+        "Antioxidant / Cellular Support",
+        "Kovera Labs",
+        "Redacted",
+        "Redacted",
+        "assets/coa/images/kovera-labs/glutathione/Glutathione-1500mg-2026-08-18-Kovera.jpg",
+        "Confirmed",
+        1500,
+        1478.47,
+        -21.53,
+        -0.014353333333333334,
+        99.513,
+        "On label",
+        "GLUTATI1500-2608-01-RED-SLV",
+        "2026-08-18",
+        "Pass",
+        "Identity confirmed as Glutathione by LC-MS. Endotoxin PASS; microbial sterility: No Growth; arsenic, cadmium, lead, and mercury Negative. Vial 1: 99.246% / 1464.59 mg; vial 2: 99.781% / 1492.36 mg.",
+        "Silver",
+        "Red",
+        "Red flip-off cap with silver aluminum crimp, as listed in the COA."
+      ],
+      [
+        "COA-0060",
+        "Semax",
+        "Nootropic / Research",
+        "Kovera Labs",
+        "Redacted",
+        "Redacted",
+        "assets/coa/images/kovera-labs/semax/Semax-10mg-2026-08-18-Kovera.jpg",
+        "Confirmed",
+        10,
+        9.65,
+        -0.35,
+        -0.034999999999999996,
+        99.568,
+        "On label",
+        "SMX10-2608-01-BLK-SLV",
+        "2026-08-18",
+        "Pass",
+        "Identity confirmed as Semax by LC-MS. Endotoxin PASS; microbial sterility: No Growth; arsenic, cadmium, lead, and mercury Negative. Vial 1: 99.328% / 9.56 mg; vial 2: 99.808% / 9.74 mg.",
+        "Silver",
+        "Black",
+        "Black flip-off cap with silver aluminum crimp, as listed in the COA."
+      ],
+      [
+        "COA-0061",
+        "Sermorelin",
+        "Growth Hormone Support",
+        "Kovera Labs",
+        "Redacted",
+        "Redacted",
+        "assets/coa/images/kovera-labs/sermorelin/Sermorelin-10mg-2026-08-18-Kovera.jpg",
+        "Confirmed",
+        10,
+        10.41,
+        0.41,
+        0.040999999999999995,
+        99.335,
+        "On label",
+        "SERMOR10-2608-01-GRN-SLV",
+        "2026-08-18",
+        "Pass",
+        "Identity confirmed as Sermorelin by LC-MS. Endotoxin PASS; microbial sterility: No Growth; arsenic, cadmium, lead, and mercury Negative. Vial 1: 99.266% / 10.31 mg; vial 2: 99.403% / 10.51 mg.",
+        "Silver",
+        "Green",
+        "Green flip-off cap with silver aluminum crimp, as listed in the COA."
+      ],
+      [
+        "COA-0062",
+        "GHK-Cu",
+        "Cosmetic / Recovery",
+        "SteriGenix",
+        "RPT-2026-353561",
+        "SGX-VP-2026-0812-U80",
+        "assets/coa/documents/sterigenix/ghk-cu/COA-RPT-2026-353561-SteriGenix.pdf",
+        "Confirmed",
+        50,
+        52.48,
+        2.48,
+        0.0496,
+        99.25,
+        "On label",
+        "CU260725A",
+        "2026-08-26",
+        "Pass",
+        "Identity confirmed as GHK-Cu (Copper Peptide) by LC-MS. Blue lyophilized powder; molecular weight matched 402.92 g/mol. Endotoxin PASS; microbial sterility: No Growth; lead, cadmium, arsenic, and mercury Negative. Batch conformity was not tested.",
+        "Silver",
+        "Blue",
+        "Blue flip-off cap with silver aluminum crimp, as listed in the COA."
       ]
     ],
     "Lists": [
@@ -6741,7 +7504,7 @@
     ],
     "COA Status": [
       [
-        "COA Status Summary \u2014 Tested Peptides",
+        "COA Status Summary — Tested Peptides",
         null,
         null,
         null,
@@ -6784,7 +7547,7 @@
       ],
       [
         "Total COA/Test Records",
-        53,
+        62,
         "All records from COA Database",
         null,
         null,
@@ -6805,8 +7568,8 @@
       ],
       [
         "Unique Peptides",
-        23,
-        "5-Amino-1MQ, ADAMAX, AOD-9604, BPC-157, BPC-157 / TB-500 Blend, BPC/TB Blend, CJC-1295, CJC-1295 No DAC, CJC-1295 No DAC / Ipamorelin, Cagrilintide, DSIP, Eloralintide, GHK-Cu, Ipamorelin, KLOW 80mg, KPV, MOTS-C, NAD+, Retatrutide, SS-31, Semaglutide, TB-500, Tirzepatide",
+        27,
+        "5-Amino-1MQ, ADAMAX, AOD-9604, BPC-157, BPC-157 / TB-500 Blend, BPC/TB Blend, CJC-1295, CJC-1295 No DAC, CJC-1295 No DAC / Ipamorelin, Cagrilintide, DSIP, Eloralintide, GHK-Cu, Glutathione, Ipamorelin, KLOW 80mg, KPV, MOTS-C, NAD+, Retatrutide, SS-31, Semaglutide, Semax, Sermorelin, TB-500, Tesamorelin, Tirzepatide",
         null,
         null,
         null,
@@ -6826,7 +7589,7 @@
       ],
       [
         "Passed Records",
-        53,
+        62,
         "Pass/Fail column",
         null,
         null,
@@ -6847,7 +7610,7 @@
       ],
       [
         "Overfilled",
-        33,
+        38,
         "Status column",
         null,
         null,
@@ -6889,7 +7652,7 @@
       ],
       [
         "On Label/Review",
-        18,
+        22,
         "Status column",
         null,
         null,
@@ -6910,7 +7673,7 @@
       ],
       [
         "Average Purity %",
-        99.594,
+        99.601,
         "Based on populated purity values",
         null,
         null,
@@ -6931,8 +7694,8 @@
       ],
       [
         "Unique Labs",
-        9,
-        "Aminos Analytics, BT Labs, Freedom Diagnostics, ILS Laboratories, Janoshik, Kovera Labs, SteriGenix, Testides, Tianjin Qiangxin (third-party partner lab)",
+        10,
+        "Aminos Analytics, BT Labs, Freedom Diagnostics, ILS Laboratories, Janoshik, Kovera Labs, Pristin Biotech, SteriGenix, Testides, Tianjin Qiangxin (third-party partner lab)",
         null,
         null,
         null,
@@ -6952,7 +7715,7 @@
       ],
       [
         "Last Test Date",
-        "2026-08-08",
+        "2026-09-01",
         "Most recent test date",
         null,
         null,
@@ -8167,6 +8930,153 @@
         "Clear Purple",
         "Clear purple flip-off cap, per vial image and 'Clear Purple Cap' lot description on the COA.",
         "Identity confirmed as Retatrutide (GLP RT) by LC-MS; purity by HPLC-UV. White lyophilized powder. Net content 43.16 mg. Client: Tomcat Peptides. Accession 2608250164; received 08/25/2026; reported 08/29/2026."
+      ],
+      [
+        "COA-0056",
+        "Tesamorelin",
+        "Growth Hormone Support",
+        10,
+        12.18,
+        2.18,
+        0.21800000000000003,
+        99.79,
+        "Overfilled",
+        "Pristin Biotech",
+        "2026-09-01",
+        "Not Listed",
+        "Not Listed",
+        "20260822",
+        "Pass",
+        "Not Listed",
+        "Not Listed",
+        "Closure colors are not listed or visible in the report.",
+        "Identity detected by LCMS/MS; HPLC purity 99.79%; net peptide content 12.18 mg measured by nitrogen quantification using an elemental analyzer. White powder; received 2026-08-29 and analyzed 2026-09-01."
+      ],
+      [
+        "COA-0057",
+        "Retatrutide",
+        "GLP-1 / Weight",
+        30,
+        37.37,
+        7.37,
+        0.24566666666666667,
+        99.86,
+        "Overfilled",
+        "Pristin Biotech",
+        "2026-09-01",
+        "Not Listed",
+        "Not Listed",
+        "20260822",
+        "Pass",
+        "Not Listed",
+        "Not Listed",
+        "Closure colors are not listed or visible in the report.",
+        "Identity detected by LCMS/MS; HPLC purity 99.86%; net peptide content 37.37 mg measured by nitrogen quantification using an elemental analyzer. White powder; received 2026-08-29 and analyzed 2026-09-01."
+      ],
+      [
+        "COA-0058",
+        "Retatrutide",
+        "GLP-1 / Weight",
+        10,
+        10.8,
+        0.8,
+        0.08,
+        99.83,
+        "Overfilled",
+        "Pristin Biotech",
+        "2026-09-01",
+        "Not Listed",
+        "Not Listed",
+        "20260822",
+        "Pass",
+        "Not Listed",
+        "Not Listed",
+        "Closure colors are not listed or visible in the report.",
+        "Identity detected by LCMS/MS; HPLC purity 99.83%; net peptide content 10.80 mg measured by nitrogen quantification using an elemental analyzer. White powder; received 2026-08-29 and analyzed 2026-09-01."
+      ],
+      [
+        "COA-0059",
+        "Glutathione",
+        "Antioxidant / Cellular Support",
+        1500,
+        1478.47,
+        -21.53,
+        -0.014353333333333334,
+        99.513,
+        "On label",
+        "Kovera Labs",
+        "2026-08-18",
+        "Redacted",
+        "Redacted",
+        "GLUTATI1500-2608-01-RED-SLV",
+        "Pass",
+        "Silver",
+        "Red",
+        "Red flip-off cap with silver aluminum crimp, as listed in the COA.",
+        "Identity confirmed as Glutathione by LC-MS. Endotoxin PASS; microbial sterility: No Growth; arsenic, cadmium, lead, and mercury Negative. Vial 1: 99.246% / 1464.59 mg; vial 2: 99.781% / 1492.36 mg."
+      ],
+      [
+        "COA-0060",
+        "Semax",
+        "Nootropic / Research",
+        10,
+        9.65,
+        -0.35,
+        -0.034999999999999996,
+        99.568,
+        "On label",
+        "Kovera Labs",
+        "2026-08-18",
+        "Redacted",
+        "Redacted",
+        "SMX10-2608-01-BLK-SLV",
+        "Pass",
+        "Silver",
+        "Black",
+        "Black flip-off cap with silver aluminum crimp, as listed in the COA.",
+        "Identity confirmed as Semax by LC-MS. Endotoxin PASS; microbial sterility: No Growth; arsenic, cadmium, lead, and mercury Negative. Vial 1: 99.328% / 9.56 mg; vial 2: 99.808% / 9.74 mg."
+      ],
+      [
+        "COA-0061",
+        "Sermorelin",
+        "Growth Hormone Support",
+        10,
+        10.41,
+        0.41,
+        0.040999999999999995,
+        99.335,
+        "On label",
+        "Kovera Labs",
+        "2026-08-18",
+        "Redacted",
+        "Redacted",
+        "SERMOR10-2608-01-GRN-SLV",
+        "Pass",
+        "Silver",
+        "Green",
+        "Green flip-off cap with silver aluminum crimp, as listed in the COA.",
+        "Identity confirmed as Sermorelin by LC-MS. Endotoxin PASS; microbial sterility: No Growth; arsenic, cadmium, lead, and mercury Negative. Vial 1: 99.266% / 10.31 mg; vial 2: 99.403% / 10.51 mg."
+      ],
+      [
+        "COA-0062",
+        "GHK-Cu",
+        "Cosmetic / Recovery",
+        50,
+        52.48,
+        2.48,
+        0.0496,
+        99.25,
+        "On label",
+        "SteriGenix",
+        "2026-08-26",
+        "RPT-2026-353561",
+        "SGX-VP-2026-0812-U80",
+        "CU260725A",
+        "Pass",
+        "Silver",
+        "Blue",
+        "Blue flip-off cap with silver aluminum crimp, as listed in the COA.",
+        "Identity confirmed as GHK-Cu (Copper Peptide) by LC-MS. Blue lyophilized powder; molecular weight matched 402.92 g/mol. Endotoxin PASS; microbial sterility: No Growth; lead, cadmium, arsenic, and mercury Negative. Batch conformity was not tested."
       ]
     ],
     "Half-Life Reference": [
@@ -8219,7 +9129,7 @@
         "Cagrilintide",
         "Cagri",
         "Amylin analog",
-        "~5\u20137 days",
+        "~5–7 days",
         "Long acting amylin analog",
         "SC",
         "Approximate"
@@ -8264,7 +9174,7 @@
         "Mazdutide",
         "IBI362",
         "GLP-1/GCG",
-        "~6\u20138 days",
+        "~6–8 days",
         "Investigational",
         "SC",
         "Estimated"
@@ -8273,7 +9183,7 @@
         "Survodutide",
         "BI 456906",
         "GLP-1/GCG",
-        "~6\u20137 days",
+        "~6–7 days",
         "Investigational",
         "SC",
         "Estimated"
@@ -8282,7 +9192,7 @@
         "Pemvidutide",
         "ALT-801",
         "GLP-1/GCG",
-        "~6\u20138 days",
+        "~6–8 days",
         "Investigational",
         "SC",
         "Estimated"
@@ -8300,7 +9210,7 @@
         "VK2735",
         "VK2735",
         "GLP-1/GIP",
-        "~6\u20137 days",
+        "~6–7 days",
         "Investigational",
         "SC",
         "Estimated"
@@ -8309,7 +9219,7 @@
         "BPC-157",
         "BPC",
         "Healing / Recovery",
-        "~4\u20136 hours",
+        "~4–6 hours",
         "Biological effects may outlast plasma half-life",
         "SC/Oral",
         "Approximate research reference"
@@ -8318,7 +9228,7 @@
         "TB-500",
         "TB4 fragment",
         "Healing / Recovery",
-        "~2\u20138 hours",
+        "~2–8 hours",
         "Effects may persist longer",
         "SC",
         "Approximate"
@@ -8336,7 +9246,7 @@
         "GHK-Cu",
         "Copper peptide",
         "Regenerative / Skin",
-        "~12\u201324 hours",
+        "~12–24 hours",
         "Copper tripeptide",
         "Topical/SC",
         "Approximate"
@@ -8345,7 +9255,7 @@
         "MOTS-C",
         "MOTS-C",
         "Mitochondrial",
-        "~30\u201360 minutes",
+        "~30–60 minutes",
         "Mitochondrial-derived peptide",
         "SC",
         "Approximate"
@@ -8354,7 +9264,7 @@
         "SS-31",
         "Elamipretide",
         "Mitochondrial",
-        "~4\u20138 hours",
+        "~4–8 hours",
         "Mitochondrial-targeted tetrapeptide",
         "SC/IV",
         "Approximate"
@@ -8363,7 +9273,7 @@
         "Humanin",
         "HN",
         "Mitochondrial",
-        "~2\u20134 hours",
+        "~2–4 hours",
         "Mitochondrial-derived peptide",
         "SC",
         "Estimated"
@@ -8372,7 +9282,7 @@
         "AOD-9604",
         "AOD",
         "Metabolic / Fat Loss",
-        "~2\u20133 hours",
+        "~2–3 hours",
         "hGH fragment analog",
         "SC",
         "Approximate"
@@ -8390,7 +9300,7 @@
         "Sermorelin",
         "GHRH 1-29",
         "GHRH analog",
-        "~10\u201320 minutes",
+        "~10–20 minutes",
         "Short acting GHRH fragment",
         "SC",
         "Approximate"
@@ -8399,7 +9309,7 @@
         "CJC-1295 No DAC",
         "Mod GRF 1-29",
         "GHRH analog",
-        "~30 minutes\u20132 hours",
+        "~30 minutes–2 hours",
         "Short acting",
         "SC",
         "Approximate"
@@ -8408,7 +9318,7 @@
         "CJC-1295 DAC",
         "CJC DAC",
         "GHRH analog",
-        "~5\u20138 days",
+        "~5–8 days",
         "DAC extends half-life",
         "SC",
         "Approximate"
@@ -8426,7 +9336,7 @@
         "Hexarelin",
         "Hex",
         "GH Secretagogue",
-        "~50\u201360 minutes",
+        "~50–60 minutes",
         "GHRP family",
         "SC",
         "Approximate"
@@ -8435,7 +9345,7 @@
         "GHRP-2",
         "GHRP-2",
         "GH Secretagogue",
-        "~20\u201330 minutes",
+        "~20–30 minutes",
         "GHRP family",
         "SC",
         "Approximate"
@@ -8444,7 +9354,7 @@
         "GHRP-6",
         "GHRP-6",
         "GH Secretagogue",
-        "~20\u201330 minutes",
+        "~20–30 minutes",
         "GHRP family",
         "SC",
         "Approximate"
@@ -8462,7 +9372,7 @@
         "PEG-MGF",
         "PEG MGF",
         "Growth Factor",
-        "~48\u201372 hours",
+        "~48–72 hours",
         "PEGylated mechano growth factor",
         "SC",
         "Approximate"
@@ -8471,7 +9381,7 @@
         "MGF",
         "Mechano Growth Factor",
         "Growth Factor",
-        "~5\u20137 minutes",
+        "~5–7 minutes",
         "Short acting splice variant",
         "SC",
         "Estimated"
@@ -8480,7 +9390,7 @@
         "IGF-1 LR3",
         "LR3",
         "Growth Factor",
-        "~20\u201330 hours",
+        "~20–30 hours",
         "Longer acting IGF-1 analog",
         "SC",
         "Approximate"
@@ -8489,7 +9399,7 @@
         "IGF-1 DES",
         "DES",
         "Growth Factor",
-        "~20\u201330 minutes",
+        "~20–30 minutes",
         "Short IGF-1 variant",
         "SC",
         "Approximate"
@@ -8498,7 +9408,7 @@
         "Follistatin-344",
         "FST-344",
         "Myostatin / Growth",
-        "~12\u201324 hours",
+        "~12–24 hours",
         "Myostatin pathway research",
         "SC",
         "Estimated"
@@ -8507,7 +9417,7 @@
         "Follistatin-315",
         "FST-315",
         "Myostatin / Growth",
-        "~24\u201348 hours",
+        "~24–48 hours",
         "Myostatin pathway research",
         "SC",
         "Estimated"
@@ -8525,7 +9435,7 @@
         "LL-37",
         "Cathelicidin",
         "Antimicrobial",
-        "~1\u20132 hours",
+        "~1–2 hours",
         "Antimicrobial peptide",
         "Topical/SC",
         "Estimated"
@@ -8534,7 +9444,7 @@
         "KPV",
         "KPV",
         "Anti-inflammatory",
-        "~1\u20133 hours",
+        "~1–3 hours",
         "Alpha-MSH fragment",
         "Oral/SC",
         "Estimated"
@@ -8543,7 +9453,7 @@
         "Epitalon",
         "Epithalon",
         "Longevity",
-        "~2\u20134 hours",
+        "~2–4 hours",
         "Tetrapeptide",
         "SC",
         "Estimated"
@@ -8552,7 +9462,7 @@
         "Pinealon",
         "Pinealon",
         "Bioregulator",
-        "~1\u20133 hours",
+        "~1–3 hours",
         "Short peptide bioregulator",
         "SC",
         "Estimated"
@@ -8561,7 +9471,7 @@
         "Vesugen",
         "Vesugen",
         "Bioregulator",
-        "~1\u20133 hours",
+        "~1–3 hours",
         "Short peptide bioregulator",
         "SC",
         "Estimated"
@@ -8570,7 +9480,7 @@
         "Cortexin",
         "Cortexin",
         "Nootropic complex",
-        "~2\u20134 hours",
+        "~2–4 hours",
         "Peptide complex",
         "IM",
         "Estimated"
@@ -8579,7 +9489,7 @@
         "Selank",
         "Selank",
         "Nootropic",
-        "~5\u201315 minutes",
+        "~5–15 minutes",
         "Effects may last much longer",
         "Nasal",
         "Approximate"
@@ -8588,7 +9498,7 @@
         "Semax",
         "Semax",
         "Nootropic",
-        "~10\u201320 minutes",
+        "~10–20 minutes",
         "Effects may last much longer",
         "Nasal",
         "Approximate"
@@ -8597,7 +9507,7 @@
         "NA Semax Amidate",
         "NASA",
         "Nootropic",
-        "~1\u20132 hours",
+        "~1–2 hours",
         "Modified Semax",
         "Nasal",
         "Estimated"
@@ -8606,7 +9516,7 @@
         "NA Selank Amidate",
         "NASA/Selank",
         "Nootropic",
-        "~1\u20132 hours",
+        "~1–2 hours",
         "Modified Selank",
         "Nasal",
         "Estimated"
@@ -8615,7 +9525,7 @@
         "Dihexa",
         "Dihexa",
         "Nootropic",
-        "~7\u201314 days",
+        "~7–14 days",
         "Very limited public PK data",
         "Oral",
         "Estimated/limited data"
@@ -8624,7 +9534,7 @@
         "VIP",
         "VIP",
         "Neuropeptide",
-        "~1\u20132 minutes",
+        "~1–2 minutes",
         "Very short plasma half-life",
         "Nasal/Injection",
         "Approximate"
@@ -8633,7 +9543,7 @@
         "Oxytocin",
         "OXT",
         "Hormonal",
-        "~3\u20135 minutes",
+        "~3–5 minutes",
         "Peptide hormone",
         "Nasal/Injection",
         "Approximate"
@@ -8642,7 +9552,7 @@
         "Desmopressin",
         "DDAVP",
         "Hormonal",
-        "~2\u20133 hours",
+        "~2–3 hours",
         "Vasopressin analog",
         "Nasal/Oral/Injection",
         "Approximate"
@@ -8651,7 +9561,7 @@
         "Kisspeptin-10",
         "KP-10",
         "Hormonal",
-        "~20\u201330 minutes",
+        "~20–30 minutes",
         "Reproductive signaling",
         "SC/IV",
         "Approximate"
@@ -8660,7 +9570,7 @@
         "Kisspeptin-54",
         "KP-54",
         "Hormonal",
-        "~28\u201330 hours",
+        "~28–30 hours",
         "Longer acting kisspeptin form",
         "SC/IV",
         "Approximate"
@@ -8678,7 +9588,7 @@
         "Melanotan II",
         "MT-2",
         "Melanocortin",
-        "~33\u201336 hours",
+        "~33–36 hours",
         "Melanocortin agonist",
         "SC/Nasal",
         "Approximate"
@@ -8696,7 +9606,7 @@
         "DSIP",
         "DSIP",
         "Sleep",
-        "~15\u201330 minutes",
+        "~15–30 minutes",
         "Delta sleep-inducing peptide",
         "SC",
         "Estimated"
@@ -8705,7 +9615,7 @@
         "Glutathione",
         "GSH",
         "Antioxidant",
-        "~10\u201315 minutes",
+        "~10–15 minutes",
         "Tripeptide antioxidant",
         "IV/SC",
         "Approximate"
@@ -8714,7 +9624,7 @@
         "NAD+",
         "NAD",
         "Metabolic cofactor",
-        "~1\u20132 hours",
+        "~1–2 hours",
         "Cofactor; not peptide",
         "IV/SC",
         "Included for tracker reference"
@@ -8732,7 +9642,7 @@
         "FOXO4-DRI",
         "FOXO4",
         "Senolytic research",
-        "~6\u201312 hours",
+        "~6–12 hours",
         "Limited public PK data",
         "SC",
         "Estimated"
@@ -8741,7 +9651,7 @@
         "PNC-27",
         "PNC-27",
         "Oncology research",
-        "~1\u20132 hours",
+        "~1–2 hours",
         "Limited public PK data",
         "SC/IV",
         "Estimated"
@@ -8777,7 +9687,7 @@
         "ACE-031",
         "ACE-031",
         "Myostatin pathway",
-        "~10\u201315 days",
+        "~10–15 days",
         "Fusion protein/peptide biologic",
         "SC",
         "Approximate"
@@ -8795,7 +9705,7 @@
         "HCG",
         "hCG",
         "Hormonal glycoprotein",
-        "~24\u201336 hours",
+        "~24–36 hours",
         "Glycoprotein hormone",
         "SC/IM",
         "Included for tracker reference"
@@ -8804,7 +9714,7 @@
         "Gonadorelin",
         "GnRH",
         "Hormonal",
-        "~2\u20134 minutes",
+        "~2–4 minutes",
         "GnRH analog",
         "SC/IV",
         "Approximate"
@@ -8813,7 +9723,7 @@
         "Triptorelin",
         "GnRH agonist",
         "Hormonal",
-        "~3\u20135 hours",
+        "~3–5 hours",
         "Formulation dependent",
         "SC/IM",
         "Approximate"
@@ -8822,7 +9732,7 @@
         "Buserelin",
         "GnRH agonist",
         "Hormonal",
-        "~1\u20132 hours",
+        "~1–2 hours",
         "Formulation dependent",
         "Nasal/SC",
         "Approximate"
@@ -8831,7 +9741,7 @@
         "Gonadorelin Acetate",
         "GnRH acetate",
         "Hormonal",
-        "~2\u20134 minutes",
+        "~2–4 minutes",
         "GnRH analog",
         "SC/IV",
         "Approximate"
@@ -8903,7 +9813,7 @@
         "Leptin",
         "Metreleptin",
         "Hormonal",
-        "~3\u20134 hours",
+        "~3–4 hours",
         "Protein hormone",
         "SC",
         "Approximate"
@@ -8948,7 +9858,7 @@
         "GLP-1 Native",
         "GLP-1",
         "Incretin",
-        "~1\u20132 minutes",
+        "~1–2 minutes",
         "Native GLP-1",
         "IV/SC",
         "Approximate"
@@ -8957,7 +9867,7 @@
         "Glucagon",
         "GCG",
         "Hormonal",
-        "~3\u20136 minutes",
+        "~3–6 minutes",
         "Peptide hormone",
         "Injection",
         "Approximate"
@@ -10504,6 +11414,732 @@
       [
         "Source Type",
         "assets/coa/images/freedom-diagnostics/retatrutide/Retatrutide-40mg-2026-08-29-Freedom.jpg"
+      ]
+    ],
+    "COA_COA_0056": [
+      [
+        "Field",
+        "Value"
+      ],
+      [
+        "COA ID",
+        "COA-0056"
+      ],
+      [
+        "Product",
+        "Tesamorelin"
+      ],
+      [
+        "Compound Type",
+        "Growth Hormone Support"
+      ],
+      [
+        "Lab",
+        "Pristin Biotech"
+      ],
+      [
+        "Test Date",
+        "2026-09-01"
+      ],
+      [
+        "Report/Task #",
+        "Not Listed"
+      ],
+      [
+        "Verification Key",
+        "Not Listed"
+      ],
+      [
+        "Batch/Lot",
+        "20260822"
+      ],
+      [
+        "Labeled Qty (mg)",
+        10
+      ],
+      [
+        "Actual Content (mg)",
+        12.18
+      ],
+      [
+        "Variance (mg)",
+        2.18
+      ],
+      [
+        "Variance %",
+        0.21800000000000003
+      ],
+      [
+        "Purity %",
+        99.79
+      ],
+      [
+        "Status",
+        "Overfilled"
+      ],
+      [
+        "Cap Color",
+        "Not Listed"
+      ],
+      [
+        "Crimp Color",
+        "Not Listed"
+      ],
+      [
+        "Closure Notes",
+        "Closure colors are not listed or visible in the report."
+      ],
+      [
+        "Pass/Fail",
+        "Pass"
+      ],
+      [
+        "Notes",
+        "Identity detected by LCMS/MS; HPLC purity 99.79%; net peptide content 12.18 mg measured by nitrogen quantification using an elemental analyzer. White powder; received 2026-08-29 and analyzed 2026-09-01."
+      ],
+      [
+        "Source",
+        "assets/coa/documents/pristin-biotech/tesamorelin/Tesamorelin-10mg-2026-09-01-Pristin.pdf"
+      ]
+    ],
+    "COA_COA_0057": [
+      [
+        "Field",
+        "Value"
+      ],
+      [
+        "COA ID",
+        "COA-0057"
+      ],
+      [
+        "Product",
+        "Retatrutide"
+      ],
+      [
+        "Compound Type",
+        "GLP-1 / Weight"
+      ],
+      [
+        "Lab",
+        "Pristin Biotech"
+      ],
+      [
+        "Test Date",
+        "2026-09-01"
+      ],
+      [
+        "Report/Task #",
+        "Not Listed"
+      ],
+      [
+        "Verification Key",
+        "Not Listed"
+      ],
+      [
+        "Batch/Lot",
+        "20260822"
+      ],
+      [
+        "Labeled Qty (mg)",
+        30
+      ],
+      [
+        "Actual Content (mg)",
+        37.37
+      ],
+      [
+        "Variance (mg)",
+        7.37
+      ],
+      [
+        "Variance %",
+        0.24566666666666667
+      ],
+      [
+        "Purity %",
+        99.86
+      ],
+      [
+        "Status",
+        "Overfilled"
+      ],
+      [
+        "Cap Color",
+        "Not Listed"
+      ],
+      [
+        "Crimp Color",
+        "Not Listed"
+      ],
+      [
+        "Closure Notes",
+        "Closure colors are not listed or visible in the report."
+      ],
+      [
+        "Pass/Fail",
+        "Pass"
+      ],
+      [
+        "Notes",
+        "Identity detected by LCMS/MS; HPLC purity 99.86%; net peptide content 37.37 mg measured by nitrogen quantification using an elemental analyzer. White powder; received 2026-08-29 and analyzed 2026-09-01."
+      ],
+      [
+        "Source",
+        "assets/coa/documents/pristin-biotech/retatrutide/Retatrutide-30mg-2026-09-01-Pristin.pdf"
+      ]
+    ],
+    "COA_COA_0058": [
+      [
+        "Field",
+        "Value"
+      ],
+      [
+        "COA ID",
+        "COA-0058"
+      ],
+      [
+        "Product",
+        "Retatrutide"
+      ],
+      [
+        "Compound Type",
+        "GLP-1 / Weight"
+      ],
+      [
+        "Lab",
+        "Pristin Biotech"
+      ],
+      [
+        "Test Date",
+        "2026-09-01"
+      ],
+      [
+        "Report/Task #",
+        "Not Listed"
+      ],
+      [
+        "Verification Key",
+        "Not Listed"
+      ],
+      [
+        "Batch/Lot",
+        "20260822"
+      ],
+      [
+        "Labeled Qty (mg)",
+        10
+      ],
+      [
+        "Actual Content (mg)",
+        10.8
+      ],
+      [
+        "Variance (mg)",
+        0.8
+      ],
+      [
+        "Variance %",
+        0.08
+      ],
+      [
+        "Purity %",
+        99.83
+      ],
+      [
+        "Status",
+        "Overfilled"
+      ],
+      [
+        "Cap Color",
+        "Not Listed"
+      ],
+      [
+        "Crimp Color",
+        "Not Listed"
+      ],
+      [
+        "Closure Notes",
+        "Closure colors are not listed or visible in the report."
+      ],
+      [
+        "Pass/Fail",
+        "Pass"
+      ],
+      [
+        "Notes",
+        "Identity detected by LCMS/MS; HPLC purity 99.83%; net peptide content 10.80 mg measured by nitrogen quantification using an elemental analyzer. White powder; received 2026-08-29 and analyzed 2026-09-01."
+      ],
+      [
+        "Source",
+        "assets/coa/documents/pristin-biotech/retatrutide/Retatrutide-10mg-2026-09-01-Pristin.pdf"
+      ]
+    ],
+    "COA_COA_0059": [
+      [
+        "Field",
+        "Value"
+      ],
+      [
+        "COA ID",
+        "COA-0059"
+      ],
+      [
+        "Product",
+        "Glutathione"
+      ],
+      [
+        "Compound Type",
+        "Antioxidant / Cellular Support"
+      ],
+      [
+        "Lab",
+        "Kovera Labs"
+      ],
+      [
+        "Test Date",
+        "2026-08-18"
+      ],
+      [
+        "Report/Task #",
+        "Redacted"
+      ],
+      [
+        "Verification Key",
+        "Redacted"
+      ],
+      [
+        "Batch/Lot",
+        "GLUTATI1500-2608-01-RED-SLV"
+      ],
+      [
+        "Labeled Qty (mg)",
+        1500
+      ],
+      [
+        "Actual Content (mg)",
+        1478.47
+      ],
+      [
+        "Variance (mg)",
+        -21.53
+      ],
+      [
+        "Variance %",
+        -0.014353333333333334
+      ],
+      [
+        "Purity %",
+        99.513
+      ],
+      [
+        "Status",
+        "On label"
+      ],
+      [
+        "Identity",
+        "Confirmed: Glutathione (LC-MS)"
+      ],
+      [
+        "Form",
+        "Lyophilized Powder"
+      ],
+      [
+        "Endotoxin Safety Screen",
+        "PASS"
+      ],
+      [
+        "Microbial Sterility Screen",
+        "No Growth"
+      ],
+      [
+        "Heavy Metals",
+        "Arsenic, Cadmium, Lead, Mercury: Negative"
+      ],
+      [
+        "Vial 1",
+        "99.246% purity / 1464.59 mg"
+      ],
+      [
+        "Vial 2",
+        "99.781% purity / 1492.36 mg"
+      ],
+      [
+        "Cap Color",
+        "Red"
+      ],
+      [
+        "Crimp Color",
+        "Silver"
+      ],
+      [
+        "Closure Notes",
+        "Red flip-off cap with silver aluminum crimp, as listed in the COA."
+      ],
+      [
+        "Pass/Fail",
+        "Pass"
+      ],
+      [
+        "Notes",
+        "Identity confirmed as Glutathione by LC-MS. Endotoxin PASS; microbial sterility: No Growth; arsenic, cadmium, lead, and mercury Negative. Vial 1: 99.246% / 1464.59 mg; vial 2: 99.781% / 1492.36 mg."
+      ],
+      [
+        "Source",
+        "assets/coa/images/kovera-labs/glutathione/Glutathione-1500mg-2026-08-18-Kovera.jpg"
+      ]
+    ],
+    "COA_COA_0060": [
+      [
+        "Field",
+        "Value"
+      ],
+      [
+        "COA ID",
+        "COA-0060"
+      ],
+      [
+        "Product",
+        "Semax"
+      ],
+      [
+        "Compound Type",
+        "Nootropic / Research"
+      ],
+      [
+        "Lab",
+        "Kovera Labs"
+      ],
+      [
+        "Test Date",
+        "2026-08-18"
+      ],
+      [
+        "Report/Task #",
+        "Redacted"
+      ],
+      [
+        "Verification Key",
+        "Redacted"
+      ],
+      [
+        "Batch/Lot",
+        "SMX10-2608-01-BLK-SLV"
+      ],
+      [
+        "Labeled Qty (mg)",
+        10
+      ],
+      [
+        "Actual Content (mg)",
+        9.65
+      ],
+      [
+        "Variance (mg)",
+        -0.35
+      ],
+      [
+        "Variance %",
+        -0.034999999999999996
+      ],
+      [
+        "Purity %",
+        99.568
+      ],
+      [
+        "Status",
+        "On label"
+      ],
+      [
+        "Identity",
+        "Confirmed: Semax (LC-MS)"
+      ],
+      [
+        "Form",
+        "Lyophilized Powder"
+      ],
+      [
+        "Endotoxin Safety Screen",
+        "PASS"
+      ],
+      [
+        "Microbial Sterility Screen",
+        "No Growth"
+      ],
+      [
+        "Heavy Metals",
+        "Arsenic, Cadmium, Lead, Mercury: Negative"
+      ],
+      [
+        "Vial 1",
+        "99.328% purity / 9.56 mg"
+      ],
+      [
+        "Vial 2",
+        "99.808% purity / 9.74 mg"
+      ],
+      [
+        "Cap Color",
+        "Black"
+      ],
+      [
+        "Crimp Color",
+        "Silver"
+      ],
+      [
+        "Closure Notes",
+        "Black flip-off cap with silver aluminum crimp, as listed in the COA."
+      ],
+      [
+        "Pass/Fail",
+        "Pass"
+      ],
+      [
+        "Notes",
+        "Identity confirmed as Semax by LC-MS. Endotoxin PASS; microbial sterility: No Growth; arsenic, cadmium, lead, and mercury Negative. Vial 1: 99.328% / 9.56 mg; vial 2: 99.808% / 9.74 mg."
+      ],
+      [
+        "Source",
+        "assets/coa/images/kovera-labs/semax/Semax-10mg-2026-08-18-Kovera.jpg"
+      ]
+    ],
+    "COA_COA_0061": [
+      [
+        "Field",
+        "Value"
+      ],
+      [
+        "COA ID",
+        "COA-0061"
+      ],
+      [
+        "Product",
+        "Sermorelin"
+      ],
+      [
+        "Compound Type",
+        "Growth Hormone Support"
+      ],
+      [
+        "Lab",
+        "Kovera Labs"
+      ],
+      [
+        "Test Date",
+        "2026-08-18"
+      ],
+      [
+        "Report/Task #",
+        "Redacted"
+      ],
+      [
+        "Verification Key",
+        "Redacted"
+      ],
+      [
+        "Batch/Lot",
+        "SERMOR10-2608-01-GRN-SLV"
+      ],
+      [
+        "Labeled Qty (mg)",
+        10
+      ],
+      [
+        "Actual Content (mg)",
+        10.41
+      ],
+      [
+        "Variance (mg)",
+        0.41
+      ],
+      [
+        "Variance %",
+        0.040999999999999995
+      ],
+      [
+        "Purity %",
+        99.335
+      ],
+      [
+        "Status",
+        "On label"
+      ],
+      [
+        "Identity",
+        "Confirmed: Sermorelin (LC-MS)"
+      ],
+      [
+        "Form",
+        "Lyophilized Powder"
+      ],
+      [
+        "Endotoxin Safety Screen",
+        "PASS"
+      ],
+      [
+        "Microbial Sterility Screen",
+        "No Growth"
+      ],
+      [
+        "Heavy Metals",
+        "Arsenic, Cadmium, Lead, Mercury: Negative"
+      ],
+      [
+        "Vial 1",
+        "99.266% purity / 10.31 mg"
+      ],
+      [
+        "Vial 2",
+        "99.403% purity / 10.51 mg"
+      ],
+      [
+        "Cap Color",
+        "Green"
+      ],
+      [
+        "Crimp Color",
+        "Silver"
+      ],
+      [
+        "Closure Notes",
+        "Green flip-off cap with silver aluminum crimp, as listed in the COA."
+      ],
+      [
+        "Pass/Fail",
+        "Pass"
+      ],
+      [
+        "Notes",
+        "Identity confirmed as Sermorelin by LC-MS. Endotoxin PASS; microbial sterility: No Growth; arsenic, cadmium, lead, and mercury Negative. Vial 1: 99.266% / 10.31 mg; vial 2: 99.403% / 10.51 mg."
+      ],
+      [
+        "Source",
+        "assets/coa/images/kovera-labs/sermorelin/Sermorelin-10mg-2026-08-18-Kovera.jpg"
+      ]
+    ],
+    "COA_COA_0062": [
+      [
+        "Field",
+        "Value"
+      ],
+      [
+        "COA ID",
+        "COA-0062"
+      ],
+      [
+        "Product",
+        "GHK-Cu"
+      ],
+      [
+        "Compound Type",
+        "Cosmetic / Recovery"
+      ],
+      [
+        "Lab",
+        "SteriGenix"
+      ],
+      [
+        "Test Date",
+        "2026-08-26"
+      ],
+      [
+        "Report/Task #",
+        "RPT-2026-353561"
+      ],
+      [
+        "Verification Key",
+        "SGX-VP-2026-0812-U80"
+      ],
+      [
+        "Batch/Lot",
+        "CU260725A"
+      ],
+      [
+        "Labeled Qty (mg)",
+        50
+      ],
+      [
+        "Actual Content (mg)",
+        52.48
+      ],
+      [
+        "Variance (mg)",
+        2.48
+      ],
+      [
+        "Variance %",
+        0.0496
+      ],
+      [
+        "Purity %",
+        99.25
+      ],
+      [
+        "Status",
+        "On label"
+      ],
+      [
+        "Identity",
+        "Confirmed: GHK-Cu (Copper Peptide) (LC-MS)"
+      ],
+      [
+        "Form",
+        "Lyophilized"
+      ],
+      [
+        "Appearance",
+        "Blue Powder"
+      ],
+      [
+        "Molecular Formula",
+        "C14H23CuN6O4+"
+      ],
+      [
+        "Molecular Weight",
+        "402.92 g/mol — Matches"
+      ],
+      [
+        "CAS Number",
+        "89030-95-5"
+      ],
+      [
+        "Endotoxin",
+        "PASS"
+      ],
+      [
+        "Microbial Sterility Screen",
+        "No Growth"
+      ],
+      [
+        "Heavy Metals",
+        "Lead, Cadmium, Arsenic, Mercury: Negative"
+      ],
+      [
+        "Batch Conformity",
+        "Not Tested"
+      ],
+      [
+        "Cap Color",
+        "Blue"
+      ],
+      [
+        "Crimp Color",
+        "Silver"
+      ],
+      [
+        "Closure Notes",
+        "Blue flip-off cap with silver aluminum crimp, as listed in the COA."
+      ],
+      [
+        "Pass/Fail",
+        "Pass"
+      ],
+      [
+        "Notes",
+        "Identity confirmed as GHK-Cu (Copper Peptide) by LC-MS. Blue lyophilized powder; molecular weight matched 402.92 g/mol. Endotoxin PASS; microbial sterility: No Growth; lead, cadmium, arsenic, and mercury Negative. Batch conformity was not tested."
+      ],
+      [
+        "Source",
+        "assets/coa/documents/sterigenix/ghk-cu/COA-RPT-2026-353561-SteriGenix.pdf"
       ]
     ]
   }

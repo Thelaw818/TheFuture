@@ -1,6 +1,6 @@
 {
-  "generated": "2026-08-06",
-  "total_files": 89,
+  "generated": "2026-09-12T00:00:00Z",
+  "total_files": 98,
   "files": [
     {
       "path": "assets/coa_new/documents/sterigenix/bpc-157-tb-500-blend/COA-RPT-2026-237183-SteriGenix.pdf",
@@ -802,6 +802,87 @@
       "role": "legacy image",
       "sha256": "dcff8f35bc29a5da9fa0085b6d447835e463a9f1c3c163e67c119857f7407aff",
       "bytes": 220869
+    },
+    {
+      "path": "assets/coa/documents/sterigenix/ghk-cu/COA-RPT-2026-353561-SteriGenix.pdf",
+      "category": "COA PDF",
+      "lab": "SteriGenix",
+      "product": "GHK-Cu",
+      "role": "document",
+      "sha256": "fc1170dcf6b43504f24675ae58d17a8b39471d917817fa614e93a6de45c9c25f",
+      "bytes": 1516861
+    },
+    {
+      "path": "assets/coa/images/freedom-diagnostics/retatrutide/Retatrutide-20mg-2026-08-29-Freedom.jpg",
+      "category": "COA image",
+      "lab": "Freedom Diagnostics",
+      "product": "Retatrutide",
+      "role": "image",
+      "sha256": "76eb58fd58b04aea20dfd05349ef44677f071f20e9137a285dbe91922cbf2c61",
+      "bytes": 63787
+    },
+    {
+      "path": "assets/coa/images/freedom-diagnostics/retatrutide/Retatrutide-40mg-2026-08-29-Freedom.jpg",
+      "category": "COA image",
+      "lab": "Freedom Diagnostics",
+      "product": "Retatrutide",
+      "role": "image",
+      "sha256": "a358cdb5d18003706822b28d0f824442d3e53ba2b711601b07a860bb572afafc",
+      "bytes": 62434
+    },
+    {
+      "path": "assets/coa/images/kovera-labs/glutathione/Glutathione-1500mg-2026-08-18-Kovera.jpg",
+      "category": "COA image",
+      "lab": "Kovera Labs",
+      "product": "Glutathione",
+      "role": "image",
+      "sha256": "5a9ae92cc2a40d7a0f039eb789f9b2e996bfbf6e0514ad63afb2536ee50a01de",
+      "bytes": 85577
+    },
+    {
+      "path": "assets/coa/images/kovera-labs/semax/Semax-10mg-2026-08-18-Kovera.jpg",
+      "category": "COA image",
+      "lab": "Kovera Labs",
+      "product": "Semax",
+      "role": "image",
+      "sha256": "4045e5e8b3b20dabc5d261b7db7cbd62d851405efc6c5c7c25e3be5cad9510d5",
+      "bytes": 87333
+    },
+    {
+      "path": "assets/coa/images/kovera-labs/sermorelin/Sermorelin-10mg-2026-08-18-Kovera.jpg",
+      "category": "COA image",
+      "lab": "Kovera Labs",
+      "product": "Sermorelin",
+      "role": "image",
+      "sha256": "986cefd446a880cac2e06509159ef89abfcc7758d384200c061301cba7a40166",
+      "bytes": 83383
+    },
+    {
+      "path": "assets/coa/images/sterigenix/ghk-cu/COA-RPT-2026-353561-page-1.png",
+      "category": "COA image",
+      "lab": "SteriGenix",
+      "product": "GHK-Cu",
+      "role": "image",
+      "sha256": "f551c969d49dc1b45b7ace6a404e2b2834e779b91bb598671ddda4ba760086ea",
+      "bytes": 112247
+    },
+    {
+      "path": "assets/coa/images/sterigenix/ghk-cu/COA-RPT-2026-353561-page-2.png",
+      "category": "COA image",
+      "lab": "SteriGenix",
+      "product": "GHK-Cu",
+      "role": "image",
+      "sha256": "bde4fdd8687c52a8c9c98b020116fab735f4d5509010ebd7e220fdd1c06908cc",
+      "bytes": 111792
+    },
+    {
+      "path": "assets/coa/images/sterigenix/ghk-cu/COA-RPT-2026-353561-page-3.png",
+      "category": "COA image",
+      "lab": "SteriGenix",
+      "product": "GHK-Cu",
+      "role": "image",
+      "sha256": "dc0ef808a59a390e817bf6be0670a1b280f51c47127e65813df299c7e785df52",
+      "bytes": 20171
     }
   ]
 }
