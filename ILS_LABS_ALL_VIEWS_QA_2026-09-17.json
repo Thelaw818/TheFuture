@@ -1,0 +1,20 @@
+{
+  "lab": "ILS Labs",
+  "ils_records": 24,
+  "new_ils_records": 23,
+  "actual_purity_range": [
+    98.64,
+    99.93
+  ],
+  "views": [
+    "Certificate Viewer",
+    "Inventory",
+    "All Peptides",
+    "Workbook Viewer",
+    "COA Analytics",
+    "Batch History",
+    "Dashboard preview"
+  ],
+  "lab_directory_included": true,
+  "failed_ils_glutathione_excluded": true
+}

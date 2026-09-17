@@ -1,0 +1,31 @@
+{
+  "status": "PASS",
+  "lab": "ILS Labs",
+  "ils_records": 24,
+  "new_passing_ils_records": 23,
+  "failed_ils_records_included": 0,
+  "views": {
+    "COA Database": 24,
+    "Certificates": 24,
+    "Inventory": 24,
+    "Batch History": 24
+  },
+  "lab_filter_dropdowns": [
+    "analyticsLabFilter",
+    "certLabFilter",
+    "batchLabFilter",
+    "allPeptideLabFilter",
+    "inventoryLabFilter",
+    "workbookLabFilter",
+    "previewLabFilter"
+  ],
+  "coa_picture_previews": 23,
+  "hero_navigation": [
+    "Open Inventory",
+    "View Certificates",
+    "COA Analytics"
+  ],
+  "actual_purity_min": 98.64,
+  "actual_purity_max": 99.93,
+  "downloadable_workbook": "inventory.xlsx"
+}

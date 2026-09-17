@@ -1,5 +1,5 @@
 {
-  "version": "2026-09-12-coa-0062-complete-sync",
+  "version": "2026-09-17-ils-labs-all-views-verified",
   "sheets": {
     "Dashboard": [
       [
@@ -18,21 +18,21 @@
       ],
       [
         "Total COA Records",
-        62,
+        85,
         "Synced from COA Database",
         null,
         null
       ],
       [
         "Unique Peptides",
-        27,
-        "5-Amino-1MQ, ADAMAX, AOD-9604, BPC-157, BPC-157 / TB-500 Blend, BPC/TB Blend, CJC-1295, CJC-1295 No DAC, CJC-1295 No DAC / Ipamorelin, Cagrilintide, DSIP, Eloralintide, GHK-Cu, Glutathione, Ipamorelin, KLOW 80mg, KPV, MOTS-C, NAD+, Retatrutide, SS-31, Semaglutide, Semax, Sermorelin, TB-500, Tesamorelin, Tirzepatide",
+        34,
+        "5-Amino-1MQ, ADAMAX, AHK-Cu, AOD-9604, BPC-157, BPC-157 / TB-500, BPC-157 / TB-500 Blend, BPC/TB Blend, CJC-1295, CJC-1295 / Ipamorelin, CJC-1295 No DAC, CJC-1295 No DAC / Ipamorelin, Cagrilintide, DSIP, Eloralintide, GHK-Cu, GLOW, Glutathione, Ipamorelin, KLOW, KLOW 80mg, KPV, MOTS-C, Melanotan II, NAD+, Retatrutide, SS-31, Selank, Semaglutide, Semax, Sermorelin, TB-500, Tesamorelin, Tirzepatide",
         null,
         null
       ],
       [
         "Average Purity %",
-        99.601,
+        99.585,
         "Populated purity results",
         null,
         null
@@ -61,13 +61,13 @@
       [
         "Labs Used",
         10,
-        "Aminos Analytics, BT Labs, Freedom Diagnostics, ILS Laboratories, Janoshik, Kovera Labs, Pristin Biotech, SteriGenix, Testides, Tianjin Qiangxin (third-party partner lab)",
+        "Aminos Analytics, BT Labs, Freedom Diagnostics, ILS Labs, Janoshik, Kovera Labs, Pristin Biotech, SteriGenix, Testides, Tianjin Qiangxin (third-party partner lab)",
         null,
         null
       ],
       [
         "Latest COA Date",
-        "2026-09-01",
+        "2026-08-31",
         null,
         null,
         null
@@ -1353,7 +1353,7 @@
         0.051999999999999956,
         99.72,
         "Overfilled",
-        "ILS Laboratories",
+        "ILS Labs",
         "Confirmed",
         46234,
         "Redacted",
@@ -1774,6 +1774,558 @@
         "Silver",
         "Blue",
         "Blue flip-off cap with silver aluminum crimp, as listed in the COA."
+      ],
+      [
+        "COA-0063",
+        "5-Amino-1MQ",
+        "Metabolic / Research",
+        5,
+        5.27,
+        0.2699999999999996,
+        0.053999999999999916,
+        99.93,
+        "Overfilled",
+        "ILS Labs",
+        "Confirmed",
+        "08/29/2026",
+        "COA-2026-KE5SLN",
+        "GJA8JYCE",
+        "5AM7010",
+        "Local PDF: assets/coa/documents/ils-laboratories/5-amino-1mq/5-amino-1mq-5mg-2026-29-08-COA-2026-KE5SLN.pdf",
+        "Pass",
+        "Unique ILS certificate; failed certificates excluded.",
+        "Identity confirmed; HPLC purity 99.93%; net content 5.27 mg. Heavy metals PASS/not detected; sterility PCR: No Growth; endotoxin reported below commonly referenced thresholds. ILS access code GJA8JYCE.",
+        "Not Listed",
+        "Not Listed",
+        "Closure color is not listed or visible in the ILS certificate."
+      ],
+      [
+        "COA-0064",
+        "AHK-Cu",
+        "Cosmetic / Skin Research",
+        50,
+        51.12,
+        1.1199999999999974,
+        0.022399999999999948,
+        98.64,
+        "On label",
+        "ILS Labs",
+        "Confirmed",
+        "08/17/2026",
+        "COA-2026-EJOKMJ",
+        "6ZNHW4J7",
+        "AH57010",
+        "Local PDF: assets/coa/documents/ils-laboratories/ahk-cu/ahk-cu-50mg-2026-17-08-COA-2026-EJOKMJ.pdf",
+        "Pass",
+        "Unique ILS certificate; failed certificates excluded.",
+        "Identity confirmed; HPLC purity 98.64%; net content 51.12 mg. Heavy metals PASS/not detected; sterility PCR: No Growth; endotoxin reported below commonly referenced thresholds. ILS access code 6ZNHW4J7.",
+        "Not Listed",
+        "Not Listed",
+        "Closure color is not listed or visible in the ILS certificate."
+      ],
+      [
+        "COA-0065",
+        "AOD-9604",
+        "Metabolic / Fat Loss",
+        10,
+        10.28,
+        0.27999999999999936,
+        0.027999999999999935,
+        99.21,
+        "On label",
+        "ILS Labs",
+        "Confirmed",
+        "08/17/2026",
+        "COA-2026-ROTJUV",
+        "DNPTRN59",
+        "AO17010",
+        "Local PDF: assets/coa/documents/ils-laboratories/aod-9604/aod-9604-10mg-2026-17-08-COA-2026-ROTJUV.pdf",
+        "Pass",
+        "Unique ILS certificate; failed certificates excluded.",
+        "Identity confirmed; HPLC purity 99.21%; net content 10.28 mg. Heavy metals PASS/not detected; sterility PCR: No Growth; endotoxin reported below commonly referenced thresholds. ILS access code DNPTRN59.",
+        "Not Listed",
+        "Not Listed",
+        "Closure color is not listed or visible in the ILS certificate."
+      ],
+      [
+        "COA-0066",
+        "BPC-157",
+        "Healing / Recovery",
+        10,
+        10.28,
+        0.27999999999999936,
+        0.027999999999999935,
+        99.72,
+        "On label",
+        "ILS Labs",
+        "Confirmed",
+        "08/17/2026",
+        "COA-2026-Z7QL5L",
+        "EQBA5TGZ",
+        "BP17010",
+        "Local PDF: assets/coa/documents/ils-laboratories/bpc-157/bpc-157-10mg-2026-17-08-COA-2026-Z7QL5L.pdf",
+        "Pass",
+        "Unique ILS certificate; failed certificates excluded.",
+        "Identity confirmed; HPLC purity 99.72%; net content 10.28 mg. Heavy metals PASS/not detected; sterility PCR: No Growth; endotoxin reported below commonly referenced thresholds. ILS access code EQBA5TGZ.",
+        "Not Listed",
+        "Not Listed",
+        "Closure color is not listed or visible in the ILS certificate."
+      ],
+      [
+        "COA-0067",
+        "BPC-157 / TB-500",
+        "Healing / Recovery Blend",
+        20,
+        20.93,
+        0.9299999999999997,
+        0.046499999999999986,
+        99.7,
+        "On label",
+        "ILS Labs",
+        "Confirmed",
+        "08/29/2026",
+        "COA-2026-UCXARI",
+        "H7A2Z82K",
+        "BB27010",
+        "Local PDF: assets/coa/documents/ils-laboratories/bpc-157-tb-500/bpc-157-tb-500-20mg-2026-29-08-COA-2026-UCXARI.pdf",
+        "Pass",
+        "Unique ILS certificate; failed certificates excluded.",
+        "Identity confirmed; HPLC purity 99.7%; net content 20.93 mg. Heavy metals PASS/not detected; sterility PCR: No Growth; endotoxin reported below commonly referenced thresholds. ILS access code H7A2Z82K.",
+        "Not Listed",
+        "Not Listed",
+        "Closure color is not listed or visible in the ILS certificate."
+      ],
+      [
+        "COA-0068",
+        "CJC-1295 / Ipamorelin",
+        "Growth Hormone Support Blend",
+        10,
+        10.47,
+        0.47000000000000064,
+        0.04700000000000006,
+        99.78,
+        "On label",
+        "ILS Labs",
+        "Confirmed",
+        "08/17/2026",
+        "COA-2026-OQ2KI5",
+        "VRDU58EW",
+        "CP17010",
+        "Local PDF: assets/coa/documents/ils-laboratories/cjc-1295-ipamorelin/cjc-1295-ipamorelin-10mg-2026-17-08-COA-2026-OQ2KI5.pdf",
+        "Pass",
+        "Unique ILS certificate; failed certificates excluded.",
+        "Identity confirmed; HPLC purity 99.78%; net content 10.47 mg. Heavy metals PASS/not detected; sterility PCR: No Growth; endotoxin reported below commonly referenced thresholds. ILS access code VRDU58EW.",
+        "Not Listed",
+        "Not Listed",
+        "Closure color is not listed or visible in the ILS certificate."
+      ],
+      [
+        "COA-0069",
+        "GHK-Cu",
+        "Cosmetic / Skin Research",
+        50,
+        52.21,
+        2.210000000000001,
+        0.04420000000000002,
+        99.85,
+        "On label",
+        "ILS Labs",
+        "Confirmed",
+        "08/17/2026",
+        "COA-2026-TDLWNC",
+        "3SDBWEB6",
+        "CU57010",
+        "Local PDF: assets/coa/documents/ils-laboratories/ghk-cu/ghk-cu-50mg-2026-17-08-COA-2026-TDLWNC.pdf",
+        "Pass",
+        "Unique ILS certificate; failed certificates excluded.",
+        "Identity confirmed; HPLC purity 99.85%; net content 52.21 mg. Heavy metals PASS/not detected; sterility PCR: No Growth; endotoxin reported below commonly referenced thresholds. ILS access code 3SDBWEB6.",
+        "Not Listed",
+        "Not Listed",
+        "Closure color is not listed or visible in the ILS certificate."
+      ],
+      [
+        "COA-0070",
+        "GLOW",
+        "Healing / Recovery Blend",
+        70,
+        72.68,
+        2.680000000000007,
+        0.03828571428571438,
+        99.84,
+        "On label",
+        "ILS Labs",
+        "Confirmed",
+        "08/28/2026",
+        "COA-2026-3WIKDU",
+        "CAB37LKM",
+        "GL77010",
+        "Local PDF: assets/coa/documents/ils-laboratories/glow/glow-70mg-2026-28-08-COA-2026-3WIKDU.pdf",
+        "Pass",
+        "Unique ILS certificate; failed certificates excluded.",
+        "Identity confirmed; HPLC purity 99.84%; net content 72.68 mg. Heavy metals PASS/not detected; sterility PCR: No Growth; endotoxin reported below commonly referenced thresholds. ILS access code CAB37LKM.",
+        "Not Listed",
+        "Not Listed",
+        "Closure color is not listed or visible in the ILS certificate."
+      ],
+      [
+        "COA-0071",
+        "KLOW",
+        "Healing / Recovery Blend",
+        80,
+        82.72,
+        2.719999999999999,
+        0.03399999999999999,
+        99.79,
+        "On label",
+        "ILS Labs",
+        "Confirmed",
+        "08/28/2026",
+        "COA-2026-LSUN2F",
+        "GRD4V5KA",
+        "KL87010",
+        "Local PDF: assets/coa/documents/ils-laboratories/klow/klow-80mg-2026-28-08-COA-2026-LSUN2F.pdf",
+        "Pass",
+        "Unique ILS certificate; failed certificates excluded.",
+        "Identity confirmed; HPLC purity 99.79%; net content 82.72 mg. Heavy metals PASS/not detected; sterility PCR: No Growth; endotoxin reported below commonly referenced thresholds. ILS access code GRD4V5KA.",
+        "Not Listed",
+        "Not Listed",
+        "Closure color is not listed or visible in the ILS certificate."
+      ],
+      [
+        "COA-0072",
+        "KPV",
+        "Healing / Anti-Inflammatory Research",
+        10,
+        10.23,
+        0.23000000000000043,
+        0.02300000000000004,
+        99.25,
+        "On label",
+        "ILS Labs",
+        "Confirmed",
+        "08/17/2026",
+        "COA-2026-AFZSKR",
+        "XXW57EWE",
+        "KP17010",
+        "Local PDF: assets/coa/documents/ils-laboratories/kpv/kpv-10mg-2026-17-08-COA-2026-AFZSKR.pdf",
+        "Pass",
+        "Unique ILS certificate; failed certificates excluded.",
+        "Identity confirmed; HPLC purity 99.25%; net content 10.23 mg. Heavy metals PASS/not detected; sterility PCR: No Growth; endotoxin reported below commonly referenced thresholds. ILS access code XXW57EWE.",
+        "Not Listed",
+        "Not Listed",
+        "Closure color is not listed or visible in the ILS certificate."
+      ],
+      [
+        "COA-0073",
+        "MOTS-C",
+        "Metabolic / Mitochondrial Research",
+        10,
+        10.42,
+        0.41999999999999993,
+        0.041999999999999996,
+        99.08,
+        "On label",
+        "ILS Labs",
+        "Confirmed",
+        "08/17/2026",
+        "COA-2026-ACXQT9",
+        "26KYBWZX",
+        "MS17010",
+        "Local PDF: assets/coa/documents/ils-laboratories/mots-c/mots-c-10mg-2026-17-08-COA-2026-ACXQT9.pdf",
+        "Pass",
+        "Unique ILS certificate; failed certificates excluded.",
+        "Identity confirmed; HPLC purity 99.08%; net content 10.42 mg. Heavy metals PASS/not detected; sterility PCR: No Growth; endotoxin reported below commonly referenced thresholds. ILS access code 26KYBWZX.",
+        "Not Listed",
+        "Not Listed",
+        "Closure color is not listed or visible in the ILS certificate."
+      ],
+      [
+        "COA-0074",
+        "MOTS-C",
+        "Metabolic / Mitochondrial Research",
+        40,
+        41.09,
+        1.0900000000000034,
+        0.027250000000000087,
+        99.3,
+        "On label",
+        "ILS Labs",
+        "Confirmed",
+        "08/17/2026",
+        "COA-2026-R9ZNBR",
+        "SQG57YUA",
+        "MS47010",
+        "Local PDF: assets/coa/documents/ils-laboratories/mots-c/mots-c-40mg-2026-17-08-COA-2026-R9ZNBR.pdf",
+        "Pass",
+        "Unique ILS certificate; failed certificates excluded.",
+        "Identity confirmed; HPLC purity 99.3%; net content 41.09 mg. Heavy metals PASS/not detected; sterility PCR: No Growth; endotoxin reported below commonly referenced thresholds. ILS access code SQG57YUA.",
+        "Not Listed",
+        "Not Listed",
+        "Closure color is not listed or visible in the ILS certificate."
+      ],
+      [
+        "COA-0075",
+        "Melanotan II",
+        "Pigmentation / Research",
+        10,
+        10.34,
+        0.33999999999999986,
+        0.03399999999999999,
+        99.71,
+        "On label",
+        "ILS Labs",
+        "Confirmed",
+        "08/17/2026",
+        "COA-2026-KUYUM8",
+        "YL6Z7HBG",
+        "M217010",
+        "Local PDF: assets/coa/documents/ils-laboratories/melanotan-ii/melanotan-ii-10mg-2026-17-08-COA-2026-KUYUM8.pdf",
+        "Pass",
+        "Unique ILS certificate; failed certificates excluded.",
+        "Identity confirmed; HPLC purity 99.71%; net content 10.34 mg. Heavy metals PASS/not detected; sterility PCR: No Growth; endotoxin reported below commonly referenced thresholds. ILS access code YL6Z7HBG.",
+        "Not Listed",
+        "Not Listed",
+        "Closure color is not listed or visible in the ILS certificate."
+      ],
+      [
+        "COA-0076",
+        "NAD+",
+        "Cellular / Metabolic Research",
+        1000,
+        1047.39,
+        47.3900000000001,
+        0.0473900000000001,
+        99.26,
+        "On label",
+        "ILS Labs",
+        "Confirmed",
+        "08/18/2026",
+        "COA-2026-DKRX4K",
+        "EKUVZRXB",
+        "ND17010",
+        "Local PDF: assets/coa/documents/ils-laboratories/nadplus/nadplus-1000mg-2026-18-08-COA-2026-DKRX4K.pdf",
+        "Pass",
+        "Unique ILS certificate; failed certificates excluded.",
+        "Identity confirmed; HPLC purity 99.26%; net content 1047.39 mg. Heavy metals PASS/not detected; sterility PCR: No Growth; endotoxin reported below commonly referenced thresholds. ILS access code EKUVZRXB.",
+        "Not Listed",
+        "Not Listed",
+        "Closure color is not listed or visible in the ILS certificate."
+      ],
+      [
+        "COA-0077",
+        "Retatrutide",
+        "GLP-1 / Weight Research",
+        10,
+        10.64,
+        0.6400000000000006,
+        0.06400000000000006,
+        99.4,
+        "Overfilled",
+        "ILS Labs",
+        "Confirmed",
+        "08/17/2026",
+        "COA-2026-Z9OQUX",
+        "6DGZ93CS",
+        "RT17010",
+        "Local PDF: assets/coa/documents/ils-laboratories/retatrutide/retatrutide-10mg-2026-17-08-COA-2026-Z9OQUX.pdf",
+        "Pass",
+        "Unique ILS certificate; failed certificates excluded.",
+        "Identity confirmed; HPLC purity 99.4%; net content 10.64 mg. Heavy metals PASS/not detected; sterility PCR: No Growth; endotoxin reported below commonly referenced thresholds. ILS access code 6DGZ93CS.",
+        "Not Listed",
+        "Not Listed",
+        "Closure color is not listed or visible in the ILS certificate."
+      ],
+      [
+        "COA-0078",
+        "Retatrutide",
+        "GLP-1 / Weight Research",
+        20,
+        21.38,
+        1.379999999999999,
+        0.06899999999999995,
+        99.79,
+        "Overfilled",
+        "ILS Labs",
+        "Confirmed",
+        "08/17/2026",
+        "COA-2026-KZYMNQ",
+        "6V3BNXVB",
+        "RT27010",
+        "Local PDF: assets/coa/documents/ils-laboratories/retatrutide/retatrutide-20mg-2026-17-08-COA-2026-KZYMNQ.pdf",
+        "Pass",
+        "Unique ILS certificate; failed certificates excluded.",
+        "Identity confirmed; HPLC purity 99.79%; net content 21.38 mg. Heavy metals PASS/not detected; sterility PCR: No Growth; endotoxin reported below commonly referenced thresholds. ILS access code 6V3BNXVB.",
+        "Not Listed",
+        "Not Listed",
+        "Closure color is not listed or visible in the ILS certificate."
+      ],
+      [
+        "COA-0079",
+        "SS-31",
+        "Metabolic / Mitochondrial Research",
+        10,
+        10.7,
+        0.6999999999999993,
+        0.06999999999999992,
+        99.53,
+        "Overfilled",
+        "ILS Labs",
+        "Confirmed",
+        "08/17/2026",
+        "COA-2026-HEII-X",
+        "KSU4VSE7",
+        "2S17010",
+        "Local PDF: assets/coa/documents/ils-laboratories/ss-31/ss-31-10mg-2026-17-08-COA-2026-HEII-X.pdf",
+        "Pass",
+        "Unique ILS certificate; failed certificates excluded.",
+        "Identity confirmed; HPLC purity 99.53%; net content 10.7 mg. Heavy metals PASS/not detected; sterility PCR: No Growth; endotoxin reported below commonly referenced thresholds. ILS access code KSU4VSE7.",
+        "Not Listed",
+        "Not Listed",
+        "Closure color is not listed or visible in the ILS certificate."
+      ],
+      [
+        "COA-0080",
+        "Selank",
+        "Nootropic / Research",
+        10,
+        10.66,
+        0.6600000000000001,
+        0.06600000000000002,
+        99.57,
+        "Overfilled",
+        "ILS Labs",
+        "Confirmed",
+        "08/17/2026",
+        "COA-2026-REDEV3",
+        "JBYELVFU",
+        "SK17010",
+        "Local PDF: assets/coa/documents/ils-laboratories/selank/selank-10mg-2026-17-08-COA-2026-REDEV3.pdf",
+        "Pass",
+        "Unique ILS certificate; failed certificates excluded.",
+        "Identity confirmed; HPLC purity 99.57%; net content 10.66 mg. Heavy metals PASS/not detected; sterility PCR: No Growth; endotoxin reported below commonly referenced thresholds. ILS access code JBYELVFU.",
+        "Not Listed",
+        "Not Listed",
+        "Closure color is not listed or visible in the ILS certificate."
+      ],
+      [
+        "COA-0081",
+        "Semax",
+        "Nootropic / Research",
+        10,
+        10.5,
+        0.5,
+        0.05,
+        99.58,
+        "On label",
+        "ILS Labs",
+        "Confirmed",
+        "08/17/2026",
+        "COA-2026-WIQN-5",
+        "6293KLTS",
+        "XA17010",
+        "Local PDF: assets/coa/documents/ils-laboratories/semax/semax-10mg-2026-17-08-COA-2026-WIQN-5.pdf",
+        "Pass",
+        "Unique ILS certificate; failed certificates excluded.",
+        "Identity confirmed; HPLC purity 99.58%; net content 10.5 mg. Heavy metals PASS/not detected; sterility PCR: No Growth; endotoxin reported below commonly referenced thresholds. ILS access code 6293KLTS.",
+        "Not Listed",
+        "Not Listed",
+        "Closure color is not listed or visible in the ILS certificate."
+      ],
+      [
+        "COA-0082",
+        "TB-500",
+        "Healing / Recovery",
+        10,
+        10.42,
+        0.41999999999999993,
+        0.041999999999999996,
+        99.58,
+        "On label",
+        "ILS Labs",
+        "Confirmed",
+        "08/17/2026",
+        "COA-2026-HJIIFD",
+        "BF6T52B4",
+        "TB17010",
+        "Local PDF: assets/coa/documents/ils-laboratories/tb-500/tb-500-10mg-2026-17-08-COA-2026-HJIIFD.pdf",
+        "Pass",
+        "Unique ILS certificate; failed certificates excluded.",
+        "Identity confirmed; HPLC purity 99.58%; net content 10.42 mg. Heavy metals PASS/not detected; sterility PCR: No Growth; endotoxin reported below commonly referenced thresholds. ILS access code BF6T52B4.",
+        "Not Listed",
+        "Not Listed",
+        "Closure color is not listed or visible in the ILS certificate."
+      ],
+      [
+        "COA-0083",
+        "Tesamorelin",
+        "Growth Hormone Support",
+        10,
+        10.24,
+        0.2400000000000002,
+        0.02400000000000002,
+        99.36,
+        "On label",
+        "ILS Labs",
+        "Confirmed",
+        "08/17/2026",
+        "COA-2026-PDCJIS",
+        "U5SWVSHY",
+        "TS17010",
+        "Local PDF: assets/coa/documents/ils-laboratories/tesamorelin/tesamorelin-10mg-2026-17-08-COA-2026-PDCJIS.pdf",
+        "Pass",
+        "Unique ILS certificate; failed certificates excluded.",
+        "Identity confirmed; HPLC purity 99.36%; net content 10.24 mg. Heavy metals PASS/not detected; sterility PCR: No Growth; endotoxin reported below commonly referenced thresholds. ILS access code U5SWVSHY.",
+        "Not Listed",
+        "Not Listed",
+        "Closure color is not listed or visible in the ILS certificate."
+      ],
+      [
+        "COA-0084",
+        "Tirzepatide",
+        "GLP-1 / Weight Research",
+        20,
+        21.1,
+        1.1000000000000014,
+        0.05500000000000007,
+        99.71,
+        "Overfilled",
+        "ILS Labs",
+        "Confirmed",
+        "08/17/2026",
+        "COA-2026-4K8S-R",
+        "AGBSBU2E",
+        "TR27010",
+        "Local PDF: assets/coa/documents/ils-laboratories/tirzepatide/tirzepatide-20mg-2026-17-08-COA-2026-4K8S-R.pdf",
+        "Pass",
+        "Unique ILS certificate; failed certificates excluded.",
+        "Identity confirmed; HPLC purity 99.71%; net content 21.1 mg. Heavy metals PASS/not detected; sterility PCR: No Growth; endotoxin reported below commonly referenced thresholds. ILS access code AGBSBU2E.",
+        "Not Listed",
+        "Not Listed",
+        "Closure color is not listed or visible in the ILS certificate."
+      ],
+      [
+        "COA-0085",
+        "Tirzepatide",
+        "GLP-1 / Weight Research",
+        40,
+        41.14,
+        1.1400000000000006,
+        0.028500000000000015,
+        99.9,
+        "On label",
+        "ILS Labs",
+        "Confirmed",
+        "08/17/2026",
+        "COA-2026-GRQZYH",
+        "UYWCCYSG",
+        "TR47010",
+        "Local PDF: assets/coa/documents/ils-laboratories/tirzepatide/tirzepatide-40mg-2026-17-08-COA-2026-GRQZYH.pdf",
+        "Pass",
+        "Unique ILS certificate; failed certificates excluded.",
+        "Identity confirmed; HPLC purity 99.9%; net content 41.14 mg. Heavy metals PASS/not detected; sterility PCR: No Growth; endotoxin reported below commonly referenced thresholds. ILS access code UYWCCYSG.",
+        "Not Listed",
+        "Not Listed",
+        "Closure color is not listed or visible in the ILS certificate."
       ]
     ],
     "Purity Rankings": [
@@ -3877,7 +4429,7 @@
         0.051999999999999956,
         99.72,
         "Overfilled",
-        "ILS Laboratories",
+        "ILS Labs",
         "Confirmed",
         46234,
         "Redacted",
@@ -4298,6 +4850,558 @@
         "Silver",
         "Blue",
         "Blue flip-off cap with silver aluminum crimp, as listed in the COA."
+      ],
+      [
+        "COA-0063",
+        "5-Amino-1MQ",
+        "Metabolic / Research",
+        5,
+        5.27,
+        0.2699999999999996,
+        0.053999999999999916,
+        99.93,
+        "Overfilled",
+        "ILS Labs",
+        "Confirmed",
+        "08/29/2026",
+        "COA-2026-KE5SLN",
+        "GJA8JYCE",
+        "5AM7010",
+        "Local PDF: assets/coa/documents/ils-laboratories/5-amino-1mq/5-amino-1mq-5mg-2026-29-08-COA-2026-KE5SLN.pdf",
+        "Pass",
+        "Unique ILS certificate; failed certificates excluded.",
+        "Identity confirmed; HPLC purity 99.93%; net content 5.27 mg. Heavy metals PASS/not detected; sterility PCR: No Growth; endotoxin reported below commonly referenced thresholds. ILS access code GJA8JYCE.",
+        "Not Listed",
+        "Not Listed",
+        "Closure color is not listed or visible in the ILS certificate."
+      ],
+      [
+        "COA-0064",
+        "AHK-Cu",
+        "Cosmetic / Skin Research",
+        50,
+        51.12,
+        1.1199999999999974,
+        0.022399999999999948,
+        98.64,
+        "On label",
+        "ILS Labs",
+        "Confirmed",
+        "08/17/2026",
+        "COA-2026-EJOKMJ",
+        "6ZNHW4J7",
+        "AH57010",
+        "Local PDF: assets/coa/documents/ils-laboratories/ahk-cu/ahk-cu-50mg-2026-17-08-COA-2026-EJOKMJ.pdf",
+        "Pass",
+        "Unique ILS certificate; failed certificates excluded.",
+        "Identity confirmed; HPLC purity 98.64%; net content 51.12 mg. Heavy metals PASS/not detected; sterility PCR: No Growth; endotoxin reported below commonly referenced thresholds. ILS access code 6ZNHW4J7.",
+        "Not Listed",
+        "Not Listed",
+        "Closure color is not listed or visible in the ILS certificate."
+      ],
+      [
+        "COA-0065",
+        "AOD-9604",
+        "Metabolic / Fat Loss",
+        10,
+        10.28,
+        0.27999999999999936,
+        0.027999999999999935,
+        99.21,
+        "On label",
+        "ILS Labs",
+        "Confirmed",
+        "08/17/2026",
+        "COA-2026-ROTJUV",
+        "DNPTRN59",
+        "AO17010",
+        "Local PDF: assets/coa/documents/ils-laboratories/aod-9604/aod-9604-10mg-2026-17-08-COA-2026-ROTJUV.pdf",
+        "Pass",
+        "Unique ILS certificate; failed certificates excluded.",
+        "Identity confirmed; HPLC purity 99.21%; net content 10.28 mg. Heavy metals PASS/not detected; sterility PCR: No Growth; endotoxin reported below commonly referenced thresholds. ILS access code DNPTRN59.",
+        "Not Listed",
+        "Not Listed",
+        "Closure color is not listed or visible in the ILS certificate."
+      ],
+      [
+        "COA-0066",
+        "BPC-157",
+        "Healing / Recovery",
+        10,
+        10.28,
+        0.27999999999999936,
+        0.027999999999999935,
+        99.72,
+        "On label",
+        "ILS Labs",
+        "Confirmed",
+        "08/17/2026",
+        "COA-2026-Z7QL5L",
+        "EQBA5TGZ",
+        "BP17010",
+        "Local PDF: assets/coa/documents/ils-laboratories/bpc-157/bpc-157-10mg-2026-17-08-COA-2026-Z7QL5L.pdf",
+        "Pass",
+        "Unique ILS certificate; failed certificates excluded.",
+        "Identity confirmed; HPLC purity 99.72%; net content 10.28 mg. Heavy metals PASS/not detected; sterility PCR: No Growth; endotoxin reported below commonly referenced thresholds. ILS access code EQBA5TGZ.",
+        "Not Listed",
+        "Not Listed",
+        "Closure color is not listed or visible in the ILS certificate."
+      ],
+      [
+        "COA-0067",
+        "BPC-157 / TB-500",
+        "Healing / Recovery Blend",
+        20,
+        20.93,
+        0.9299999999999997,
+        0.046499999999999986,
+        99.7,
+        "On label",
+        "ILS Labs",
+        "Confirmed",
+        "08/29/2026",
+        "COA-2026-UCXARI",
+        "H7A2Z82K",
+        "BB27010",
+        "Local PDF: assets/coa/documents/ils-laboratories/bpc-157-tb-500/bpc-157-tb-500-20mg-2026-29-08-COA-2026-UCXARI.pdf",
+        "Pass",
+        "Unique ILS certificate; failed certificates excluded.",
+        "Identity confirmed; HPLC purity 99.7%; net content 20.93 mg. Heavy metals PASS/not detected; sterility PCR: No Growth; endotoxin reported below commonly referenced thresholds. ILS access code H7A2Z82K.",
+        "Not Listed",
+        "Not Listed",
+        "Closure color is not listed or visible in the ILS certificate."
+      ],
+      [
+        "COA-0068",
+        "CJC-1295 / Ipamorelin",
+        "Growth Hormone Support Blend",
+        10,
+        10.47,
+        0.47000000000000064,
+        0.04700000000000006,
+        99.78,
+        "On label",
+        "ILS Labs",
+        "Confirmed",
+        "08/17/2026",
+        "COA-2026-OQ2KI5",
+        "VRDU58EW",
+        "CP17010",
+        "Local PDF: assets/coa/documents/ils-laboratories/cjc-1295-ipamorelin/cjc-1295-ipamorelin-10mg-2026-17-08-COA-2026-OQ2KI5.pdf",
+        "Pass",
+        "Unique ILS certificate; failed certificates excluded.",
+        "Identity confirmed; HPLC purity 99.78%; net content 10.47 mg. Heavy metals PASS/not detected; sterility PCR: No Growth; endotoxin reported below commonly referenced thresholds. ILS access code VRDU58EW.",
+        "Not Listed",
+        "Not Listed",
+        "Closure color is not listed or visible in the ILS certificate."
+      ],
+      [
+        "COA-0069",
+        "GHK-Cu",
+        "Cosmetic / Skin Research",
+        50,
+        52.21,
+        2.210000000000001,
+        0.04420000000000002,
+        99.85,
+        "On label",
+        "ILS Labs",
+        "Confirmed",
+        "08/17/2026",
+        "COA-2026-TDLWNC",
+        "3SDBWEB6",
+        "CU57010",
+        "Local PDF: assets/coa/documents/ils-laboratories/ghk-cu/ghk-cu-50mg-2026-17-08-COA-2026-TDLWNC.pdf",
+        "Pass",
+        "Unique ILS certificate; failed certificates excluded.",
+        "Identity confirmed; HPLC purity 99.85%; net content 52.21 mg. Heavy metals PASS/not detected; sterility PCR: No Growth; endotoxin reported below commonly referenced thresholds. ILS access code 3SDBWEB6.",
+        "Not Listed",
+        "Not Listed",
+        "Closure color is not listed or visible in the ILS certificate."
+      ],
+      [
+        "COA-0070",
+        "GLOW",
+        "Healing / Recovery Blend",
+        70,
+        72.68,
+        2.680000000000007,
+        0.03828571428571438,
+        99.84,
+        "On label",
+        "ILS Labs",
+        "Confirmed",
+        "08/28/2026",
+        "COA-2026-3WIKDU",
+        "CAB37LKM",
+        "GL77010",
+        "Local PDF: assets/coa/documents/ils-laboratories/glow/glow-70mg-2026-28-08-COA-2026-3WIKDU.pdf",
+        "Pass",
+        "Unique ILS certificate; failed certificates excluded.",
+        "Identity confirmed; HPLC purity 99.84%; net content 72.68 mg. Heavy metals PASS/not detected; sterility PCR: No Growth; endotoxin reported below commonly referenced thresholds. ILS access code CAB37LKM.",
+        "Not Listed",
+        "Not Listed",
+        "Closure color is not listed or visible in the ILS certificate."
+      ],
+      [
+        "COA-0071",
+        "KLOW",
+        "Healing / Recovery Blend",
+        80,
+        82.72,
+        2.719999999999999,
+        0.03399999999999999,
+        99.79,
+        "On label",
+        "ILS Labs",
+        "Confirmed",
+        "08/28/2026",
+        "COA-2026-LSUN2F",
+        "GRD4V5KA",
+        "KL87010",
+        "Local PDF: assets/coa/documents/ils-laboratories/klow/klow-80mg-2026-28-08-COA-2026-LSUN2F.pdf",
+        "Pass",
+        "Unique ILS certificate; failed certificates excluded.",
+        "Identity confirmed; HPLC purity 99.79%; net content 82.72 mg. Heavy metals PASS/not detected; sterility PCR: No Growth; endotoxin reported below commonly referenced thresholds. ILS access code GRD4V5KA.",
+        "Not Listed",
+        "Not Listed",
+        "Closure color is not listed or visible in the ILS certificate."
+      ],
+      [
+        "COA-0072",
+        "KPV",
+        "Healing / Anti-Inflammatory Research",
+        10,
+        10.23,
+        0.23000000000000043,
+        0.02300000000000004,
+        99.25,
+        "On label",
+        "ILS Labs",
+        "Confirmed",
+        "08/17/2026",
+        "COA-2026-AFZSKR",
+        "XXW57EWE",
+        "KP17010",
+        "Local PDF: assets/coa/documents/ils-laboratories/kpv/kpv-10mg-2026-17-08-COA-2026-AFZSKR.pdf",
+        "Pass",
+        "Unique ILS certificate; failed certificates excluded.",
+        "Identity confirmed; HPLC purity 99.25%; net content 10.23 mg. Heavy metals PASS/not detected; sterility PCR: No Growth; endotoxin reported below commonly referenced thresholds. ILS access code XXW57EWE.",
+        "Not Listed",
+        "Not Listed",
+        "Closure color is not listed or visible in the ILS certificate."
+      ],
+      [
+        "COA-0073",
+        "MOTS-C",
+        "Metabolic / Mitochondrial Research",
+        10,
+        10.42,
+        0.41999999999999993,
+        0.041999999999999996,
+        99.08,
+        "On label",
+        "ILS Labs",
+        "Confirmed",
+        "08/17/2026",
+        "COA-2026-ACXQT9",
+        "26KYBWZX",
+        "MS17010",
+        "Local PDF: assets/coa/documents/ils-laboratories/mots-c/mots-c-10mg-2026-17-08-COA-2026-ACXQT9.pdf",
+        "Pass",
+        "Unique ILS certificate; failed certificates excluded.",
+        "Identity confirmed; HPLC purity 99.08%; net content 10.42 mg. Heavy metals PASS/not detected; sterility PCR: No Growth; endotoxin reported below commonly referenced thresholds. ILS access code 26KYBWZX.",
+        "Not Listed",
+        "Not Listed",
+        "Closure color is not listed or visible in the ILS certificate."
+      ],
+      [
+        "COA-0074",
+        "MOTS-C",
+        "Metabolic / Mitochondrial Research",
+        40,
+        41.09,
+        1.0900000000000034,
+        0.027250000000000087,
+        99.3,
+        "On label",
+        "ILS Labs",
+        "Confirmed",
+        "08/17/2026",
+        "COA-2026-R9ZNBR",
+        "SQG57YUA",
+        "MS47010",
+        "Local PDF: assets/coa/documents/ils-laboratories/mots-c/mots-c-40mg-2026-17-08-COA-2026-R9ZNBR.pdf",
+        "Pass",
+        "Unique ILS certificate; failed certificates excluded.",
+        "Identity confirmed; HPLC purity 99.3%; net content 41.09 mg. Heavy metals PASS/not detected; sterility PCR: No Growth; endotoxin reported below commonly referenced thresholds. ILS access code SQG57YUA.",
+        "Not Listed",
+        "Not Listed",
+        "Closure color is not listed or visible in the ILS certificate."
+      ],
+      [
+        "COA-0075",
+        "Melanotan II",
+        "Pigmentation / Research",
+        10,
+        10.34,
+        0.33999999999999986,
+        0.03399999999999999,
+        99.71,
+        "On label",
+        "ILS Labs",
+        "Confirmed",
+        "08/17/2026",
+        "COA-2026-KUYUM8",
+        "YL6Z7HBG",
+        "M217010",
+        "Local PDF: assets/coa/documents/ils-laboratories/melanotan-ii/melanotan-ii-10mg-2026-17-08-COA-2026-KUYUM8.pdf",
+        "Pass",
+        "Unique ILS certificate; failed certificates excluded.",
+        "Identity confirmed; HPLC purity 99.71%; net content 10.34 mg. Heavy metals PASS/not detected; sterility PCR: No Growth; endotoxin reported below commonly referenced thresholds. ILS access code YL6Z7HBG.",
+        "Not Listed",
+        "Not Listed",
+        "Closure color is not listed or visible in the ILS certificate."
+      ],
+      [
+        "COA-0076",
+        "NAD+",
+        "Cellular / Metabolic Research",
+        1000,
+        1047.39,
+        47.3900000000001,
+        0.0473900000000001,
+        99.26,
+        "On label",
+        "ILS Labs",
+        "Confirmed",
+        "08/18/2026",
+        "COA-2026-DKRX4K",
+        "EKUVZRXB",
+        "ND17010",
+        "Local PDF: assets/coa/documents/ils-laboratories/nadplus/nadplus-1000mg-2026-18-08-COA-2026-DKRX4K.pdf",
+        "Pass",
+        "Unique ILS certificate; failed certificates excluded.",
+        "Identity confirmed; HPLC purity 99.26%; net content 1047.39 mg. Heavy metals PASS/not detected; sterility PCR: No Growth; endotoxin reported below commonly referenced thresholds. ILS access code EKUVZRXB.",
+        "Not Listed",
+        "Not Listed",
+        "Closure color is not listed or visible in the ILS certificate."
+      ],
+      [
+        "COA-0077",
+        "Retatrutide",
+        "GLP-1 / Weight Research",
+        10,
+        10.64,
+        0.6400000000000006,
+        0.06400000000000006,
+        99.4,
+        "Overfilled",
+        "ILS Labs",
+        "Confirmed",
+        "08/17/2026",
+        "COA-2026-Z9OQUX",
+        "6DGZ93CS",
+        "RT17010",
+        "Local PDF: assets/coa/documents/ils-laboratories/retatrutide/retatrutide-10mg-2026-17-08-COA-2026-Z9OQUX.pdf",
+        "Pass",
+        "Unique ILS certificate; failed certificates excluded.",
+        "Identity confirmed; HPLC purity 99.4%; net content 10.64 mg. Heavy metals PASS/not detected; sterility PCR: No Growth; endotoxin reported below commonly referenced thresholds. ILS access code 6DGZ93CS.",
+        "Not Listed",
+        "Not Listed",
+        "Closure color is not listed or visible in the ILS certificate."
+      ],
+      [
+        "COA-0078",
+        "Retatrutide",
+        "GLP-1 / Weight Research",
+        20,
+        21.38,
+        1.379999999999999,
+        0.06899999999999995,
+        99.79,
+        "Overfilled",
+        "ILS Labs",
+        "Confirmed",
+        "08/17/2026",
+        "COA-2026-KZYMNQ",
+        "6V3BNXVB",
+        "RT27010",
+        "Local PDF: assets/coa/documents/ils-laboratories/retatrutide/retatrutide-20mg-2026-17-08-COA-2026-KZYMNQ.pdf",
+        "Pass",
+        "Unique ILS certificate; failed certificates excluded.",
+        "Identity confirmed; HPLC purity 99.79%; net content 21.38 mg. Heavy metals PASS/not detected; sterility PCR: No Growth; endotoxin reported below commonly referenced thresholds. ILS access code 6V3BNXVB.",
+        "Not Listed",
+        "Not Listed",
+        "Closure color is not listed or visible in the ILS certificate."
+      ],
+      [
+        "COA-0079",
+        "SS-31",
+        "Metabolic / Mitochondrial Research",
+        10,
+        10.7,
+        0.6999999999999993,
+        0.06999999999999992,
+        99.53,
+        "Overfilled",
+        "ILS Labs",
+        "Confirmed",
+        "08/17/2026",
+        "COA-2026-HEII-X",
+        "KSU4VSE7",
+        "2S17010",
+        "Local PDF: assets/coa/documents/ils-laboratories/ss-31/ss-31-10mg-2026-17-08-COA-2026-HEII-X.pdf",
+        "Pass",
+        "Unique ILS certificate; failed certificates excluded.",
+        "Identity confirmed; HPLC purity 99.53%; net content 10.7 mg. Heavy metals PASS/not detected; sterility PCR: No Growth; endotoxin reported below commonly referenced thresholds. ILS access code KSU4VSE7.",
+        "Not Listed",
+        "Not Listed",
+        "Closure color is not listed or visible in the ILS certificate."
+      ],
+      [
+        "COA-0080",
+        "Selank",
+        "Nootropic / Research",
+        10,
+        10.66,
+        0.6600000000000001,
+        0.06600000000000002,
+        99.57,
+        "Overfilled",
+        "ILS Labs",
+        "Confirmed",
+        "08/17/2026",
+        "COA-2026-REDEV3",
+        "JBYELVFU",
+        "SK17010",
+        "Local PDF: assets/coa/documents/ils-laboratories/selank/selank-10mg-2026-17-08-COA-2026-REDEV3.pdf",
+        "Pass",
+        "Unique ILS certificate; failed certificates excluded.",
+        "Identity confirmed; HPLC purity 99.57%; net content 10.66 mg. Heavy metals PASS/not detected; sterility PCR: No Growth; endotoxin reported below commonly referenced thresholds. ILS access code JBYELVFU.",
+        "Not Listed",
+        "Not Listed",
+        "Closure color is not listed or visible in the ILS certificate."
+      ],
+      [
+        "COA-0081",
+        "Semax",
+        "Nootropic / Research",
+        10,
+        10.5,
+        0.5,
+        0.05,
+        99.58,
+        "On label",
+        "ILS Labs",
+        "Confirmed",
+        "08/17/2026",
+        "COA-2026-WIQN-5",
+        "6293KLTS",
+        "XA17010",
+        "Local PDF: assets/coa/documents/ils-laboratories/semax/semax-10mg-2026-17-08-COA-2026-WIQN-5.pdf",
+        "Pass",
+        "Unique ILS certificate; failed certificates excluded.",
+        "Identity confirmed; HPLC purity 99.58%; net content 10.5 mg. Heavy metals PASS/not detected; sterility PCR: No Growth; endotoxin reported below commonly referenced thresholds. ILS access code 6293KLTS.",
+        "Not Listed",
+        "Not Listed",
+        "Closure color is not listed or visible in the ILS certificate."
+      ],
+      [
+        "COA-0082",
+        "TB-500",
+        "Healing / Recovery",
+        10,
+        10.42,
+        0.41999999999999993,
+        0.041999999999999996,
+        99.58,
+        "On label",
+        "ILS Labs",
+        "Confirmed",
+        "08/17/2026",
+        "COA-2026-HJIIFD",
+        "BF6T52B4",
+        "TB17010",
+        "Local PDF: assets/coa/documents/ils-laboratories/tb-500/tb-500-10mg-2026-17-08-COA-2026-HJIIFD.pdf",
+        "Pass",
+        "Unique ILS certificate; failed certificates excluded.",
+        "Identity confirmed; HPLC purity 99.58%; net content 10.42 mg. Heavy metals PASS/not detected; sterility PCR: No Growth; endotoxin reported below commonly referenced thresholds. ILS access code BF6T52B4.",
+        "Not Listed",
+        "Not Listed",
+        "Closure color is not listed or visible in the ILS certificate."
+      ],
+      [
+        "COA-0083",
+        "Tesamorelin",
+        "Growth Hormone Support",
+        10,
+        10.24,
+        0.2400000000000002,
+        0.02400000000000002,
+        99.36,
+        "On label",
+        "ILS Labs",
+        "Confirmed",
+        "08/17/2026",
+        "COA-2026-PDCJIS",
+        "U5SWVSHY",
+        "TS17010",
+        "Local PDF: assets/coa/documents/ils-laboratories/tesamorelin/tesamorelin-10mg-2026-17-08-COA-2026-PDCJIS.pdf",
+        "Pass",
+        "Unique ILS certificate; failed certificates excluded.",
+        "Identity confirmed; HPLC purity 99.36%; net content 10.24 mg. Heavy metals PASS/not detected; sterility PCR: No Growth; endotoxin reported below commonly referenced thresholds. ILS access code U5SWVSHY.",
+        "Not Listed",
+        "Not Listed",
+        "Closure color is not listed or visible in the ILS certificate."
+      ],
+      [
+        "COA-0084",
+        "Tirzepatide",
+        "GLP-1 / Weight Research",
+        20,
+        21.1,
+        1.1000000000000014,
+        0.05500000000000007,
+        99.71,
+        "Overfilled",
+        "ILS Labs",
+        "Confirmed",
+        "08/17/2026",
+        "COA-2026-4K8S-R",
+        "AGBSBU2E",
+        "TR27010",
+        "Local PDF: assets/coa/documents/ils-laboratories/tirzepatide/tirzepatide-20mg-2026-17-08-COA-2026-4K8S-R.pdf",
+        "Pass",
+        "Unique ILS certificate; failed certificates excluded.",
+        "Identity confirmed; HPLC purity 99.71%; net content 21.1 mg. Heavy metals PASS/not detected; sterility PCR: No Growth; endotoxin reported below commonly referenced thresholds. ILS access code AGBSBU2E.",
+        "Not Listed",
+        "Not Listed",
+        "Closure color is not listed or visible in the ILS certificate."
+      ],
+      [
+        "COA-0085",
+        "Tirzepatide",
+        "GLP-1 / Weight Research",
+        40,
+        41.14,
+        1.1400000000000006,
+        0.028500000000000015,
+        99.9,
+        "On label",
+        "ILS Labs",
+        "Confirmed",
+        "08/17/2026",
+        "COA-2026-GRQZYH",
+        "UYWCCYSG",
+        "TR47010",
+        "Local PDF: assets/coa/documents/ils-laboratories/tirzepatide/tirzepatide-40mg-2026-17-08-COA-2026-GRQZYH.pdf",
+        "Pass",
+        "Unique ILS certificate; failed certificates excluded.",
+        "Identity confirmed; HPLC purity 99.9%; net content 41.14 mg. Heavy metals PASS/not detected; sterility PCR: No Growth; endotoxin reported below commonly referenced thresholds. ILS access code UYWCCYSG.",
+        "Not Listed",
+        "Not Listed",
+        "Closure color is not listed or visible in the ILS certificate."
       ]
     ],
     "Lab Match": [
@@ -5363,7 +6467,7 @@
         0.051999999999999956,
         99.72,
         "CND10-2606",
-        "ILS Laboratories",
+        "ILS Labs",
         "Overfilled",
         46234,
         "COA-0045",
@@ -5748,6 +6852,512 @@
         "Silver",
         "Blue flip-off cap with silver aluminum crimp, as listed in the COA.",
         "Identity confirmed as GHK-Cu (Copper Peptide) by LC-MS. Blue lyophilized powder; molecular weight matched 402.92 g/mol. Endotoxin PASS; microbial sterility: No Growth; lead, cadmium, arsenic, and mercury Negative. Batch conformity was not tested."
+      ],
+      [
+        "COA-0063",
+        "5-Amino-1MQ",
+        "Metabolic / Research",
+        5,
+        5.27,
+        0.2699999999999996,
+        0.053999999999999916,
+        99.93,
+        "5AM7010",
+        "ILS Labs",
+        "Overfilled",
+        "08/29/2026",
+        "COA-0063",
+        "COA-2026-KE5SLN",
+        "GJA8JYCE",
+        "Local PDF: assets/coa/documents/ils-laboratories/5-amino-1mq/5-amino-1mq-5mg-2026-29-08-COA-2026-KE5SLN.pdf",
+        "Not Listed",
+        "Not Listed",
+        "Closure color is not listed or visible in the ILS certificate.",
+        "Identity confirmed; HPLC purity 99.93%; net content 5.27 mg. Heavy metals PASS/not detected; sterility PCR: No Growth; endotoxin reported below commonly referenced thresholds. ILS access code GJA8JYCE."
+      ],
+      [
+        "COA-0064",
+        "AHK-Cu",
+        "Cosmetic / Skin Research",
+        50,
+        51.12,
+        1.1199999999999974,
+        0.022399999999999948,
+        98.64,
+        "AH57010",
+        "ILS Labs",
+        "On label",
+        "08/17/2026",
+        "COA-0064",
+        "COA-2026-EJOKMJ",
+        "6ZNHW4J7",
+        "Local PDF: assets/coa/documents/ils-laboratories/ahk-cu/ahk-cu-50mg-2026-17-08-COA-2026-EJOKMJ.pdf",
+        "Not Listed",
+        "Not Listed",
+        "Closure color is not listed or visible in the ILS certificate.",
+        "Identity confirmed; HPLC purity 98.64%; net content 51.12 mg. Heavy metals PASS/not detected; sterility PCR: No Growth; endotoxin reported below commonly referenced thresholds. ILS access code 6ZNHW4J7."
+      ],
+      [
+        "COA-0065",
+        "AOD-9604",
+        "Metabolic / Fat Loss",
+        10,
+        10.28,
+        0.27999999999999936,
+        0.027999999999999935,
+        99.21,
+        "AO17010",
+        "ILS Labs",
+        "On label",
+        "08/17/2026",
+        "COA-0065",
+        "COA-2026-ROTJUV",
+        "DNPTRN59",
+        "Local PDF: assets/coa/documents/ils-laboratories/aod-9604/aod-9604-10mg-2026-17-08-COA-2026-ROTJUV.pdf",
+        "Not Listed",
+        "Not Listed",
+        "Closure color is not listed or visible in the ILS certificate.",
+        "Identity confirmed; HPLC purity 99.21%; net content 10.28 mg. Heavy metals PASS/not detected; sterility PCR: No Growth; endotoxin reported below commonly referenced thresholds. ILS access code DNPTRN59."
+      ],
+      [
+        "COA-0066",
+        "BPC-157",
+        "Healing / Recovery",
+        10,
+        10.28,
+        0.27999999999999936,
+        0.027999999999999935,
+        99.72,
+        "BP17010",
+        "ILS Labs",
+        "On label",
+        "08/17/2026",
+        "COA-0066",
+        "COA-2026-Z7QL5L",
+        "EQBA5TGZ",
+        "Local PDF: assets/coa/documents/ils-laboratories/bpc-157/bpc-157-10mg-2026-17-08-COA-2026-Z7QL5L.pdf",
+        "Not Listed",
+        "Not Listed",
+        "Closure color is not listed or visible in the ILS certificate.",
+        "Identity confirmed; HPLC purity 99.72%; net content 10.28 mg. Heavy metals PASS/not detected; sterility PCR: No Growth; endotoxin reported below commonly referenced thresholds. ILS access code EQBA5TGZ."
+      ],
+      [
+        "COA-0067",
+        "BPC-157 / TB-500",
+        "Healing / Recovery Blend",
+        20,
+        20.93,
+        0.9299999999999997,
+        0.046499999999999986,
+        99.7,
+        "BB27010",
+        "ILS Labs",
+        "On label",
+        "08/29/2026",
+        "COA-0067",
+        "COA-2026-UCXARI",
+        "H7A2Z82K",
+        "Local PDF: assets/coa/documents/ils-laboratories/bpc-157-tb-500/bpc-157-tb-500-20mg-2026-29-08-COA-2026-UCXARI.pdf",
+        "Not Listed",
+        "Not Listed",
+        "Closure color is not listed or visible in the ILS certificate.",
+        "Identity confirmed; HPLC purity 99.7%; net content 20.93 mg. Heavy metals PASS/not detected; sterility PCR: No Growth; endotoxin reported below commonly referenced thresholds. ILS access code H7A2Z82K."
+      ],
+      [
+        "COA-0068",
+        "CJC-1295 / Ipamorelin",
+        "Growth Hormone Support Blend",
+        10,
+        10.47,
+        0.47000000000000064,
+        0.04700000000000006,
+        99.78,
+        "CP17010",
+        "ILS Labs",
+        "On label",
+        "08/17/2026",
+        "COA-0068",
+        "COA-2026-OQ2KI5",
+        "VRDU58EW",
+        "Local PDF: assets/coa/documents/ils-laboratories/cjc-1295-ipamorelin/cjc-1295-ipamorelin-10mg-2026-17-08-COA-2026-OQ2KI5.pdf",
+        "Not Listed",
+        "Not Listed",
+        "Closure color is not listed or visible in the ILS certificate.",
+        "Identity confirmed; HPLC purity 99.78%; net content 10.47 mg. Heavy metals PASS/not detected; sterility PCR: No Growth; endotoxin reported below commonly referenced thresholds. ILS access code VRDU58EW."
+      ],
+      [
+        "COA-0069",
+        "GHK-Cu",
+        "Cosmetic / Skin Research",
+        50,
+        52.21,
+        2.210000000000001,
+        0.04420000000000002,
+        99.85,
+        "CU57010",
+        "ILS Labs",
+        "On label",
+        "08/17/2026",
+        "COA-0069",
+        "COA-2026-TDLWNC",
+        "3SDBWEB6",
+        "Local PDF: assets/coa/documents/ils-laboratories/ghk-cu/ghk-cu-50mg-2026-17-08-COA-2026-TDLWNC.pdf",
+        "Not Listed",
+        "Not Listed",
+        "Closure color is not listed or visible in the ILS certificate.",
+        "Identity confirmed; HPLC purity 99.85%; net content 52.21 mg. Heavy metals PASS/not detected; sterility PCR: No Growth; endotoxin reported below commonly referenced thresholds. ILS access code 3SDBWEB6."
+      ],
+      [
+        "COA-0070",
+        "GLOW",
+        "Healing / Recovery Blend",
+        70,
+        72.68,
+        2.680000000000007,
+        0.03828571428571438,
+        99.84,
+        "GL77010",
+        "ILS Labs",
+        "On label",
+        "08/28/2026",
+        "COA-0070",
+        "COA-2026-3WIKDU",
+        "CAB37LKM",
+        "Local PDF: assets/coa/documents/ils-laboratories/glow/glow-70mg-2026-28-08-COA-2026-3WIKDU.pdf",
+        "Not Listed",
+        "Not Listed",
+        "Closure color is not listed or visible in the ILS certificate.",
+        "Identity confirmed; HPLC purity 99.84%; net content 72.68 mg. Heavy metals PASS/not detected; sterility PCR: No Growth; endotoxin reported below commonly referenced thresholds. ILS access code CAB37LKM."
+      ],
+      [
+        "COA-0071",
+        "KLOW",
+        "Healing / Recovery Blend",
+        80,
+        82.72,
+        2.719999999999999,
+        0.03399999999999999,
+        99.79,
+        "KL87010",
+        "ILS Labs",
+        "On label",
+        "08/28/2026",
+        "COA-0071",
+        "COA-2026-LSUN2F",
+        "GRD4V5KA",
+        "Local PDF: assets/coa/documents/ils-laboratories/klow/klow-80mg-2026-28-08-COA-2026-LSUN2F.pdf",
+        "Not Listed",
+        "Not Listed",
+        "Closure color is not listed or visible in the ILS certificate.",
+        "Identity confirmed; HPLC purity 99.79%; net content 82.72 mg. Heavy metals PASS/not detected; sterility PCR: No Growth; endotoxin reported below commonly referenced thresholds. ILS access code GRD4V5KA."
+      ],
+      [
+        "COA-0072",
+        "KPV",
+        "Healing / Anti-Inflammatory Research",
+        10,
+        10.23,
+        0.23000000000000043,
+        0.02300000000000004,
+        99.25,
+        "KP17010",
+        "ILS Labs",
+        "On label",
+        "08/17/2026",
+        "COA-0072",
+        "COA-2026-AFZSKR",
+        "XXW57EWE",
+        "Local PDF: assets/coa/documents/ils-laboratories/kpv/kpv-10mg-2026-17-08-COA-2026-AFZSKR.pdf",
+        "Not Listed",
+        "Not Listed",
+        "Closure color is not listed or visible in the ILS certificate.",
+        "Identity confirmed; HPLC purity 99.25%; net content 10.23 mg. Heavy metals PASS/not detected; sterility PCR: No Growth; endotoxin reported below commonly referenced thresholds. ILS access code XXW57EWE."
+      ],
+      [
+        "COA-0073",
+        "MOTS-C",
+        "Metabolic / Mitochondrial Research",
+        10,
+        10.42,
+        0.41999999999999993,
+        0.041999999999999996,
+        99.08,
+        "MS17010",
+        "ILS Labs",
+        "On label",
+        "08/17/2026",
+        "COA-0073",
+        "COA-2026-ACXQT9",
+        "26KYBWZX",
+        "Local PDF: assets/coa/documents/ils-laboratories/mots-c/mots-c-10mg-2026-17-08-COA-2026-ACXQT9.pdf",
+        "Not Listed",
+        "Not Listed",
+        "Closure color is not listed or visible in the ILS certificate.",
+        "Identity confirmed; HPLC purity 99.08%; net content 10.42 mg. Heavy metals PASS/not detected; sterility PCR: No Growth; endotoxin reported below commonly referenced thresholds. ILS access code 26KYBWZX."
+      ],
+      [
+        "COA-0074",
+        "MOTS-C",
+        "Metabolic / Mitochondrial Research",
+        40,
+        41.09,
+        1.0900000000000034,
+        0.027250000000000087,
+        99.3,
+        "MS47010",
+        "ILS Labs",
+        "On label",
+        "08/17/2026",
+        "COA-0074",
+        "COA-2026-R9ZNBR",
+        "SQG57YUA",
+        "Local PDF: assets/coa/documents/ils-laboratories/mots-c/mots-c-40mg-2026-17-08-COA-2026-R9ZNBR.pdf",
+        "Not Listed",
+        "Not Listed",
+        "Closure color is not listed or visible in the ILS certificate.",
+        "Identity confirmed; HPLC purity 99.3%; net content 41.09 mg. Heavy metals PASS/not detected; sterility PCR: No Growth; endotoxin reported below commonly referenced thresholds. ILS access code SQG57YUA."
+      ],
+      [
+        "COA-0075",
+        "Melanotan II",
+        "Pigmentation / Research",
+        10,
+        10.34,
+        0.33999999999999986,
+        0.03399999999999999,
+        99.71,
+        "M217010",
+        "ILS Labs",
+        "On label",
+        "08/17/2026",
+        "COA-0075",
+        "COA-2026-KUYUM8",
+        "YL6Z7HBG",
+        "Local PDF: assets/coa/documents/ils-laboratories/melanotan-ii/melanotan-ii-10mg-2026-17-08-COA-2026-KUYUM8.pdf",
+        "Not Listed",
+        "Not Listed",
+        "Closure color is not listed or visible in the ILS certificate.",
+        "Identity confirmed; HPLC purity 99.71%; net content 10.34 mg. Heavy metals PASS/not detected; sterility PCR: No Growth; endotoxin reported below commonly referenced thresholds. ILS access code YL6Z7HBG."
+      ],
+      [
+        "COA-0076",
+        "NAD+",
+        "Cellular / Metabolic Research",
+        1000,
+        1047.39,
+        47.3900000000001,
+        0.0473900000000001,
+        99.26,
+        "ND17010",
+        "ILS Labs",
+        "On label",
+        "08/18/2026",
+        "COA-0076",
+        "COA-2026-DKRX4K",
+        "EKUVZRXB",
+        "Local PDF: assets/coa/documents/ils-laboratories/nadplus/nadplus-1000mg-2026-18-08-COA-2026-DKRX4K.pdf",
+        "Not Listed",
+        "Not Listed",
+        "Closure color is not listed or visible in the ILS certificate.",
+        "Identity confirmed; HPLC purity 99.26%; net content 1047.39 mg. Heavy metals PASS/not detected; sterility PCR: No Growth; endotoxin reported below commonly referenced thresholds. ILS access code EKUVZRXB."
+      ],
+      [
+        "COA-0077",
+        "Retatrutide",
+        "GLP-1 / Weight Research",
+        10,
+        10.64,
+        0.6400000000000006,
+        0.06400000000000006,
+        99.4,
+        "RT17010",
+        "ILS Labs",
+        "Overfilled",
+        "08/17/2026",
+        "COA-0077",
+        "COA-2026-Z9OQUX",
+        "6DGZ93CS",
+        "Local PDF: assets/coa/documents/ils-laboratories/retatrutide/retatrutide-10mg-2026-17-08-COA-2026-Z9OQUX.pdf",
+        "Not Listed",
+        "Not Listed",
+        "Closure color is not listed or visible in the ILS certificate.",
+        "Identity confirmed; HPLC purity 99.4%; net content 10.64 mg. Heavy metals PASS/not detected; sterility PCR: No Growth; endotoxin reported below commonly referenced thresholds. ILS access code 6DGZ93CS."
+      ],
+      [
+        "COA-0078",
+        "Retatrutide",
+        "GLP-1 / Weight Research",
+        20,
+        21.38,
+        1.379999999999999,
+        0.06899999999999995,
+        99.79,
+        "RT27010",
+        "ILS Labs",
+        "Overfilled",
+        "08/17/2026",
+        "COA-0078",
+        "COA-2026-KZYMNQ",
+        "6V3BNXVB",
+        "Local PDF: assets/coa/documents/ils-laboratories/retatrutide/retatrutide-20mg-2026-17-08-COA-2026-KZYMNQ.pdf",
+        "Not Listed",
+        "Not Listed",
+        "Closure color is not listed or visible in the ILS certificate.",
+        "Identity confirmed; HPLC purity 99.79%; net content 21.38 mg. Heavy metals PASS/not detected; sterility PCR: No Growth; endotoxin reported below commonly referenced thresholds. ILS access code 6V3BNXVB."
+      ],
+      [
+        "COA-0079",
+        "SS-31",
+        "Metabolic / Mitochondrial Research",
+        10,
+        10.7,
+        0.6999999999999993,
+        0.06999999999999992,
+        99.53,
+        "2S17010",
+        "ILS Labs",
+        "Overfilled",
+        "08/17/2026",
+        "COA-0079",
+        "COA-2026-HEII-X",
+        "KSU4VSE7",
+        "Local PDF: assets/coa/documents/ils-laboratories/ss-31/ss-31-10mg-2026-17-08-COA-2026-HEII-X.pdf",
+        "Not Listed",
+        "Not Listed",
+        "Closure color is not listed or visible in the ILS certificate.",
+        "Identity confirmed; HPLC purity 99.53%; net content 10.7 mg. Heavy metals PASS/not detected; sterility PCR: No Growth; endotoxin reported below commonly referenced thresholds. ILS access code KSU4VSE7."
+      ],
+      [
+        "COA-0080",
+        "Selank",
+        "Nootropic / Research",
+        10,
+        10.66,
+        0.6600000000000001,
+        0.06600000000000002,
+        99.57,
+        "SK17010",
+        "ILS Labs",
+        "Overfilled",
+        "08/17/2026",
+        "COA-0080",
+        "COA-2026-REDEV3",
+        "JBYELVFU",
+        "Local PDF: assets/coa/documents/ils-laboratories/selank/selank-10mg-2026-17-08-COA-2026-REDEV3.pdf",
+        "Not Listed",
+        "Not Listed",
+        "Closure color is not listed or visible in the ILS certificate.",
+        "Identity confirmed; HPLC purity 99.57%; net content 10.66 mg. Heavy metals PASS/not detected; sterility PCR: No Growth; endotoxin reported below commonly referenced thresholds. ILS access code JBYELVFU."
+      ],
+      [
+        "COA-0081",
+        "Semax",
+        "Nootropic / Research",
+        10,
+        10.5,
+        0.5,
+        0.05,
+        99.58,
+        "XA17010",
+        "ILS Labs",
+        "On label",
+        "08/17/2026",
+        "COA-0081",
+        "COA-2026-WIQN-5",
+        "6293KLTS",
+        "Local PDF: assets/coa/documents/ils-laboratories/semax/semax-10mg-2026-17-08-COA-2026-WIQN-5.pdf",
+        "Not Listed",
+        "Not Listed",
+        "Closure color is not listed or visible in the ILS certificate.",
+        "Identity confirmed; HPLC purity 99.58%; net content 10.5 mg. Heavy metals PASS/not detected; sterility PCR: No Growth; endotoxin reported below commonly referenced thresholds. ILS access code 6293KLTS."
+      ],
+      [
+        "COA-0082",
+        "TB-500",
+        "Healing / Recovery",
+        10,
+        10.42,
+        0.41999999999999993,
+        0.041999999999999996,
+        99.58,
+        "TB17010",
+        "ILS Labs",
+        "On label",
+        "08/17/2026",
+        "COA-0082",
+        "COA-2026-HJIIFD",
+        "BF6T52B4",
+        "Local PDF: assets/coa/documents/ils-laboratories/tb-500/tb-500-10mg-2026-17-08-COA-2026-HJIIFD.pdf",
+        "Not Listed",
+        "Not Listed",
+        "Closure color is not listed or visible in the ILS certificate.",
+        "Identity confirmed; HPLC purity 99.58%; net content 10.42 mg. Heavy metals PASS/not detected; sterility PCR: No Growth; endotoxin reported below commonly referenced thresholds. ILS access code BF6T52B4."
+      ],
+      [
+        "COA-0083",
+        "Tesamorelin",
+        "Growth Hormone Support",
+        10,
+        10.24,
+        0.2400000000000002,
+        0.02400000000000002,
+        99.36,
+        "TS17010",
+        "ILS Labs",
+        "On label",
+        "08/17/2026",
+        "COA-0083",
+        "COA-2026-PDCJIS",
+        "U5SWVSHY",
+        "Local PDF: assets/coa/documents/ils-laboratories/tesamorelin/tesamorelin-10mg-2026-17-08-COA-2026-PDCJIS.pdf",
+        "Not Listed",
+        "Not Listed",
+        "Closure color is not listed or visible in the ILS certificate.",
+        "Identity confirmed; HPLC purity 99.36%; net content 10.24 mg. Heavy metals PASS/not detected; sterility PCR: No Growth; endotoxin reported below commonly referenced thresholds. ILS access code U5SWVSHY."
+      ],
+      [
+        "COA-0084",
+        "Tirzepatide",
+        "GLP-1 / Weight Research",
+        20,
+        21.1,
+        1.1000000000000014,
+        0.05500000000000007,
+        99.71,
+        "TR27010",
+        "ILS Labs",
+        "Overfilled",
+        "08/17/2026",
+        "COA-0084",
+        "COA-2026-4K8S-R",
+        "AGBSBU2E",
+        "Local PDF: assets/coa/documents/ils-laboratories/tirzepatide/tirzepatide-20mg-2026-17-08-COA-2026-4K8S-R.pdf",
+        "Not Listed",
+        "Not Listed",
+        "Closure color is not listed or visible in the ILS certificate.",
+        "Identity confirmed; HPLC purity 99.71%; net content 21.1 mg. Heavy metals PASS/not detected; sterility PCR: No Growth; endotoxin reported below commonly referenced thresholds. ILS access code AGBSBU2E."
+      ],
+      [
+        "COA-0085",
+        "Tirzepatide",
+        "GLP-1 / Weight Research",
+        40,
+        41.14,
+        1.1400000000000006,
+        0.028500000000000015,
+        99.9,
+        "TR47010",
+        "ILS Labs",
+        "On label",
+        "08/17/2026",
+        "COA-0085",
+        "COA-2026-GRQZYH",
+        "UYWCCYSG",
+        "Local PDF: assets/coa/documents/ils-laboratories/tirzepatide/tirzepatide-40mg-2026-17-08-COA-2026-GRQZYH.pdf",
+        "Not Listed",
+        "Not Listed",
+        "Closure color is not listed or visible in the ILS certificate.",
+        "Identity confirmed; HPLC purity 99.9%; net content 41.14 mg. Heavy metals PASS/not detected; sterility PCR: No Growth; endotoxin reported below commonly referenced thresholds. ILS access code UYWCCYSG."
       ]
     ],
     "Certificates": [
@@ -6790,7 +8400,7 @@
         "COA-0045",
         "CJC-1295",
         "GHRH analog",
-        "ILS Laboratories",
+        "ILS Labs",
         "Redacted",
         "Redacted",
         "Local PDF: assets/coa/documents/ils-laboratories/cjc-1295/CJC-1295-10mg-2026-07-31-ILS.pdf",
@@ -7199,6 +8809,535 @@
         "Silver",
         "Blue",
         "Blue flip-off cap with silver aluminum crimp, as listed in the COA."
+      ],
+      [
+        "COA-0063",
+        "5-Amino-1MQ",
+        "Metabolic / Research",
+        "ILS Labs",
+        "COA-2026-KE5SLN",
+        "GJA8JYCE",
+        "Local PDF: assets/coa/documents/ils-laboratories/5-amino-1mq/5-amino-1mq-5mg-2026-29-08-COA-2026-KE5SLN.pdf",
+        "Confirmed",
+        5,
+        5.27,
+        0.2699999999999996,
+        0.053999999999999916,
+        99.93,
+        "Overfilled",
+        "5AM7010",
+        "08/29/2026",
+        "Pass",
+        "Identity confirmed; HPLC purity 99.93%; net content 5.27 mg. Heavy metals PASS/not detected; sterility PCR: No Growth; endotoxin reported below commonly referenced thresholds. ILS access code GJA8JYCE.",
+        "Not Listed",
+        "Not Listed",
+        "Closure color is not listed or visible in the ILS certificate."
+      ],
+      [
+        "COA-0064",
+        "AHK-Cu",
+        "Cosmetic / Skin Research",
+        "ILS Labs",
+        "COA-2026-EJOKMJ",
+        "6ZNHW4J7",
+        "Local PDF: assets/coa/documents/ils-laboratories/ahk-cu/ahk-cu-50mg-2026-17-08-COA-2026-EJOKMJ.pdf",
+        "Confirmed",
+        50,
+        51.12,
+        1.1199999999999974,
+        0.022399999999999948,
+        98.64,
+        "On label",
+        "AH57010",
+        "08/17/2026",
+        "Pass",
+        "Identity confirmed; HPLC purity 98.64%; net content 51.12 mg. Heavy metals PASS/not detected; sterility PCR: No Growth; endotoxin reported below commonly referenced thresholds. ILS access code 6ZNHW4J7.",
+        "Not Listed",
+        "Not Listed",
+        "Closure color is not listed or visible in the ILS certificate."
+      ],
+      [
+        "COA-0065",
+        "AOD-9604",
+        "Metabolic / Fat Loss",
+        "ILS Labs",
+        "COA-2026-ROTJUV",
+        "DNPTRN59",
+        "Local PDF: assets/coa/documents/ils-laboratories/aod-9604/aod-9604-10mg-2026-17-08-COA-2026-ROTJUV.pdf",
+        "Confirmed",
+        10,
+        10.28,
+        0.27999999999999936,
+        0.027999999999999935,
+        99.21,
+        "On label",
+        "AO17010",
+        "08/17/2026",
+        "Pass",
+        "Identity confirmed; HPLC purity 99.21%; net content 10.28 mg. Heavy metals PASS/not detected; sterility PCR: No Growth; endotoxin reported below commonly referenced thresholds. ILS access code DNPTRN59.",
+        "Not Listed",
+        "Not Listed",
+        "Closure color is not listed or visible in the ILS certificate."
+      ],
+      [
+        "COA-0066",
+        "BPC-157",
+        "Healing / Recovery",
+        "ILS Labs",
+        "COA-2026-Z7QL5L",
+        "EQBA5TGZ",
+        "Local PDF: assets/coa/documents/ils-laboratories/bpc-157/bpc-157-10mg-2026-17-08-COA-2026-Z7QL5L.pdf",
+        "Confirmed",
+        10,
+        10.28,
+        0.27999999999999936,
+        0.027999999999999935,
+        99.72,
+        "On label",
+        "BP17010",
+        "08/17/2026",
+        "Pass",
+        "Identity confirmed; HPLC purity 99.72%; net content 10.28 mg. Heavy metals PASS/not detected; sterility PCR: No Growth; endotoxin reported below commonly referenced thresholds. ILS access code EQBA5TGZ.",
+        "Not Listed",
+        "Not Listed",
+        "Closure color is not listed or visible in the ILS certificate."
+      ],
+      [
+        "COA-0067",
+        "BPC-157 / TB-500",
+        "Healing / Recovery Blend",
+        "ILS Labs",
+        "COA-2026-UCXARI",
+        "H7A2Z82K",
+        "Local PDF: assets/coa/documents/ils-laboratories/bpc-157-tb-500/bpc-157-tb-500-20mg-2026-29-08-COA-2026-UCXARI.pdf",
+        "Confirmed",
+        20,
+        20.93,
+        0.9299999999999997,
+        0.046499999999999986,
+        99.7,
+        "On label",
+        "BB27010",
+        "08/29/2026",
+        "Pass",
+        "Identity confirmed; HPLC purity 99.7%; net content 20.93 mg. Heavy metals PASS/not detected; sterility PCR: No Growth; endotoxin reported below commonly referenced thresholds. ILS access code H7A2Z82K.",
+        "Not Listed",
+        "Not Listed",
+        "Closure color is not listed or visible in the ILS certificate."
+      ],
+      [
+        "COA-0068",
+        "CJC-1295 / Ipamorelin",
+        "Growth Hormone Support Blend",
+        "ILS Labs",
+        "COA-2026-OQ2KI5",
+        "VRDU58EW",
+        "Local PDF: assets/coa/documents/ils-laboratories/cjc-1295-ipamorelin/cjc-1295-ipamorelin-10mg-2026-17-08-COA-2026-OQ2KI5.pdf",
+        "Confirmed",
+        10,
+        10.47,
+        0.47000000000000064,
+        0.04700000000000006,
+        99.78,
+        "On label",
+        "CP17010",
+        "08/17/2026",
+        "Pass",
+        "Identity confirmed; HPLC purity 99.78%; net content 10.47 mg. Heavy metals PASS/not detected; sterility PCR: No Growth; endotoxin reported below commonly referenced thresholds. ILS access code VRDU58EW.",
+        "Not Listed",
+        "Not Listed",
+        "Closure color is not listed or visible in the ILS certificate."
+      ],
+      [
+        "COA-0069",
+        "GHK-Cu",
+        "Cosmetic / Skin Research",
+        "ILS Labs",
+        "COA-2026-TDLWNC",
+        "3SDBWEB6",
+        "Local PDF: assets/coa/documents/ils-laboratories/ghk-cu/ghk-cu-50mg-2026-17-08-COA-2026-TDLWNC.pdf",
+        "Confirmed",
+        50,
+        52.21,
+        2.210000000000001,
+        0.04420000000000002,
+        99.85,
+        "On label",
+        "CU57010",
+        "08/17/2026",
+        "Pass",
+        "Identity confirmed; HPLC purity 99.85%; net content 52.21 mg. Heavy metals PASS/not detected; sterility PCR: No Growth; endotoxin reported below commonly referenced thresholds. ILS access code 3SDBWEB6.",
+        "Not Listed",
+        "Not Listed",
+        "Closure color is not listed or visible in the ILS certificate."
+      ],
+      [
+        "COA-0070",
+        "GLOW",
+        "Healing / Recovery Blend",
+        "ILS Labs",
+        "COA-2026-3WIKDU",
+        "CAB37LKM",
+        "Local PDF: assets/coa/documents/ils-laboratories/glow/glow-70mg-2026-28-08-COA-2026-3WIKDU.pdf",
+        "Confirmed",
+        70,
+        72.68,
+        2.680000000000007,
+        0.03828571428571438,
+        99.84,
+        "On label",
+        "GL77010",
+        "08/28/2026",
+        "Pass",
+        "Identity confirmed; HPLC purity 99.84%; net content 72.68 mg. Heavy metals PASS/not detected; sterility PCR: No Growth; endotoxin reported below commonly referenced thresholds. ILS access code CAB37LKM.",
+        "Not Listed",
+        "Not Listed",
+        "Closure color is not listed or visible in the ILS certificate."
+      ],
+      [
+        "COA-0071",
+        "KLOW",
+        "Healing / Recovery Blend",
+        "ILS Labs",
+        "COA-2026-LSUN2F",
+        "GRD4V5KA",
+        "Local PDF: assets/coa/documents/ils-laboratories/klow/klow-80mg-2026-28-08-COA-2026-LSUN2F.pdf",
+        "Confirmed",
+        80,
+        82.72,
+        2.719999999999999,
+        0.03399999999999999,
+        99.79,
+        "On label",
+        "KL87010",
+        "08/28/2026",
+        "Pass",
+        "Identity confirmed; HPLC purity 99.79%; net content 82.72 mg. Heavy metals PASS/not detected; sterility PCR: No Growth; endotoxin reported below commonly referenced thresholds. ILS access code GRD4V5KA.",
+        "Not Listed",
+        "Not Listed",
+        "Closure color is not listed or visible in the ILS certificate."
+      ],
+      [
+        "COA-0072",
+        "KPV",
+        "Healing / Anti-Inflammatory Research",
+        "ILS Labs",
+        "COA-2026-AFZSKR",
+        "XXW57EWE",
+        "Local PDF: assets/coa/documents/ils-laboratories/kpv/kpv-10mg-2026-17-08-COA-2026-AFZSKR.pdf",
+        "Confirmed",
+        10,
+        10.23,
+        0.23000000000000043,
+        0.02300000000000004,
+        99.25,
+        "On label",
+        "KP17010",
+        "08/17/2026",
+        "Pass",
+        "Identity confirmed; HPLC purity 99.25%; net content 10.23 mg. Heavy metals PASS/not detected; sterility PCR: No Growth; endotoxin reported below commonly referenced thresholds. ILS access code XXW57EWE.",
+        "Not Listed",
+        "Not Listed",
+        "Closure color is not listed or visible in the ILS certificate."
+      ],
+      [
+        "COA-0073",
+        "MOTS-C",
+        "Metabolic / Mitochondrial Research",
+        "ILS Labs",
+        "COA-2026-ACXQT9",
+        "26KYBWZX",
+        "Local PDF: assets/coa/documents/ils-laboratories/mots-c/mots-c-10mg-2026-17-08-COA-2026-ACXQT9.pdf",
+        "Confirmed",
+        10,
+        10.42,
+        0.41999999999999993,
+        0.041999999999999996,
+        99.08,
+        "On label",
+        "MS17010",
+        "08/17/2026",
+        "Pass",
+        "Identity confirmed; HPLC purity 99.08%; net content 10.42 mg. Heavy metals PASS/not detected; sterility PCR: No Growth; endotoxin reported below commonly referenced thresholds. ILS access code 26KYBWZX.",
+        "Not Listed",
+        "Not Listed",
+        "Closure color is not listed or visible in the ILS certificate."
+      ],
+      [
+        "COA-0074",
+        "MOTS-C",
+        "Metabolic / Mitochondrial Research",
+        "ILS Labs",
+        "COA-2026-R9ZNBR",
+        "SQG57YUA",
+        "Local PDF: assets/coa/documents/ils-laboratories/mots-c/mots-c-40mg-2026-17-08-COA-2026-R9ZNBR.pdf",
+        "Confirmed",
+        40,
+        41.09,
+        1.0900000000000034,
+        0.027250000000000087,
+        99.3,
+        "On label",
+        "MS47010",
+        "08/17/2026",
+        "Pass",
+        "Identity confirmed; HPLC purity 99.3%; net content 41.09 mg. Heavy metals PASS/not detected; sterility PCR: No Growth; endotoxin reported below commonly referenced thresholds. ILS access code SQG57YUA.",
+        "Not Listed",
+        "Not Listed",
+        "Closure color is not listed or visible in the ILS certificate."
+      ],
+      [
+        "COA-0075",
+        "Melanotan II",
+        "Pigmentation / Research",
+        "ILS Labs",
+        "COA-2026-KUYUM8",
+        "YL6Z7HBG",
+        "Local PDF: assets/coa/documents/ils-laboratories/melanotan-ii/melanotan-ii-10mg-2026-17-08-COA-2026-KUYUM8.pdf",
+        "Confirmed",
+        10,
+        10.34,
+        0.33999999999999986,
+        0.03399999999999999,
+        99.71,
+        "On label",
+        "M217010",
+        "08/17/2026",
+        "Pass",
+        "Identity confirmed; HPLC purity 99.71%; net content 10.34 mg. Heavy metals PASS/not detected; sterility PCR: No Growth; endotoxin reported below commonly referenced thresholds. ILS access code YL6Z7HBG.",
+        "Not Listed",
+        "Not Listed",
+        "Closure color is not listed or visible in the ILS certificate."
+      ],
+      [
+        "COA-0076",
+        "NAD+",
+        "Cellular / Metabolic Research",
+        "ILS Labs",
+        "COA-2026-DKRX4K",
+        "EKUVZRXB",
+        "Local PDF: assets/coa/documents/ils-laboratories/nadplus/nadplus-1000mg-2026-18-08-COA-2026-DKRX4K.pdf",
+        "Confirmed",
+        1000,
+        1047.39,
+        47.3900000000001,
+        0.0473900000000001,
+        99.26,
+        "On label",
+        "ND17010",
+        "08/18/2026",
+        "Pass",
+        "Identity confirmed; HPLC purity 99.26%; net content 1047.39 mg. Heavy metals PASS/not detected; sterility PCR: No Growth; endotoxin reported below commonly referenced thresholds. ILS access code EKUVZRXB.",
+        "Not Listed",
+        "Not Listed",
+        "Closure color is not listed or visible in the ILS certificate."
+      ],
+      [
+        "COA-0077",
+        "Retatrutide",
+        "GLP-1 / Weight Research",
+        "ILS Labs",
+        "COA-2026-Z9OQUX",
+        "6DGZ93CS",
+        "Local PDF: assets/coa/documents/ils-laboratories/retatrutide/retatrutide-10mg-2026-17-08-COA-2026-Z9OQUX.pdf",
+        "Confirmed",
+        10,
+        10.64,
+        0.6400000000000006,
+        0.06400000000000006,
+        99.4,
+        "Overfilled",
+        "RT17010",
+        "08/17/2026",
+        "Pass",
+        "Identity confirmed; HPLC purity 99.4%; net content 10.64 mg. Heavy metals PASS/not detected; sterility PCR: No Growth; endotoxin reported below commonly referenced thresholds. ILS access code 6DGZ93CS.",
+        "Not Listed",
+        "Not Listed",
+        "Closure color is not listed or visible in the ILS certificate."
+      ],
+      [
+        "COA-0078",
+        "Retatrutide",
+        "GLP-1 / Weight Research",
+        "ILS Labs",
+        "COA-2026-KZYMNQ",
+        "6V3BNXVB",
+        "Local PDF: assets/coa/documents/ils-laboratories/retatrutide/retatrutide-20mg-2026-17-08-COA-2026-KZYMNQ.pdf",
+        "Confirmed",
+        20,
+        21.38,
+        1.379999999999999,
+        0.06899999999999995,
+        99.79,
+        "Overfilled",
+        "RT27010",
+        "08/17/2026",
+        "Pass",
+        "Identity confirmed; HPLC purity 99.79%; net content 21.38 mg. Heavy metals PASS/not detected; sterility PCR: No Growth; endotoxin reported below commonly referenced thresholds. ILS access code 6V3BNXVB.",
+        "Not Listed",
+        "Not Listed",
+        "Closure color is not listed or visible in the ILS certificate."
+      ],
+      [
+        "COA-0079",
+        "SS-31",
+        "Metabolic / Mitochondrial Research",
+        "ILS Labs",
+        "COA-2026-HEII-X",
+        "KSU4VSE7",
+        "Local PDF: assets/coa/documents/ils-laboratories/ss-31/ss-31-10mg-2026-17-08-COA-2026-HEII-X.pdf",
+        "Confirmed",
+        10,
+        10.7,
+        0.6999999999999993,
+        0.06999999999999992,
+        99.53,
+        "Overfilled",
+        "2S17010",
+        "08/17/2026",
+        "Pass",
+        "Identity confirmed; HPLC purity 99.53%; net content 10.7 mg. Heavy metals PASS/not detected; sterility PCR: No Growth; endotoxin reported below commonly referenced thresholds. ILS access code KSU4VSE7.",
+        "Not Listed",
+        "Not Listed",
+        "Closure color is not listed or visible in the ILS certificate."
+      ],
+      [
+        "COA-0080",
+        "Selank",
+        "Nootropic / Research",
+        "ILS Labs",
+        "COA-2026-REDEV3",
+        "JBYELVFU",
+        "Local PDF: assets/coa/documents/ils-laboratories/selank/selank-10mg-2026-17-08-COA-2026-REDEV3.pdf",
+        "Confirmed",
+        10,
+        10.66,
+        0.6600000000000001,
+        0.06600000000000002,
+        99.57,
+        "Overfilled",
+        "SK17010",
+        "08/17/2026",
+        "Pass",
+        "Identity confirmed; HPLC purity 99.57%; net content 10.66 mg. Heavy metals PASS/not detected; sterility PCR: No Growth; endotoxin reported below commonly referenced thresholds. ILS access code JBYELVFU.",
+        "Not Listed",
+        "Not Listed",
+        "Closure color is not listed or visible in the ILS certificate."
+      ],
+      [
+        "COA-0081",
+        "Semax",
+        "Nootropic / Research",
+        "ILS Labs",
+        "COA-2026-WIQN-5",
+        "6293KLTS",
+        "Local PDF: assets/coa/documents/ils-laboratories/semax/semax-10mg-2026-17-08-COA-2026-WIQN-5.pdf",
+        "Confirmed",
+        10,
+        10.5,
+        0.5,
+        0.05,
+        99.58,
+        "On label",
+        "XA17010",
+        "08/17/2026",
+        "Pass",
+        "Identity confirmed; HPLC purity 99.58%; net content 10.5 mg. Heavy metals PASS/not detected; sterility PCR: No Growth; endotoxin reported below commonly referenced thresholds. ILS access code 6293KLTS.",
+        "Not Listed",
+        "Not Listed",
+        "Closure color is not listed or visible in the ILS certificate."
+      ],
+      [
+        "COA-0082",
+        "TB-500",
+        "Healing / Recovery",
+        "ILS Labs",
+        "COA-2026-HJIIFD",
+        "BF6T52B4",
+        "Local PDF: assets/coa/documents/ils-laboratories/tb-500/tb-500-10mg-2026-17-08-COA-2026-HJIIFD.pdf",
+        "Confirmed",
+        10,
+        10.42,
+        0.41999999999999993,
+        0.041999999999999996,
+        99.58,
+        "On label",
+        "TB17010",
+        "08/17/2026",
+        "Pass",
+        "Identity confirmed; HPLC purity 99.58%; net content 10.42 mg. Heavy metals PASS/not detected; sterility PCR: No Growth; endotoxin reported below commonly referenced thresholds. ILS access code BF6T52B4.",
+        "Not Listed",
+        "Not Listed",
+        "Closure color is not listed or visible in the ILS certificate."
+      ],
+      [
+        "COA-0083",
+        "Tesamorelin",
+        "Growth Hormone Support",
+        "ILS Labs",
+        "COA-2026-PDCJIS",
+        "U5SWVSHY",
+        "Local PDF: assets/coa/documents/ils-laboratories/tesamorelin/tesamorelin-10mg-2026-17-08-COA-2026-PDCJIS.pdf",
+        "Confirmed",
+        10,
+        10.24,
+        0.2400000000000002,
+        0.02400000000000002,
+        99.36,
+        "On label",
+        "TS17010",
+        "08/17/2026",
+        "Pass",
+        "Identity confirmed; HPLC purity 99.36%; net content 10.24 mg. Heavy metals PASS/not detected; sterility PCR: No Growth; endotoxin reported below commonly referenced thresholds. ILS access code U5SWVSHY.",
+        "Not Listed",
+        "Not Listed",
+        "Closure color is not listed or visible in the ILS certificate."
+      ],
+      [
+        "COA-0084",
+        "Tirzepatide",
+        "GLP-1 / Weight Research",
+        "ILS Labs",
+        "COA-2026-4K8S-R",
+        "AGBSBU2E",
+        "Local PDF: assets/coa/documents/ils-laboratories/tirzepatide/tirzepatide-20mg-2026-17-08-COA-2026-4K8S-R.pdf",
+        "Confirmed",
+        20,
+        21.1,
+        1.1000000000000014,
+        0.05500000000000007,
+        99.71,
+        "Overfilled",
+        "TR27010",
+        "08/17/2026",
+        "Pass",
+        "Identity confirmed; HPLC purity 99.71%; net content 21.1 mg. Heavy metals PASS/not detected; sterility PCR: No Growth; endotoxin reported below commonly referenced thresholds. ILS access code AGBSBU2E.",
+        "Not Listed",
+        "Not Listed",
+        "Closure color is not listed or visible in the ILS certificate."
+      ],
+      [
+        "COA-0085",
+        "Tirzepatide",
+        "GLP-1 / Weight Research",
+        "ILS Labs",
+        "COA-2026-GRQZYH",
+        "UYWCCYSG",
+        "Local PDF: assets/coa/documents/ils-laboratories/tirzepatide/tirzepatide-40mg-2026-17-08-COA-2026-GRQZYH.pdf",
+        "Confirmed",
+        40,
+        41.14,
+        1.1400000000000006,
+        0.028500000000000015,
+        99.9,
+        "On label",
+        "TR47010",
+        "08/17/2026",
+        "Pass",
+        "Identity confirmed; HPLC purity 99.9%; net content 41.14 mg. Heavy metals PASS/not detected; sterility PCR: No Growth; endotoxin reported below commonly referenced thresholds. ILS access code UYWCCYSG.",
+        "Not Listed",
+        "Not Listed",
+        "Closure color is not listed or visible in the ILS certificate."
       ]
     ],
     "Lists": [
@@ -7547,7 +9686,7 @@
       ],
       [
         "Total COA/Test Records",
-        62,
+        85,
         "All records from COA Database",
         null,
         null,
@@ -7568,8 +9707,8 @@
       ],
       [
         "Unique Peptides",
-        27,
-        "5-Amino-1MQ, ADAMAX, AOD-9604, BPC-157, BPC-157 / TB-500 Blend, BPC/TB Blend, CJC-1295, CJC-1295 No DAC, CJC-1295 No DAC / Ipamorelin, Cagrilintide, DSIP, Eloralintide, GHK-Cu, Glutathione, Ipamorelin, KLOW 80mg, KPV, MOTS-C, NAD+, Retatrutide, SS-31, Semaglutide, Semax, Sermorelin, TB-500, Tesamorelin, Tirzepatide",
+        34,
+        "5-Amino-1MQ, ADAMAX, AHK-Cu, AOD-9604, BPC-157, BPC-157 / TB-500, BPC-157 / TB-500 Blend, BPC/TB Blend, CJC-1295, CJC-1295 / Ipamorelin, CJC-1295 No DAC, CJC-1295 No DAC / Ipamorelin, Cagrilintide, DSIP, Eloralintide, GHK-Cu, GLOW, Glutathione, Ipamorelin, KLOW, KLOW 80mg, KPV, MOTS-C, Melanotan II, NAD+, Retatrutide, SS-31, Selank, Semaglutide, Semax, Sermorelin, TB-500, Tesamorelin, Tirzepatide",
         null,
         null,
         null,
@@ -7589,7 +9728,7 @@
       ],
       [
         "Passed Records",
-        62,
+        85,
         "Pass/Fail column",
         null,
         null,
@@ -7673,7 +9812,7 @@
       ],
       [
         "Average Purity %",
-        99.601,
+        99.585,
         "Based on populated purity values",
         null,
         null,
@@ -7695,7 +9834,7 @@
       [
         "Unique Labs",
         10,
-        "Aminos Analytics, BT Labs, Freedom Diagnostics, ILS Laboratories, Janoshik, Kovera Labs, Pristin Biotech, SteriGenix, Testides, Tianjin Qiangxin (third-party partner lab)",
+        "Aminos Analytics, BT Labs, Freedom Diagnostics, ILS Labs, Janoshik, Kovera Labs, Pristin Biotech, SteriGenix, Testides, Tianjin Qiangxin (third-party partner lab)",
         null,
         null,
         null,
@@ -7715,7 +9854,7 @@
       ],
       [
         "Last Test Date",
-        "2026-09-01",
+        "2026-08-31",
         "Most recent test date",
         null,
         null,
@@ -10561,7 +12700,7 @@
       ],
       [
         "Lab",
-        "ILS Laboratories"
+        "ILS Labs"
       ],
       [
         "COA #",
@@ -12140,6 +14279,1765 @@
       [
         "Source",
         "assets/coa/documents/sterigenix/ghk-cu/COA-RPT-2026-353561-SteriGenix.pdf"
+      ]
+    ],
+    "COA_COA_0063": [
+      [
+        "Field",
+        "Value"
+      ],
+      [
+        "COA ID",
+        "COA-0063"
+      ],
+      [
+        "Compound",
+        "5-Amino-1MQ"
+      ],
+      [
+        "Compound Type",
+        "Metabolic / Research"
+      ],
+      [
+        "Lab",
+        "ILS Labs"
+      ],
+      [
+        "Test Date",
+        "08/29/2026"
+      ],
+      [
+        "Report/Task #",
+        "COA-2026-KE5SLN"
+      ],
+      [
+        "Verification Key",
+        "GJA8JYCE"
+      ],
+      [
+        "Batch/Lot",
+        "5AM7010"
+      ],
+      [
+        "Labeled Qty (mg)",
+        5
+      ],
+      [
+        "Actual Content (mg)",
+        5.27
+      ],
+      [
+        "Purity %",
+        99.93
+      ],
+      [
+        "Status",
+        "Overfilled"
+      ],
+      [
+        "Cap Color",
+        "Not Listed"
+      ],
+      [
+        "Crimp Color",
+        "Not Listed"
+      ],
+      [
+        "Closure Notes",
+        "Closure color is not listed or visible in the ILS certificate."
+      ],
+      [
+        "Pass/Fail",
+        "Pass"
+      ],
+      [
+        "Source",
+        "assets/coa/documents/ils-laboratories/5-amino-1mq/5-amino-1mq-5mg-2026-29-08-COA-2026-KE5SLN.pdf"
+      ]
+    ],
+    "COA_COA_0064": [
+      [
+        "Field",
+        "Value"
+      ],
+      [
+        "COA ID",
+        "COA-0064"
+      ],
+      [
+        "Compound",
+        "AHK-Cu"
+      ],
+      [
+        "Compound Type",
+        "Cosmetic / Skin Research"
+      ],
+      [
+        "Lab",
+        "ILS Labs"
+      ],
+      [
+        "Test Date",
+        "08/17/2026"
+      ],
+      [
+        "Report/Task #",
+        "COA-2026-EJOKMJ"
+      ],
+      [
+        "Verification Key",
+        "6ZNHW4J7"
+      ],
+      [
+        "Batch/Lot",
+        "AH57010"
+      ],
+      [
+        "Labeled Qty (mg)",
+        50
+      ],
+      [
+        "Actual Content (mg)",
+        51.12
+      ],
+      [
+        "Purity %",
+        98.64
+      ],
+      [
+        "Status",
+        "On label"
+      ],
+      [
+        "Cap Color",
+        "Not Listed"
+      ],
+      [
+        "Crimp Color",
+        "Not Listed"
+      ],
+      [
+        "Closure Notes",
+        "Closure color is not listed or visible in the ILS certificate."
+      ],
+      [
+        "Pass/Fail",
+        "Pass"
+      ],
+      [
+        "Source",
+        "assets/coa/documents/ils-laboratories/ahk-cu/ahk-cu-50mg-2026-17-08-COA-2026-EJOKMJ.pdf"
+      ]
+    ],
+    "COA_COA_0065": [
+      [
+        "Field",
+        "Value"
+      ],
+      [
+        "COA ID",
+        "COA-0065"
+      ],
+      [
+        "Compound",
+        "AOD-9604"
+      ],
+      [
+        "Compound Type",
+        "Metabolic / Fat Loss"
+      ],
+      [
+        "Lab",
+        "ILS Labs"
+      ],
+      [
+        "Test Date",
+        "08/17/2026"
+      ],
+      [
+        "Report/Task #",
+        "COA-2026-ROTJUV"
+      ],
+      [
+        "Verification Key",
+        "DNPTRN59"
+      ],
+      [
+        "Batch/Lot",
+        "AO17010"
+      ],
+      [
+        "Labeled Qty (mg)",
+        10
+      ],
+      [
+        "Actual Content (mg)",
+        10.28
+      ],
+      [
+        "Purity %",
+        99.21
+      ],
+      [
+        "Status",
+        "On label"
+      ],
+      [
+        "Cap Color",
+        "Not Listed"
+      ],
+      [
+        "Crimp Color",
+        "Not Listed"
+      ],
+      [
+        "Closure Notes",
+        "Closure color is not listed or visible in the ILS certificate."
+      ],
+      [
+        "Pass/Fail",
+        "Pass"
+      ],
+      [
+        "Source",
+        "assets/coa/documents/ils-laboratories/aod-9604/aod-9604-10mg-2026-17-08-COA-2026-ROTJUV.pdf"
+      ]
+    ],
+    "COA_COA_0066": [
+      [
+        "Field",
+        "Value"
+      ],
+      [
+        "COA ID",
+        "COA-0066"
+      ],
+      [
+        "Compound",
+        "BPC-157"
+      ],
+      [
+        "Compound Type",
+        "Healing / Recovery"
+      ],
+      [
+        "Lab",
+        "ILS Labs"
+      ],
+      [
+        "Test Date",
+        "08/17/2026"
+      ],
+      [
+        "Report/Task #",
+        "COA-2026-Z7QL5L"
+      ],
+      [
+        "Verification Key",
+        "EQBA5TGZ"
+      ],
+      [
+        "Batch/Lot",
+        "BP17010"
+      ],
+      [
+        "Labeled Qty (mg)",
+        10
+      ],
+      [
+        "Actual Content (mg)",
+        10.28
+      ],
+      [
+        "Purity %",
+        99.72
+      ],
+      [
+        "Status",
+        "On label"
+      ],
+      [
+        "Cap Color",
+        "Not Listed"
+      ],
+      [
+        "Crimp Color",
+        "Not Listed"
+      ],
+      [
+        "Closure Notes",
+        "Closure color is not listed or visible in the ILS certificate."
+      ],
+      [
+        "Pass/Fail",
+        "Pass"
+      ],
+      [
+        "Source",
+        "assets/coa/documents/ils-laboratories/bpc-157/bpc-157-10mg-2026-17-08-COA-2026-Z7QL5L.pdf"
+      ]
+    ],
+    "COA_COA_0067": [
+      [
+        "Field",
+        "Value"
+      ],
+      [
+        "COA ID",
+        "COA-0067"
+      ],
+      [
+        "Compound",
+        "BPC-157 / TB-500"
+      ],
+      [
+        "Compound Type",
+        "Healing / Recovery Blend"
+      ],
+      [
+        "Lab",
+        "ILS Labs"
+      ],
+      [
+        "Test Date",
+        "08/29/2026"
+      ],
+      [
+        "Report/Task #",
+        "COA-2026-UCXARI"
+      ],
+      [
+        "Verification Key",
+        "H7A2Z82K"
+      ],
+      [
+        "Batch/Lot",
+        "BB27010"
+      ],
+      [
+        "Labeled Qty (mg)",
+        20
+      ],
+      [
+        "Actual Content (mg)",
+        20.93
+      ],
+      [
+        "Purity %",
+        99.7
+      ],
+      [
+        "Status",
+        "On label"
+      ],
+      [
+        "Cap Color",
+        "Not Listed"
+      ],
+      [
+        "Crimp Color",
+        "Not Listed"
+      ],
+      [
+        "Closure Notes",
+        "Closure color is not listed or visible in the ILS certificate."
+      ],
+      [
+        "Pass/Fail",
+        "Pass"
+      ],
+      [
+        "Source",
+        "assets/coa/documents/ils-laboratories/bpc-157-tb-500/bpc-157-tb-500-20mg-2026-29-08-COA-2026-UCXARI.pdf"
+      ]
+    ],
+    "COA_COA_0068": [
+      [
+        "Field",
+        "Value"
+      ],
+      [
+        "COA ID",
+        "COA-0068"
+      ],
+      [
+        "Compound",
+        "CJC-1295 / Ipamorelin"
+      ],
+      [
+        "Compound Type",
+        "Growth Hormone Support Blend"
+      ],
+      [
+        "Lab",
+        "ILS Labs"
+      ],
+      [
+        "Test Date",
+        "08/17/2026"
+      ],
+      [
+        "Report/Task #",
+        "COA-2026-OQ2KI5"
+      ],
+      [
+        "Verification Key",
+        "VRDU58EW"
+      ],
+      [
+        "Batch/Lot",
+        "CP17010"
+      ],
+      [
+        "Labeled Qty (mg)",
+        10
+      ],
+      [
+        "Actual Content (mg)",
+        10.47
+      ],
+      [
+        "Purity %",
+        99.78
+      ],
+      [
+        "Status",
+        "On label"
+      ],
+      [
+        "Cap Color",
+        "Not Listed"
+      ],
+      [
+        "Crimp Color",
+        "Not Listed"
+      ],
+      [
+        "Closure Notes",
+        "Closure color is not listed or visible in the ILS certificate."
+      ],
+      [
+        "Pass/Fail",
+        "Pass"
+      ],
+      [
+        "Source",
+        "assets/coa/documents/ils-laboratories/cjc-1295-ipamorelin/cjc-1295-ipamorelin-10mg-2026-17-08-COA-2026-OQ2KI5.pdf"
+      ]
+    ],
+    "COA_COA_0069": [
+      [
+        "Field",
+        "Value"
+      ],
+      [
+        "COA ID",
+        "COA-0069"
+      ],
+      [
+        "Compound",
+        "GHK-Cu"
+      ],
+      [
+        "Compound Type",
+        "Cosmetic / Skin Research"
+      ],
+      [
+        "Lab",
+        "ILS Labs"
+      ],
+      [
+        "Test Date",
+        "08/17/2026"
+      ],
+      [
+        "Report/Task #",
+        "COA-2026-TDLWNC"
+      ],
+      [
+        "Verification Key",
+        "3SDBWEB6"
+      ],
+      [
+        "Batch/Lot",
+        "CU57010"
+      ],
+      [
+        "Labeled Qty (mg)",
+        50
+      ],
+      [
+        "Actual Content (mg)",
+        52.21
+      ],
+      [
+        "Purity %",
+        99.85
+      ],
+      [
+        "Status",
+        "On label"
+      ],
+      [
+        "Cap Color",
+        "Not Listed"
+      ],
+      [
+        "Crimp Color",
+        "Not Listed"
+      ],
+      [
+        "Closure Notes",
+        "Closure color is not listed or visible in the ILS certificate."
+      ],
+      [
+        "Pass/Fail",
+        "Pass"
+      ],
+      [
+        "Source",
+        "assets/coa/documents/ils-laboratories/ghk-cu/ghk-cu-50mg-2026-17-08-COA-2026-TDLWNC.pdf"
+      ]
+    ],
+    "COA_COA_0070": [
+      [
+        "Field",
+        "Value"
+      ],
+      [
+        "COA ID",
+        "COA-0070"
+      ],
+      [
+        "Compound",
+        "GLOW"
+      ],
+      [
+        "Compound Type",
+        "Healing / Recovery Blend"
+      ],
+      [
+        "Lab",
+        "ILS Labs"
+      ],
+      [
+        "Test Date",
+        "08/28/2026"
+      ],
+      [
+        "Report/Task #",
+        "COA-2026-3WIKDU"
+      ],
+      [
+        "Verification Key",
+        "CAB37LKM"
+      ],
+      [
+        "Batch/Lot",
+        "GL77010"
+      ],
+      [
+        "Labeled Qty (mg)",
+        70
+      ],
+      [
+        "Actual Content (mg)",
+        72.68
+      ],
+      [
+        "Purity %",
+        99.84
+      ],
+      [
+        "Status",
+        "On label"
+      ],
+      [
+        "Cap Color",
+        "Not Listed"
+      ],
+      [
+        "Crimp Color",
+        "Not Listed"
+      ],
+      [
+        "Closure Notes",
+        "Closure color is not listed or visible in the ILS certificate."
+      ],
+      [
+        "Pass/Fail",
+        "Pass"
+      ],
+      [
+        "Source",
+        "assets/coa/documents/ils-laboratories/glow/glow-70mg-2026-28-08-COA-2026-3WIKDU.pdf"
+      ]
+    ],
+    "COA_COA_0071": [
+      [
+        "Field",
+        "Value"
+      ],
+      [
+        "COA ID",
+        "COA-0071"
+      ],
+      [
+        "Compound",
+        "KLOW"
+      ],
+      [
+        "Compound Type",
+        "Healing / Recovery Blend"
+      ],
+      [
+        "Lab",
+        "ILS Labs"
+      ],
+      [
+        "Test Date",
+        "08/28/2026"
+      ],
+      [
+        "Report/Task #",
+        "COA-2026-LSUN2F"
+      ],
+      [
+        "Verification Key",
+        "GRD4V5KA"
+      ],
+      [
+        "Batch/Lot",
+        "KL87010"
+      ],
+      [
+        "Labeled Qty (mg)",
+        80
+      ],
+      [
+        "Actual Content (mg)",
+        82.72
+      ],
+      [
+        "Purity %",
+        99.79
+      ],
+      [
+        "Status",
+        "On label"
+      ],
+      [
+        "Cap Color",
+        "Not Listed"
+      ],
+      [
+        "Crimp Color",
+        "Not Listed"
+      ],
+      [
+        "Closure Notes",
+        "Closure color is not listed or visible in the ILS certificate."
+      ],
+      [
+        "Pass/Fail",
+        "Pass"
+      ],
+      [
+        "Source",
+        "assets/coa/documents/ils-laboratories/klow/klow-80mg-2026-28-08-COA-2026-LSUN2F.pdf"
+      ]
+    ],
+    "COA_COA_0072": [
+      [
+        "Field",
+        "Value"
+      ],
+      [
+        "COA ID",
+        "COA-0072"
+      ],
+      [
+        "Compound",
+        "KPV"
+      ],
+      [
+        "Compound Type",
+        "Healing / Anti-Inflammatory Research"
+      ],
+      [
+        "Lab",
+        "ILS Labs"
+      ],
+      [
+        "Test Date",
+        "08/17/2026"
+      ],
+      [
+        "Report/Task #",
+        "COA-2026-AFZSKR"
+      ],
+      [
+        "Verification Key",
+        "XXW57EWE"
+      ],
+      [
+        "Batch/Lot",
+        "KP17010"
+      ],
+      [
+        "Labeled Qty (mg)",
+        10
+      ],
+      [
+        "Actual Content (mg)",
+        10.23
+      ],
+      [
+        "Purity %",
+        99.25
+      ],
+      [
+        "Status",
+        "On label"
+      ],
+      [
+        "Cap Color",
+        "Not Listed"
+      ],
+      [
+        "Crimp Color",
+        "Not Listed"
+      ],
+      [
+        "Closure Notes",
+        "Closure color is not listed or visible in the ILS certificate."
+      ],
+      [
+        "Pass/Fail",
+        "Pass"
+      ],
+      [
+        "Source",
+        "assets/coa/documents/ils-laboratories/kpv/kpv-10mg-2026-17-08-COA-2026-AFZSKR.pdf"
+      ]
+    ],
+    "COA_COA_0073": [
+      [
+        "Field",
+        "Value"
+      ],
+      [
+        "COA ID",
+        "COA-0073"
+      ],
+      [
+        "Compound",
+        "MOTS-C"
+      ],
+      [
+        "Compound Type",
+        "Metabolic / Mitochondrial Research"
+      ],
+      [
+        "Lab",
+        "ILS Labs"
+      ],
+      [
+        "Test Date",
+        "08/17/2026"
+      ],
+      [
+        "Report/Task #",
+        "COA-2026-ACXQT9"
+      ],
+      [
+        "Verification Key",
+        "26KYBWZX"
+      ],
+      [
+        "Batch/Lot",
+        "MS17010"
+      ],
+      [
+        "Labeled Qty (mg)",
+        10
+      ],
+      [
+        "Actual Content (mg)",
+        10.42
+      ],
+      [
+        "Purity %",
+        99.08
+      ],
+      [
+        "Status",
+        "On label"
+      ],
+      [
+        "Cap Color",
+        "Not Listed"
+      ],
+      [
+        "Crimp Color",
+        "Not Listed"
+      ],
+      [
+        "Closure Notes",
+        "Closure color is not listed or visible in the ILS certificate."
+      ],
+      [
+        "Pass/Fail",
+        "Pass"
+      ],
+      [
+        "Source",
+        "assets/coa/documents/ils-laboratories/mots-c/mots-c-10mg-2026-17-08-COA-2026-ACXQT9.pdf"
+      ]
+    ],
+    "COA_COA_0074": [
+      [
+        "Field",
+        "Value"
+      ],
+      [
+        "COA ID",
+        "COA-0074"
+      ],
+      [
+        "Compound",
+        "MOTS-C"
+      ],
+      [
+        "Compound Type",
+        "Metabolic / Mitochondrial Research"
+      ],
+      [
+        "Lab",
+        "ILS Labs"
+      ],
+      [
+        "Test Date",
+        "08/17/2026"
+      ],
+      [
+        "Report/Task #",
+        "COA-2026-R9ZNBR"
+      ],
+      [
+        "Verification Key",
+        "SQG57YUA"
+      ],
+      [
+        "Batch/Lot",
+        "MS47010"
+      ],
+      [
+        "Labeled Qty (mg)",
+        40
+      ],
+      [
+        "Actual Content (mg)",
+        41.09
+      ],
+      [
+        "Purity %",
+        99.3
+      ],
+      [
+        "Status",
+        "On label"
+      ],
+      [
+        "Cap Color",
+        "Not Listed"
+      ],
+      [
+        "Crimp Color",
+        "Not Listed"
+      ],
+      [
+        "Closure Notes",
+        "Closure color is not listed or visible in the ILS certificate."
+      ],
+      [
+        "Pass/Fail",
+        "Pass"
+      ],
+      [
+        "Source",
+        "assets/coa/documents/ils-laboratories/mots-c/mots-c-40mg-2026-17-08-COA-2026-R9ZNBR.pdf"
+      ]
+    ],
+    "COA_COA_0075": [
+      [
+        "Field",
+        "Value"
+      ],
+      [
+        "COA ID",
+        "COA-0075"
+      ],
+      [
+        "Compound",
+        "Melanotan II"
+      ],
+      [
+        "Compound Type",
+        "Pigmentation / Research"
+      ],
+      [
+        "Lab",
+        "ILS Labs"
+      ],
+      [
+        "Test Date",
+        "08/17/2026"
+      ],
+      [
+        "Report/Task #",
+        "COA-2026-KUYUM8"
+      ],
+      [
+        "Verification Key",
+        "YL6Z7HBG"
+      ],
+      [
+        "Batch/Lot",
+        "M217010"
+      ],
+      [
+        "Labeled Qty (mg)",
+        10
+      ],
+      [
+        "Actual Content (mg)",
+        10.34
+      ],
+      [
+        "Purity %",
+        99.71
+      ],
+      [
+        "Status",
+        "On label"
+      ],
+      [
+        "Cap Color",
+        "Not Listed"
+      ],
+      [
+        "Crimp Color",
+        "Not Listed"
+      ],
+      [
+        "Closure Notes",
+        "Closure color is not listed or visible in the ILS certificate."
+      ],
+      [
+        "Pass/Fail",
+        "Pass"
+      ],
+      [
+        "Source",
+        "assets/coa/documents/ils-laboratories/melanotan-ii/melanotan-ii-10mg-2026-17-08-COA-2026-KUYUM8.pdf"
+      ]
+    ],
+    "COA_COA_0076": [
+      [
+        "Field",
+        "Value"
+      ],
+      [
+        "COA ID",
+        "COA-0076"
+      ],
+      [
+        "Compound",
+        "NAD+"
+      ],
+      [
+        "Compound Type",
+        "Cellular / Metabolic Research"
+      ],
+      [
+        "Lab",
+        "ILS Labs"
+      ],
+      [
+        "Test Date",
+        "08/18/2026"
+      ],
+      [
+        "Report/Task #",
+        "COA-2026-DKRX4K"
+      ],
+      [
+        "Verification Key",
+        "EKUVZRXB"
+      ],
+      [
+        "Batch/Lot",
+        "ND17010"
+      ],
+      [
+        "Labeled Qty (mg)",
+        1000
+      ],
+      [
+        "Actual Content (mg)",
+        1047.39
+      ],
+      [
+        "Purity %",
+        99.26
+      ],
+      [
+        "Status",
+        "On label"
+      ],
+      [
+        "Cap Color",
+        "Not Listed"
+      ],
+      [
+        "Crimp Color",
+        "Not Listed"
+      ],
+      [
+        "Closure Notes",
+        "Closure color is not listed or visible in the ILS certificate."
+      ],
+      [
+        "Pass/Fail",
+        "Pass"
+      ],
+      [
+        "Source",
+        "assets/coa/documents/ils-laboratories/nadplus/nadplus-1000mg-2026-18-08-COA-2026-DKRX4K.pdf"
+      ]
+    ],
+    "COA_COA_0077": [
+      [
+        "Field",
+        "Value"
+      ],
+      [
+        "COA ID",
+        "COA-0077"
+      ],
+      [
+        "Compound",
+        "Retatrutide"
+      ],
+      [
+        "Compound Type",
+        "GLP-1 / Weight Research"
+      ],
+      [
+        "Lab",
+        "ILS Labs"
+      ],
+      [
+        "Test Date",
+        "08/17/2026"
+      ],
+      [
+        "Report/Task #",
+        "COA-2026-Z9OQUX"
+      ],
+      [
+        "Verification Key",
+        "6DGZ93CS"
+      ],
+      [
+        "Batch/Lot",
+        "RT17010"
+      ],
+      [
+        "Labeled Qty (mg)",
+        10
+      ],
+      [
+        "Actual Content (mg)",
+        10.64
+      ],
+      [
+        "Purity %",
+        99.4
+      ],
+      [
+        "Status",
+        "Overfilled"
+      ],
+      [
+        "Cap Color",
+        "Not Listed"
+      ],
+      [
+        "Crimp Color",
+        "Not Listed"
+      ],
+      [
+        "Closure Notes",
+        "Closure color is not listed or visible in the ILS certificate."
+      ],
+      [
+        "Pass/Fail",
+        "Pass"
+      ],
+      [
+        "Source",
+        "assets/coa/documents/ils-laboratories/retatrutide/retatrutide-10mg-2026-17-08-COA-2026-Z9OQUX.pdf"
+      ]
+    ],
+    "COA_COA_0078": [
+      [
+        "Field",
+        "Value"
+      ],
+      [
+        "COA ID",
+        "COA-0078"
+      ],
+      [
+        "Compound",
+        "Retatrutide"
+      ],
+      [
+        "Compound Type",
+        "GLP-1 / Weight Research"
+      ],
+      [
+        "Lab",
+        "ILS Labs"
+      ],
+      [
+        "Test Date",
+        "08/17/2026"
+      ],
+      [
+        "Report/Task #",
+        "COA-2026-KZYMNQ"
+      ],
+      [
+        "Verification Key",
+        "6V3BNXVB"
+      ],
+      [
+        "Batch/Lot",
+        "RT27010"
+      ],
+      [
+        "Labeled Qty (mg)",
+        20
+      ],
+      [
+        "Actual Content (mg)",
+        21.38
+      ],
+      [
+        "Purity %",
+        99.79
+      ],
+      [
+        "Status",
+        "Overfilled"
+      ],
+      [
+        "Cap Color",
+        "Not Listed"
+      ],
+      [
+        "Crimp Color",
+        "Not Listed"
+      ],
+      [
+        "Closure Notes",
+        "Closure color is not listed or visible in the ILS certificate."
+      ],
+      [
+        "Pass/Fail",
+        "Pass"
+      ],
+      [
+        "Source",
+        "assets/coa/documents/ils-laboratories/retatrutide/retatrutide-20mg-2026-17-08-COA-2026-KZYMNQ.pdf"
+      ]
+    ],
+    "COA_COA_0079": [
+      [
+        "Field",
+        "Value"
+      ],
+      [
+        "COA ID",
+        "COA-0079"
+      ],
+      [
+        "Compound",
+        "SS-31"
+      ],
+      [
+        "Compound Type",
+        "Metabolic / Mitochondrial Research"
+      ],
+      [
+        "Lab",
+        "ILS Labs"
+      ],
+      [
+        "Test Date",
+        "08/17/2026"
+      ],
+      [
+        "Report/Task #",
+        "COA-2026-HEII-X"
+      ],
+      [
+        "Verification Key",
+        "KSU4VSE7"
+      ],
+      [
+        "Batch/Lot",
+        "2S17010"
+      ],
+      [
+        "Labeled Qty (mg)",
+        10
+      ],
+      [
+        "Actual Content (mg)",
+        10.7
+      ],
+      [
+        "Purity %",
+        99.53
+      ],
+      [
+        "Status",
+        "Overfilled"
+      ],
+      [
+        "Cap Color",
+        "Not Listed"
+      ],
+      [
+        "Crimp Color",
+        "Not Listed"
+      ],
+      [
+        "Closure Notes",
+        "Closure color is not listed or visible in the ILS certificate."
+      ],
+      [
+        "Pass/Fail",
+        "Pass"
+      ],
+      [
+        "Source",
+        "assets/coa/documents/ils-laboratories/ss-31/ss-31-10mg-2026-17-08-COA-2026-HEII-X.pdf"
+      ]
+    ],
+    "COA_COA_0080": [
+      [
+        "Field",
+        "Value"
+      ],
+      [
+        "COA ID",
+        "COA-0080"
+      ],
+      [
+        "Compound",
+        "Selank"
+      ],
+      [
+        "Compound Type",
+        "Nootropic / Research"
+      ],
+      [
+        "Lab",
+        "ILS Labs"
+      ],
+      [
+        "Test Date",
+        "08/17/2026"
+      ],
+      [
+        "Report/Task #",
+        "COA-2026-REDEV3"
+      ],
+      [
+        "Verification Key",
+        "JBYELVFU"
+      ],
+      [
+        "Batch/Lot",
+        "SK17010"
+      ],
+      [
+        "Labeled Qty (mg)",
+        10
+      ],
+      [
+        "Actual Content (mg)",
+        10.66
+      ],
+      [
+        "Purity %",
+        99.57
+      ],
+      [
+        "Status",
+        "Overfilled"
+      ],
+      [
+        "Cap Color",
+        "Not Listed"
+      ],
+      [
+        "Crimp Color",
+        "Not Listed"
+      ],
+      [
+        "Closure Notes",
+        "Closure color is not listed or visible in the ILS certificate."
+      ],
+      [
+        "Pass/Fail",
+        "Pass"
+      ],
+      [
+        "Source",
+        "assets/coa/documents/ils-laboratories/selank/selank-10mg-2026-17-08-COA-2026-REDEV3.pdf"
+      ]
+    ],
+    "COA_COA_0081": [
+      [
+        "Field",
+        "Value"
+      ],
+      [
+        "COA ID",
+        "COA-0081"
+      ],
+      [
+        "Compound",
+        "Semax"
+      ],
+      [
+        "Compound Type",
+        "Nootropic / Research"
+      ],
+      [
+        "Lab",
+        "ILS Labs"
+      ],
+      [
+        "Test Date",
+        "08/17/2026"
+      ],
+      [
+        "Report/Task #",
+        "COA-2026-WIQN-5"
+      ],
+      [
+        "Verification Key",
+        "6293KLTS"
+      ],
+      [
+        "Batch/Lot",
+        "XA17010"
+      ],
+      [
+        "Labeled Qty (mg)",
+        10
+      ],
+      [
+        "Actual Content (mg)",
+        10.5
+      ],
+      [
+        "Purity %",
+        99.58
+      ],
+      [
+        "Status",
+        "On label"
+      ],
+      [
+        "Cap Color",
+        "Not Listed"
+      ],
+      [
+        "Crimp Color",
+        "Not Listed"
+      ],
+      [
+        "Closure Notes",
+        "Closure color is not listed or visible in the ILS certificate."
+      ],
+      [
+        "Pass/Fail",
+        "Pass"
+      ],
+      [
+        "Source",
+        "assets/coa/documents/ils-laboratories/semax/semax-10mg-2026-17-08-COA-2026-WIQN-5.pdf"
+      ]
+    ],
+    "COA_COA_0082": [
+      [
+        "Field",
+        "Value"
+      ],
+      [
+        "COA ID",
+        "COA-0082"
+      ],
+      [
+        "Compound",
+        "TB-500"
+      ],
+      [
+        "Compound Type",
+        "Healing / Recovery"
+      ],
+      [
+        "Lab",
+        "ILS Labs"
+      ],
+      [
+        "Test Date",
+        "08/17/2026"
+      ],
+      [
+        "Report/Task #",
+        "COA-2026-HJIIFD"
+      ],
+      [
+        "Verification Key",
+        "BF6T52B4"
+      ],
+      [
+        "Batch/Lot",
+        "TB17010"
+      ],
+      [
+        "Labeled Qty (mg)",
+        10
+      ],
+      [
+        "Actual Content (mg)",
+        10.42
+      ],
+      [
+        "Purity %",
+        99.58
+      ],
+      [
+        "Status",
+        "On label"
+      ],
+      [
+        "Cap Color",
+        "Not Listed"
+      ],
+      [
+        "Crimp Color",
+        "Not Listed"
+      ],
+      [
+        "Closure Notes",
+        "Closure color is not listed or visible in the ILS certificate."
+      ],
+      [
+        "Pass/Fail",
+        "Pass"
+      ],
+      [
+        "Source",
+        "assets/coa/documents/ils-laboratories/tb-500/tb-500-10mg-2026-17-08-COA-2026-HJIIFD.pdf"
+      ]
+    ],
+    "COA_COA_0083": [
+      [
+        "Field",
+        "Value"
+      ],
+      [
+        "COA ID",
+        "COA-0083"
+      ],
+      [
+        "Compound",
+        "Tesamorelin"
+      ],
+      [
+        "Compound Type",
+        "Growth Hormone Support"
+      ],
+      [
+        "Lab",
+        "ILS Labs"
+      ],
+      [
+        "Test Date",
+        "08/17/2026"
+      ],
+      [
+        "Report/Task #",
+        "COA-2026-PDCJIS"
+      ],
+      [
+        "Verification Key",
+        "U5SWVSHY"
+      ],
+      [
+        "Batch/Lot",
+        "TS17010"
+      ],
+      [
+        "Labeled Qty (mg)",
+        10
+      ],
+      [
+        "Actual Content (mg)",
+        10.24
+      ],
+      [
+        "Purity %",
+        99.36
+      ],
+      [
+        "Status",
+        "On label"
+      ],
+      [
+        "Cap Color",
+        "Not Listed"
+      ],
+      [
+        "Crimp Color",
+        "Not Listed"
+      ],
+      [
+        "Closure Notes",
+        "Closure color is not listed or visible in the ILS certificate."
+      ],
+      [
+        "Pass/Fail",
+        "Pass"
+      ],
+      [
+        "Source",
+        "assets/coa/documents/ils-laboratories/tesamorelin/tesamorelin-10mg-2026-17-08-COA-2026-PDCJIS.pdf"
+      ]
+    ],
+    "COA_COA_0084": [
+      [
+        "Field",
+        "Value"
+      ],
+      [
+        "COA ID",
+        "COA-0084"
+      ],
+      [
+        "Compound",
+        "Tirzepatide"
+      ],
+      [
+        "Compound Type",
+        "GLP-1 / Weight Research"
+      ],
+      [
+        "Lab",
+        "ILS Labs"
+      ],
+      [
+        "Test Date",
+        "08/17/2026"
+      ],
+      [
+        "Report/Task #",
+        "COA-2026-4K8S-R"
+      ],
+      [
+        "Verification Key",
+        "AGBSBU2E"
+      ],
+      [
+        "Batch/Lot",
+        "TR27010"
+      ],
+      [
+        "Labeled Qty (mg)",
+        20
+      ],
+      [
+        "Actual Content (mg)",
+        21.1
+      ],
+      [
+        "Purity %",
+        99.71
+      ],
+      [
+        "Status",
+        "Overfilled"
+      ],
+      [
+        "Cap Color",
+        "Not Listed"
+      ],
+      [
+        "Crimp Color",
+        "Not Listed"
+      ],
+      [
+        "Closure Notes",
+        "Closure color is not listed or visible in the ILS certificate."
+      ],
+      [
+        "Pass/Fail",
+        "Pass"
+      ],
+      [
+        "Source",
+        "assets/coa/documents/ils-laboratories/tirzepatide/tirzepatide-20mg-2026-17-08-COA-2026-4K8S-R.pdf"
+      ]
+    ],
+    "COA_COA_0085": [
+      [
+        "Field",
+        "Value"
+      ],
+      [
+        "COA ID",
+        "COA-0085"
+      ],
+      [
+        "Compound",
+        "Tirzepatide"
+      ],
+      [
+        "Compound Type",
+        "GLP-1 / Weight Research"
+      ],
+      [
+        "Lab",
+        "ILS Labs"
+      ],
+      [
+        "Test Date",
+        "08/17/2026"
+      ],
+      [
+        "Report/Task #",
+        "COA-2026-GRQZYH"
+      ],
+      [
+        "Verification Key",
+        "UYWCCYSG"
+      ],
+      [
+        "Batch/Lot",
+        "TR47010"
+      ],
+      [
+        "Labeled Qty (mg)",
+        40
+      ],
+      [
+        "Actual Content (mg)",
+        41.14
+      ],
+      [
+        "Purity %",
+        99.9
+      ],
+      [
+        "Status",
+        "On label"
+      ],
+      [
+        "Cap Color",
+        "Not Listed"
+      ],
+      [
+        "Crimp Color",
+        "Not Listed"
+      ],
+      [
+        "Closure Notes",
+        "Closure color is not listed or visible in the ILS certificate."
+      ],
+      [
+        "Pass/Fail",
+        "Pass"
+      ],
+      [
+        "Source",
+        "assets/coa/documents/ils-laboratories/tirzepatide/tirzepatide-40mg-2026-17-08-COA-2026-GRQZYH.pdf"
+      ]
+    ],
+    "Lab Directory": [
+      [
+        "Lab",
+        "COA Records",
+        "Available in Filters"
+      ],
+      [
+        "Aminos Analytics",
+        1,
+        "Yes"
+      ],
+      [
+        "BT Labs",
+        3,
+        "Yes"
+      ],
+      [
+        "Freedom Diagnostics",
+        6,
+        "Yes"
+      ],
+      [
+        "ILS Labs",
+        24,
+        "Yes"
+      ],
+      [
+        "Janoshik",
+        16,
+        "Yes"
+      ],
+      [
+        "Kovera Labs",
+        18,
+        "Yes"
+      ],
+      [
+        "Pristin Biotech",
+        3,
+        "Yes"
+      ],
+      [
+        "SteriGenix",
+        9,
+        "Yes"
+      ],
+      [
+        "Testides",
+        4,
+        "Yes"
+      ],
+      [
+        "Tianjin Qiangxin (third-party partner lab)",
+        1,
+        "Yes"
       ]
     ]
   }
