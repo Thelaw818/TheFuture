@@ -1,0 +1,20 @@
+UPLOAD THE UPDATED RUNTIME FILES — 92 COAs
+
+The previous 85-record display remains if index.html is not replaced.
+
+Required replacements at the GitHub repository root:
+1. index.html
+2. coa-database.json
+3. coa-pictures.html
+4. assets/coa/images/freedom-diagnostics/... (five new images)
+5. assets/coa/images/kovera-labs/tirzepatide/... (two new images)
+
+Recommended method:
+1. Use the GITHUB-ROOT-UPDATE-92-COAS folder included in the main ZIP.
+2. Upload its CONTENTS to the repository root while preserving folders.
+3. Confirm index.html was replaced, not placed inside a new folder.
+4. Commit to main and wait for GitHub Pages deployment.
+5. Hard-refresh the live page with Ctrl+F5.
+
+Expected message after deployment:
+Embedded master database loaded · 92 COAs

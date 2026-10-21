@@ -1,0 +1,48 @@
+UPDATE AND CHECK RESULTS — October 20, 2026
+
+Open index.html from the extracted TheFuture-main folder, or upload the contents of that folder to your static website host. Keep all folders together. START_HERE_HEALTH_PRO.html opens the separate Health Dynamics workspace.
+
+Nine supplied reports added as COA-0093 through COA-0101:
+Cagrilintide 10mg; CJC-1295 No DAC/Ipamorelin 5mg+5mg; hCG 5000 IU; KLOW 80mg; MOTS-C 10mg; NAD+ 1000mg; Retatrutide 60mg; Tesamorelin 10mg; BPC-157 20mg.
+
+The embedded app previously contained 92 records, while its JSON file had only 85. All 92 existing records were retained and the new nine added, for 101 unique records. JSON, embedded data, both workbooks, certificates, inventory, batch history, status and purity rankings are synchronized.
+
+hCG is measured in IU, not mg: label 5000 IU / result 6288 IU. Its mg fields remain blank; the IU measurements are in the detail sheet and notes. CJC is correctly classified as the No DAC/Ipamorelin blend. KLOW peptide content is 87.5mg; gross powder mass including excipients is not treated as peptide content. Redacted fields remain redacted.
+
+Verified in headless Chromium:
+- All nine primary navigation sections activate.
+- All 81 workbook selector tabs render content.
+- All nine new certificate detail modals open and their original JPG images load.
+- All 39 Health Dynamics tabs activate after local registration/sign-in.
+- Inventory entry and settings save to local browser storage.
+- Dosage tracker calculator passes a synthetic arithmetic check and PDF export downloads.
+- Gallery contains 109 existing, decodable image files.
+- No JavaScript runtime errors or failed network requests in the final browser run.
+- Both XLSX files open programmatically and contain 101 unique COA IDs and all nine new detail sheets.
+
+Repairs:
+- Restored missing source links where original files could be matched by report/key or report contents.
+- Three Pristin reports now open their existing page images; additional pages remain linked in their detail sheets.
+- Three previously empty workbook viewer detail tabs now show record contents.
+- Added missing settings functions that prevented Health Dynamics startup/tab bindings.
+- Bundled workbook, dosage tracker, PDF-export and font dependencies locally, so those functions do not require public CDNs.
+- Removed absent image paths from the active gallery; retained all existing source files.
+
+LIMITATION: 15 historical originals are absent from the supplied ZIP. Their data records remain available, but their original certificates cannot be opened without the missing files. No replacement certificate or test result was fabricated. These records are:
+COA-0092 — Tirzepatide — Kovera Labs — 60mg
+COA-0091 — Tirzepatide — Kovera Labs — 30mg
+COA-0090 — SS-31 — Freedom Diagnostics — 50mg
+COA-0089 — Retatrutide — Freedom Diagnostics — 10mg
+COA-0088 — MOTS-C — Freedom Diagnostics — 20mg
+COA-0087 — KPV — Freedom Diagnostics — 10mg
+COA-0086 — BPC-157 — Freedom Diagnostics — 20mg
+COA-0062 — GHK-Cu — SteriGenix — 50mg
+COA-0061 — Sermorelin — Kovera Labs — 10mg
+COA-0060 — Semax — Kovera Labs — 10mg
+COA-0059 — Glutathione — Kovera Labs — 1500mg
+COA-0034 — Tirzepatide — Kovera Labs — 15mg
+COA-0033 — Tirzepatide — Kovera Labs — 30mg
+COA-0032 — Semaglutide — Kovera Labs — 15mg
+COA-0014 — MOTS-C — Janoshik — 10mg
+
+External laboratory verification portals and production hosting were not tested. Browser checks used a local static server; no deployment was performed. Existing users retain their own browser-stored records.
