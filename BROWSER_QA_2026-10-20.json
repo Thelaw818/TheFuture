@@ -1,0 +1,639 @@
+{
+  "errors": [],
+  "network": [],
+  "sections": [
+    {
+      "name": "dashboard",
+      "active": true
+    },
+    {
+      "name": "analytics",
+      "active": true
+    },
+    {
+      "name": "certificates",
+      "active": true
+    },
+    {
+      "name": "batches",
+      "active": true
+    },
+    {
+      "name": "allpeptides",
+      "active": true
+    },
+    {
+      "name": "inventory",
+      "active": true
+    },
+    {
+      "name": "halflife",
+      "active": true
+    },
+    {
+      "name": "workbook",
+      "active": true
+    },
+    {
+      "name": "readme",
+      "active": true
+    }
+  ],
+  "workbookTabs": [
+    {
+      "name": "Dashboard",
+      "rows": 26
+    },
+    {
+      "name": "COA Database",
+      "rows": 102
+    },
+    {
+      "name": "Purity Rankings",
+      "rows": 102
+    },
+    {
+      "name": "Batch History",
+      "rows": 102
+    },
+    {
+      "name": "Lab Match",
+      "rows": 10
+    },
+    {
+      "name": "Inventory",
+      "rows": 102
+    },
+    {
+      "name": "Certificates",
+      "rows": 102
+    },
+    {
+      "name": "Lists",
+      "rows": 36
+    },
+    {
+      "name": "README",
+      "rows": 25
+    },
+    {
+      "name": "COA Status",
+      "rows": 102
+    },
+    {
+      "name": "Half-Life Reference",
+      "rows": 87
+    },
+    {
+      "name": "COA_Reta30_Kovera",
+      "rows": 17
+    },
+    {
+      "name": "COA_Reta40_Kovera",
+      "rows": 17
+    },
+    {
+      "name": "COA_Adamax_SteriGenix",
+      "rows": 20
+    },
+    {
+      "name": "COA_KLOW80_Freedom",
+      "rows": 22
+    },
+    {
+      "name": "COA_COA_0037",
+      "rows": 16
+    },
+    {
+      "name": "COA_COA_0038",
+      "rows": 16
+    },
+    {
+      "name": "COA_COA_0039",
+      "rows": 16
+    },
+    {
+      "name": "COA_COA_0040",
+      "rows": 16
+    },
+    {
+      "name": "COA_COA_0041",
+      "rows": 16
+    },
+    {
+      "name": "COA_COA_0042",
+      "rows": 16
+    },
+    {
+      "name": "COA_COA_0043",
+      "rows": 16
+    },
+    {
+      "name": "COA_COA_0044",
+      "rows": 13
+    },
+    {
+      "name": "COA_COA_0045",
+      "rows": 18
+    },
+    {
+      "name": "COA_COA_0046",
+      "rows": 20
+    },
+    {
+      "name": "COA_COA_0047",
+      "rows": 14
+    },
+    {
+      "name": "COA_COA_0048",
+      "rows": 14
+    },
+    {
+      "name": "COA_COA_0049",
+      "rows": 14
+    },
+    {
+      "name": "COA_COA_0050",
+      "rows": 15
+    },
+    {
+      "name": "COA_COA_0051",
+      "rows": 14
+    },
+    {
+      "name": "COA_COA_0052",
+      "rows": 15
+    },
+    {
+      "name": "COA_COA_0053",
+      "rows": 18
+    },
+    {
+      "name": "COA_COA_0054",
+      "rows": 18
+    },
+    {
+      "name": "COA_COA_0055",
+      "rows": 18
+    },
+    {
+      "name": "COA_COA_0056",
+      "rows": 21
+    },
+    {
+      "name": "COA_COA_0057",
+      "rows": 21
+    },
+    {
+      "name": "COA_COA_0058",
+      "rows": 21
+    },
+    {
+      "name": "COA_COA_0059",
+      "rows": 24
+    },
+    {
+      "name": "COA_COA_0060",
+      "rows": 24
+    },
+    {
+      "name": "COA_COA_0061",
+      "rows": 24
+    },
+    {
+      "name": "COA_COA_0062",
+      "rows": 30
+    },
+    {
+      "name": "COA_COA_0063",
+      "rows": 14
+    },
+    {
+      "name": "COA_COA_0064",
+      "rows": 14
+    },
+    {
+      "name": "COA_COA_0065",
+      "rows": 14
+    },
+    {
+      "name": "COA_COA_0066",
+      "rows": 14
+    },
+    {
+      "name": "COA_COA_0067",
+      "rows": 14
+    },
+    {
+      "name": "COA_COA_0068",
+      "rows": 14
+    },
+    {
+      "name": "COA_COA_0069",
+      "rows": 14
+    },
+    {
+      "name": "COA_COA_0070",
+      "rows": 14
+    },
+    {
+      "name": "COA_COA_0071",
+      "rows": 14
+    },
+    {
+      "name": "COA_COA_0072",
+      "rows": 14
+    },
+    {
+      "name": "COA_COA_0073",
+      "rows": 14
+    },
+    {
+      "name": "COA_COA_0074",
+      "rows": 14
+    },
+    {
+      "name": "COA_COA_0075",
+      "rows": 14
+    },
+    {
+      "name": "COA_COA_0076",
+      "rows": 14
+    },
+    {
+      "name": "COA_COA_0077",
+      "rows": 14
+    },
+    {
+      "name": "COA_COA_0078",
+      "rows": 14
+    },
+    {
+      "name": "COA_COA_0079",
+      "rows": 14
+    },
+    {
+      "name": "COA_COA_0080",
+      "rows": 14
+    },
+    {
+      "name": "COA_COA_0081",
+      "rows": 14
+    },
+    {
+      "name": "COA_COA_0082",
+      "rows": 14
+    },
+    {
+      "name": "COA_COA_0083",
+      "rows": 14
+    },
+    {
+      "name": "COA_COA_0084",
+      "rows": 14
+    },
+    {
+      "name": "COA_COA_0085",
+      "rows": 14
+    },
+    {
+      "name": "Lab Directory",
+      "rows": 15
+    },
+    {
+      "name": "COA_COA_0086",
+      "rows": 25
+    },
+    {
+      "name": "COA_COA_0087",
+      "rows": 25
+    },
+    {
+      "name": "COA_COA_0088",
+      "rows": 25
+    },
+    {
+      "name": "COA_COA_0089",
+      "rows": 25
+    },
+    {
+      "name": "COA_COA_0090",
+      "rows": 25
+    },
+    {
+      "name": "COA_COA_0091",
+      "rows": 22
+    },
+    {
+      "name": "COA_COA_0092",
+      "rows": 22
+    },
+    {
+      "name": "COA_COA_0093",
+      "rows": 20
+    },
+    {
+      "name": "COA_COA_0094",
+      "rows": 20
+    },
+    {
+      "name": "COA_COA_0095",
+      "rows": 22
+    },
+    {
+      "name": "COA_COA_0096",
+      "rows": 17
+    },
+    {
+      "name": "COA_COA_0097",
+      "rows": 17
+    },
+    {
+      "name": "COA_COA_0098",
+      "rows": 20
+    },
+    {
+      "name": "COA_COA_0099",
+      "rows": 17
+    },
+    {
+      "name": "COA_COA_0100",
+      "rows": 20
+    },
+    {
+      "name": "COA_COA_0101",
+      "rows": 17
+    }
+  ],
+  "certificates": [
+    {
+      "id": "COA-0093",
+      "href": "assets/coa/images/purepoint-analytical/cagrilintide/CAG10MG2026-10-19_06-19-33.jpg",
+      "opens": true
+    },
+    {
+      "id": "COA-0094",
+      "href": "assets/coa/images/freedom-diagnostics/cjc-1295-no-dac-ipamorelin/CJC10MG2026-10-19_06-20-06.jpg",
+      "opens": true
+    },
+    {
+      "id": "COA-0095",
+      "href": "assets/coa/images/chromate/hcg-5000-iu/HCG2026-10-19_06-19-27.jpg",
+      "opens": true
+    },
+    {
+      "id": "COA-0096",
+      "href": "assets/coa/images/btlabs/klow/KLOW80MG2026-10-19_06-19-26.jpg",
+      "opens": true
+    },
+    {
+      "id": "COA-0097",
+      "href": "assets/coa/images/btlabs/mots-c/MOTSC10MG2026-10-19_06-19-31.jpg",
+      "opens": true
+    },
+    {
+      "id": "COA-0098",
+      "href": "assets/coa/images/purepoint-analytical/nad/NAD1000MG2026-10-19_06-19-23.jpg",
+      "opens": true
+    },
+    {
+      "id": "COA-0099",
+      "href": "assets/coa/images/pharmlabs-finnrick-analytics/retatrutide/RETA60MG2026-10-14_14-59-43.jpg",
+      "opens": true
+    },
+    {
+      "id": "COA-0100",
+      "href": "assets/coa/images/freedom-diagnostics/tesamorelin/TESAMORLIN10MG2026-10-19_06-20-09.jpg",
+      "opens": true
+    },
+    {
+      "id": "COA-0101",
+      "href": "assets/coa/images/pharmlabs-finnrick-analytics/bpc-157/BPC15720MG2026-10-14_15-30-51.jpg",
+      "opens": true
+    }
+  ],
+  "pages": [
+    {
+      "file": "coa-pictures.html",
+      "title": "COA Pictures · Peptide Research Intelligence"
+    },
+    {
+      "file": "health-dynamics.html",
+      "title": "Health Dynamics Pro"
+    },
+    {
+      "file": "dosage-tracker.html",
+      "title": "Peptide Dosage Tracker"
+    },
+    {
+      "file": "START_HERE_HEALTH_PRO.html",
+      "title": "Start Health Dynamics"
+    },
+    {
+      "file": "cache-reset.html",
+      "title": ""
+    }
+  ],
+  "healthTabs": [
+    {
+      "name": "overview",
+      "exists": true,
+      "active": true
+    },
+    {
+      "name": "inventory",
+      "exists": true,
+      "active": true
+    },
+    {
+      "name": "syringe",
+      "exists": true,
+      "active": true
+    },
+    {
+      "name": "peptidelog",
+      "exists": true,
+      "active": true
+    },
+    {
+      "name": "halflife",
+      "exists": true,
+      "active": true
+    },
+    {
+      "name": "levels",
+      "exists": true,
+      "active": true
+    },
+    {
+      "name": "health",
+      "exists": true,
+      "active": true
+    },
+    {
+      "name": "medication",
+      "exists": true,
+      "active": true
+    },
+    {
+      "name": "log",
+      "exists": true,
+      "active": true
+    },
+    {
+      "name": "coa",
+      "exists": true,
+      "active": true
+    },
+    {
+      "name": "labs",
+      "exists": true,
+      "active": true
+    },
+    {
+      "name": "protocols",
+      "exists": true,
+      "active": true
+    },
+    {
+      "name": "costs",
+      "exists": true,
+      "active": true
+    },
+    {
+      "name": "vendors",
+      "exists": true,
+      "active": true
+    },
+    {
+      "name": "backup",
+      "exists": true,
+      "active": true
+    },
+    {
+      "name": "lumina",
+      "exists": true,
+      "active": true
+    },
+    {
+      "name": "settings",
+      "exists": true,
+      "active": true
+    },
+    {
+      "name": "reports",
+      "exists": true,
+      "active": true
+    },
+    {
+      "name": "admin",
+      "exists": true,
+      "active": true
+    },
+    {
+      "name": "journal",
+      "exists": true,
+      "active": true
+    },
+    {
+      "name": "insights",
+      "exists": true,
+      "active": true
+    },
+    {
+      "name": "audit",
+      "exists": true,
+      "active": true
+    },
+    {
+      "name": "notes",
+      "exists": true,
+      "active": true
+    },
+    {
+      "name": "privacyPolicy",
+      "exists": true,
+      "active": true
+    },
+    {
+      "name": "termsOfUse",
+      "exists": true,
+      "active": true
+    },
+    {
+      "name": "medicalDisclaimer",
+      "exists": true,
+      "active": true
+    },
+    {
+      "name": "legalNotice",
+      "exists": true,
+      "active": true
+    },
+    {
+      "name": "pdfcoa",
+      "exists": true,
+      "active": true
+    },
+    {
+      "name": "executiveDashboard",
+      "exists": true,
+      "active": true
+    },
+    {
+      "name": "pkEngine",
+      "exists": true,
+      "active": true
+    },
+    {
+      "name": "labAnalytics",
+      "exists": true,
+      "active": true
+    },
+    {
+      "name": "reportsCenter",
+      "exists": true,
+      "active": true
+    },
+    {
+      "name": "adminCenterPro",
+      "exists": true,
+      "active": true
+    },
+    {
+      "name": "professionalDashboard",
+      "exists": true,
+      "active": true
+    },
+    {
+      "name": "inventoryForecast",
+      "exists": true,
+      "active": true
+    },
+    {
+      "name": "costAnalytics",
+      "exists": true,
+      "active": true
+    },
+    {
+      "name": "advancedLabAnalytics",
+      "exists": true,
+      "active": true
+    },
+    {
+      "name": "researchInsights",
+      "exists": true,
+      "active": true
+    },
+    {
+      "name": "importCenter",
+      "exists": true,
+      "active": true
+    }
+  ],
+  "gallery": {
+    "items": 109,
+    "missing": []
+  },
+  "registration": true
+}
