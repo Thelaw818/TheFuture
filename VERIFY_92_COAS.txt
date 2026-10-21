@@ -1,0 +1,7 @@
+PEPTIDE RESEARCH INTELLIGENCE DATABASE
+Verified build: 2026-09-19
+Expected live total: 92 COAs
+Newest records: COA-0086 through COA-0092
+
+If the live page displays 85 COAs, the old index.html is still deployed.
+Upload and replace index.html together with coa-database.json and the assets folder.
