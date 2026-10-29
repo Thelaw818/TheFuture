@@ -1,6 +1,6 @@
 {
   "generated": "2026-10-20",
-  "total_files": 445,
+  "total_files": 463,
   "files": [
     {
       "path": "assets/coa/000c296adb6a7c1f9788.png",
@@ -2226,6 +2226,96 @@
       "path": "assets/coa/photo_2026-06-05_23-54-58.jpg",
       "bytes": 79134,
       "sha256": "796e04293a2795b52508577246a5e3e9c9628757de693ccda4a993f004d13734"
+    },
+    {
+      "path": "assets/coa/documents/tianjin-qiangxin/retatrutide/RT10-20260918S2146_report.pdf",
+      "bytes": 3390190,
+      "sha256": "a9f4096fa7c6e6b10322ed43e917f3f4cc065a5eab7423bdd0e242697ca94bb2"
+    },
+    {
+      "path": "assets/coa/images/tianjin-qiangxin/retatrutide/RT10-20260918S2146-page-2.png",
+      "bytes": 116864,
+      "sha256": "572db6918175808021cebc7dbad2f7a45d406171de305fd63fc095dae47b4db0"
+    },
+    {
+      "path": "assets/coa/images/tianjin-qiangxin/retatrutide/RT10-20260918S2146-page-1.png",
+      "bytes": 235061,
+      "sha256": "bfb9a6dfd9dcfad9b67a4d3a400ac58fc8a077953852bb8be883a1c77cf448bd"
+    },
+    {
+      "path": "assets/coa/images/tianjin-qiangxin/retatrutide/RT10-20260918S2146-page-4.png",
+      "bytes": 118137,
+      "sha256": "f92dda4a60b612a8871a7c48d8af9120793a0a87cfb6a13536df0001d306cc97"
+    },
+    {
+      "path": "assets/coa/images/tianjin-qiangxin/retatrutide/RT10-20260918S2146-page-3.png",
+      "bytes": 93380,
+      "sha256": "253b5201c2359297ec1d6bb29c4910176cc59e6495750858f7620b9326b96c7a"
+    },
+    {
+      "path": "assets/coa/images/kovera-labs/tirzepatide/Tirzepatide-60mg-2026-08-20-Kovera.jpg",
+      "bytes": 79557,
+      "sha256": "fa01bd9ddc9439e7aa57c789517563d6dca25fabbf1938b38997e4f41013335a"
+    },
+    {
+      "path": "assets/coa/images/kovera-labs/tirzepatide/Tirzepatide-30mg-2026-08-20-Kovera.jpg",
+      "bytes": 86870,
+      "sha256": "8f8eb9b621a2cd4ec42e0d345c760114f77a26cc61de55bae79a059770a0a839"
+    },
+    {
+      "path": "assets/coa/images/kovera-labs/vip/VIP-10mg-2026-10-24.jpg",
+      "bytes": 72661,
+      "sha256": "b3961c2286b6ffbe4dd0095c94887b502921de38c41e3acb6d334cec919beede"
+    },
+    {
+      "path": "assets/coa/images/freedom-diagnostics/ss-31/SS-31-50mg-2026-09-16-Freedom.jpg",
+      "bytes": 71903,
+      "sha256": "294bc2794ac8688e73353b9ec3a0575ccde4ffba77e5f99fcb7142a4c79e0796"
+    },
+    {
+      "path": "assets/coa/images/freedom-diagnostics/kpv/KPV-10mg-2026-09-16-Freedom.jpg",
+      "bytes": 73017,
+      "sha256": "453b5ae340ddc86d4953073cecbddf29e46200ec3b71228907b20128ae7a663f"
+    },
+    {
+      "path": "assets/coa/images/freedom-diagnostics/mots-c/MOTS-C-20mg-2026-09-18-Freedom.jpg",
+      "bytes": 73706,
+      "sha256": "db83ab652f539a282d6cfc596137c72f906dc43918f174487a32759aa765f41e"
+    },
+    {
+      "path": "assets/coa/images/freedom-diagnostics/ghk-cu/GHK-Cu-100mg-2026-10-20.jpg",
+      "bytes": 84153,
+      "sha256": "b34874ac391185a65530ae4256185c7ecdf14320ac903b534e73ca4d885455b9"
+    },
+    {
+      "path": "assets/coa/images/freedom-diagnostics/retatrutide/Retatrutide-10mg-2026-09-18-Freedom.jpg",
+      "bytes": 70065,
+      "sha256": "39666244b2c1ae907f9d74ccb823d89caaf6938c9ee3676d38a2bd7607581de8"
+    },
+    {
+      "path": "assets/coa/images/freedom-diagnostics/tirzepatide/Tirzepatide-30mg-2026-10-23.jpg",
+      "bytes": 67605,
+      "sha256": "07d312ae80eacfe1608854cf3db19766c70a671b9c2b7801847f1e263b9b77e8"
+    },
+    {
+      "path": "assets/coa/images/freedom-diagnostics/nad-plus/NAD-1000mg-2026-10-20.jpg",
+      "bytes": 50780,
+      "sha256": "bdf6a16d34be3574d3d98dedd8a550efe1aa670ecbd839e7f729a4cbf7912e2e"
+    },
+    {
+      "path": "assets/coa/images/freedom-diagnostics/bpc-157/BPC-157-20mg-2026-09-16-Freedom.jpg",
+      "bytes": 71671,
+      "sha256": "1d88ac9d212348bbcedbafc2b8b55cd65f9684e8dbb882e10f14d58be6ab623f"
+    },
+    {
+      "path": "assets/coa/images/janoshik/retatrutide/Retatrutide-10mg-2026-10-27.jpg",
+      "bytes": 53304,
+      "sha256": "68a5c9a1880cc1a063498d464fc88308e65b11db13c6e1a598ff6f04dbbb5f8c"
+    },
+    {
+      "path": "assets/coa/images/janoshik/tirzepatide/Tirzepatide-30mg-2026-10-27.jpg",
+      "bytes": 54519,
+      "sha256": "8cb4e3c590ec1b362cabd921ac8ebc35a4cfe22cdbc5324ed6b3866e4da076ea"
     }
   ]
 }

@@ -1,0 +1,9 @@
+COA update — October 28, 2026
+108 unique COA records; 3 added, 1 existing photo/closure record updated; existing PDF retained without duplication.
+New: COA-0106 Freedom Tirzepatide 30mg; COA-0107 Janoshik Tirzepatide 30mg; COA-0108 Kovera VIP 10mg.
+Updated COA-0104: supplied photo, Clear cap / Copper crimp; supplied verification key is redacted.
+Synchronized embedded dashboard, JSON, inventory workbooks, certificates, batch history, purity rankings, status, lab directory and lists.
+Checks passed: inline JavaScript syntax; 108 distinct IDs; all database local source paths and 119 gallery preview/PDF paths exist.
+Browser checks: 108-record dashboard; certificate navigation; VIP search with correct lab/cap/crimp/results; gallery navigation/search and full-size VIP image/download link.
+Historical missing certificate originals remain marked unavailable; redacted verification codes cannot be independently checked. External laboratory sites were not authenticated or verified. Live hosting was not changed.
+Upload the ZIP contents to the existing website root to publish.
